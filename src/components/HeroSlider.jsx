@@ -66,68 +66,66 @@ export default function HeroSlider() {
 
   return (
     <section className="hero-slider-section">
-      <div className="container">
-        <div
-          className="hero-slider-container"
-          onMouseEnter={() => setIsPaused(true)}
-          onMouseLeave={() => setIsPaused(false)}
-          onTouchStart={handleTouchStart}
-          onTouchMove={handleTouchMove}
-          onTouchEnd={handleTouchEnd}
+      <div
+        className="hero-slider-container"
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
+        {/* Slides Track */}
+        <div className="hero-slider-track">
+          {slides.map((slide, index) => {
+            const isActive = index === currentIndex;
+            return (
+              <div
+                key={slide.id}
+                className={`hero-slide ${isActive ? 'active' : ''}`}
+                aria-hidden={!isActive}
+              >
+                <img
+                  src={slide.src}
+                  alt={slide.alt}
+                  className="hero-slide-image"
+                  loading={index === 0 ? 'eager' : 'lazy'}
+                />
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Left Arrow Button */}
+        <button
+          type="button"
+          className="slider-nav-btn prev"
+          onClick={prevSlide}
+          aria-label="Предыдущий слайд"
         >
-          {/* Slides Track */}
-          <div className="hero-slider-track">
-            {slides.map((slide, index) => {
-              const isActive = index === currentIndex;
-              return (
-                <div
-                  key={slide.id}
-                  className={`hero-slide ${isActive ? 'active' : ''}`}
-                  aria-hidden={!isActive}
-                >
-                  <img
-                    src={slide.src}
-                    alt={slide.alt}
-                    className="hero-slide-image"
-                    loading={index === 0 ? 'eager' : 'lazy'}
-                  />
-                </div>
-              );
-            })}
-          </div>
+          <ArrowLeft size={24} strokeWidth={2.5} />
+        </button>
 
-          {/* Left Arrow Button */}
-          <button
-            type="button"
-            className="slider-nav-btn prev"
-            onClick={prevSlide}
-            aria-label="Предыдущий слайд"
-          >
-            <ArrowLeft size={22} strokeWidth={2.5} />
-          </button>
+        {/* Right Arrow Button */}
+        <button
+          type="button"
+          className="slider-nav-btn next"
+          onClick={nextSlide}
+          aria-label="Следующий слайд"
+        >
+          <ArrowRight size={24} strokeWidth={2.5} />
+        </button>
 
-          {/* Right Arrow Button */}
-          <button
-            type="button"
-            className="slider-nav-btn next"
-            onClick={nextSlide}
-            aria-label="Следующий слайд"
-          >
-            <ArrowRight size={22} strokeWidth={2.5} />
-          </button>
-
-          {/* Pagination Indicators (Dots) */}
-          <div className="slider-indicators">
-            {slides.map((_, idx) => (
-              <button
-                key={idx}
-                type="button"
-                className={`slider-dot ${idx === currentIndex ? 'active' : ''}`}
-                onClick={() => goToSlide(idx)}
-                aria-label={`Перейти к слайду ${idx + 1}`}
-              />
-            ))}
-          </div>
+        {/* Pagination Indicators (Dots) */}
+        <div className="slider-indicators">
+          {slides.map((_, idx) => (
+            <button
+              key={idx}
+              type="button"
+              className={`slider-dot ${idx === currentIndex ? 'active' : ''}`}
+              onClick={() => goToSlide(idx)}
+              aria-label={`Перейти к слайду ${idx + 1}`}
+            />
+          ))}
         </div>
       </div>
     </section>
