@@ -129,7 +129,38 @@
   box-shadow: 0 0 10px rgba(2, 132, 199, 0.7);
 }
 
+/* Надпись в левом нижнем углу на всех картинках слайдера */
+.slider-bottom-label {
+  position: absolute;
+  bottom: 16px;
+  left: 24px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
 /* Mobile responsive adjustments */
+@media (max-width: 900px) {
+  .slider-bottom-label {
+    bottom: 12px;
+    left: 14px;
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-slider-container {
     aspect-ratio: 1200 / 350;
@@ -163,4 +194,17 @@
     width: 18px;
   }
 }
+
+@media (max-width: 600px) {
+  .slider-bottom-label {
+    bottom: 8px;
+    left: 8px;
+    font-size: 10px;
+    padding: 3px 8px;
+    max-width: 55%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 

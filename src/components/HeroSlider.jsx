@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 import '../styles/slider.css';
 
 const slides = [
@@ -14,6 +15,7 @@ const slides = [
 ];
 
 export default function HeroSlider() {
+  const { lang } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
@@ -114,6 +116,13 @@ export default function HeroSlider() {
         >
           <ArrowRight size={24} strokeWidth={2.5} />
         </button>
+
+        {/* Left Bottom Label on all slides at exact same level */}
+        <div className="slider-bottom-label">
+          {lang === 'en'
+            ? 'OBJECT SUN Institute of Materials Science, Academy of Sciences of Uzbekistan'
+            : 'ОБЪЕКТ СОЛНЦЕ Институт Материаловедения АН РУз'}
+        </div>
 
         {/* Pagination Indicators (Dots) */}
         <div className="slider-indicators">
