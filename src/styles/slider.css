@@ -13,8 +13,8 @@
   width: 100%;
   max-width: 100%;
   margin: 0;
-  aspect-ratio: 1200 / 350;
-  max-height: 520px;
+  aspect-ratio: 2172 / 724;
+  max-height: 600px;
   overflow: hidden;
   background: #0f172a;
   user-select: none;
@@ -160,7 +160,7 @@
 
 @media (max-width: 768px) {
   .hero-slider-container {
-    aspect-ratio: 1200 / 350;
+    aspect-ratio: 2172 / 724;
   }
 
   .slider-nav-btn {

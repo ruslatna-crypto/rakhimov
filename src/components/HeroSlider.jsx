@@ -4,14 +4,14 @@ import { useLanguage } from '../context/LanguageContext';
 import '../styles/slider.css';
 
 const slides = [
-  { id: 1, src: '/images/slider/slider1.png', alt: 'Слайд 1 - Научные разработки профессора Рахимова Р.Х.' },
-  { id: 2, src: '/images/slider/slider2.png', alt: 'Слайд 2 - Функциональная керамика и гелиоматериалы' },
-  { id: 3, src: '/images/slider/slider3.png', alt: 'Слайд 3 - Инфракрасная импульсная сушка' },
-  { id: 4, src: '/images/slider/slider4.png', alt: 'Слайд 4 - Медицинские керамические лампы INFRA-R' },
-  { id: 5, src: '/images/slider/slider5.png', alt: 'Слайд 5 - Биопрепарат Активный кальций' },
-  { id: 6, src: '/images/slider/slider6.png', alt: 'Слайд 6 - Пленочно-керамический композит' },
-  { id: 7, src: '/images/slider/slider7.png', alt: 'Слайд 7 - Стерилизация и термическая обработка' },
-  { id: 8, src: '/images/slider/slider8.png', alt: 'Слайд 8 - Большая Солнечная Печь БСП' },
+  { id: 1, src: '/images/slider/slider1.png', alt: 'Слайд 1 - Научные разработки профессора Рахимова Р.Х.', altEn: 'Slide 1 - Scientific Developments of Professor Rakhimov R.Kh.' },
+  { id: 2, src: '/images/slider/slider2.png', alt: 'Слайд 2 - Функциональная керамика и гелиоматериалы', altEn: 'Slide 2 - Functional Ceramics & Solar Materials' },
+  { id: 3, src: '/images/slider/slider3.png', alt: 'Слайд 3 - Инфракрасная импульсная сушка', altEn: 'Slide 3 - Resonant Infrared Pulse Drying' },
+  { id: 4, src: '/images/slider/slider4.png', alt: 'Слайд 4 - Медицинские керамические лампы INFRA-R', altEn: 'Slide 4 - Medical Ceramic Lamps INFRA-R' },
+  { id: 5, src: '/images/slider/slider5.png', alt: 'Слайд 5 - Биопрепарат Активный кальций', altEn: 'Slide 5 - Active Calcium Biopreparation' },
+  { id: 6, src: '/images/slider/slider6.png', alt: 'Слайд 6 - Пленочно-керамический композит', altEn: 'Slide 6 - Film-Ceramic Composite' },
+  { id: 7, src: '/images/slider/slider7.png', alt: 'Слайд 7 - Стерилизация и термическая обработка', altEn: 'Slide 7 - Pulse Sterilization & Thermal Processing' },
+  { id: 8, src: '/images/slider/slider8.png', alt: 'Слайд 8 - Большая Солнечная Печь БСП', altEn: 'Slide 8 - Big Solar Furnace (BSF)' },
 ];
 
 export default function HeroSlider() {
@@ -88,7 +88,7 @@ export default function HeroSlider() {
               >
                 <img
                   src={slide.src}
-                  alt={slide.alt}
+                  alt={lang === 'en' ? slide.altEn : slide.alt}
                   className="hero-slide-image"
                   loading={index === 0 ? 'eager' : 'lazy'}
                 />
@@ -102,7 +102,7 @@ export default function HeroSlider() {
           type="button"
           className="slider-nav-btn prev"
           onClick={prevSlide}
-          aria-label="Предыдущий слайд"
+          aria-label={lang === 'en' ? 'Previous slide' : 'Предыдущий слайд'}
         >
           <ArrowLeft size={24} strokeWidth={2.5} />
         </button>
@@ -112,7 +112,7 @@ export default function HeroSlider() {
           type="button"
           className="slider-nav-btn next"
           onClick={nextSlide}
-          aria-label="Следующий слайд"
+          aria-label={lang === 'en' ? 'Next slide' : 'Следующий слайд'}
         >
           <ArrowRight size={24} strokeWidth={2.5} />
         </button>
@@ -132,7 +132,7 @@ export default function HeroSlider() {
               type="button"
               className={`slider-dot ${idx === currentIndex ? 'active' : ''}`}
               onClick={() => goToSlide(idx)}
-              aria-label={`Перейти к слайду ${idx + 1}`}
+              aria-label={lang === 'en' ? `Go to slide ${idx + 1}` : `Перейти к слайду ${idx + 1}`}
             />
           ))}
         </div>
