@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpen, Award, FileText } from 'lucide-react';
 import developments from '../data/developments.json';
 import { useLanguage } from '../context/LanguageContext';
+import HeroSlider from '../components/HeroSlider';
 import '../styles/pages.css';
 
 export default function Home() {
@@ -10,39 +11,9 @@ export default function Home() {
 
   return (
     <div>
-      {/* Hero Section */}
-      <section className="home-hero">
-        <div className="container home-hero-grid">
-          <div>
-            <div className="home-hero-badge">
-              <span style={{ display: 'inline-block', width: '8px', height: '8px', borderRadius: '50%', background: '#38bdf8' }}></span>
-              {t('hero_badge')}
-            </div>
-            <h1 className="home-hero-title">
-              {t('hero_title_1')} <span>{t('hero_title_2')}</span>
-            </h1>
-            <p className="home-hero-lead">
-              {t('hero_subtitle')}
-            </p>
-            <div className="home-hero-actions">
-              <Link to="/autor" className="btn btn-primary">
-                {t('hero_btn_author')} <ArrowRight size={16} />
-              </Link>
-              <Link to="/stat" className="btn btn-outline" style={{ background: 'rgba(255,255,255,0.05)', color: '#ffffff', borderColor: 'rgba(255,255,255,0.2)' }}>
-                {t('hero_btn_articles')}
-              </Link>
-            </div>
-          </div>
+      {/* 8-Image Auto-Cycling Hero Slider */}
+      <HeroSlider />
 
-          <div className="author-portrait-wrapper">
-            <img src="/images/rrh-250x300.png" alt={t('hero_caption_name')} width="280" height="336" />
-            <div className="author-portrait-caption">
-              <strong>{t('hero_caption_name')}</strong><br />
-              {t('hero_caption_rank')}
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Metrics Banner */}
       <section style={{ background: '#ffffff', borderBottom: '1px solid var(--color-border)', padding: '28px 0' }}>
