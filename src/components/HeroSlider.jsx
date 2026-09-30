@@ -18,11 +18,11 @@ export default function HeroSlider() {
   const { lang } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Auto-advance slides every 3 seconds (3000 ms) in an infinite loop
+  // Auto-advance slides every 5 seconds (5000 ms) in an infinite loop
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % slides.length);
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(timer);
   }, [currentIndex]);
