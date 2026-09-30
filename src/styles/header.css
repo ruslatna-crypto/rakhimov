@@ -64,6 +64,34 @@
   flex-shrink: 0;
 }
 
+/* Email ссылка в шапке (до кнопок Рус Eng) */
+.header-email-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 12px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  color: #334155;
+  font-size: 0.84375rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.header-email-link:hover {
+  background: #e0f2fe;
+  border-color: #bae6fd;
+  color: var(--color-primary);
+}
+
+.header-email-link .email-icon {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
 /* Виджет в правом углу (согласно рис 2) */
 .header-widget {
   display: inline-flex;
@@ -370,6 +398,15 @@
   }
 }
 
+@media (max-width: 860px) {
+  .header-email-link span {
+    display: none;
+  }
+  .header-email-link {
+    padding: 6px 9px;
+  }
+}
+
 @media (max-width: 640px) {
   .header-top-inner {
     padding-left: 12px;
@@ -379,6 +416,12 @@
     max-width: 220px;
     height: auto;
     max-height: 34px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-email-link {
+    display: none;
   }
 }
 
@@ -393,3 +436,4 @@
     max-height: 28px;
   }
 }
+

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { ChevronDown, Menu, X, ExternalLink, Lightbulb, BookOpen } from 'lucide-react';
+import { ChevronDown, Menu, X, ExternalLink, Lightbulb, BookOpen, Mail } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import '../styles/header.css';
 
@@ -51,8 +51,18 @@ export default function Header() {
             <img src="/images/logo_new.svg" alt="Керамика Синтез — Академик Рахимов Р.Х." className="brand-logo" />
           </Link>
 
-          {/* Правая часть: Виджет переключения языков + Кнопка на сайт фирмы + Бургер */}
+          {/* Правая часть: Email + Виджет переключения языков + Кнопка на сайт фирмы + Бургер */}
           <div className="header-top-right">
+            {/* Email link перед кнопками Рус / Eng */}
+            <a 
+              href="mailto:rustam-shsul@yandex.com" 
+              className="header-email-link"
+              title="Написать на rustam-shsul@yandex.com"
+            >
+              <Mail size={16} className="email-icon" />
+              <span>rustam-shsul@yandex.com</span>
+            </a>
+
             <div className="header-widget">
               <div className="lang-switcher" role="group" aria-label="Выбор языка">
                 {/* Кнопка Рус */}
