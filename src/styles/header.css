@@ -1,62 +1,180 @@
+/* ==========================================================================
+   SITE HEADER — ДВУХЪЯРУСНАЯ ШАПКА
+   1 ярус: Логотип (слева) | Языки + Кнопка фирмы (справа)
+   Разделитель: Тонкая серая линия
+   2 ярус: Навигационное меню (по центру)
+   Под меню: Тонкая серая линия + мягкая тень
+   ========================================================================== */
+
 .site-header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: var(--header-height);
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--color-border);
+  background: #ffffff;
   z-index: 1000;
-  display: flex;
-  align-items: center;
-}
-
-.header-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.brand-link {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  text-decoration: none;
-}
-
-.brand-logo {
-  height: 44px;
-  width: auto;
-}
-
-.brand-text {
   display: flex;
   flex-direction: column;
 }
 
-.brand-title {
-  font-family: var(--font-family-heading);
-  font-weight: 700;
-  font-size: 1.125rem;
-  color: var(--color-text-main);
-  line-height: 1.2;
+/* --------------------------------------------------------------------------
+   1. ВЕРХНИЙ ЯРУС (HEADER-TOP)
+   -------------------------------------------------------------------------- */
+.header-top {
+  height: 64px;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0; /* Тонкая серая линия между шапкой и меню */
+  width: 100%;
 }
 
-.brand-subtitle {
-  font-size: 0.75rem;
-  color: var(--color-text-muted);
+.header-top-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  gap: 12px;
+}
+
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 4px 0;
+  min-width: 0;
+  flex-shrink: 1;
+}
+
+.brand-logo {
+  height: 44px;
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform var(--transition-fast);
+}
+
+.brand-link:hover .brand-logo {
+  transform: scale(1.02);
+}
+
+.header-top-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+/* Виджет в правом углу (согласно рис 2) */
+.header-widget {
+  display: inline-flex;
+  align-items: center;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 4px;
+  gap: 6px;
+}
+
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  font-size: 0.875rem;
   font-weight: 500;
+  color: #64748b;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  line-height: 1;
 }
 
-/* Nav Menu Desktop */
+.lang-btn:hover {
+  color: #1e293b;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.lang-btn.active {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  color: #1e293b;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.flag-icon {
+  display: inline-block;
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}
+
+.lang-label {
+  letter-spacing: 0.01em;
+}
+
+/* Зелёная кнопка «На сайт фирмы» (рис 2) */
+.firm-site-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 18px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  background-color: #008765; /* Изумрудно-зеленый фирменный оттенок */
+  color: #ffffff !important;
+  border-radius: 8px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 1px 2px rgba(0, 135, 101, 0.2);
+}
+
+.firm-site-btn:hover {
+  background-color: #007355;
+  box-shadow: 0 3px 8px rgba(0, 135, 101, 0.3);
+  transform: translateY(-1px);
+}
+
+/* --------------------------------------------------------------------------
+   2. НИЖНИЙ ЯРУС (HEADER-BOTTOM) — МЕНЮ ПОСЕРЕДИНЕ + ТЕНЬ
+   -------------------------------------------------------------------------- */
+.header-bottom {
+  height: 48px;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0; /* Тонкая серая линия под меню */
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04); /* Тень под меню */
+  width: 100%;
+}
+
+.header-bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Меню строго по центру */
+  height: 100%;
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: center;
+}
+
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  gap: 12px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item {
@@ -66,29 +184,33 @@
 .nav-link {
   display: flex;
   align-items: center;
-  gap: 4px;
-  padding: 8px 14px;
+  gap: 5px;
+  padding: 7px 16px;
   font-size: 0.9375rem;
-  font-weight: 500;
-  color: var(--color-text-main);
+  font-weight: 600;
+  color: #1e293b;
   border-radius: var(--radius-sm);
   transition: all var(--transition-fast);
   cursor: pointer;
   border: none;
   background: transparent;
+  text-decoration: none;
+  letter-spacing: -0.01em;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover, 
+.nav-link.active {
   color: var(--color-primary);
   background-color: var(--color-primary-light);
 }
 
-/* Dropdown Menu */
+/* Выпадающие списки (Dropdown) */
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
-  min-width: 280px;
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  min-width: 290px;
   background: #ffffff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
@@ -97,16 +219,15 @@
   list-style: none;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(10px);
   transition: all var(--transition-fast);
-  z-index: 1010;
+  z-index: 1020;
 }
 
 .nav-item:hover .dropdown-menu,
 .nav-item:focus-within .dropdown-menu {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translateX(-50%) translateY(2px);
 }
 
 .dropdown-link {
@@ -115,8 +236,10 @@
   gap: 10px;
   padding: 8px 12px;
   font-size: 0.875rem;
+  font-weight: 500;
   color: var(--color-text-main);
   border-radius: var(--radius-sm);
+  text-decoration: none;
   transition: all var(--transition-fast);
 }
 
@@ -126,54 +249,46 @@
   transform: translateX(4px);
 }
 
-/* Header Contact button */
-.header-contact-btn {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 14px;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  background-color: #0f172a;
-  color: #ffffff;
-  border-radius: var(--radius-full);
-  text-decoration: none;
-  transition: all var(--transition-fast);
-}
-
-.header-contact-btn:hover {
-  background-color: var(--color-primary);
-  color: #ffffff;
-}
-
-/* Mobile Toggle */
+/* --------------------------------------------------------------------------
+   3. МОБИЛЬНАЯ ВЕРСИЯ
+   -------------------------------------------------------------------------- */
 .mobile-toggle {
   display: none;
   background: transparent;
   border: none;
   color: var(--color-text-main);
-  padding: 8px;
+  padding: 6px;
   cursor: pointer;
+  border-radius: var(--radius-sm);
 }
 
-/* Mobile Drawer */
 .mobile-drawer {
   display: none;
 }
 
 @media (max-width: 1024px) {
-  .nav-menu, .header-contact-btn {
-    display: none;
+  .header-bottom {
+    display: none; /* Скрываем десктопное меню в две строки на мобильных */
   }
-  
+
+  .site-header {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
   .mobile-toggle {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  
+
+  .header-widget {
+    display: none; /* На экранах планшетов и мобильных виджет переносится в мобильное меню */
+  }
+
   .mobile-drawer {
     display: block;
     position: fixed;
-    top: var(--header-height);
+    top: 64px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -184,20 +299,40 @@
     transform: translateX(100%);
     transition: transform var(--transition-normal);
   }
-  
+
   .mobile-drawer.open {
     transform: translateX(0);
   }
-  
+
+  .mobile-drawer-header {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .mobile-widget-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .mobile-firm-btn {
+    flex-grow: 1;
+    text-align: center;
+  }
+
   .mobile-nav-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
   }
-  
+
   .mobile-nav-item {
     border-bottom: 1px solid var(--color-border);
     padding: 12px 0;
   }
-  
+
   .mobile-nav-link {
     font-size: 1.125rem;
     font-weight: 600;
@@ -205,18 +340,49 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+    cursor: pointer;
   }
-  
+
   .mobile-subnav {
     list-style: none;
     padding-left: 16px;
     margin-top: 8px;
   }
-  
+
   .mobile-subnav-link {
     display: block;
-    padding: 6px 0;
+    padding: 8px 0;
     font-size: 0.9375rem;
     color: var(--color-text-muted);
+    text-decoration: none;
+  }
+
+  .mobile-subnav-link:hover {
+    color: var(--color-primary);
+  }
+}
+
+@media (max-width: 640px) {
+  .header-top-inner {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .brand-logo {
+    max-width: 220px;
+    height: auto;
+    max-height: 34px;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-top-inner {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .brand-logo {
+    max-width: 175px;
+    height: auto;
+    max-height: 28px;
   }
 }
