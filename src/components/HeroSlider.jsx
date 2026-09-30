@@ -4,7 +4,7 @@ import { useLanguage } from '../context/LanguageContext';
 import '../styles/slider.css';
 
 const slides = [
-  { id: 1, src: '/images/slider/slider1.png', alt: 'Слайд 1 - Научные разработки академика Рахимова Р.Х.' },
+  { id: 1, src: '/images/slider/slider1.png', alt: 'Слайд 1 - Научные разработки профессора Рахимова Р.Х.' },
   { id: 2, src: '/images/slider/slider2.png', alt: 'Слайд 2 - Функциональная керамика и гелиоматериалы' },
   { id: 3, src: '/images/slider/slider3.png', alt: 'Слайд 3 - Инфракрасная импульсная сушка' },
   { id: 4, src: '/images/slider/slider4.png', alt: 'Слайд 4 - Медицинские керамические лампы INFRA-R' },

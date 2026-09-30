@@ -48,7 +48,7 @@ export default function Header() {
         <div className="container header-top-inner">
           {/* Brand Logo only (текстовый блок убран по запросу) */}
           <Link to="/" className="brand-link" onClick={closeMobile} title={t('nav_home')}>
-            <img src="/images/logo_new.svg" alt="Керамика Синтез — Академик Рахимов Р.Х." className="brand-logo" />
+            <img src="/images/logo_new.svg" alt="Керамика Синтез — Профессор Рахимов Р.Х." className="brand-logo" />
           </Link>
 
           {/* Правая часть: Email + Виджет переключения языков + Кнопка на сайт фирмы + Бургер */}

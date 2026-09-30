@@ -73,12 +73,12 @@ export const translations = {
     contacts_phone_label: 'Рабочий телефон',
 
     // Footer
-    footer_desc: 'Официальный научно-производственный портал академика Р.Х. Рахимова. Инновационные гелиотехнологии, функциональная керамика, энергоэффективная импульсная сушка и медицинские биопрепараты.',
+    footer_desc: 'Официальный научно-производственный портал профессора Р.Х. Рахимова. Инновационные гелиотехнологии, функциональная керамика, энергоэффективная импульсная сушка и медицинские биопрепараты.',
     footer_col_nav: 'Навигация',
     footer_col_dev: 'Разработки',
     footer_col_pub: 'Публикации',
     footer_col_contact: 'Контакты',
-    footer_copyright: 'Все права защищены. Научно-производственный портал академика Рахимова Р.Х.',
+    footer_copyright: 'Все права защищены. Научно-производственный портал профессора Рахимова Р.Х.',
 
     // Common Page UI
     back_to_home: '← На главную',
@@ -196,12 +196,12 @@ export const translations = {
     contacts_phone_label: 'Office Telephone',
 
     // Footer
-    footer_desc: 'Official scientific and industrial portal of Academician R.Kh. Rakhimov. Innovative solar technologies, functional ceramics, energy-efficient pulsed drying, and biomedical products.',
+    footer_desc: 'Official scientific and industrial portal of Professor R.Kh. Rakhimov. Innovative solar technologies, functional ceramics, energy-efficient pulsed drying, and biomedical products.',
     footer_col_nav: 'Navigation',
     footer_col_dev: 'Developments',
     footer_col_pub: 'Publications',
     footer_col_contact: 'Contacts',
-    footer_copyright: 'All rights reserved. Scientific and industrial portal of Academician R.Kh. Rakhimov.',
+    footer_copyright: 'All rights reserved. Scientific and industrial portal of Professor R.Kh. Rakhimov.',
 
     // Common Page UI
     back_to_home: '← Back to Home',
