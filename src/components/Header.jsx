@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { ChevronDown, Menu, X, ExternalLink, Lightbulb, BookOpen } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 import '../styles/header.css';
 
 export default function Header() {
@@ -8,27 +9,29 @@ export default function Header() {
   const [mobileDevOpen, setMobileDevOpen] = useState(false);
   const [mobilePubOpen, setMobilePubOpen] = useState(false);
   const [mobileLinksOpen, setMobileLinksOpen] = useState(false);
-  const [currentLang, setCurrentLang] = useState('ru');
+
+  const { lang, setLang, t } = useLanguage();
 
   const closeMobile = () => setMobileOpen(false);
 
   const developments = [
-    { title: 'Сушка овощей и фруктов', path: '/sushka' },
-    { title: 'Инфракрасные медицинские лампы', path: '/lamp' },
-    { title: 'Активный кальций', path: '/kalci' },
-    { title: 'Жарочные печи', path: '/pech' },
-    { title: 'Пленочно-керамический композит', path: '/plenka' },
-    { title: 'Сушка лаков и краски', path: '/kraska' },
-    { title: 'Стерилизаторы', path: '/steril' },
-    { title: 'Сушка хлопка', path: '/cotton' },
-    { title: 'Материалы полученные на БСП', path: '/bsp' }
+    { title: t('dev_sushka'), path: '/sushka' },
+    { title: t('dev_lamp'), path: '/lamp' },
+    { title: t('dev_kalci'), path: '/kalci' },
+    { title: t('dev_pech'), path: '/pech' },
+    { title: t('dev_plenka'), path: '/plenka' },
+    { title: t('dev_kraska'), path: '/kraska' },
+    { title: t('dev_steril'), path: '/steril' },
+    { title: t('dev_cotton'), path: '/cotton' },
+    { title: t('dev_bsp'), path: '/bsp' }
   ];
 
+  // Внутри Меню "Публикации" цифры убраны по требованию 4
   const publications = [
-    { title: 'Научные статьи (136)', path: '/stat' },
-    { title: 'Монографии и книги (9)', path: '/book' },
-    { title: 'Патенты и свидетельства (73)', path: '/patents' },
-    { title: 'Акты и заключения (57)', path: '/akt' }
+    { title: t('pub_articles'), path: '/stat' },
+    { title: t('pub_books'), path: '/book' },
+    { title: t('pub_patents'), path: '/patents' },
+    { title: t('pub_akts'), path: '/akt' }
   ];
 
   const externalLinks = [
@@ -44,7 +47,7 @@ export default function Header() {
       <div className="header-top">
         <div className="container header-top-inner">
           {/* Brand Logo only (текстовый блок убран по запросу) */}
-          <Link to="/" className="brand-link" onClick={closeMobile} title="Главная страница">
+          <Link to="/" className="brand-link" onClick={closeMobile} title={t('nav_home')}>
             <img src="/images/logo_new.svg" alt="Керамика Синтез — Академик Рахимов Р.Х." className="brand-logo" />
           </Link>
 
@@ -55,8 +58,8 @@ export default function Header() {
                 {/* Кнопка Рус */}
                 <button 
                   type="button" 
-                  className={`lang-btn ${currentLang === 'ru' ? 'active' : ''}`}
-                  onClick={() => setCurrentLang('ru')}
+                  className={`lang-btn ${lang === 'ru' ? 'active' : ''}`}
+                  onClick={() => setLang('ru')}
                   title="Русский язык"
                 >
                   <svg className="flag-icon" viewBox="0 0 640 480" width="18" height="13" aria-hidden="true">
@@ -72,8 +75,8 @@ export default function Header() {
                 {/* Кнопка Eng */}
                 <button 
                   type="button" 
-                  className={`lang-btn ${currentLang === 'en' ? 'active' : ''}`}
-                  onClick={() => setCurrentLang('en')}
+                  className={`lang-btn ${lang === 'en' ? 'active' : ''}`}
+                  onClick={() => setLang('en')}
                   title="English language"
                 >
                   <svg className="flag-icon" viewBox="0 0 640 480" width="18" height="13" aria-hidden="true">
@@ -87,15 +90,15 @@ export default function Header() {
                 </button>
               </div>
 
-              {/* Зелёная кнопка «На сайт фирмы» */}
+              {/* Зелёная кнопка «На сайт фирмы» -> ссылка https://www.infraks.uz/ (по требованию 2) */}
               <a 
-                href="https://infraks.ru/" 
+                href="https://www.infraks.uz/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="firm-site-btn"
-                title="Перейти на сайт фирмы infraks.ru"
+                title={t('nav_firm_title')}
               >
-                На сайт фирмы
+                {t('nav_firm_site')}
               </a>
             </div>
 
@@ -118,19 +121,19 @@ export default function Header() {
             <ul className="nav-menu">
               <li className="nav-item">
                 <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'} end>
-                  Главная
+                  {t('nav_home')}
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/autor" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
-                  О себе
+                  {t('nav_about')}
                 </NavLink>
               </li>
               
               {/* Developments Dropdown */}
               <li className="nav-item">
                 <button className="nav-link" type="button">
-                  Разработки <ChevronDown size={14} />
+                  {t('nav_developments')} <ChevronDown size={14} />
                 </button>
                 <ul className="dropdown-menu">
                   {developments.map((dev) => (
@@ -144,10 +147,10 @@ export default function Header() {
                 </ul>
               </li>
 
-              {/* Publications Dropdown */}
+              {/* Publications Dropdown (без цифр) */}
               <li className="nav-item">
                 <button className="nav-link" type="button">
-                  Публикации <ChevronDown size={14} />
+                  {t('nav_publications')} <ChevronDown size={14} />
                 </button>
                 <ul className="dropdown-menu">
                   {publications.map((pub) => (
@@ -164,7 +167,7 @@ export default function Header() {
               {/* Links Dropdown */}
               <li className="nav-item">
                 <button className="nav-link" type="button">
-                  Ссылки <ChevronDown size={14} />
+                  {t('nav_links')} <ChevronDown size={14} />
                 </button>
                 <ul className="dropdown-menu">
                   {externalLinks.map((link) => (
@@ -189,41 +192,41 @@ export default function Header() {
             <div className="lang-switcher">
               <button 
                 type="button" 
-                className={`lang-btn ${currentLang === 'ru' ? 'active' : ''}`}
-                onClick={() => setCurrentLang('ru')}
+                className={`lang-btn ${lang === 'ru' ? 'active' : ''}`}
+                onClick={() => setLang('ru')}
               >
                 <span>🇷🇺 Рус</span>
               </button>
               <button 
                 type="button" 
-                className={`lang-btn ${currentLang === 'en' ? 'active' : ''}`}
-                onClick={() => setCurrentLang('en')}
+                className={`lang-btn ${lang === 'en' ? 'active' : ''}`}
+                onClick={() => setLang('en')}
               >
                 <span>🇬🇧 Eng</span>
               </button>
             </div>
             <a 
-              href="https://infraks.ru/" 
+              href="https://www.infraks.uz/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="firm-site-btn mobile-firm-btn"
             >
-              На сайт фирмы
+              {t('nav_firm_site')}
             </a>
           </div>
         </div>
 
         <ul className="mobile-nav-list">
           <li className="mobile-nav-item">
-            <Link to="/" className="mobile-nav-link" onClick={closeMobile}>Главная</Link>
+            <Link to="/" className="mobile-nav-link" onClick={closeMobile}>{t('nav_home')}</Link>
           </li>
           <li className="mobile-nav-item">
-            <Link to="/autor" className="mobile-nav-link" onClick={closeMobile}>О себе</Link>
+            <Link to="/autor" className="mobile-nav-link" onClick={closeMobile}>{t('nav_about')}</Link>
           </li>
           
           <li className="mobile-nav-item">
             <div className="mobile-nav-link" onClick={() => setMobileDevOpen(!mobileDevOpen)}>
-              <span>Разработки</span>
+              <span>{t('nav_developments')}</span>
               <ChevronDown size={18} style={{ transform: mobileDevOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
             </div>
             {mobileDevOpen && (
@@ -241,7 +244,7 @@ export default function Header() {
 
           <li className="mobile-nav-item">
             <div className="mobile-nav-link" onClick={() => setMobilePubOpen(!mobilePubOpen)}>
-              <span>Публикации</span>
+              <span>{t('nav_publications')}</span>
               <ChevronDown size={18} style={{ transform: mobilePubOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
             </div>
             {mobilePubOpen && (
@@ -259,7 +262,7 @@ export default function Header() {
 
           <li className="mobile-nav-item">
             <div className="mobile-nav-link" onClick={() => setMobileLinksOpen(!mobileLinksOpen)}>
-              <span>Ссылки</span>
+              <span>{t('nav_links')}</span>
               <ChevronDown size={18} style={{ transform: mobileLinksOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
             </div>
             {mobileLinksOpen && (

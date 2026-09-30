@@ -1,11 +1,13 @@
 import React, { useState, useMemo } from 'react';
-import { Search, FileText, ExternalLink } from 'lucide-react';
+import { Search, FileText } from 'lucide-react';
 import articles from '../data/articles.json';
+import { useLanguage } from '../context/LanguageContext';
 import '../styles/pages.css';
 
 export default function ArticlesPage() {
   const [query, setQuery] = useState('');
   const [selectedJournal, setSelectedJournal] = useState('ALL');
+  const { lang, t } = useLanguage();
 
   const filteredArticles = useMemo(() => {
     return articles.filter((a) => {
@@ -32,13 +34,17 @@ export default function ArticlesPage() {
       <section className="page-hero">
         <div className="container">
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'rgba(255,255,255,0.1)', padding: '4px 12px', borderRadius: 'var(--radius-full)', fontSize: '0.8125rem', marginBottom: '14px' }}>
-            <span>Публикации</span>
+            <span>{t('nav_publications')}</span>
             <span style={{ color: '#64748b' }}>/</span>
-            <span style={{ color: '#38bdf8' }}>Статьи</span>
+            <span style={{ color: '#38bdf8' }}>{t('pub_articles')}</span>
           </div>
-          <h1 className="page-hero-title">Научные статьи и публикации</h1>
+          <h1 className="page-hero-title">
+            {lang === 'en' ? 'Scientific Articles & Publications' : 'Научные статьи и публикации'}
+          </h1>
           <p className="page-hero-lead">
-            Полный реестр 136 научных публикаций профессора Р.Х. Рахимова в отечественных и международных рецензируемых журналах (2000–2024 гг.).
+            {lang === 'en' 
+              ? 'Complete register of 136 scientific publications by Professor R.Kh. Rakhimov in domestic and international peer-reviewed journals (2000–2024).'
+              : 'Полный реестр 136 научных публикаций профессора Р.Х. Рахимова в отечественных и международных рецензируемых журналах (2000–2024 гг.).'}
           </p>
         </div>
       </section>
@@ -51,7 +57,7 @@ export default function ArticlesPage() {
             <div style={{ flex: '1 1 320px', position: 'relative' }}>
               <input
                 type="text"
-                placeholder="Поиск по названию статьи, автору, журналу или году..."
+                placeholder={t('search_articles_placeholder')}
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 className="search-input"
@@ -61,74 +67,68 @@ export default function ArticlesPage() {
 
             <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
               <button
-                type="button"
-                className={`btn ${selectedJournal === 'ALL' ? 'btn-primary' : 'btn-outline'}`}
+                className={`filter-btn ${selectedJournal === 'ALL' ? 'active' : ''}`}
                 onClick={() => setSelectedJournal('ALL')}
               >
-                Все статьи ({articles.length})
+                {lang === 'en' ? 'All (136)' : 'Все (136)'}
               </button>
               <button
-                type="button"
-                className={`btn ${selectedJournal === 'CN' ? 'btn-primary' : 'btn-outline'}`}
+                className={`filter-btn ${selectedJournal === 'CN' ? 'active' : ''}`}
                 onClick={() => setSelectedJournal('CN')}
               >
-                Computational Nanotechnology (92)
+                Computational Nanotechnology
               </button>
               <button
-                type="button"
-                className={`btn ${selectedJournal === 'GELIO' ? 'btn-primary' : 'btn-outline'}`}
+                className={`filter-btn ${selectedJournal === 'GELIO' ? 'active' : ''}`}
                 onClick={() => setSelectedJournal('GELIO')}
               >
-                Гелиотехника / Solar Energy (24)
+                {lang === 'en' ? 'Applied Solar Energy / Gelio' : 'Гелиотехника'}
               </button>
               <button
-                type="button"
-                className={`btn ${selectedJournal === 'MED' ? 'btn-primary' : 'btn-outline'}`}
+                className={`filter-btn ${selectedJournal === 'MED' ? 'active' : ''}`}
                 onClick={() => setSelectedJournal('MED')}
               >
-                Медицинские издания (20)
+                {lang === 'en' ? 'Medicine & Therapy' : 'Медицина и терапия'}
               </button>
             </div>
           </div>
 
-          <div style={{ marginBottom: '14px', fontSize: '0.875rem', color: 'var(--color-text-muted)' }}>
-            Найдено публикаций: <strong>{filteredArticles.length}</strong> из {articles.length}
+          <div style={{ marginBottom: '16px', fontSize: '0.875rem', color: 'var(--color-text-muted)' }}>
+            {lang === 'en' ? `Found: ${filteredArticles.length} publications` : `Найдено публикаций: ${filteredArticles.length}`}
           </div>
 
-          {/* Table */}
-          <div className="table-responsive">
-            <table className="data-table">
-              <thead>
-                <tr>
-                  <th style={{ width: '80px' }}>№</th>
-                  <th style={{ width: '220px' }}>Авторы</th>
-                  <th>Название статьи</th>
-                  <th style={{ width: '280px' }}>Издание / Журнал / Выходные данные</th>
-                  <th style={{ width: '80px', textAlign: 'center' }}>Год</th>
-                </tr>
-              </thead>
-              <tbody>
-                {filteredArticles.map((art, idx) => (
-                  <tr key={art.id}>
-                    <td>
-                      <span className="badge badge-blue">{art.id}</span>
-                    </td>
-                    <td style={{ fontWeight: '500', color: 'var(--color-text-main)' }}>
-                      {art.authors}
-                    </td>
-                    <td style={{ fontWeight: '600', color: '#1e293b' }}>
-                      {art.title}
-                    </td>
-                    <td style={{ color: 'var(--color-text-muted)' }}>
-                      {art.journal}
-                    </td>
-                    <td style={{ textAlign: 'center', fontWeight: '600' }}>
-                      {art.year}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          {/* Articles List */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            {filteredArticles.map((art) => (
+              <div key={art.id} className="data-card" style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
+                <div style={{ background: '#e0f2fe', color: '#0284c7', padding: '10px', borderRadius: 'var(--radius-md)', flexShrink: 0 }}>
+                  <FileText size={20} />
+                </div>
+                <div style={{ flex: '1 1 auto' }}>
+                  <div style={{ display: 'flex', gap: '8px', alignItems: 'center', marginBottom: '6px' }}>
+                    <span className="badge badge-blue">{art.id}</span>
+                    <span className="badge" style={{ background: '#f1f5f9', color: '#475569' }}>{art.year}</span>
+                  </div>
+                  <h3 style={{ fontSize: '1.0625rem', marginBottom: '8px', lineHeight: 1.4 }}>
+                    {art.title}
+                  </h3>
+                  <div style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)', marginBottom: '4px' }}>
+                    <strong>{lang === 'en' ? 'Authors: ' : 'Авторы: '}</strong>{art.authors}
+                  </div>
+                  <div style={{ fontSize: '0.8125rem', color: '#0284c7', fontStyle: 'italic' }}>
+                    {art.journal}
+                  </div>
+                </div>
+              </div>
+            ))}
+
+            {filteredArticles.length === 0 && (
+              <div style={{ textAlign: 'center', padding: '60px 20px', background: '#ffffff', borderRadius: 'var(--radius-lg)' }}>
+                <p style={{ color: 'var(--color-text-muted)' }}>
+                  {lang === 'en' ? 'No publications found matching your query.' : 'По вашему запросу статей не найдено.'}
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </section>

@@ -15,6 +15,8 @@ import NotFound from './pages/NotFound';
 
 import './styles/global.css';
 
+import { LanguageProvider } from './context/LanguageContext';
+
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -25,7 +27,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <>
+    <LanguageProvider>
       <ScrollToTop />
       <Header />
       <main className="main-content">
@@ -61,6 +63,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-    </>
+    </LanguageProvider>
   );
 }

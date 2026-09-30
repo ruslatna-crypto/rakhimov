@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Send, Facebook, Linkedin, Youtube, ExternalLink } from 'lucide-react';
+import { Mail, Send, Facebook, Linkedin, Youtube } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 import '../styles/footer.css';
 
 export default function Footer() {
+  const { t } = useLanguage();
+
   return (
     <footer className="site-footer" id="contacts">
       <div className="container">
@@ -14,8 +17,7 @@ export default function Footer() {
               <img src="/images/logo_new.svg" alt="Керамика Синтез" className="footer-logo" />
             </Link>
             <p className="footer-desc">
-              Научно-технический портал доктора технических наук, профессора Рустама Хакимовича Рахимова.
-              Разработки в области солнечной энергетики, импульсного туннельного эффекта и функциональных материалов.
+              {t('footer_desc')}
             </p>
             <div className="footer-social-links">
               <a href="https://t.me/ZapUser2690924761" target="_blank" rel="noopener noreferrer" className="social-icon-btn" title="Telegram">
@@ -35,60 +37,52 @@ export default function Footer() {
 
           {/* Developments Column */}
           <div>
-            <h4 className="footer-heading">Разработки</h4>
+            <h4 className="footer-heading">{t('footer_col_dev')}</h4>
             <ul className="footer-links-list">
-              <li><Link to="/sushka" className="footer-link">Сушка овощей и фруктов</Link></li>
-              <li><Link to="/lamp" className="footer-link">Медицинские лампы</Link></li>
-              <li><Link to="/kalci" className="footer-link">Активный кальций</Link></li>
-              <li><Link to="/pech" className="footer-link">Жарочные печи</Link></li>
-              <li><Link to="/plenka" className="footer-link">Пленочный композит</Link></li>
-              <li><Link to="/kraska" className="footer-link">Сушка лаков и красок</Link></li>
-              <li><Link to="/steril" className="footer-link">Стерилизаторы</Link></li>
-              <li><Link to="/cotton" className="footer-link">Сушка хлопка</Link></li>
-              <li><Link to="/bsp" className="footer-link">Материалы на БСП</Link></li>
+              <li><Link to="/sushka" className="footer-link">{t('dev_sushka')}</Link></li>
+              <li><Link to="/lamp" className="footer-link">{t('dev_lamp')}</Link></li>
+              <li><Link to="/kalci" className="footer-link">{t('dev_kalci')}</Link></li>
+              <li><Link to="/pech" className="footer-link">{t('dev_pech')}</Link></li>
+              <li><Link to="/plenka" className="footer-link">{t('dev_plenka')}</Link></li>
+              <li><Link to="/kraska" className="footer-link">{t('dev_kraska')}</Link></li>
+              <li><Link to="/steril" className="footer-link">{t('dev_steril')}</Link></li>
+              <li><Link to="/cotton" className="footer-link">{t('dev_cotton')}</Link></li>
+              <li><Link to="/bsp" className="footer-link">{t('dev_bsp')}</Link></li>
             </ul>
           </div>
 
           {/* Publications Column */}
           <div>
-            <h4 className="footer-heading">Публикации</h4>
+            <h4 className="footer-heading">{t('footer_col_pub')}</h4>
             <ul className="footer-links-list">
-              <li><Link to="/stat" className="footer-link">Статьи (136)</Link></li>
-              <li><Link to="/book" className="footer-link">Книги и монографии (9)</Link></li>
-              <li><Link to="/patents" className="footer-link">Патенты (73)</Link></li>
-              <li><Link to="/akt" className="footer-link">Акты и заключения (57)</Link></li>
-              <li><Link to="/autor" className="footer-link">Биография автора</Link></li>
+              <li><Link to="/stat" className="footer-link">{t('pub_articles')}</Link></li>
+              <li><Link to="/book" className="footer-link">{t('pub_books')}</Link></li>
+              <li><Link to="/patents" className="footer-link">{t('pub_patents')}</Link></li>
+              <li><Link to="/akt" className="footer-link">{t('pub_akts')}</Link></li>
+              <li><Link to="/autor" className="footer-link">{t('nav_about')}</Link></li>
             </ul>
           </div>
 
           {/* Contacts Column */}
           <div>
-            <h4 className="footer-heading">Контакты</h4>
-            <ul className="footer-links-list">
-              <li style={{ color: '#cbd5e1', fontSize: '0.875rem' }}>
-                <strong>E-mail:</strong><br />
-                <a href="mailto:rustam-shsul@yandex.com" style={{ color: '#38bdf8' }}>rustam-shsul@yandex.com</a>
-              </li>
-              <li style={{ color: '#cbd5e1', fontSize: '0.875rem', marginTop: '10px' }}>
-                <strong>Партнерский ресурс:</strong><br />
-                <a href="http://infraks.ru/" target="_blank" rel="noopener noreferrer" style={{ color: '#94a3b8' }}>infraks.ru ↗</a>
-              </li>
-              <li style={{ color: '#94a3b8', fontSize: '0.8125rem', marginTop: '10px' }}>
-                Ташкент, Узбекистан<br />
-                Институт Материаловедения АН РУз
-              </li>
-            </ul>
+            <h4 className="footer-heading">{t('footer_col_contact')}</h4>
+            <div className="footer-contact-item">
+              <span className="contact-label">{t('contacts_address_label')}</span>
+              <span className="contact-value">{t('contacts_address_val')}</span>
+            </div>
+            <div className="footer-contact-item">
+              <span className="contact-label">{t('contacts_email_label')}</span>
+              <a href="mailto:rustam-shsul@yandex.com" className="footer-link">rustam-shsul@yandex.com</a>
+            </div>
+            <div className="footer-contact-item">
+              <span className="contact-label">{t('contacts_phone_label')}</span>
+              <a href="tel:+998712698055" className="footer-link">+998 71 269-80-55</a>
+            </div>
           </div>
         </div>
 
-        {/* Footer Bottom */}
         <div className="footer-bottom">
-          <div>
-            © Все права защищены. 2025. OOO &quot;Keramika Sintez&quot;
-          </div>
-          <div>
-            Персональный портал д.т.н., профессора Р.Х. Рахимова
-          </div>
+          <p>© {new Date().getFullYear()} {t('footer_copyright')}</p>
         </div>
       </div>
     </footer>
