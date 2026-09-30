@@ -15,51 +15,27 @@ export default function Home() {
       <HeroSlider />
 
 
-      {/* Metrics Banner */}
-      <section style={{ background: '#ffffff', borderBottom: '1px solid var(--color-border)', padding: '28px 0' }}>
-        <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '20px', textAlign: 'center' }}>
-          <div>
-            <div style={{ fontSize: '2rem', fontWeight: '800', color: 'var(--color-primary)' }}>136</div>
-            <div style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)', fontWeight: '500' }}>{t('metric_articles')}</div>
-          </div>
-          <div>
-            <div style={{ fontSize: '2rem', fontWeight: '800', color: 'var(--color-primary)' }}>73</div>
-            <div style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)', fontWeight: '500' }}>{t('metric_patents')}</div>
-          </div>
-          <div>
-            <div style={{ fontSize: '2rem', fontWeight: '800', color: 'var(--color-primary)' }}>57</div>
-            <div style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)', fontWeight: '500' }}>{t('metric_akts')}</div>
-          </div>
-          <div>
-            <div style={{ fontSize: '2rem', fontWeight: '800', color: 'var(--color-primary)' }}>9</div>
-            <div style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)', fontWeight: '500' }}>{t('metric_books')}</div>
-          </div>
-        </div>
-      </section>
-
       {/* 9 Developments Section */}
       <section className="section-wrapper">
         <div className="container">
-          <div className="section-header">
-            <div className="section-tag">{t('dev_section_badge')}</div>
+          <div className="section-header" style={{ marginBottom: '40px' }}>
             <h2 className="section-title">{t('dev_section_title')}</h2>
-            <p className="section-desc">
-              {t('dev_section_subtitle')}
-            </p>
           </div>
 
           <div className="dev-grid">
             {developments.map((dev) => (
               <Link to={`/${dev.slug}`} key={dev.slug} className="dev-card">
-                <div className="dev-icon-wrap">
-                  <img src={dev.icon} alt={dev.title} />
+                <div className="dev-card-image-wrap">
+                  <img src={dev.icon} alt={dev.title} className="dev-card-image" loading="lazy" />
                 </div>
-                <h3 className="dev-card-title">
-                  {t(`dev_${dev.slug}`) || dev.title}
-                </h3>
-                <p className="dev-card-desc">{dev.lead}</p>
-                <div className="dev-card-link">
-                  {lang === 'en' ? 'Learn more' : 'Подробнее'} <ArrowRight size={14} />
+                <div className="dev-card-content">
+                  <h3 className="dev-card-title">
+                    {t(`dev_${dev.slug}`) || dev.title}
+                  </h3>
+                  <p className="dev-card-desc">{dev.lead}</p>
+                  <div className="dev-card-link">
+                    {lang === 'en' ? 'Learn more' : 'Подробнее'} <ArrowRight size={14} />
+                  </div>
                 </div>
               </Link>
             ))}
