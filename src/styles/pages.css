@@ -1,0 +1,301 @@
+/* Hero section on Home */
+.home-hero {
+  background: radial-gradient(circle at top right, #1e293b, #0f172a);
+  color: #ffffff;
+  padding: 80px 0 60px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.home-hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.home-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(2, 132, 199, 0.15);
+  border: 1px solid rgba(2, 132, 199, 0.3);
+  color: #38bdf8;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.home-hero-title {
+  color: #ffffff;
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.home-hero-title span {
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-hero-lead {
+  color: #cbd5e1;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.home-hero-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.author-portrait-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.author-portrait-wrapper img {
+  border-radius: var(--radius-lg);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+}
+
+.author-portrait-caption {
+  margin-top: 14px;
+  color: #94a3b8;
+  font-size: 0.875rem;
+}
+
+/* Section titles */
+.section-wrapper {
+  padding: 64px 0;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 48px auto;
+}
+
+.section-tag {
+  color: var(--color-primary);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.section-desc {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+}
+
+/* Developments Grid */
+.dev-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.dev-card {
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  text-decoration: none;
+  color: inherit;
+}
+
+.dev-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--color-primary-light);
+}
+
+.dev-icon-wrap {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  background: var(--color-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dev-icon-wrap img {
+  width: 32px;
+  height: 32px;
+}
+
+.dev-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--color-text-main);
+}
+
+.dev-card-desc {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.dev-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+/* Books catalog */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.book-card {
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+.book-cover-wrap {
+  background: #f1f5f9;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.book-cover-wrap img {
+  max-height: 100%;
+  width: auto;
+  box-shadow: var(--shadow-md);
+  border-radius: 4px;
+}
+
+.book-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.book-title {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.book-author {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+}
+
+.book-desc {
+  font-size: 0.84375rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* Single Development Page Layout */
+.dev-detail-layout {
+  padding: 48px 0;
+}
+
+.dev-detail-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.dev-text-content {
+  background: #ffffff;
+  padding: 36px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.dev-text-content p {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: #334155;
+  margin-bottom: 1.25rem;
+}
+
+.dev-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar-box {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.sidebar-box-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 1024px) {
+  .home-hero-grid { grid-template-columns: 1fr; text-align: center; }
+  .home-hero-actions { justify-content: center; }
+  .dev-grid { grid-template-columns: repeat(2, 1fr); }
+  .books-grid { grid-template-columns: repeat(2, 1fr); }
+  .dev-detail-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .dev-grid { grid-template-columns: 1fr; }
+  .books-grid { grid-template-columns: 1fr; }
+  .home-hero-title { font-size: 2rem; }
+  .dev-text-content { padding: 20px; }
+}

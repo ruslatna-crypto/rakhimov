@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /main
+Disallow: /test1
+Disallow: /footer
+Disallow: /page*.html
+
+Sitemap: https://rakhimovr.uz/sitemap.xml
