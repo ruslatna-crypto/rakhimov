@@ -17,18 +17,15 @@ const slides = [
 export default function HeroSlider() {
   const { lang } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
 
-  // Auto-advance slides every 5 seconds (5000 ms) in an infinite loop
+  // Auto-advance slides every 3 seconds (3000 ms) in an infinite loop
   useEffect(() => {
-    if (isPaused) return;
-
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(timer);
-  }, [isPaused]);
+  }, [currentIndex]);
 
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev - 1 + slides.length) % slides.length);
@@ -70,8 +67,6 @@ export default function HeroSlider() {
     <section className="hero-slider-section">
       <div
         className="hero-slider-container"
-        onMouseEnter={() => setIsPaused(true)}
-        onMouseLeave={() => setIsPaused(false)}
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
