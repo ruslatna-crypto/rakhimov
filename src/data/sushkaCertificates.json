@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "title": "Удостоверение качества продукции, высушенной активным обезвоживанием",
+    "title_en": "Quality Certificate of Products Dried by Active Dehydration",
+    "category": "Удостоверение качества",
+    "category_en": "Quality Certificate",
+    "org": "Ленинградский институт советской торговли им. Ф. Энгельса",
+    "org_en": "Leningrad Institute of Soviet Trade named after F. Engels",
+    "date": "16.07.1992",
+    "description": "Оценка органолептических и физико-химических показателей сушеной овощной продукции (морковь, репчатый лук, капуста, кориандр, укроп, петрушка, сельдерей). Все образцы получили высшую оценку 5,0 баллов.",
+    "description_en": "Evaluation of organoleptic and physicochemical quality indicators of dried vegetables (carrots, onions, cabbage, coriander, dill, parsley, celery). All samples received the top 5.0 score.",
+    "pageCount": 1,
+    "cover": "/images/sushka_certificates/akt_01.png",
+    "pages": [
+      "/images/sushka_certificates/akt_01.png"
+    ],
+    "preview": "/images/sushka_certificates/akt_01-preview.webp"
+  },
+  {
+    "id": 2,
+    "title": "Результаты исследования проб моркови, высушенной с использованием функциональной керамики",
+    "title_en": "Investigation Results of Carrot Samples Dehydrated Using Functional Ceramics",
+    "category": "Результаты исследований",
+    "category_en": "Research Results",
+    "org": "СПбГПМИ, кафедра микробиологии и гигиены питания",
+    "org_en": "SPbSPMU, Department of Microbiology and Nutritional Hygiene",
+    "date": "Март 1992",
+    "description": "Полное сохранение аскорбиновой кислоты (витамина C) и каротина. Снижение сапрофитной микрофлоры более чем в 100 000 раз по сравнению со стандартными ТЭНами.",
+    "description_en": "Complete preservation of ascorbic acid (vitamin C) and carotene. Reduction of saprophytic microflora by more than 100,000 times compared to standard heating elements.",
+    "pageCount": 2,
+    "cover": "/images/sushka_certificates/akt_02_1.png",
+    "pages": [
+      "/images/sushka_certificates/akt_02_1.png",
+      "/images/sushka_certificates/akt_02_2.png"
+    ],
+    "preview": "/images/sushka_certificates/akt_02_1-preview.webp"
+  },
+  {
+    "id": 3,
+    "title": "Заключение на товарно-технологическую оценку сухофруктов на сушилке «Узбекистан»",
+    "title_en": "Evaluation Conclusion of Dried Fruits Produced on the \"Uzbekistan\" Dryer",
+    "category": "Экспертное заключение",
+    "category_en": "Expert Conclusion",
+    "org": "Узбекский НИИ садоводства, виноградарства и виноделия им. Р.Р. Шредера",
+    "org_en": "R.R. Schroeder Research Institute of Horticulture, Viticulture and Winemaking",
+    "date": "10.10.2002",
+    "description": "Сушка абрикоса, сливы, унаби, винограда, инжира, айвы. Превосходство по внешнему виду, чистоте, яркости окраски и вкусовым качествам по сравнению с воздушно-солнечной сушкой.",
+    "description_en": "Drying of apricots, plums, unabi, grapes, figs, quinces. Superiority in appearance, cleanliness, vibrant color, and taste compared to open sun-drying.",
+    "pageCount": 2,
+    "cover": "/images/sushka_certificates/akt_03_1.png",
+    "pages": [
+      "/images/sushka_certificates/akt_03_1.png",
+      "/images/sushka_certificates/akt_03_2.jpg"
+    ],
+    "preview": "/images/sushka_certificates/akt_03_1-preview.webp"
+  },
+  {
+    "id": 4,
+    "title": "Информационный отчет о предварительном испытании метода сушки и стерилизации",
+    "title_en": "Information Report on Preliminary Testing of Drying and Sterilization Method",
+    "category": "Отчет об испытаниях",
+    "category_en": "Test Report",
+    "org": "НПО «Шелк», Лаборатория биотехнологии",
+    "org_en": "SPA \"Shelk\" (Silk), Biotechnology Laboratory",
+    "date": "10.10.1991",
+    "description": "Испытания метода сушки функциональной керамикой: сушка листьев шелковицы, компонентов искусственного корма тутового шелкопряда и морка/сушка коконов при сохранении нативных белков, ферментов и витаминов.",
+    "description_en": "Testing functional ceramic drying method: drying mulberry leaves, silkworm artificial feed, and pupae killing/drying while preserving native proteins, enzymes, and vitamins.",
+    "pageCount": 2,
+    "cover": "/images/sushka_certificates/akt_04_1.png",
+    "pages": [
+      "/images/sushka_certificates/akt_04_1.png",
+      "/images/sushka_certificates/akt_04_2.png"
+    ],
+    "preview": "/images/sushka_certificates/akt_04_1-preview.webp"
+  },
+  {
+    "id": 5,
+    "title": "Протокол испытаний ИК-сушильной установки для сушки биологических объектов (крови)",
+    "title_en": "Test Protocol of Infrared Drying Unit for Biological Objects (Blood)",
+    "category": "Протокол испытаний",
+    "category_en": "Test Protocol",
+    "org": "Институт биохимии АН РУз / НПК «Квант» / НПЦ «РРХ»",
+    "org_en": "Institute of Biochemistry, Academy of Sciences of Uzbekistan",
+    "date": "28.12.1992",
+    "description": "Сушка отходов животноводства и птицеводства (крови). Сохранение биологической активности липидов на 99–100%, получение биокрема «Липотон» и систем адресной доставки лекарств.",
+    "description_en": "Drying animal and poultry blood. Preservation of biological lipid activity at 99-100%, production of Lipoton bio-cream, and targeted drug delivery systems.",
+    "pageCount": 1,
+    "cover": "/images/sushka_certificates/akt_05.png",
+    "pages": [
+      "/images/sushka_certificates/akt_05.png"
+    ],
+    "preview": "/images/sushka_certificates/akt_05-preview.webp"
+  },
+  {
+    "id": 6,
+    "title": "Протокол исследования применения ИК-излучателей для сушки коровьего молозива",
+    "title_en": "Research Protocol on Infrared Ceramic Emitters for Bovine Colostrum Drying",
+    "category": "Протокол исследований",
+    "category_en": "Research Protocol",
+    "org": "Институт биохимии АН РУз, Лаборатория клеточной биологии",
+    "org_en": "Institute of Biochemistry, Academy of Sciences of Uzbekistan",
+    "date": "15.06.2002",
+    "description": "Сушка коровьего молозива во флаконах по 2 мл. Увеличение скорости процесса сушки и сокращение времени на 4 часа по сравнению со стандартным 24-часовым регламентом.",
+    "description_en": "Drying bovine colostrum in 2 ml vials. Increased drying rate and 4-hour reduction in cycle time compared to standard 24-hour protocol.",
+    "pageCount": 1,
+    "cover": "/images/sushka_certificates/akt_06.jpg",
+    "pages": [
+      "/images/sushka_certificates/akt_06.jpg"
+    ],
+    "preview": "/images/sushka_certificates/akt_06-preview.webp"
+  },
+  {
+    "id": 7,
+    "title": "Акт испытания опытной инфракрасной сушилки ПА-6",
+    "title_en": "Test Act of Experimental Infrared Dryer PA-6",
+    "category": "Акт испытаний",
+    "category_en": "Test Act",
+    "org": "МАИВП «Имкон» / Цех 701",
+    "org_en": "MAIVP \"Imkon\" / Shop 701",
+    "date": "16.05.1984",
+    "description": "Сушка гранулированного полиамида ПА-6. Достижение нормативной влажности менее 0,5% за 1 час без окисления полимера под током азота при температуре 100–130°C.",
+    "description_en": "Drying granulated polyamide PA-6. Achieving standard moisture level below 0.5% in 1 hour without polymer oxidation under nitrogen flow at 100-130°C.",
+    "pageCount": 2,
+    "cover": "/images/sushka_certificates/akt_07_1.png",
+    "pages": [
+      "/images/sushka_certificates/akt_07_1.png",
+      "/images/sushka_certificates/akt_07_2.png"
+    ],
+    "preview": "/images/sushka_certificates/akt_07_1-preview.webp"
+  }
+]

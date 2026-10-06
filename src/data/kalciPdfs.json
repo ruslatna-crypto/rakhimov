@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Активный кальций",
+    "title_en": "Active Calcium",
+    "category": "Материалы разработки",
+    "category_en": "Development Materials",
+    "originalFileName": "Активный кальций.pdf",
+    "fileName": "aktivnyy_kalciy.pdf",
+    "url": "/pdf/kalci/aktivnyy_kalciy.pdf",
+    "sizeMb": "0.73 МБ",
+    "sizeEn": "0.73 MB"
+  },
+  {
+    "id": 2,
+    "title": "Научно-медицинская статья о гомеостазе кальция том 2",
+    "title_en": "Scientific and Medical Article on Calcium Homeostasis Vol. 2",
+    "category": "Научная статья",
+    "category_en": "Scientific Article",
+    "originalFileName": "Научно-медицинская статья о гомеостазе кальция том 2.pdf",
+    "fileName": "statya_gomeostaz_kaltsiya_tom_2.pdf",
+    "url": "/pdf/kalci/statya_gomeostaz_kaltsiya_tom_2.pdf",
+    "sizeMb": "0.98 МБ",
+    "sizeEn": "0.98 MB"
+  }
+]

@@ -1,401 +1,572 @@
 [
   {
     "id": "AKT-001",
-    "title": "1 НИИ Дермотологии и венерологии МЗ РУз",
+    "num": 1,
+    "title": "НИИ Дермотологии и венерологии МЗ РУз",
     "organization": "Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения",
-    "full_text": "1 НИИ Дермотологии и венерологии МЗ РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения.",
-    "google_drive_url": "https://drive.google.com/file/d/1ZWnrW5UiJN1QoAPez9PK2_I-ll6rFgF9/view?usp=drive_link"
+    "full_text": "НИИ Дермотологии и венерологии МЗ РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения.",
+    "google_drive_url": "https://drive.google.com/file/d/1ZWnrW5UiJN1QoAPez9PK2_I-ll6rFgF9/view?usp=drive_link",
+    "title_en": "Research Institute of Dermatology and Venereology, Ministry of Health of RUz",
+    "organization_en": "Report on clinical trials of medical equipment and medical devices"
   },
   {
     "id": "AKT-002",
-    "title": "2 ИОР АН РУз",
+    "num": 2,
+    "title": "ИОР АН РУз",
     "organization": "Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения",
-    "full_text": "2 ИОР АН РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения",
-    "google_drive_url": "https://drive.google.com/file/d/11tzBMeKU_deC2YucutJfbdZtkRWPKZdm/view?usp=drive_link"
+    "full_text": "ИОР АН РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения",
+    "google_drive_url": "https://drive.google.com/file/d/11tzBMeKU_deC2YucutJfbdZtkRWPKZdm/view?usp=drive_link",
+    "title_en": "Institute of Oncology and Radiology, Academy of Sciences of RUz",
+    "organization_en": "Report on clinical trials of medical equipment and medical devices"
   },
   {
     "id": "AKT-003",
-    "title": "3 Научный центр Хирургии МЗ РУз",
+    "num": 3,
+    "title": "Научный центр Хирургии МЗ РУз",
     "organization": "Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения",
-    "full_text": "3 Научный центр Хирургии МЗ РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения",
-    "google_drive_url": "https://drive.google.com/file/d/1Y6zdJVFDPIqj5WdZzYLuZnleHzssLu5F/view?usp=drive_link"
+    "full_text": "Научный центр Хирургии МЗ РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения",
+    "google_drive_url": "https://drive.google.com/file/d/1Y6zdJVFDPIqj5WdZzYLuZnleHzssLu5F/view?usp=drive_link",
+    "title_en": "Scientific Center of Surgery, Ministry of Health of RUz",
+    "organization_en": "Report on clinical trials of medical equipment and medical devices"
   },
   {
     "id": "AKT-004",
-    "title": "4 ТашГосМИ 1",
+    "num": 4,
+    "title": "ТашГосМИ 1",
     "organization": "МЗ РУз",
-    "full_text": "4 ТашГосМИ 1. МЗ РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения",
-    "google_drive_url": "https://drive.google.com/file/d/1Egg1U2grtKZINWkaX9SSP819gbMMJEiH/view?usp=drive_link"
+    "full_text": "ТашГосМИ 1. МЗ РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения",
+    "google_drive_url": "https://drive.google.com/file/d/1Egg1U2grtKZINWkaX9SSP819gbMMJEiH/view?usp=drive_link",
+    "title_en": "Tashkent State Medical Institute 1",
+    "organization_en": "Ministry of Health of RUz. Report on clinical trials of medical equipment and devices"
   },
   {
     "id": "AKT-005",
-    "title": "5 ТашГосМИ 1",
+    "num": 5,
+    "title": "ТашГосМИ 1",
     "organization": "МЗ РУз",
-    "full_text": "5 ТашГосМИ 1. МЗ РУз. Акт о результатах клинического применения инфракрасного облучения, излучателем R2M, при лечении больных с запущенными формами злокачественных опухолей.",
-    "google_drive_url": "https://drive.google.com/file/d/1TMoBfTaVLrWB7NTQujCTtAndIgSdOYrP/view?usp=drive_link"
+    "full_text": "ТашГосМИ 1. МЗ РУз. Акт о результатах клинического применения инфракрасного облучения, излучателем R2M, при лечении больных с запущенными формами злокачественных опухолей.",
+    "google_drive_url": "https://drive.google.com/file/d/1TMoBfTaVLrWB7NTQujCTtAndIgSdOYrP/view?usp=drive_link",
+    "title_en": "Tashkent State Medical Institute 1",
+    "organization_en": "Ministry of Health of RUz. Clinical report on IR emitter R2M application in advanced malignant tumor treatment"
   },
   {
     "id": "AKT-006",
-    "title": "6 ТашГосМИ 2",
+    "num": 6,
+    "title": "ТашГосМИ 2",
     "organization": "МЗ РУз",
-    "full_text": "6 ТашГосМИ 2. МЗ РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения.",
-    "google_drive_url": "https://drive.google.com/file/d/1h4rlZVhGfMl_LllPey6kD2l3Kiz4tDRl/view?usp=drive_link"
+    "full_text": "ТашГосМИ 2. МЗ РУз. Акт о проведении клинических испытаний медицинской техники и изделия медицинского назначения.",
+    "google_drive_url": "https://drive.google.com/file/d/1h4rlZVhGfMl_LllPey6kD2l3Kiz4tDRl/view?usp=drive_link",
+    "title_en": "Tashkent State Medical Institute 2",
+    "organization_en": "Ministry of Health of RUz. Report on clinical trials of medical equipment and devices"
   },
   {
     "id": "AKT-007",
-    "title": "7 ТашГосМИ 1",
+    "num": 7,
+    "title": "ТашГосМИ 1",
     "organization": "Акт о результатах клинического применения инфракрасного облучения, излучателем ГЛ-05, при лечении больных с хирургической патологией",
-    "full_text": "7 ТашГосМИ 1. Акт о результатах клинического применения инфракрасного облучения, излучателем ГЛ-05, при лечении больных с хирургической патологией.",
-    "google_drive_url": "https://drive.google.com/file/d/1JdQcFcK5zGnfBohn0hTVOOROf7bU8zKI/view?usp=drive_link"
+    "full_text": "ТашГосМИ 1. Акт о результатах клинического применения инфракрасного облучения, излучателем ГЛ-05, при лечении больных с хирургической патологией.",
+    "google_drive_url": "https://drive.google.com/file/d/1JdQcFcK5zGnfBohn0hTVOOROf7bU8zKI/view?usp=drive_link",
+    "title_en": "Tashkent State Medical Institute 1",
+    "organization_en": "Report on clinical results of infrared emitter GL-05 in treating surgical pathology patients"
   },
   {
     "id": "AKT-008",
-    "title": "8 Ташкентский педиатрический медицинский институт",
+    "num": 8,
+    "title": "Ташкентский педиатрический медицинский институт",
     "organization": "Лечение гнойных ран у детей",
-    "full_text": "8 Ташкентский педиатрический медицинский институт. Лечение гнойных ран у детей.",
-    "google_drive_url": "https://drive.google.com/file/d/1zoPOO9rC6tf6nOI1UsvLU7Sdu0XikgaC/view?usp=drive_link"
+    "full_text": "Ташкентский педиатрический медицинский институт. Лечение гнойных ран у детей.",
+    "google_drive_url": "https://drive.google.com/file/d/1zoPOO9rC6tf6nOI1UsvLU7Sdu0XikgaC/view?usp=drive_link",
+    "title_en": "Tashkent Pediatric Medical Institute",
+    "organization_en": "Treatment of purulent wounds in pediatric patients"
   },
   {
     "id": "AKT-009",
-    "title": "9 Институт Усовершенствование врачей",
+    "num": 9,
+    "title": "Институт Усовершенствование врачей",
     "organization": "Заключение",
-    "full_text": "9 Институт Усовершенствование врачей. Заключение",
-    "google_drive_url": "https://drive.google.com/file/d/1mk6QEGTmEkWZXTaSOJ7WoUvNH5DyVJzg/view?usp=drive_link"
+    "full_text": "Институт Усовершенствование врачей. Заключение",
+    "google_drive_url": "https://drive.google.com/file/d/1mk6QEGTmEkWZXTaSOJ7WoUvNH5DyVJzg/view?usp=drive_link",
+    "title_en": "Institute of Postgraduate Medical Education",
+    "organization_en": "Official medical conclusion on clinical efficacy"
   },
   {
     "id": "AKT-010",
-    "title": "10 ТашОблЦГСЭН",
+    "num": 10,
+    "title": "ТашОблЦГСЭН",
     "organization": "Исследование бактерицидных свойств лечебно-профилактического керамического инфракрасного излучателя",
-    "full_text": "10 ТашОблЦГСЭН. Исследование бактерицидных свойств лечебно-профилактического керамического инфракрасного излучателя",
-    "google_drive_url": "https://drive.google.com/file/d/1RvB-h1y-MPnziAW-bodlOfI49TFORVJ_/view?usp=drive_link"
+    "full_text": "ТашОблЦГСЭН. Исследование бактерицидных свойств лечебно-профилактического керамического инфракрасного излучателя",
+    "google_drive_url": "https://drive.google.com/file/d/1RvB-h1y-MPnziAW-bodlOfI49TFORVJ_/view?usp=drive_link",
+    "title_en": "Tashkent Regional Center for Sanitary and Epidemiological Surveillance",
+    "organization_en": "Investigation of bactericidal properties of therapeutic ceramic infrared emitter"
   },
   {
     "id": "AKT-011",
-    "title": "11 РСЭС",
+    "num": 11,
+    "title": "РСЭС",
     "organization": "Исследования обеззараживающего воздействия",
-    "full_text": "11 РСЭС. Исследования обеззараживающего воздействия",
-    "google_drive_url": "https://drive.google.com/file/d/12avrJ2jfFAZN3XpupK0IWkZBz-sRsPJv/view?usp=drive_link"
+    "full_text": "РСЭС. Исследования обеззараживающего воздействия",
+    "google_drive_url": "https://drive.google.com/file/d/12avrJ2jfFAZN3XpupK0IWkZBz-sRsPJv/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Investigation of disinfection efficacy and biocidal impact"
   },
   {
     "id": "AKT-012",
-    "title": "12 РСЭС",
+    "num": 12,
+    "title": "РСЭС",
     "organization": "Исследование профилактики воспалительных заболеваний",
-    "full_text": "12 РСЭС. Исследование профилактики воспалительных заболеваний",
-    "google_drive_url": "https://drive.google.com/file/d/1zhlk21lFJX3N1zN1xxkY6fxnX2orBANT/view?usp=drive_link"
+    "full_text": "РСЭС. Исследование профилактики воспалительных заболеваний",
+    "google_drive_url": "https://drive.google.com/file/d/1zhlk21lFJX3N1zN1xxkY6fxnX2orBANT/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Study of prevention and prophylaxis of inflammatory diseases"
   },
   {
     "id": "AKT-013",
-    "title": "13 Институт иммунологии АН РУз",
+    "num": 13,
+    "title": "Институт иммунологии АН РУз",
     "organization": "Исследования по изучению влияния излучения лампы КД-4 на иммунологические параметры",
-    "full_text": "13 Институт иммунологии АН РУз. Исследования по изучению влияния излучения лампы КД-4 на иммунологические параметры",
-    "google_drive_url": "https://drive.google.com/file/d/1TEDIgk3hoXvULv1Hi1v7d8-A6J-pq244/view?usp=drive_link"
+    "full_text": "Институт иммунологии АН РУз. Исследования по изучению влияния излучения лампы КД-4 на иммунологические параметры",
+    "google_drive_url": "https://drive.google.com/file/d/1TEDIgk3hoXvULv1Hi1v7d8-A6J-pq244/view?usp=drive_link",
+    "title_en": "Institute of Immunology, Academy of Sciences of RUz",
+    "organization_en": "Investigation of KD-4 ceramic emitter radiation effects on immunological parameters"
   },
   {
     "id": "AKT-014",
-    "title": "14 ИОР АН РУз",
+    "num": 14,
+    "title": "ИОР АН РУз",
     "organization": "Заключение о предварительном экспериментальном исследовании противоопухолевого действия инфракрасного излучения",
-    "full_text": "14 ИОР АН РУз. Заключение о предварительном экспериментальном исследовании противоопухолевого действия инфракрасного излучения",
-    "google_drive_url": "https://drive.google.com/file/d/1XTceoSmbAOFys34JDP9FIpmqkN4t5nZq/view?usp=drive_link"
+    "full_text": "ИОР АН РУз. Заключение о предварительном экспериментальном исследовании противоопухолевого действия инфракрасного излучения",
+    "google_drive_url": "https://drive.google.com/file/d/1XTceoSmbAOFys34JDP9FIpmqkN4t5nZq/view?usp=drive_link",
+    "title_en": "Institute of Oncology and Radiology, Academy of Sciences of RUz",
+    "organization_en": "Conclusion on experimental study of antitumor action of infrared radiation"
   },
   {
     "id": "AKT-015",
-    "title": "15 ИОР АН РУз",
+    "num": 15,
+    "title": "ИОР АН РУз",
     "organization": "Заключение о непосредственных результатах клинического применения инфракрасного облучения при запущенных стадиях злокачественных опухолей",
-    "full_text": "15 ИОР АН РУз. Заключение о непосредственных результатах клинического применения инфракрасного облучения при запущенных стадиях злокачественных опухолей",
-    "google_drive_url": "https://drive.google.com/file/d/1YxgtaWhlbSBbcQAssPih3h-mu4pcXw5p/view?usp=drive_link"
+    "full_text": "ИОР АН РУз. Заключение о непосредственных результатах клинического применения инфракрасного облучения при запущенных стадиях злокачественных опухолей",
+    "google_drive_url": "https://drive.google.com/file/d/1YxgtaWhlbSBbcQAssPih3h-mu4pcXw5p/view?usp=drive_link",
+    "title_en": "Institute of Oncology and Radiology, Academy of Sciences of RUz",
+    "organization_en": "Conclusion on clinical application of infrared irradiation in advanced stages of malignant tumors"
   },
   {
     "id": "AKT-016",
-    "title": "16 Институт Иммунологии АН РУз",
+    "num": 16,
+    "title": "Институт Иммунологии АН РУз",
     "organization": "Заключение об экспериментальном изучении влияния инфракрасного излучения КД4 на систему иммунитета",
-    "full_text": "16 Институт Иммунологии АН РУз. Заключение об экспериментальном изучении влияния инфракрасного излучения КД4 на систему иммунитета",
-    "google_drive_url": "https://drive.google.com/file/d/1ZxIx4A0W176ZGVVOv1jVvthN06JAxkfN/view?usp=drive_link"
+    "full_text": "Институт Иммунологии АН РУз. Заключение об экспериментальном изучении влияния инфракрасного излучения КД4 на систему иммунитета",
+    "google_drive_url": "https://drive.google.com/file/d/1ZxIx4A0W176ZGVVOv1jVvthN06JAxkfN/view?usp=drive_link",
+    "title_en": "Institute of Immunology, Academy of Sciences of RUz",
+    "organization_en": "Conclusion on experimental study of KD-4 infrared radiation effects on the immune system"
   },
   {
     "id": "AKT-017",
-    "title": "17 ТашГосМИ 2",
+    "num": 17,
+    "title": "ТашГосМИ 2",
     "organization": "Отчет о науно-исследовательской работе",
-    "full_text": "17 ТашГосМИ 2. Отчет о науно-исследовательской работе. (Промежуточный)",
-    "google_drive_url": "https://drive.google.com/file/d/1JrXcsR2_WYYiTsnWo7EosPvYNQBcLwJ2/view?usp=drive_link"
+    "full_text": "ТашГосМИ 2. Отчет о науно-исследовательской работе. (Промежуточный)",
+    "google_drive_url": "https://drive.google.com/file/d/1JrXcsR2_WYYiTsnWo7EosPvYNQBcLwJ2/view?usp=drive_link",
+    "title_en": "Tashkent State Medical Institute 2",
+    "organization_en": "Scientific research and development progress report"
   },
   {
     "id": "AKT-018",
-    "title": "18 ТашГосМИ 2",
+    "num": 18,
+    "title": "ТашГосМИ 2",
     "organization": "Отчет о проведении клинических испытаний излучателя медицинской марки ЗК",
-    "full_text": "18 ТашГосМИ 2. Отчет о проведении клинических испытаний излучателя медицинской марки ЗК",
-    "google_drive_url": "https://drive.google.com/file/d/1UVLTQxXr1TvwgColD8XNpFIDy87fNV4B/view?usp=drive_link"
+    "full_text": "ТашГосМИ 2. Отчет о проведении клинических испытаний излучателя медицинской марки ЗК",
+    "google_drive_url": "https://drive.google.com/file/d/1UVLTQxXr1TvwgColD8XNpFIDy87fNV4B/view?usp=drive_link",
+    "title_en": "Tashkent State Medical Institute 2",
+    "organization_en": "Report on clinical trials of medical grade emitter ZK"
   },
   {
     "id": "AKT-019",
-    "title": "19 НИИ Педиатрии",
+    "num": 19,
+    "title": "НИИ Педиатрии",
     "organization": "Отчет отдела гепатологии по применению резонансной терапии",
-    "full_text": "19 НИИ Педиатрии. Отчет отдела гепатологии по применению резонансной терапии",
-    "google_drive_url": "https://drive.google.com/file/d/1gTfpsP9FMMVZyl-2Yg_U7D3OQ4txoisR/view?usp=drive_link"
+    "full_text": "НИИ Педиатрии. Отчет отдела гепатологии по применению резонансной терапии",
+    "google_drive_url": "https://drive.google.com/file/d/1gTfpsP9FMMVZyl-2Yg_U7D3OQ4txoisR/view?usp=drive_link",
+    "title_en": "Research Institute of Pediatrics",
+    "organization_en": "Hepatology department report on resonance therapy application"
   },
   {
     "id": "AKT-020",
-    "title": "20 НИИ МР и ФТ МЗ РУз",
+    "num": 20,
+    "title": "НИИ МР и ФТ МЗ РУз",
     "organization": "Отчет по применению резонансной терапии в лечении больных с заболеваниями внутренних органов на этапе медицинской реабилитации",
-    "full_text": "20 НИИ МР и ФТ МЗ РУз. Отчет по применению резонансной терапии в лечении больных с заболеваниями внутренних органов на этапе медицинской реабилитации",
-    "google_drive_url": "https://drive.google.com/file/d/1xZwIhJV9YA2nr4ObdE-T7QKlKWRSWtPz/view?usp=drive_link"
+    "full_text": "НИИ МР и ФТ МЗ РУз. Отчет по применению резонансной терапии в лечении больных с заболеваниями внутренних органов на этапе медицинской реабилитации",
+    "google_drive_url": "https://drive.google.com/file/d/1xZwIhJV9YA2nr4ObdE-T7QKlKWRSWtPz/view?usp=drive_link",
+    "title_en": "Research Institute of Medical Rehabilitation and Physical Therapy, Ministry of Health of RUz",
+    "organization_en": "Report on resonance therapy in treating internal disease patients during medical rehabilitation"
   },
   {
     "id": "AKT-021",
-    "title": "21 НИИ Дерматологии и Венерологии",
+    "num": 21,
+    "title": "НИИ Дерматологии и Венерологии",
     "organization": "Отчет о проделанной работе с инфракрасными облучателями Н-5Р, Р-2М, ГЛ и ЗК в эксперименте",
-    "full_text": "21 НИИ Дерматологии и Венерологии. Отчет о проделанной работе с инфракрасными облучателями Н-5Р, Р-2М, ГЛ и ЗК в эксперименте",
-    "google_drive_url": "https://drive.google.com/file/d/1eJTWWA3OFZtzisjintWv9O3GmZPZFBoH/view?usp=drive_link"
+    "full_text": "НИИ Дерматологии и Венерологии. Отчет о проделанной работе с инфракрасными облучателями Н-5Р, Р-2М, ГЛ и ЗК в эксперименте",
+    "google_drive_url": "https://drive.google.com/file/d/1eJTWWA3OFZtzisjintWv9O3GmZPZFBoH/view?usp=drive_link",
+    "title_en": "Research Institute of Dermatology and Venereology",
+    "organization_en": "Experimental trial report on infrared emitters N-5R, R-2M, GL, and ZK"
   },
   {
     "id": "AKT-022",
-    "title": "22 Отчет РЦГХ и ХОСД",
+    "num": 22,
+    "title": "Отчет РЦГХ и ХОСД",
     "organization": "Отчет по резонансной терапии при лечении больных с гнойно-септическими хирургическими заболеваниями",
-    "full_text": "22 Отчет РЦГХ и ХОСД. Отчет по резонансной терапии при лечении больных с гнойно-септическими хирургическими заболеваниями",
-    "google_drive_url": "https://drive.google.com/file/d/1S32E8RKwbeb0VY_0j8nQ13lbxMiB7_x-/view?usp=drive_link"
+    "full_text": "Отчет РЦГХ и ХОСД. Отчет по резонансной терапии при лечении больных с гнойно-септическими хирургическими заболеваниями",
+    "google_drive_url": "https://drive.google.com/file/d/1S32E8RKwbeb0VY_0j8nQ13lbxMiB7_x-/view?usp=drive_link",
+    "title_en": "Republican Center of Thoracic Surgery and Cardiovascular Diseases",
+    "organization_en": "Report on resonance therapy in treating patients with purulent-septic surgical diseases"
   },
   {
     "id": "AKT-023",
-    "title": "23 РСЭС",
+    "num": 23,
+    "title": "РСЭС",
     "organization": "Гигиенические сертификаты на излучатели",
-    "full_text": "23 РСЭС. Гигиенические сертификаты на излучатели",
-    "google_drive_url": "https://drive.google.com/file/d/1rG2-CMmoVvlrwJa2cS7oQb46Ct_m_v6_/view?usp=drive_link"
+    "full_text": "РСЭС. Гигиенические сертификаты на излучатели",
+    "google_drive_url": "https://drive.google.com/file/d/1rG2-CMmoVvlrwJa2cS7oQb46Ct_m_v6_/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Hygienic certificates for ceramic infrared emitters"
   },
   {
     "id": "AKT-024",
-    "title": "24 ГСЭС",
+    "num": 24,
+    "title": "ГСЭС",
     "organization": "Гигиеническое заключение на керамические инфракрасные излучатели",
-    "full_text": "24 ГСЭС. Гигиеническое заключение на керамические инфракрасные излучатели. (Республика Казахстан)",
-    "google_drive_url": "https://drive.google.com/file/d/1FBzIT_ZqjBpTw9zCTx4UsXl7Q1gpo2mw/view?usp=drive_link"
+    "full_text": "ГСЭС. Гигиеническое заключение на керамические инфракрасные излучатели. (Республика Казахстан)",
+    "google_drive_url": "https://drive.google.com/file/d/1FBzIT_ZqjBpTw9zCTx4UsXl7Q1gpo2mw/view?usp=drive_link",
+    "title_en": "State Sanitary and Epidemiological Surveillance (Kazakhstan)",
+    "organization_en": "Hygienic conclusion on ceramic infrared emitters"
   },
   {
     "id": "AKT-025",
-    "title": "25 Министерство зравоохранения РУз",
+    "num": 25,
+    "title": "Министерство зравоохранения РУз",
     "organization": "Регистрационное удостоверение",
-    "full_text": "25 Министерство зравоохранения РУз. Регистрационное удостоверение",
-    "google_drive_url": "https://drive.google.com/file/d/1q5hsthS1paysG7ZmBPj2DvvmNsmLUZiv/view?usp=drive_link"
+    "full_text": "Министерство зравоохранения РУз. Регистрационное удостоверение",
+    "google_drive_url": "https://drive.google.com/file/d/1q5hsthS1paysG7ZmBPj2DvvmNsmLUZiv/view?usp=drive_link",
+    "title_en": "Ministry of Health of the Republic of Uzbekistan",
+    "organization_en": "Official Registration Certificate for medical equipment"
   },
   {
     "id": "AKT-026",
-    "title": "26 Министерство зравоохранения РУз",
+    "num": 26,
+    "title": "Министерство зравоохранения РУз",
     "organization": "Регистрационное удостоверение",
-    "full_text": "26 Министерство зравоохранения РУз. Регистрационное удостоверение",
-    "google_drive_url": "https://drive.google.com/file/d/1Im60RlHQJrYJ5nlinlVSNqBig-5daqrI/view?usp=drive_link"
+    "full_text": "Министерство зравоохранения РУз. Регистрационное удостоверение",
+    "google_drive_url": "https://drive.google.com/file/d/1Im60RlHQJrYJ5nlinlVSNqBig-5daqrI/view?usp=drive_link",
+    "title_en": "Ministry of Health of the Republic of Uzbekistan",
+    "organization_en": "Official Registration Certificate for medical device"
   },
   {
     "id": "AKT-027",
-    "title": "27 RPE Infratherm",
+    "num": 27,
+    "title": "RPE Infratherm",
     "organization": "Термическая обработка краски, покрытий и пластмасс с инфракрасной на основе функциональной керамики (IR",
-    "full_text": "27 RPE Infratherm. Термическая обработка краски, покрытий и пластмасс с инфракрасной на основе функциональной керамики (IR.C) в Германии",
-    "google_drive_url": "https://drive.google.com/file/d/11KC1SyQ5bTcR1HMKvY8iYzZtgzfipx7U/view?usp=drive_link"
+    "full_text": "RPE Infratherm. Термическая обработка краски, покрытий и пластмасс с инфракрасной на основе функциональной керамики (IR.C) в Германии",
+    "google_drive_url": "https://drive.google.com/file/d/11KC1SyQ5bTcR1HMKvY8iYzZtgzfipx7U/view?usp=drive_link",
+    "title_en": "RPE Infratherm",
+    "organization_en": "Thermal processing of paints, coatings, and plastics using functional ceramics infrared radiation"
   },
   {
     "id": "AKT-028",
-    "title": "28 НИИ \"Кожных и венерологических заболеваний\"",
+    "num": 28,
+    "title": "НИИ \"Кожных и венерологических заболеваний\"",
     "organization": "Заключение о лечебно-профилактических свойствах энергосберегающей натуральной минеральной воды с активным кальцием",
-    "full_text": "28 НИИ \"Кожных и венерологических заболеваний\". Заключение о лечебно-профилактических свойствах энергосберегающей натуральной минеральной воды с активным кальцием",
-    "google_drive_url": "https://drive.google.com/file/d/12cKAT0k_iZcCYfNMy6oyq4-yqi8pSz9A/view?usp=drive_link"
+    "full_text": "НИИ \"Кожных и венерологических заболеваний\". Заключение о лечебно-профилактических свойствах энергосберегающей натуральной минеральной воды с активным кальцием",
+    "google_drive_url": "https://drive.google.com/file/d/12cKAT0k_iZcCYfNMy6oyq4-yqi8pSz9A/view?usp=drive_link",
+    "title_en": "Research Institute of Skin and Venereal Diseases",
+    "organization_en": "Conclusion on therapeutic properties of natural mineral water enriched with active calcium"
   },
   {
     "id": "AKT-029",
-    "title": "29 University of California",
+    "num": 29,
+    "title": "University of California",
     "organization": "Стерилизатор LES",
-    "full_text": "29 University of California. Стерилизатор LES",
-    "google_drive_url": "https://drive.google.com/file/d/10PAas6h3IpRb0z1DvGgvYZOYXyxmK_ID/view?usp=drive_link"
+    "full_text": "University of California. Стерилизатор LES",
+    "google_drive_url": "https://drive.google.com/file/d/10PAas6h3IpRb0z1DvGgvYZOYXyxmK_ID/view?usp=drive_link",
+    "title_en": "University of California",
+    "organization_en": "LES Ceramic Infrared Sterilizer experimental evaluation"
   },
   {
     "id": "AKT-030",
-    "title": "30 НИИ ПТиД",
+    "num": 30,
+    "title": "НИИ ПТиД",
     "organization": "Акт медико-биологических испытаний опытного образца стерилизатора медицинского ИС-1 \"Феруза\"",
-    "full_text": "30 НИИ ПТиД. Акт медико-биологических испытаний опытного образца стерилизатора медицинского ИС-1 \"Феруза\"",
-    "google_drive_url": "https://drive.google.com/file/d/1zbDLA0oCJPZYtyqTXN8Nf6HrQXipDQd5/view?usp=drive_link"
+    "full_text": "НИИ ПТиД. Акт медико-биологических испытаний опытного образца стерилизатора медицинского ИС-1 \"Феруза\"",
+    "google_drive_url": "https://drive.google.com/file/d/1zbDLA0oCJPZYtyqTXN8Nf6HrQXipDQd5/view?usp=drive_link",
+    "title_en": "Research Institute of Traumatology and Orthopedics",
+    "organization_en": "Biomedical trial report of medical sterilizer prototype IS-1 Feruza"
   },
   {
     "id": "AKT-031",
-    "title": "31 Медико-санитарная часть Главташкентстроя",
+    "num": 31,
+    "title": "Медико-санитарная часть Главташкентстроя",
     "organization": "Заключение о проведенных испытаний медицинских стерилизаторов \"Феруза\" и МИ-6",
-    "full_text": "31 Медико-санитарная часть Главташкентстроя. Заключение о проведенных испытаний медицинских стерилизаторов \"Феруза\" и МИ-6",
-    "google_drive_url": "https://drive.google.com/file/d/1M6Z0wmoduSWPO4nTsJ0RrPU-MCJMifWn/view?usp=drive_link"
+    "full_text": "Медико-санитарная часть Главташкентстроя. Заключение о проведенных испытаний медицинских стерилизаторов \"Феруза\" и МИ-6",
+    "google_drive_url": "https://drive.google.com/file/d/1M6Z0wmoduSWPO4nTsJ0RrPU-MCJMifWn/view?usp=drive_link",
+    "title_en": "Medical and Sanitary Unit of Glavtashkentstroy",
+    "organization_en": "Test conclusion on medical sterilizers Feruza and MI-6"
   },
   {
     "id": "AKT-032",
-    "title": "32 НИИ Эпидемиологии микробиологии и инфекционных заболеваний",
+    "num": 32,
+    "title": "НИИ Эпидемиологии микробиологии и инфекционных заболеваний",
     "organization": "Заключение бактериологического контроля оценки эффективности работы стерилизатора МС-1",
-    "full_text": "32 НИИ Эпидемиологии микробиологии и инфекционных заболеваний. Заключение бактериологического контроля оценки эффективности работы стерилизатора МС-1",
-    "google_drive_url": "https://drive.google.com/file/d/1kugcERhq4no9lBm_6tBG8q3Fg2TIPKPm/view?usp=drive_link"
+    "full_text": "НИИ Эпидемиологии микробиологии и инфекционных заболеваний. Заключение бактериологического контроля оценки эффективности работы стерилизатора МС-1",
+    "google_drive_url": "https://drive.google.com/file/d/1kugcERhq4no9lBm_6tBG8q3Fg2TIPKPm/view?usp=drive_link",
+    "title_en": "Research Institute of Epidemiology, Microbiology and Infectious Diseases",
+    "organization_en": "Bacteriological efficacy control conclusion of MS-1 sterilizer"
   },
   {
     "id": "AKT-033",
-    "title": "33 РСЭС",
+    "num": 33,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля низкотемпературного ИК экспериментального стерилизатора",
-    "full_text": "33 РСЭС. Заключение бактериологического контроля низкотемпературного ИК экспериментального стерилизатора",
-    "google_drive_url": "https://drive.google.com/file/d/18qdR7029kt6pqe8GSgcFimAhZKdnywSm/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля низкотемпературного ИК экспериментального стерилизатора",
+    "google_drive_url": "https://drive.google.com/file/d/18qdR7029kt6pqe8GSgcFimAhZKdnywSm/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of low-temperature IR experimental sterilizer"
   },
   {
     "id": "AKT-034",
-    "title": "34 РСЭС",
+    "num": 34,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля эффективности работы стерилизатора",
-    "full_text": "34 РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора",
-    "google_drive_url": "https://drive.google.com/file/d/1CZPKzJKhkvKhw7aS915fzvjgPXzQ4uJB/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора",
+    "google_drive_url": "https://drive.google.com/file/d/1CZPKzJKhkvKhw7aS915fzvjgPXzQ4uJB/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of sterilizer operational efficacy"
   },
   {
     "id": "AKT-035",
-    "title": "35 РСЭС",
+    "num": 35,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля эффективности работы медицинского стерилизатора",
-    "full_text": "35 РСЭС. Заключение бактериологического контроля эффективности работы медицинского стерилизатора",
-    "google_drive_url": "https://drive.google.com/file/d/1mnE_QbXHOS9zDmM-c5hR-DcYU1eQft67/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля эффективности работы медицинского стерилизатора",
+    "google_drive_url": "https://drive.google.com/file/d/1mnE_QbXHOS9zDmM-c5hR-DcYU1eQft67/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of medical sterilizer efficacy"
   },
   {
     "id": "AKT-036",
-    "title": "36 РСЭС",
+    "num": 36,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля эффективности работы стерилизатора ИКС-1",
-    "full_text": "36 РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора ИКС-1",
-    "google_drive_url": "https://drive.google.com/file/d/1-J0n9DbLnefZRDndwQ4nySZ8dt-qLjuq/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора ИКС-1",
+    "google_drive_url": "https://drive.google.com/file/d/1-J0n9DbLnefZRDndwQ4nySZ8dt-qLjuq/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of IKS-1 sterilizer performance"
   },
   {
     "id": "AKT-037",
-    "title": "37 РСЭС",
+    "num": 37,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля эффективности работы стерилизатора",
-    "full_text": "37 РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора",
-    "google_drive_url": "https://drive.google.com/file/d/1pe1mcBIa2kNS_Uw-hytRI0WBH7QdYXbz/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора",
+    "google_drive_url": "https://drive.google.com/file/d/1pe1mcBIa2kNS_Uw-hytRI0WBH7QdYXbz/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of sterilizer performance"
   },
   {
     "id": "AKT-038",
-    "title": "38 РСЭС",
+    "num": 38,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля эффективности работы стерилизатора МИ-6",
-    "full_text": "38 РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора МИ-6",
-    "google_drive_url": "https://drive.google.com/file/d/1MTuczJgFy08GiNt83PT0HmCHYlkdIqBk/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора МИ-6",
+    "google_drive_url": "https://drive.google.com/file/d/1MTuczJgFy08GiNt83PT0HmCHYlkdIqBk/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of MI-6 sterilizer performance"
   },
   {
     "id": "AKT-039",
-    "title": "39 РСЭС",
+    "num": 39,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля эффективности работы стерилизатора МС-1",
-    "full_text": "39 РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора МС-1",
-    "google_drive_url": "https://drive.google.com/file/d/1RI7_kD_zVNwqk7TKAWXvNy0LqW14kEG5/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора МС-1",
+    "google_drive_url": "https://drive.google.com/file/d/1RI7_kD_zVNwqk7TKAWXvNy0LqW14kEG5/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of MS-1 sterilizer performance"
   },
   {
     "id": "AKT-040",
-    "title": "40 РСЭС",
+    "num": 40,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля эффективности способа стерилизации",
-    "full_text": "40 РСЭС. Заключение бактериологического контроля эффективности способа стерилизации",
-    "google_drive_url": "https://drive.google.com/file/d/1ErGcvbdi4NcrGLncz2Dx5DAhVWfqm2x3/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля эффективности способа стерилизации",
+    "google_drive_url": "https://drive.google.com/file/d/1ErGcvbdi4NcrGLncz2Dx5DAhVWfqm2x3/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of sterilization method efficacy"
   },
   {
     "id": "AKT-041",
-    "title": "41 РСЭС",
+    "num": 41,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля эффективности работы стерилизатора",
-    "full_text": "41 РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора",
-    "google_drive_url": "https://drive.google.com/file/d/1ViVsZW9bxYKsJ3rUDDVTtyenoiR8EP3c/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля эффективности работы стерилизатора",
+    "google_drive_url": "https://drive.google.com/file/d/1ViVsZW9bxYKsJ3rUDDVTtyenoiR8EP3c/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of sterilizer performance"
   },
   {
     "id": "AKT-042",
-    "title": "42 Институт Токсикологии МЗ РФ",
+    "num": 42,
+    "title": "Институт Токсикологии МЗ РФ",
     "organization": "Протокол бактериологических и токсикологических испытаний изделия медицинского назначения",
-    "full_text": "42 Институт Токсикологии МЗ РФ. Протокол бактериологических и токсикологических испытаний изделия медицинского назначения",
-    "google_drive_url": "https://drive.google.com/file/d/1cFJU6EaEQa-weBX27zEm_6-5G1lIRMia/view?usp=drive_link"
+    "full_text": "Институт Токсикологии МЗ РФ. Протокол бактериологических и токсикологических испытаний изделия медицинского назначения",
+    "google_drive_url": "https://drive.google.com/file/d/1cFJU6EaEQa-weBX27zEm_6-5G1lIRMia/view?usp=drive_link",
+    "title_en": "Institute of Toxicology, Ministry of Health of the Russian Federation",
+    "organization_en": "Protocol of bacteriological and toxicological testing of medical device"
   },
   {
     "id": "AKT-043",
-    "title": "43 Клинический Центр Экстракорпоральной детоксикация",
+    "num": 43,
+    "title": "Клинический Центр Экстракорпоральной детоксикация",
     "organization": "Протокол бактериологического контроля эффективности работы спирального ИК излучателя",
-    "full_text": "43 Клинический Центр Экстракорпоральной детоксикация. Протокол бактериологического контроля эффективности работы спирального ИК излучателя",
-    "google_drive_url": "https://drive.google.com/file/d/1RvxqQ8Fc5Q3xmLRoNPat_8xRb_z-ZAC2/view?usp=drive_link"
+    "full_text": "Клинический Центр Экстракорпоральной детоксикация. Протокол бактериологического контроля эффективности работы спирального ИК излучателя",
+    "google_drive_url": "https://drive.google.com/file/d/1RvxqQ8Fc5Q3xmLRoNPat_8xRb_z-ZAC2/view?usp=drive_link",
+    "title_en": "Clinical Center of Extracorporeal Detoxification",
+    "organization_en": "Protocol of bacteriological control of spiral infrared emitter efficacy"
   },
   {
     "id": "AKT-044",
-    "title": "44 ХАБ \"Фаргонапахтасаноат\" Инфракизил нурлар билан пахта хом-ашёсини куритиш технологиясини ишлаб чикиш",
+    "num": 44,
+    "title": "ХАБ \"Фаргонапахтасаноат\" Инфракизил нурлар билан пахта хом-ашёсини куритиш технологиясини ишлаб чикиш",
     "organization": "Отраслевое предприятие / Институт",
-    "full_text": "44 ХАБ \"Фаргонапахтасаноат\" Инфракизил нурлар билан пахта хом-ашёсини куритиш технологиясини ишлаб чикиш",
-    "google_drive_url": "https://drive.google.com/file/d/1kahxvJloyoKD12jUwNnfTKhbOoNZ73Rx/view?usp=drive_link"
+    "full_text": "ХАБ \"Фаргонапахтасаноат\" Инфракизил нурлар билан пахта хом-ашёсини куритиш технологиясини ишлаб чикиш",
+    "google_drive_url": "https://drive.google.com/file/d/1kahxvJloyoKD12jUwNnfTKhbOoNZ73Rx/view?usp=drive_link",
+    "title_en": "KhAB Ferganapakhtasanoat",
+    "organization_en": "Development of infrared radiation drying technology for raw cotton material"
   },
   {
     "id": "AKT-045",
-    "title": "45 ХАБ \"Фаргонапахтасаноат\" Синов далолатномаси",
+    "num": 45,
+    "title": "ХАБ \"Фаргонапахтасаноат\" Синов далолатномаси",
     "organization": "Отраслевое предприятие / Институт",
-    "full_text": "45 ХАБ \"Фаргонапахтасаноат\" Синов далолатномаси",
-    "google_drive_url": "https://drive.google.com/file/d/1WjvsoW-LqlEeqJuBkND02ZsCjc79Rdlm/view?usp=drive_link"
+    "full_text": "ХАБ \"Фаргонапахтасаноат\" Синов далолатномаси",
+    "google_drive_url": "https://drive.google.com/file/d/1WjvsoW-LqlEeqJuBkND02ZsCjc79Rdlm/view?usp=drive_link",
+    "title_en": "KhAB Ferganapakhtasanoat",
+    "organization_en": "Cotton drying acceptance and testing act"
   },
   {
     "id": "AKT-046",
-    "title": "46 ОАJ \"BAG'DOD EKSPERIMENTAL- TAJRIBA PAXTA TOZALASH ZAVODI\" ИК-нурлар билан пахта хом-ашёсини намлигини камайтиришнинг иктисодий самарадорлиги хакида маълумот",
+    "num": 46,
+    "title": "ОАJ \"BAG'DOD EKSPERIMENTAL- TAJRIBA PAXTA TOZALASH ZAVODI\" ИК-нурлар билан пахта хом-ашёсини намлигини камайтиришнинг иктисодий самарадорлиги хакида маълумот",
     "organization": "Отраслевое предприятие / Институт",
-    "full_text": "46 ОАJ \"BAG'DOD EKSPERIMENTAL- TAJRIBA PAXTA TOZALASH ZAVODI\" ИК-нурлар билан пахта хом-ашёсини намлигини камайтиришнинг иктисодий самарадорлиги хакида маълумот",
-    "google_drive_url": "https://drive.google.com/file/d/1-S2--TQ7nmXM7CpgQG23qMODB1F1GI0a/view?usp=drive_link"
+    "full_text": "ОАJ \"BAG'DOD EKSPERIMENTAL- TAJRIBA PAXTA TOZALASH ZAVODI\" ИК-нурлар билан пахта хом-ашёсини намлигини камайтиришнинг иктисодий самарадорлиги хакида маълумот",
+    "google_drive_url": "https://drive.google.com/file/d/1-S2--TQ7nmXM7CpgQG23qMODB1F1GI0a/view?usp=drive_link",
+    "title_en": "OAJ Baghdad Experimental Cotton Ginnery",
+    "organization_en": "Economic efficiency evaluation of infrared moisture reduction in raw cotton"
   },
   {
     "id": "AKT-047",
-    "title": "47 Бувайда тумани, \"Элита\" фермер хужалиги",
+    "num": 47,
+    "title": "Бувайда тумани, \"Элита\" фермер хужалиги",
     "organization": "Инфракизил нурларни уруглик чигитини униб чикишига ва гуза нихолларини усиши хамда ривожланишига таъсири хакида",
-    "full_text": "47 Бувайда тумани, \"Элита\" фермер хужалиги. Инфракизил нурларни уруглик чигитини униб чикишига ва гуза нихолларини усиши хамда ривожланишига таъсири хакида",
-    "google_drive_url": "https://drive.google.com/file/d/1VfpFv8rsfNzKdDraL2xrPsS0g75M7Ld5/view?usp=drive_link"
+    "full_text": "Бувайда тумани, \"Элита\" фермер хужалиги. Инфракизил нурларни уруглик чигитини униб чикишига ва гуза нихолларини усиши хамда ривожланишига таъсири хакида",
+    "google_drive_url": "https://drive.google.com/file/d/1VfpFv8rsfNzKdDraL2xrPsS0g75M7Ld5/view?usp=drive_link",
+    "title_en": "Buvayda District, Elita Seed Farm",
+    "organization_en": "Report on infrared radiation effects on cotton seed germination and sprout development"
   },
   {
     "id": "AKT-048",
-    "title": "48 ПО \"Завод \"Большевик\"",
+    "num": 48,
+    "title": "ПО \"Завод \"Большевик\"",
     "organization": "Акт по результатам сушки лавсана ИК-слоем",
-    "full_text": "48 ПО \"Завод \"Большевик\". Акт по результатам сушки лавсана ИК-слоем",
-    "google_drive_url": "https://drive.google.com/file/d/1K94aSvaIdfgZeMa6ejxpWag4SBI4pWen/view?usp=drive_link"
+    "full_text": "ПО \"Завод \"Большевик\". Акт по результатам сушки лавсана ИК-слоем",
+    "google_drive_url": "https://drive.google.com/file/d/1K94aSvaIdfgZeMa6ejxpWag4SBI4pWen/view?usp=drive_link",
+    "title_en": "Production Association Bolshevik Plant",
+    "organization_en": "Test report on Dacron (Lavsan) polyester infrared layer drying"
   },
   {
     "id": "AKT-049",
-    "title": "49 МАИВП \"Имкон\" цех 701",
+    "num": 49,
+    "title": "МАИВП \"Имкон\" цех 701",
     "organization": "Акт испытания опытной инфракрасной сушилки ПА-6",
-    "full_text": "49 МАИВП \"Имкон\" цех 701. Акт испытания опытной инфракрасной сушилки ПА-6",
-    "google_drive_url": "https://drive.google.com/file/d/1cgKrCVLkM7LLRvY_wvYIlGGvvitUPR4k/view?usp=drive_link"
+    "full_text": "МАИВП \"Имкон\" цех 701. Акт испытания опытной инфракрасной сушилки ПА-6",
+    "google_drive_url": "https://drive.google.com/file/d/1cgKrCVLkM7LLRvY_wvYIlGGvvitUPR4k/view?usp=drive_link",
+    "title_en": "MAIVP Imkon, Shop 701",
+    "organization_en": "Testing report of experimental PA-6 infrared drying installation"
   },
   {
     "id": "AKT-050",
-    "title": "50 РСЭС",
+    "num": 50,
+    "title": "РСЭС",
     "organization": "Заключение Бактериологического контроля эффективности работы стерилизатора ИС-1 (Кыргызстан)",
-    "full_text": "50 РСЭС. Заключение Бактериологического контроля эффективности работы стерилизатора ИС-1 (Кыргызстан)",
-    "google_drive_url": "https://drive.google.com/file/d/1Cz5QckRJLbxJg6VPg-8QNcBdBMsQYTTz/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение Бактериологического контроля эффективности работы стерилизатора ИС-1 (Кыргызстан)",
+    "google_drive_url": "https://drive.google.com/file/d/1Cz5QckRJLbxJg6VPg-8QNcBdBMsQYTTz/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station (Kyrgyzstan)",
+    "organization_en": "Bacteriological efficacy control conclusion of IS-1 sterilizer"
   },
   {
     "id": "AKT-051",
-    "title": "51 НИИ Садоводства, виноградства и виноделия",
+    "num": 51,
+    "title": "НИИ Садоводства, виноградства и виноделия",
     "organization": "Заключение на товарно-технологическую оценку сухофруктов высушенных на сушильной установке \"Узбекистан\"",
-    "full_text": "51 НИИ Садоводства, виноградства и виноделия. Заключение на товарно-технологическую оценку сухофруктов высушенных на сушильной установке \"Узбекистан\"",
-    "google_drive_url": "https://drive.google.com/file/d/18zCiC_TcFaoMHsBgbj2YVPaMVWhQ373N/view?usp=drive_link"
+    "full_text": "НИИ Садоводства, виноградства и виноделия. Заключение на товарно-технологическую оценку сухофруктов высушенных на сушильной установке \"Узбекистан\"",
+    "google_drive_url": "https://drive.google.com/file/d/18zCiC_TcFaoMHsBgbj2YVPaMVWhQ373N/view?usp=drive_link",
+    "title_en": "Research Institute of Horticulture, Viticulture and Winemaking",
+    "organization_en": "Commercial and technological evaluation of dried fruits produced by Uzbekistan drying unit"
   },
   {
     "id": "AKT-052",
-    "title": "52 НПО \"Шелк\" Отчет о предварительном испытании мутода сушки и стерилизации с помощью функциональной керамики",
+    "num": 52,
+    "title": "НПО \"Шелк\" Отчет о предварительном испытании мутода сушки и стерилизации с помощью функциональной керамики",
     "organization": "Отраслевое предприятие / Институт",
-    "full_text": "52 НПО \"Шелк\" Отчет о предварительном испытании мутода сушки и стерилизации с помощью функциональной керамики",
-    "google_drive_url": "https://drive.google.com/file/d/1I_hIeoH5LLjwWcEIud3-2vdnWzEuY6l2/view?usp=drive_link"
+    "full_text": "НПО \"Шелк\" Отчет о предварительном испытании мутода сушки и стерилизации с помощью функциональной керамики",
+    "google_drive_url": "https://drive.google.com/file/d/1I_hIeoH5LLjwWcEIud3-2vdnWzEuY6l2/view?usp=drive_link",
+    "title_en": "Scientific Production Association Shelk (Silk)",
+    "organization_en": "Preliminary test report of drying and sterilization using functional ceramics"
   },
   {
     "id": "AKT-053",
-    "title": "53 Лаборатория клеточной биологии АН РУз",
+    "num": 53,
+    "title": "Лаборатория клеточной биологии АН РУз",
     "organization": "Протокол исследования сушки коровьего молозива",
-    "full_text": "53 Лаборатория клеточной биологии АН РУз. Протокол исследования сушки коровьего молозива",
-    "google_drive_url": "https://drive.google.com/file/d/124UknwecJaVCWDeo4dyTeXAtySW4Ow3K/view?usp=drive_link"
+    "full_text": "Лаборатория клеточной биологии АН РУз. Протокол исследования сушки коровьего молозива",
+    "google_drive_url": "https://drive.google.com/file/d/124UknwecJaVCWDeo4dyTeXAtySW4Ow3K/view?usp=drive_link",
+    "title_en": "Cell Biology Laboratory, Academy of Sciences of RUz",
+    "organization_en": "Research protocol on bovine colostrum infrared dehydration"
   },
   {
     "id": "AKT-054",
-    "title": "54 Институт Биохимии АН РУз",
+    "num": 54,
+    "title": "Институт Биохимии АН РУз",
     "organization": "Протокол испытаний инфракрасной сушильной установки с керамическими излучателями для сушки биологических объектов",
-    "full_text": "54 Институт Биохимии АН РУз. Протокол испытаний инфракрасной сушильной установки с керамическими излучателями для сушки биологических объектов",
-    "google_drive_url": "https://drive.google.com/file/d/1Qm5UHvSWyl-YWqV-ONpY5pJ0khdmyr9q/view?usp=drive_link"
+    "full_text": "Институт Биохимии АН РУз. Протокол испытаний инфракрасной сушильной установки с керамическими излучателями для сушки биологических объектов",
+    "google_drive_url": "https://drive.google.com/file/d/1Qm5UHvSWyl-YWqV-ONpY5pJ0khdmyr9q/view?usp=drive_link",
+    "title_en": "Institute of Biochemistry, Academy of Sciences of RUz",
+    "organization_en": "Test protocol of infrared drying unit with ceramic emitters for biological objects"
   },
   {
     "id": "AKT-055",
-    "title": "55 СПСГМИ",
+    "num": 55,
+    "title": "СПСГМИ",
     "organization": "Результаты исследования проб моркови, высушенной с использованием функциональной керамики",
-    "full_text": "55 СПСГМИ. Результаты исследования проб моркови, высушенной с использованием функциональной керамики",
-    "google_drive_url": "https://drive.google.com/file/d/1Z2ohWVSm0DEddJlnojTRuFuuWiPDxiDH/view?usp=drive_link"
+    "full_text": "СПСГМИ. Результаты исследования проб моркови, высушенной с использованием функциональной керамики",
+    "google_drive_url": "https://drive.google.com/file/d/1Z2ohWVSm0DEddJlnojTRuFuuWiPDxiDH/view?usp=drive_link",
+    "title_en": "Saint Petersburg State Pediatric Medical University (SPSGMI)",
+    "organization_en": "Investigation results of carrot samples dehydrated using functional ceramics"
   },
   {
     "id": "AKT-056",
-    "title": "56 РСЭС",
+    "num": 56,
+    "title": "РСЭС",
     "organization": "Заключение бактериологического контроля продуктов проб моркови, болгарского перца, высушенных в инфракрасных сушильных шкафах \"Узбекистан\"",
-    "full_text": "56 РСЭС. Заключение бактериологического контроля продуктов проб моркови, болгарского перца, высушенных в инфракрасных сушильных шкафах \"Узбекистан\"",
-    "google_drive_url": "https://drive.google.com/file/d/1dqg8Y5V_4Djqy5FNx4v6Tr7sjPlfwdZ4/view?usp=drive_link"
+    "full_text": "РСЭС. Заключение бактериологического контроля продуктов проб моркови, болгарского перца, высушенных в инфракрасных сушильных шкафах \"Узбекистан\"",
+    "google_drive_url": "https://drive.google.com/file/d/1dqg8Y5V_4Djqy5FNx4v6Tr7sjPlfwdZ4/view?usp=drive_link",
+    "title_en": "Republican Sanitary and Epidemiological Station",
+    "organization_en": "Bacteriological control conclusion of carrots and sweet peppers dried in Uzbekistan infrared cabinets"
   },
   {
     "id": "AKT-057",
-    "title": "57 Ленинградский институт советской торговли",
+    "num": 57,
+    "title": "Ленинградский институт советской торговли",
     "organization": "Удостоверение качества продукции, высушенной активным обезвоживанием",
-    "full_text": "57 Ленинградский институт советской торговли. Удостоверение качества продукции, высушенной активным обезвоживанием",
-    "google_drive_url": "https://drive.google.com/file/d/15liD_oTl1hcTckxTlvJF-3MPS7z89n1p/view?usp=drive_link"
+    "full_text": "Ленинградский институт советской торговли. Удостоверение качества продукции, высушенной активным обезвоживанием",
+    "google_drive_url": "https://drive.google.com/file/d/15liD_oTl1hcTckxTlvJF-3MPS7z89n1p/view?usp=drive_link",
+    "title_en": "Leningrad Institute of Soviet Trade",
+    "organization_en": "Quality certificate of food products processed by active radiant dehydration"
   }
 ]

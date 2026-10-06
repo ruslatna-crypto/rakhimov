@@ -1,0 +1,359 @@
+[
+  {
+    "id": 1,
+    "title": "Протокол и акт испытаний керамических излучателей",
+    "title_en": "Test protocol and act of ceramic emitters",
+    "category": "Акт испытаний",
+    "category_en": "Test Act",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_01.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_01.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_01-preview.webp"
+  },
+  {
+    "id": 2,
+    "title": "Акт внедрения метода лечения (Servis Sharq)",
+    "title_en": "Treatment method implementation act (Servis Sharq)",
+    "category": "Акт внедрения",
+    "category_en": "Implementation Act",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_02.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_02.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_02-preview.webp"
+  },
+  {
+    "id": 3,
+    "title": "Акт клинических испытаний излучателя Р2М (НИИ Дерматологии и Венерологии)",
+    "title_en": "Clinical trial act of emitter R2M (Inst. of Dermatology & Venereology)",
+    "category": "Акт испытаний",
+    "category_en": "Test Act",
+    "pageCount": 2,
+    "cover": "/images/lamp_certificates/cert_03.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_03.jpg",
+      "/images/lamp_certificates/cert_04.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_03-preview.webp"
+  },
+  {
+    "id": 4,
+    "title": "Акт испытаний излучателя ГЛ (Научный центр хирургии МЗ РУз)",
+    "title_en": "Test act of emitter GL (Scientific Center of Surgery)",
+    "category": "Акт испытаний",
+    "category_en": "Test Act",
+    "pageCount": 2,
+    "cover": "/images/lamp_certificates/cert_05.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_05.jpg",
+      "/images/lamp_certificates/cert_06.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_05-preview.webp"
+  },
+  {
+    "id": 5,
+    "title": "Гигиенический сертификат на медицинские лампы (Казахстан, 2009)",
+    "title_en": "Hygienic certificate for medical lamps (Kazakhstan, 2009)",
+    "category": "Сертификат",
+    "category_en": "Certificate",
+    "pageCount": 2,
+    "cover": "/images/lamp_certificates/cert_07.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_07.jpg",
+      "/images/lamp_certificates/cert_08.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_07-preview.webp"
+  },
+  {
+    "id": 6,
+    "title": "Гигиенический сертификат № 081394 на керамические излучатели (2005-2008)",
+    "title_en": "Hygienic Certificate No. 081394 for ceramic emitters (2005-2008)",
+    "category": "Сертификат",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_09.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_09.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_09-preview.webp"
+  },
+  {
+    "id": 7,
+    "title": "Гигиенический сертификат № 157796 на керамические излучатели (2008-2011)",
+    "title_en": "Hygienic Certificate No. 157796 for ceramic emitters (2008-2011)",
+    "category": "Сертификат",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_10.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_10.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_10-preview.webp"
+  },
+  {
+    "id": 8,
+    "title": "Свидетельство о регистрации № 0427610 ИМТ/ИМЛ «Инфра Р» (МЗ РУз)",
+    "title_en": "Registration Certificate No. 0427610 IMT/IML \"Infra R\" (MoH RUz)",
+    "category": "Регистрация",
+    "category_en": "Registration",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_11.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_11.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_11-preview.webp"
+  },
+  {
+    "id": 9,
+    "title": "Свидетельство о регистрации № 0427611 УЛТ/УЛС/УЛК «Инфра Р» (МЗ РУз)",
+    "title_en": "Registration Certificate No. 0427611 ULT/ULS/ULK \"Infra R\" (MoH RUz)",
+    "category": "Регистрация",
+    "category_en": "Registration",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_12.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_12.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_12-preview.webp"
+  },
+  {
+    "id": 10,
+    "title": "Заключение Института Иммунологии АН РУз по излучателю КД-4",
+    "title_en": "Conclusion of the Institute of Immunology, AS RUz on emitter KD-4",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_13.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_13.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_13-preview.webp"
+  },
+  {
+    "id": 11,
+    "title": "Заключение лаборатории экспериментальной терапии опухолей",
+    "title_en": "Conclusion of the Laboratory of Experimental Tumor Therapy",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 2,
+    "cover": "/images/lamp_certificates/cert_14.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_14.jpg",
+      "/images/lamp_certificates/cert_15.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_14-preview.webp"
+  },
+  {
+    "id": 12,
+    "title": "Исследования Республиканской СЭС по бактерицидному действию ламп",
+    "title_en": "Republican SES study on the bactericidal efficacy of IR lamps",
+    "category": "Исследование",
+    "category_en": "Study",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_16.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_16.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_16-preview.webp"
+  },
+  {
+    "id": 13,
+    "title": "Отчет НИИ Дерматологии и Венерологии по экспериментам с лампами",
+    "title_en": "Report of the Inst. of Dermatology & Venereology on lamp experiments",
+    "category": "Отчет",
+    "category_en": "Report",
+    "pageCount": 2,
+    "cover": "/images/lamp_certificates/cert_17.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_17.jpg",
+      "/images/lamp_certificates/cert_18.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_17-preview.webp"
+  },
+  {
+    "id": 14,
+    "title": "Регистрационное удостоверение УзТТ00598 на излучатель Р2М",
+    "title_en": "Registration Certificate UzTT00598 for emitter R2M",
+    "category": "Удостоверение",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_19.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_19.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_19-preview.webp"
+  },
+  {
+    "id": 15,
+    "title": "Регистрационное удостоверение УзТТ00698 на излучатель ГЛ",
+    "title_en": "Registration Certificate UzTT00698 for emitter GL",
+    "category": "Удостоверение",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_20.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_20.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_20-preview.webp"
+  },
+  {
+    "id": 16,
+    "title": "Регистрационное удостоверение УзТТ00798 на излучатель КД",
+    "title_en": "Registration Certificate UzTT00798 for emitter KD",
+    "category": "Удостоверение",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_21.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_21.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_21-preview.webp"
+  },
+  {
+    "id": 17,
+    "title": "Регистрационное удостоверение УзТТ00898 на излучатель ЗК",
+    "title_en": "Registration Certificate UzTT00898 for emitter ZK",
+    "category": "Удостоверение",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_22.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_22.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_22-preview.webp"
+  },
+  {
+    "id": 18,
+    "title": "Регистрационное удостоверение Минздрава РФ на аппараты ЭМИР (2005-2010)",
+    "title_en": "Registration Certificate of MoH of the RF for EMIR apparatus (2005-2010)",
+    "category": "Удостоверение",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_23.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_23.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_23-preview.webp"
+  },
+  {
+    "id": 19,
+    "title": "Сертификат соответствия Госстандарта (2008-2011)",
+    "title_en": "Gosstandart Certificate of Conformity (2008-2011)",
+    "category": "Сертификат",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_24.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_24.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_24-preview.webp"
+  },
+  {
+    "id": 20,
+    "title": "Сертификат соответствия ГОСТ Р на аппараты ЭМИР (Россия, 2005-2006)",
+    "title_en": "GOST R Certificate of Conformity for EMIR apparatus (Russia, 2005-2006)",
+    "category": "Сертификат",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_25.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_25.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_25-preview.webp"
+  },
+  {
+    "id": 21,
+    "title": "Сертификат соответствия на терапевтические установки ЭМИР",
+    "title_en": "Certificate of conformity for EMIR therapeutic units",
+    "category": "Сертификат",
+    "category_en": "Certificate",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_26.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_26.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_26-preview.webp"
+  },
+  {
+    "id": 22,
+    "title": "Методические рекомендации Минздрава РУз по применению узкоспектрального ИК-излучения при перитонитах",
+    "title_en": "Methodological recommendations of MoH RUz on narrow-spectrum IR radiation in peritonitis",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_27.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_27.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_27-preview.webp"
+  },
+  {
+    "id": 23,
+    "title": "Протокол бактериологических исследований ИК-излучателя СЭС",
+    "title_en": "SES bacteriological testing protocol of infrared emitter",
+    "category": "Исследование",
+    "category_en": "Study",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_28.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_28.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_28-preview.webp"
+  },
+  {
+    "id": 24,
+    "title": "Заключение Ташкентского ИУВ по лечению больных",
+    "title_en": "Conclusion of Tashkent Postgraduate Medical Inst. on patient treatment",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 2,
+    "cover": "/images/lamp_certificates/cert_29.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_29.jpg",
+      "/images/lamp_certificates/cert_30.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_29-preview.webp"
+  },
+  {
+    "id": 25,
+    "title": "Заключение Ученого медицинского совета по реабилитации больных холестатическими поражениями печени",
+    "title_en": "Scientific Medical Council conclusion on rehabilitation of cholestatic liver disease patients",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_31.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_31.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_31-preview.webp"
+  },
+  {
+    "id": 26,
+    "title": "Заключение Ученого мед. совета: Метод Инфра-Р терапии в лечении гнойно-воспалительных заболеваний",
+    "title_en": "Scientific Medical Council conclusion: Infra-R therapy method in purulent-inflammatory diseases",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_32.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_32.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_32-preview.webp"
+  },
+  {
+    "id": 27,
+    "title": "Заключение Ученого мед. совета: Применение узкоспектрального ИК-излучения при лечении перитонитов",
+    "title_en": "Scientific Medical Council conclusion: Narrow-spectrum IR radiation in peritonitis treatment",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 1,
+    "cover": "/images/lamp_certificates/cert_33.jpg",
+    "pages": [
+      "/images/lamp_certificates/cert_33.jpg"
+    ],
+    "preview": "/images/lamp_certificates/cert_33-preview.webp"
+  }
+]

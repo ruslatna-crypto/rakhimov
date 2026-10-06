@@ -1,0 +1,4052 @@
+[
+  {
+    "oldFile": "images/lamp_certificates/cert_26.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_26-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 23.56,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_15.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_15-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 8.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Протокол. Клиническом Центре Экстракорпоральная детоксикация. Стерилизатор МИ-6 1.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Протокол. Клиническом Центре Экстракорпоральная детоксикация. Стерилизатор МИ-6 1.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 8.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_22.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_22-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 6.46,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_19.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_19-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 6.44,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_21.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_21-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 6.42,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_20.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_20-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 6.38,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_16.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_16-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 6.37,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_24.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_24-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 5.89,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_11.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_11-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 4.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_12.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_12-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 4.02,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_11.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_11-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 3.78,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Протокол. Институт Токсикологии. Стерилизатор С-ТП1 1.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Протокол. Институт Токсикологии. Стерилизатор С-ТП1 1.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 3.78,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_23.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_23-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 3.31,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/razrabotka_eng.png",
+    "usedBefore": true,
+    "newFile": "images/razrabotka_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.84,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/slider/slider3.png",
+    "usedBefore": true,
+    "newFile": "images/slider/slider3.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.84,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_uzb.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_uzb.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.82,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ks250shem.png",
+    "usedBefore": true,
+    "newFile": "images/ks250shem.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.8,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_ks250shem.png",
+    "usedBefore": false,
+    "newFile": "images/steril_ks250shem.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.8,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/shem.png",
+    "usedBefore": true,
+    "newFile": "images/shem.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.75,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/razrabotka.png",
+    "usedBefore": true,
+    "newFile": "images/razrabotka.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.72,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/slider/slider1.png",
+    "usedBefore": true,
+    "newFile": "images/slider/slider1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.66,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/slider/slider7.png",
+    "usedBefore": true,
+    "newFile": "images/slider/slider7.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.64,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_30.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_30-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.64,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/slider/slider2.png",
+    "usedBefore": true,
+    "newFile": "images/slider/slider2.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.6,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/slider/slider4.png",
+    "usedBefore": true,
+    "newFile": "images/slider/slider4.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.54,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/dast_eng.png",
+    "usedBefore": true,
+    "newFile": "images/dast_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.5,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_04.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_04-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.5,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/dast.png",
+    "usedBefore": true,
+    "newFile": "images/dast.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.49,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_13.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_13-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.39,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Протокол. Институт Токсикологии. Стерилизатор С-ТП1 3.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Протокол. Институт Токсикологии. Стерилизатор С-ТП1 3.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 2.39,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_29.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_29-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.38,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/slider/slider5.png",
+    "usedBefore": true,
+    "newFile": "images/slider/slider5.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.38,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_07.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_07-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.35,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/rek.png",
+    "usedBefore": true,
+    "newFile": "images/rek.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.35,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/oblast.png",
+    "usedBefore": true,
+    "newFile": "images/oblast.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.32,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_05.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_05-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.28,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/rek_eng.png",
+    "usedBefore": true,
+    "newFile": "images/rek_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.28,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_12.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_12-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.28,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Протокол. Институт Токсикологии. Стерилизатор С-ТП1 2.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Протокол. Институт Токсикологии. Стерилизатор С-ТП1 2.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 2.28,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/princip.png",
+    "usedBefore": true,
+    "newFile": "images/princip.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.28,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/slider/slider8.png",
+    "usedBefore": true,
+    "newFile": "images/slider/slider8.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.27,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/oblast_eng.png",
+    "usedBefore": true,
+    "newFile": "images/oblast_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.26,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cotton/infra10hlopok.png",
+    "usedBefore": true,
+    "newFile": "images/cotton/infra10hlopok-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 2.25,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/infra10hlopok.png",
+    "usedBefore": true,
+    "newFile": "images/infra10hlopok.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.25,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_14.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_14-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.24,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/preimush.png",
+    "usedBefore": true,
+    "newFile": "images/preimush.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.22,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_17.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_17-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.2,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/raznica.png",
+    "usedBefore": true,
+    "newFile": "images/raznica.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.19,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/uzbekistan_eng.png",
+    "usedBefore": true,
+    "newFile": "images/uzbekistan_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.17,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/koncept_eng.png",
+    "usedBefore": true,
+    "newFile": "images/koncept_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.16,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/princip_eng.png",
+    "usedBefore": true,
+    "newFile": "images/princip_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/uzb_predvar.svg",
+    "usedBefore": false,
+    "newFile": "images/uzb_predvar.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 2.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gril_infra.png",
+    "usedBefore": true,
+    "newFile": "images/gril_infra.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/zatrati.png",
+    "usedBefore": true,
+    "newFile": "images/zatrati.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.14,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/zatrati_eng.png",
+    "usedBefore": true,
+    "newFile": "images/zatrati_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.14,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/slider/slider6.png",
+    "usedBefore": true,
+    "newFile": "images/slider/slider6.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.13,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/koncept.png",
+    "usedBefore": true,
+    "newFile": "images/koncept.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.13,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gril_uzbekistan.png",
+    "usedBefore": true,
+    "newFile": "images/gril_uzbekistan.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.13,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril/osoben.png",
+    "usedBefore": true,
+    "newFile": "images/steril/osoben.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.13,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_osoben.png",
+    "usedBefore": true,
+    "newFile": "images/steril_osoben.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.13,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/uzbekistan.png",
+    "usedBefore": true,
+    "newFile": "images/uzbekistan.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.13,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_18.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_18-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.12,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/fon_stat.jpg",
+    "usedBefore": true,
+    "newFile": "images/fon_stat.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.12,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ks250.png",
+    "usedBefore": true,
+    "newFile": "images/ks250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril/ks250.png",
+    "usedBefore": true,
+    "newFile": "images/steril/ks250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_ks250.png",
+    "usedBefore": false,
+    "newFile": "images/steril_ks250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ca.png",
+    "usedBefore": true,
+    "newFile": "images/ca.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril/osoben_eng.png",
+    "usedBefore": true,
+    "newFile": "images/steril/osoben_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_osoben_eng.png",
+    "usedBefore": true,
+    "newFile": "images/steril_osoben_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/etapi.png",
+    "usedBefore": true,
+    "newFile": "images/etapi.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.08,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/etapi_eng.png",
+    "usedBefore": true,
+    "newFile": "images/etapi_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.08,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/raznica_eng.png",
+    "usedBefore": true,
+    "newFile": "images/raznica_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/RRKh.png",
+    "usedBefore": true,
+    "newFile": "images/RRKh.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gril_infra_eng.png",
+    "usedBefore": true,
+    "newFile": "images/gril_infra_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/mineral_complex.png",
+    "usedBefore": true,
+    "newFile": "images/mineral_complex.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/parnik.png",
+    "usedBefore": true,
+    "newFile": "images/parnik.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/mineral_complex_eng.png",
+    "usedBefore": true,
+    "newFile": "images/mineral_complex_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/uzbekistan_3_eng.png",
+    "usedBefore": false,
+    "newFile": "images/uzbekistan_3_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gril_uzbekistan_eng.png",
+    "usedBefore": true,
+    "newFile": "images/gril_uzbekistan_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/preimush_eng.png",
+    "usedBefore": true,
+    "newFile": "images/preimush_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/spektr_eng.png",
+    "usedBefore": true,
+    "newFile": "images/spektr_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.04,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/stoikost.png",
+    "usedBefore": true,
+    "newFile": "images/stoikost.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.04,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/uzbekistan_1.png",
+    "usedBefore": true,
+    "newFile": "images/uzbekistan_1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.04,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_02.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_02-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 2.04,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/spektr.png",
+    "usedBefore": true,
+    "newFile": "images/spektr.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/stoikost_eng.png",
+    "usedBefore": true,
+    "newFile": "images/stoikost_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.02,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/feruza.png",
+    "usedBefore": true,
+    "newFile": "images/feruza.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 2.01,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/20473.svg",
+    "usedBefore": false,
+    "newFile": "images/20473.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 2.01,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ca_eng.png",
+    "usedBefore": true,
+    "newFile": "images/ca_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.99,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/uzbekistan_1_eng.png",
+    "usedBefore": false,
+    "newFile": "images/uzbekistan_1_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.98,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_05.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_05-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1.97,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/Протокол Биохимии. Сушка крови.png",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/Протокол Биохимии. Сушка крови.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.97,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_13.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_13-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.97,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/isk_1.png",
+    "usedBefore": true,
+    "newFile": "images/isk_1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.97,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_09.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_09-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.96,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/obmen_ca_eng.png",
+    "usedBefore": true,
+    "newFile": "images/obmen_ca_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.95,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/isk_1_eng.png",
+    "usedBefore": false,
+    "newFile": "images/isk_1_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.95,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/astra_eng.png",
+    "usedBefore": false,
+    "newFile": "images/astra_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.94,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/pokaz.png",
+    "usedBefore": true,
+    "newFile": "images/pokaz.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.93,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/astra.png",
+    "usedBefore": true,
+    "newFile": "images/astra.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.93,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cotton/infra10.png",
+    "usedBefore": true,
+    "newFile": "images/cotton/infra10-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1.93,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/infra10.png",
+    "usedBefore": true,
+    "newFile": "images/infra10.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.93,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_feruza.png",
+    "usedBefore": true,
+    "newFile": "images/ster_feruza.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.9,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/pokaz_eng.png",
+    "usedBefore": true,
+    "newFile": "images/pokaz_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.89,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/fon_akt.png",
+    "usedBefore": true,
+    "newFile": "images/fon_akt.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.89,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_10.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_10-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.87,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/autors.svg",
+    "usedBefore": false,
+    "newFile": "images/autors.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 1.87,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/company_eng.png",
+    "usedBefore": true,
+    "newFile": "images/company_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.86,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/uzbekistan_3.png",
+    "usedBefore": true,
+    "newFile": "images/uzbekistan_3.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.85,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/company.png",
+    "usedBefore": true,
+    "newFile": "images/company.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.84,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/s.svg",
+    "usedBefore": false,
+    "newFile": "images/s.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 1.83,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_04_1.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_04_1-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1.82,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/Отчет. НПО ШЕЛК. Испытаний метода сушки и стерилизации ИК 1.png",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/Отчет. НПО ШЕЛК. Испытаний метода сушки и стерилизации ИК 1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.82,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_feruza_eng.png",
+    "usedBefore": true,
+    "newFile": "images/ster_feruza_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.82,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/fon_pat.png",
+    "usedBefore": true,
+    "newFile": "images/fon_pat.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.81,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/iks_2_eng.png",
+    "usedBefore": false,
+    "newFile": "images/iks_2_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.81,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_08.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_08-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.79,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_KS-250_eng.png",
+    "usedBefore": true,
+    "newFile": "images/ster_KS-250_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.78,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cotton/infra101.png",
+    "usedBefore": true,
+    "newFile": "images/cotton/infra101-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1.77,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/infra101.png",
+    "usedBefore": true,
+    "newFile": "images/infra101.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.77,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sravneni_eng.png",
+    "usedBefore": true,
+    "newFile": "images/sravneni_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.76,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_KS-250.png",
+    "usedBefore": true,
+    "newFile": "images/ster_KS-250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.76,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/process.png",
+    "usedBefore": true,
+    "newFile": "images/process.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.74,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_is1.png",
+    "usedBefore": true,
+    "newFile": "images/ster_is1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.74,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/feruza_eng.png",
+    "usedBefore": true,
+    "newFile": "images/feruza_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.74,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_33.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_33-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.73,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sravneni.png",
+    "usedBefore": true,
+    "newFile": "images/sravneni.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.73,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/effect.png",
+    "usedBefore": true,
+    "newFile": "images/effect.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.72,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/obmen_ca.png",
+    "usedBefore": true,
+    "newFile": "images/obmen_ca.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.72,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_32.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_32-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.72,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_is1_eng.png",
+    "usedBefore": true,
+    "newFile": "images/ster_is1_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.71,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril/princip_eng.png",
+    "usedBefore": true,
+    "newFile": "images/steril/princip_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.71,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_princip_eng.png",
+    "usedBefore": true,
+    "newFile": "images/steril_princip_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.71,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/fon_mono.png",
+    "usedBefore": true,
+    "newFile": "images/fon_mono.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.7,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/effect_eng.png",
+    "usedBefore": true,
+    "newFile": "images/effect_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.7,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_ms-1.png",
+    "usedBefore": true,
+    "newFile": "images/ster_ms-1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.7,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril/princip.png",
+    "usedBefore": true,
+    "newFile": "images/steril/princip.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.69,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_princip.png",
+    "usedBefore": true,
+    "newFile": "images/steril_princip.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.69,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_mi10_eng.png",
+    "usedBefore": true,
+    "newFile": "images/ster_mi10_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.68,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/process_eng.png",
+    "usedBefore": true,
+    "newFile": "images/process_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.68,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_les100_eng.png",
+    "usedBefore": true,
+    "newFile": "images/ster_les100_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.68,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/iks_2.png",
+    "usedBefore": true,
+    "newFile": "images/iks_2.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.67,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_ms-1_eng.png",
+    "usedBefore": true,
+    "newFile": "images/ster_ms-1_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.66,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_les100.png",
+    "usedBefore": true,
+    "newFile": "images/ster_les100.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.64,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/rczrk.png",
+    "usedBefore": true,
+    "newFile": "images/rczrk.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.64,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_06.jpg",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_06-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.63,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/Протокол. НИИ Биохимии. Сушка коровьего молозив.jpg",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/Протокол. НИИ Биохимии. Сушка коровьего молозив.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 1.63,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_mi10.png",
+    "usedBefore": true,
+    "newFile": "images/ster_mi10.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.61,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cikl_eng.png",
+    "usedBefore": true,
+    "newFile": "images/cikl_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.61,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril/cikl_eng.png",
+    "usedBefore": true,
+    "newFile": "images/steril/cikl_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.61,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_cikl_eng.png",
+    "usedBefore": false,
+    "newFile": "images/steril_cikl_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.61,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cikl.png",
+    "usedBefore": true,
+    "newFile": "images/cikl.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.6,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril/cikl.png",
+    "usedBefore": true,
+    "newFile": "images/steril/cikl.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.6,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_cikl.png",
+    "usedBefore": false,
+    "newFile": "images/steril_cikl.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.6,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_27.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_27-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.57,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_fial.png",
+    "usedBefore": true,
+    "newFile": "images/ster_fial.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.56,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/average_score_eng.png",
+    "usedBefore": true,
+    "newFile": "images/average_score_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.55,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril/sravni_eng.png",
+    "usedBefore": true,
+    "newFile": "images/steril/sravni_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.53,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_sravni_eng.png",
+    "usedBefore": true,
+    "newFile": "images/steril_sravni_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.53,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/dinamic_score.png",
+    "usedBefore": true,
+    "newFile": "images/dinamic_score.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.52,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/infratherm_letter.png",
+    "usedBefore": true,
+    "newFile": "images/infratherm_letter.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.52,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril/sravni.png",
+    "usedBefore": true,
+    "newFile": "images/steril/sravni.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.52,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_sravni.png",
+    "usedBefore": true,
+    "newFile": "images/steril_sravni.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.52,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/average_score.png",
+    "usedBefore": true,
+    "newFile": "images/average_score.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.51,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ster_fial_eng.png",
+    "usedBefore": true,
+    "newFile": "images/ster_fial_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.51,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/dinamic_score_eng.png",
+    "usedBefore": true,
+    "newFile": "images/dinamic_score_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.51,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_31.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_31-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.5,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sravni_eng.png",
+    "usedBefore": true,
+    "newFile": "images/sravni_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.49,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sravni.png",
+    "usedBefore": true,
+    "newFile": "images/sravni.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.49,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ustanovka.png",
+    "usedBefore": true,
+    "newFile": "images/ustanovka.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.45,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_02_1.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_02_1-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1.44,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/morkov1.png",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/morkov1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.44,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/bsp.svg",
+    "usedBefore": true,
+    "newFile": "images/bsp.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 1.44,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/tild3663-3332-4837-b237-626439333466__bsp.svg",
+    "usedBefore": false,
+    "newFile": "images/tild3663-3332-4837-b237-626439333466__bsp.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 1.44,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/dinamic_ca.png",
+    "usedBefore": true,
+    "newFile": "images/dinamic_ca.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.39,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/dinamic_ca_eng.png",
+    "usedBefore": true,
+    "newFile": "images/dinamic_ca_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.38,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/time_eng.png",
+    "usedBefore": true,
+    "newFile": "images/time_eng.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.37,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/time.png",
+    "usedBefore": true,
+    "newFile": "images/time.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.37,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/usa.svg",
+    "usedBefore": false,
+    "newFile": "images/usa.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 1.36,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_04_2.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_04_2-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1.36,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/Отчет. НПО ШЕЛК. Испытаний метода сушки и стерилизации ИК 2.png",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/Отчет. НПО ШЕЛК. Испытаний метода сушки и стерилизации ИК 2.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.36,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_07_1.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_07_1-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1.29,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/Pa6_1.png",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/Pa6_1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.29,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_02_2.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_02_2-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1.21,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/morkov2.png",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/morkov2.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.21,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_29.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_29-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.2,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. ТашГосМИ. стерилизации.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. ТашГосМИ. стерилизации.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 1.2,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_19.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_19-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.19,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. ГлавТашСтрой. МИ-6-Феруза 01.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. ГлавТашСтрой. МИ-6-Феруза 01.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 1.19,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_14.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_14-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.14,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Протокол. Институт Токсикологии. Стерилизатор С-ТП1 4.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Протокол. Институт Токсикологии. Стерилизатор С-ТП1 4.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 1.14,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_25.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_25-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_13.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_13-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_22.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_22-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_21.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_21-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_01.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_01-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/Удостоверение. Советской торговли. Сушка овощей.png",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/Удостоверение. Советской торговли. Сушка овощей.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_01.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_01-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_07.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_07-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_06.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_06-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.02,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_05.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_05-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 1.01,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_07_2.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_07_2-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/Pa6_2.png",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/Pa6_2.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka.svg",
+    "usedBefore": true,
+    "newFile": "images/sushka.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.98,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/tild3562-3761-4434-b430-353066393864__sushka.svg",
+    "usedBefore": false,
+    "newFile": "images/tild3562-3761-4434-b430-353066393864__sushka.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.98,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_15.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_15-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.96,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_22.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_22-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.95,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор Betty Crocker.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор Betty Crocker.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.95,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_28.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_28-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.91,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_14.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_14-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.9,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_20.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_20-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.88,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор 1 (версия 1).JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор 1 (версия 1).JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.88,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_09.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_09-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.88,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Отчет. Стерилизатор УДС-1 (Фиал) 2.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Отчет. Стерилизатор УДС-1 (Фиал) 2.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.88,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_16.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_16-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.88,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cotton/Protokol isp.jpg",
+    "usedBefore": false,
+    "newFile": "images/cotton/Protokol isp.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.87,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cotton/protokol_isp.jpg",
+    "usedBefore": true,
+    "newFile": "images/cotton/protokol_isp-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.87,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_24.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_24-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.86,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор МС-1 1.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор МС-1 1.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.86,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_17.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_17-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.85,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. INFROM (Россия) бак. контроля ИКС 1. 01.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. INFROM (Россия) бак. контроля ИКС 1. 01.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.85,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_19.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_19-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.81,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/plenka.svg",
+    "usedBefore": true,
+    "newFile": "images/plenka.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.76,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/tild3666-3439-4161-b838-303362383037__plenka.svg",
+    "usedBefore": false,
+    "newFile": "images/tild3666-3439-4161-b838-303362383037__plenka.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.76,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_28.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_28-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.72,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. РСЭС. низкотемпературная стерилизация.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. РСЭС. низкотемпературная стерилизация.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.72,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/uzb.svg",
+    "usedBefore": false,
+    "newFile": "images/uzb.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.69,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_17.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_17-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.68,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_21.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_21-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.66,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор 2 (версия 2).JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор 2 (версия 2).JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.66,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_03_1.png",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_03_1-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": true,
+    "sizeMB": 0.62,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/niivino1.png",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/niivino1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.62,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_10.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_10-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.62,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Отчет. Стерилизатор УДС-1 (Фиал) 3.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Отчет. Стерилизатор УДС-1 (Фиал) 3.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.62,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_18.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_18-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.62,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. INFROM (Россия) бак. контроля ИКС 1. 02.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. INFROM (Россия) бак. контроля ИКС 1. 02.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.62,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_08.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_08-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.61,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Отчет. Стерилизатор УДС-1 (Фиал) 1.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Отчет. Стерилизатор УДС-1 (Фиал) 1.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.61,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gril.svg",
+    "usedBefore": true,
+    "newFile": "images/gril.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.59,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/tild6462-6364-4130-b965-653035326130__gril.svg",
+    "usedBefore": false,
+    "newFile": "images/tild6462-6364-4130-b965-653035326130__gril.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.59,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/euro.svg",
+    "usedBefore": false,
+    "newFile": "images/euro.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.58,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_06.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_06-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.58,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Отчет. НИИПТиД. эффективность ИС-1 Феруза 3.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Отчет. НИИПТиД. эффективность ИС-1 Феруза 3.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.58,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ca.svg",
+    "usedBefore": true,
+    "newFile": "images/ca.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.57,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/tild3538-3561-4436-a139-633737613561__ca.svg",
+    "usedBefore": false,
+    "newFile": "images/tild3538-3561-4436-a139-633737613561__ca.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.57,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_11.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_11-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.57,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp.svg",
+    "usedBefore": true,
+    "newFile": "images/lamp.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.56,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/tild6433-3265-4234-a461-623938326261__lamp.svg",
+    "usedBefore": false,
+    "newFile": "images/tild6433-3265-4234-a461-623938326261__lamp.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.56,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_09.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_09-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.55,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_03.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_03-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.55,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_04.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_04-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.54,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Отчет. НИИПТиД. эффективность ИС-1 Феруза 1.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Отчет. НИИПТиД. эффективность ИС-1 Феруза 1.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.54,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril.svg",
+    "usedBefore": true,
+    "newFile": "images/steril.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.53,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/tild3266-3339-4035-b763-343161653035__steril.svg",
+    "usedBefore": false,
+    "newFile": "images/tild3266-3339-4035-b763-343161653035__steril.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.53,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_04.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_04-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.52,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_05.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_05-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.52,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Отчет. НИИПТиД. эффективность ИС-1 Феруза 2.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Отчет. НИИПТиД. эффективность ИС-1 Феруза 2.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.52,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_10.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_10-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.51,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_12.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_12-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.51,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kraska.svg",
+    "usedBefore": true,
+    "newFile": "images/kraska.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.5,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/tild3630-6237-4236-b863-353836626233__kraska.svg",
+    "usedBefore": false,
+    "newFile": "images/tild3630-6237-4236-b863-353836626233__kraska.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.5,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/2.jpg",
+    "usedBefore": true,
+    "newFile": "images/2.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.5,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_02.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_02-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.47,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/3.jpg",
+    "usedBefore": true,
+    "newFile": "images/3.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.46,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/1.jpg",
+    "usedBefore": true,
+    "newFile": "images/1.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.45,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_08.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_08-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.4,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/31202.svg",
+    "usedBefore": false,
+    "newFile": "images/31202.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.4,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_26.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_26-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.39,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор СТ-1 (вер.2) 01.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор СТ-1 (вер.2) 01.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.39,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/21_640.png",
+    "usedBefore": false,
+    "newFile": "images/21_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.39,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/usr.svg",
+    "usedBefore": false,
+    "newFile": "images/usr.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.39,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-037_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-037_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.39,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_18.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_18-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.38,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/1006.svg",
+    "usedBefore": false,
+    "newFile": "images/1006.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.37,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_27.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_27-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.36,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор СТ-1 (вер.2) 02.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор СТ-1 (вер.2) 02.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.36,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/212930.png",
+    "usedBefore": false,
+    "newFile": "images/212930.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.35,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-045_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-045_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.35,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/hlopok.svg",
+    "usedBefore": true,
+    "newFile": "images/hlopok.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.34,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/tild6264-3863-4538-a462-336338356534__hlopok.svg",
+    "usedBefore": false,
+    "newFile": "images/tild6264-3863-4538-a462-336338356534__hlopok.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.34,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/eurasia.svg",
+    "usedBefore": false,
+    "newFile": "images/eurasia.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.32,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_07.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_07-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.32,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Отчет. НИИПТиД. эффективность ИС-1 Феруза 4.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Отчет. НИИПТиД. эффективность ИС-1 Феруза 4.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.32,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ris55_400.png",
+    "usedBefore": false,
+    "newFile": "images/ris55_400.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.31,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/212822.png",
+    "usedBefore": false,
+    "newFile": "images/212822.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.31,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cotton/Svedenie.jpg",
+    "usedBefore": true,
+    "newFile": "images/cotton/Svedenie-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.31,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/kalci_certificates/cert_ca_20.jpg",
+    "usedBefore": true,
+    "newFile": "images/kalci_certificates/cert_ca_20-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.3,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/212945.png",
+    "usedBefore": false,
+    "newFile": "images/212945.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.3,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/turk.svg",
+    "usedBefore": false,
+    "newFile": "images/turk.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.3,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-034_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-034_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.3,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/-003_640.png",
+    "usedBefore": false,
+    "newFile": "images/-003_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.3,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/0004_640.png",
+    "usedBefore": false,
+    "newFile": "images/0004_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.3,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/212915.png",
+    "usedBefore": false,
+    "newFile": "images/212915.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.29,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_06.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_06-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.28,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/212853.png",
+    "usedBefore": false,
+    "newFile": "images/212853.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.27,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/0010_640.png",
+    "usedBefore": false,
+    "newFile": "images/0010_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.27,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_15.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_15-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.26,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/2222_400.png",
+    "usedBefore": false,
+    "newFile": "images/2222_400.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.25,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_03.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_03-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.25,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Отзыв. Отдел здравоохранения. Стерилизатор Феруза.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Отзыв. Отдел здравоохранения. Стерилизатор Феруза.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.25,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ris39c_400.png",
+    "usedBefore": false,
+    "newFile": "images/ris39c_400.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.24,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/01_640.png",
+    "usedBefore": false,
+    "newFile": "images/01_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.24,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/4.jpg",
+    "usedBefore": true,
+    "newFile": "images/4.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.24,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-057_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-057_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.24,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/-009_640.png",
+    "usedBefore": false,
+    "newFile": "images/-009_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.23,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ris44b_400.png",
+    "usedBefore": false,
+    "newFile": "images/ris44b_400.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.22,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/p_2_300.png",
+    "usedBefore": false,
+    "newFile": "images/p_2_300.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.22,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/p_1_300.png",
+    "usedBefore": false,
+    "newFile": "images/p_1_300.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.22,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sk4_300.png",
+    "usedBefore": false,
+    "newFile": "images/sk4_300.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.19,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/213110.png",
+    "usedBefore": false,
+    "newFile": "images/213110.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.18,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_16.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_16-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.18,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Протокол. Клиническом Центре Экстракорпоральная детоксикация. Стерилизатор МИ-6 2.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Протокол. Клиническом Центре Экстракорпоральная детоксикация. Стерилизатор МИ-6 2.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.18,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sk3_300.png",
+    "usedBefore": false,
+    "newFile": "images/sk3_300.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.17,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gr1.jpg",
+    "usedBefore": true,
+    "newFile": "images/gr1.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.17,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_03.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_03-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.17,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/papki.png",
+    "usedBefore": false,
+    "newFile": "images/papki.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.17,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ris4_400.png",
+    "usedBefore": false,
+    "newFile": "images/ris4_400.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.17,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/stati.png",
+    "usedBefore": false,
+    "newFile": "images/stati.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.16,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-103_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-103_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.16,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gril_3_250.png",
+    "usedBefore": false,
+    "newFile": "images/gril_3_250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.16,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/-1_640.png",
+    "usedBefore": false,
+    "newFile": "images/-1_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.16,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/6228750.svg",
+    "usedBefore": false,
+    "newFile": "images/6228750.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.16,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/2105i201065Fm004c9ti.svg",
+    "usedBefore": false,
+    "newFile": "images/2105i201065Fm004c9ti.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.16,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/02_400.png",
+    "usedBefore": false,
+    "newFile": "images/02_400.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-009_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-009_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/00_640.png",
+    "usedBefore": false,
+    "newFile": "images/00_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/logo32.svg",
+    "usedBefore": true,
+    "newFile": "images/logo32.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sk2_300.png",
+    "usedBefore": false,
+    "newFile": "images/sk2_300.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/213056.png",
+    "usedBefore": false,
+    "newFile": "images/213056.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gril_2_250.png",
+    "usedBefore": false,
+    "newFile": "images/gril_2_250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.15,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/akt_03_2.jpg",
+    "usedBefore": true,
+    "newFile": "images/sushka_certificates/akt_03_2-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.14,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sushka_certificates/niivino2.jpg",
+    "usedBefore": false,
+    "newFile": "images/sushka_certificates/niivino2.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.14,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/p_3_300-300x221.png",
+    "usedBefore": false,
+    "newFile": "images/p_3_300-300x221.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.14,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-011_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-011_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.14,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/67335.svg",
+    "usedBefore": false,
+    "newFile": "images/67335.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.13,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gril_4_250-300x188.png",
+    "usedBefore": false,
+    "newFile": "images/gril_4_250-300x188.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.13,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-052_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-052_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.13,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-014_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-014_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.12,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/02_640.png",
+    "usedBefore": false,
+    "newFile": "images/02_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.12,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_25.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_25-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.11,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор МС-1 2.JPG",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор МС-1 2.JPG",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.11,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sk1_300.png",
+    "usedBefore": false,
+    "newFile": "images/sk1_300.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.11,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/20120613130527-0314.jpg",
+    "usedBefore": false,
+    "newFile": "images/20120613130527-0314.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.11,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cotton/Svedenie1.jpg",
+    "usedBefore": true,
+    "newFile": "images/cotton/Svedenie1-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.11,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp1_420-280.png",
+    "usedBefore": false,
+    "newFile": "images/lamp1_420-280.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ris42_400.png",
+    "usedBefore": false,
+    "newFile": "images/ris42_400.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/20120613130527-0907.jpg",
+    "usedBefore": false,
+    "newFile": "images/20120613130527-0907.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_01.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_01-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/University of California. Стерилизатор LES 1.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/University of California. Стерилизатор LES 1.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/0005_640.png",
+    "usedBefore": false,
+    "newFile": "images/0005_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.1,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/sk5_300-300x202.png",
+    "usedBefore": false,
+    "newFile": "images/sk5_300-300x202.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/p_4_300-300x180.png",
+    "usedBefore": false,
+    "newFile": "images/p_4_300-300x180.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp2_400.png",
+    "usedBefore": false,
+    "newFile": "images/lamp2_400.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/p_5_300-300x199.png",
+    "usedBefore": false,
+    "newFile": "images/p_5_300-300x199.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.09,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp3_300.png",
+    "usedBefore": false,
+    "newFile": "images/lamp3_300.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.08,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/rrh-250x300.png",
+    "usedBefore": true,
+    "newFile": "images/rrh-250x300.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.08,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/p_6_300-300x200.png",
+    "usedBefore": false,
+    "newFile": "images/p_6_300-300x200.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.08,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/6431452.svg",
+    "usedBefore": false,
+    "newFile": "images/6431452.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.08,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_23.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_23-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.08,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор ИС-1-Феруза.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/Заключение. РСЭС. Стерилизатор ИС-1-Феруза.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.08,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/logobook_250.png",
+    "usedBefore": false,
+    "newFile": "images/logobook_250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.08,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/cert_02.jpg",
+    "usedBefore": true,
+    "newFile": "images/steril_certificates/cert_02-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/steril_certificates/University of California. Стерилизатор LES 2.jpg",
+    "usedBefore": false,
+    "newFile": "images/steril_certificates/University of California. Стерилизатор LES 2.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cover_234478_1.png",
+    "usedBefore": true,
+    "newFile": "images/cover_234478_1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ris24b_250.png",
+    "usedBefore": false,
+    "newFile": "images/ris24b_250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/n45_400.png",
+    "usedBefore": false,
+    "newFile": "images/n45_400.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ris25_250.png",
+    "usedBefore": false,
+    "newFile": "images/ris25_250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.07,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/978-620-6-15361-0_Co.png",
+    "usedBefore": true,
+    "newFile": "images/978-620-6-15361-0_Co.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/25229.svg",
+    "usedBefore": false,
+    "newFile": "images/25229.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/4136939.svg",
+    "usedBefore": false,
+    "newFile": "images/4136939.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/lamp_certificates/cert_01.jpg",
+    "usedBefore": true,
+    "newFile": "images/lamp_certificates/cert_01-preview.webp",
+    "origExists": true,
+    "previewExists": true,
+    "webpExists": false,
+    "sizeMB": 0.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cover_234529-_1.png",
+    "usedBefore": true,
+    "newFile": "images/cover_234529-_1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cover_234528_1.png",
+    "usedBefore": true,
+    "newFile": "images/cover_234528_1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cover_234407_1.png",
+    "usedBefore": true,
+    "newFile": "images/cover_234407_1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/logo_new.svg",
+    "usedBefore": true,
+    "newFile": "images/logo_new.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.06,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ris29a.png",
+    "usedBefore": false,
+    "newFile": "images/ris29a.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/978-620-6-15278-1_Co.png",
+    "usedBefore": true,
+    "newFile": "images/978-620-6-15278-1_Co.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/242005-108_640.png",
+    "usedBefore": false,
+    "newFile": "images/242005-108_640.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/ris24_250.png",
+    "usedBefore": false,
+    "newFile": "images/ris24_250.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cover_234344_1.png",
+    "usedBefore": true,
+    "newFile": "images/cover_234344_1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.05,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patentseal.jpg",
+    "usedBefore": false,
+    "newFile": "images/patentseal.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.04,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patent/puzb.jpg",
+    "usedBefore": true,
+    "newFile": "images/patent/puzb.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.04,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/cover_234639_1.png",
+    "usedBefore": true,
+    "newFile": "images/cover_234639_1.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patent/avtors.jpg",
+    "usedBefore": false,
+    "newFile": "images/patent/avtors.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patent/ussr.jpg",
+    "usedBefore": true,
+    "newFile": "images/patent/ussr.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patent/uzb.jpg",
+    "usedBefore": true,
+    "newFile": "images/patent/uzb.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patent/usa.jpg",
+    "usedBefore": true,
+    "newFile": "images/patent/usa.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/logo180.png",
+    "usedBefore": true,
+    "newFile": "images/logo180.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patent/svidtel.jpg",
+    "usedBefore": true,
+    "newFile": "images/patent/svidtel.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patent/eu.jpg",
+    "usedBefore": true,
+    "newFile": "images/patent/eu.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/978-620-6-15334-4_Co.png",
+    "usedBefore": true,
+    "newFile": "images/978-620-6-15334-4_Co.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patent/tr.jpg",
+    "usedBefore": true,
+    "newFile": "images/patent/tr.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.03,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/patent/euasia.jpg",
+    "usedBefore": true,
+    "newFile": "images/patent/euasia.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.02,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/Einfach-GENIAL-1.jpg",
+    "usedBefore": false,
+    "newFile": "images/Einfach-GENIAL-1.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.01,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/Einfach-GENIAL-223x3.jpg",
+    "usedBefore": false,
+    "newFile": "images/Einfach-GENIAL-223x3.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.01,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/--695-300x176.jpg",
+    "usedBefore": false,
+    "newFile": "images/--695-300x176.jpg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.01,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/massa.svg",
+    "usedBefore": false,
+    "newFile": "images/massa.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0.01,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/time.svg",
+    "usedBefore": false,
+    "newFile": "images/time.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0.01,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/massaust.svg",
+    "usedBefore": false,
+    "newFile": "images/massaust.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/zashita.svg",
+    "usedBefore": false,
+    "newFile": "images/zashita.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/gabarit.svg",
+    "usedBefore": false,
+    "newFile": "images/gabarit.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/napraj.svg",
+    "usedBefore": false,
+    "newFile": "images/napraj.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/moshnost.svg",
+    "usedBefore": false,
+    "newFile": "images/moshnost.svg",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": false,
+    "sizeMB": 0,
+    "status": "PASS"
+  },
+  {
+    "oldFile": "images/logo.png",
+    "usedBefore": true,
+    "newFile": "images/logo.webp",
+    "origExists": true,
+    "previewExists": false,
+    "webpExists": true,
+    "sizeMB": 0,
+    "status": "PASS"
+  }
+]

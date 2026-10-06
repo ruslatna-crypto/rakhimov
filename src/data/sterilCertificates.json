@@ -1,0 +1,241 @@
+[
+  {
+    "id": 1,
+    "title": "University of California. Стерилизатор LES",
+    "title_en": "University of California. LES Sterilizer",
+    "category": "Отчет",
+    "category_en": "Report",
+    "cover": "/images/steril_certificates/cert_01.jpg",
+    "src": "/images/steril_certificates/cert_01.jpg",
+    "folder": "cert",
+    "pageCount": 2,
+    "pages": [
+      "/images/steril_certificates/cert_01.jpg",
+      "/images/steril_certificates/cert_02.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_01-preview.webp"
+  },
+  {
+    "id": 2,
+    "title": "Отзыв. Отдел здравоохранения. Стерилизатор «Феруза»",
+    "title_en": "Review. Health Department. Sterilizer \"Feruza\"",
+    "category": "Отзыв",
+    "category_en": "Review",
+    "cover": "/images/steril_certificates/cert_03.jpg",
+    "src": "/images/steril_certificates/cert_03.jpg",
+    "folder": "cert",
+    "pageCount": 1,
+    "pages": [
+      "/images/steril_certificates/cert_03.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_03-preview.webp"
+  },
+  {
+    "id": 3,
+    "title": "Отчет. НИИПТиД: эффективность ИС-1 «Феруза»",
+    "title_en": "Report. NIIPTiD: IS-1 \"Feruza\" Efficiency",
+    "category": "Отчет",
+    "category_en": "Report",
+    "cover": "/images/steril_certificates/cert_04.jpg",
+    "src": "/images/steril_certificates/cert_04.jpg",
+    "folder": "cert",
+    "pageCount": 4,
+    "pages": [
+      "/images/steril_certificates/cert_04.jpg",
+      "/images/steril_certificates/cert_05.jpg",
+      "/images/steril_certificates/cert_06.jpg",
+      "/images/steril_certificates/cert_07.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_04-preview.webp"
+  },
+  {
+    "id": 4,
+    "title": "Отчет. Стерилизатор УДС-1 «Фиал»",
+    "title_en": "Report. Sterilizer UDS-1 \"Fial\"",
+    "category": "Отчет",
+    "category_en": "Report",
+    "cover": "/images/steril_certificates/cert_08.jpg",
+    "src": "/images/steril_certificates/cert_08.jpg",
+    "folder": "cert",
+    "pageCount": 3,
+    "pages": [
+      "/images/steril_certificates/cert_08.jpg",
+      "/images/steril_certificates/cert_09.jpg",
+      "/images/steril_certificates/cert_10.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_08-preview.webp"
+  },
+  {
+    "id": 5,
+    "title": "Протокол. Институт Токсикологии. Стерилизатор С-ТП1",
+    "title_en": "Protocol. Institute of Toxicology. Sterilizer S-TP1",
+    "category": "Протокол",
+    "category_en": "Protocol",
+    "cover": "/images/steril_certificates/cert_11.jpg",
+    "src": "/images/steril_certificates/cert_11.jpg",
+    "folder": "cert",
+    "pageCount": 4,
+    "pages": [
+      "/images/steril_certificates/cert_11.jpg",
+      "/images/steril_certificates/cert_12.jpg",
+      "/images/steril_certificates/cert_13.jpg",
+      "/images/steril_certificates/cert_14.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_11-preview.webp"
+  },
+  {
+    "id": 6,
+    "title": "Протокол. Клинический Центр «Экстракорпоральная детоксикация». Стерилизатор МИ-6",
+    "title_en": "Protocol. Clinical Center \"Extracorporeal Detoxification\". Sterilizer MI-6",
+    "category": "Протокол",
+    "category_en": "Protocol",
+    "cover": "/images/steril_certificates/cert_15.jpg",
+    "src": "/images/steril_certificates/cert_15.jpg",
+    "folder": "cert",
+    "pageCount": 2,
+    "pages": [
+      "/images/steril_certificates/cert_15.jpg",
+      "/images/steril_certificates/cert_16.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_15-preview.webp"
+  },
+  {
+    "id": 7,
+    "title": "Заключение. INFROM (Россия) бак. контроль ИКС-1",
+    "title_en": "Conclusion. INFROM (Russia) Bacterial Control IKS-1",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "cover": "/images/steril_certificates/cert_17.jpg",
+    "src": "/images/steril_certificates/cert_17.jpg",
+    "folder": "cert2",
+    "pageCount": 2,
+    "pages": [
+      "/images/steril_certificates/cert_17.jpg",
+      "/images/steril_certificates/cert_18.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_17-preview.webp"
+  },
+  {
+    "id": 8,
+    "title": "Заключение. ГлавТашСтрой. МИ-6-«Феруза»",
+    "title_en": "Conclusion. GlavTashStroy. MI-6-\"Feruza\"",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "cover": "/images/steril_certificates/cert_19.jpg",
+    "src": "/images/steril_certificates/cert_19.jpg",
+    "folder": "cert2",
+    "pageCount": 1,
+    "pages": [
+      "/images/steril_certificates/cert_19.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_19-preview.webp"
+  },
+  {
+    "id": 9,
+    "title": "Заключение. РСЭС. Стерилизатор (НПО «Физика-Солнце»)",
+    "title_en": "Conclusion. RSES. Sterilizer (STB \"Phizika-Solntse\")",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "cover": "/images/steril_certificates/cert_20.jpg",
+    "src": "/images/steril_certificates/cert_20.jpg",
+    "folder": "cert2",
+    "pageCount": 2,
+    "pages": [
+      "/images/steril_certificates/cert_20.jpg",
+      "/images/steril_certificates/cert_21.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_20-preview.webp"
+  },
+  {
+    "id": 10,
+    "title": "Заключение. РСЭС. Стерилизатор Betty Crocker",
+    "title_en": "Conclusion. RSES. Sterilizer Betty Crocker",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "cover": "/images/steril_certificates/cert_22.jpg",
+    "src": "/images/steril_certificates/cert_22.jpg",
+    "folder": "cert2",
+    "pageCount": 1,
+    "pages": [
+      "/images/steril_certificates/cert_22.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_22-preview.webp"
+  },
+  {
+    "id": 11,
+    "title": "Заключение. РСЭС. Стерилизатор ИС-1-«Феруза»",
+    "title_en": "Conclusion. RSES. Sterilizer IS-1-\"Feruza\"",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "cover": "/images/steril_certificates/cert_23.jpg",
+    "src": "/images/steril_certificates/cert_23.jpg",
+    "folder": "cert2",
+    "pageCount": 1,
+    "pages": [
+      "/images/steril_certificates/cert_23.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_23-preview.webp"
+  },
+  {
+    "id": 12,
+    "title": "Заключение. РСЭС. Стерилизатор МС-1",
+    "title_en": "Conclusion. RSES. Sterilizer MS-1",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "cover": "/images/steril_certificates/cert_24.jpg",
+    "src": "/images/steril_certificates/cert_24.jpg",
+    "folder": "cert2",
+    "pageCount": 2,
+    "pages": [
+      "/images/steril_certificates/cert_24.jpg",
+      "/images/steril_certificates/cert_25.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_24-preview.webp"
+  },
+  {
+    "id": 13,
+    "title": "Заключение. РСЭС. Стерилизатор СТ-1 (вер. 2)",
+    "title_en": "Conclusion. RSES. Sterilizer ST-1 (ver. 2)",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "cover": "/images/steril_certificates/cert_26.jpg",
+    "src": "/images/steril_certificates/cert_26.jpg",
+    "folder": "cert2",
+    "pageCount": 2,
+    "pages": [
+      "/images/steril_certificates/cert_26.jpg",
+      "/images/steril_certificates/cert_27.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_26-preview.webp"
+  },
+  {
+    "id": 14,
+    "title": "Заключение. РСЭС. Низкотемпературная стерилизация",
+    "title_en": "Conclusion. RSES. Low-temperature Sterilization",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "cover": "/images/steril_certificates/cert_28.jpg",
+    "src": "/images/steril_certificates/cert_28.jpg",
+    "folder": "cert2",
+    "pageCount": 1,
+    "pages": [
+      "/images/steril_certificates/cert_28.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_28-preview.webp"
+  },
+  {
+    "id": 15,
+    "title": "Заключение. ТашГосМИ. Стерилизация",
+    "title_en": "Conclusion. Tashkent State Medical Institute. Sterilization",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "cover": "/images/steril_certificates/cert_29.jpg",
+    "src": "/images/steril_certificates/cert_29.jpg",
+    "folder": "cert2",
+    "pageCount": 1,
+    "pages": [
+      "/images/steril_certificates/cert_29.jpg"
+    ],
+    "preview": "/images/steril_certificates/cert_29-preview.webp"
+  }
+]

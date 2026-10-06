@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Акт испытаний опытного образца ИС-1 «Феруза» (НИИПТиД)",
+    "title_en": "Test Act of Prototype IS-1 \"Feruza\" (NIIPTiD)",
+    "category": "Акт испытаний",
+    "category_en": "Test Act",
+    "originalFileName": "Акт. НИИПТиД. Испытания опытного образца ИС-1 Феруза.pdf",
+    "fileName": "steril_doc_01.pdf",
+    "url": "/pdf/steril/steril_doc_01.pdf",
+    "sizeMb": "1.02 МБ",
+    "sizeEn": "1.02 MB"
+  },
+  {
+    "id": 2,
+    "title": "Заключение по стерилизатору МС-1 (НИИ эпидемиологии и микробиологии)",
+    "title_en": "Conclusion on MS-1 Sterilizer (Institute of Epidemiology and Microbiology)",
+    "category": "Экспертное заключение",
+    "category_en": "Expert Conclusion",
+    "originalFileName": "Заключение. НИИ Эпидемиологии микробиологии. стерилизатор МС-1.pdf",
+    "fileName": "steril_doc_02.pdf",
+    "url": "/pdf/steril/steril_doc_02.pdf",
+    "sizeMb": "0.43 МБ",
+    "sizeEn": "0.43 MB"
+  },
+  {
+    "id": 3,
+    "title": "Заключение РСЭС по стерилизатору ИКС-1",
+    "title_en": "RSES Conclusion on IKS-1 Sterilizer",
+    "category": "Экспертное заключение",
+    "category_en": "Expert Conclusion",
+    "originalFileName": "Заключение. РСЭС. Стерилизатор ИКС-1.pdf",
+    "fileName": "steril_doc_03.pdf",
+    "url": "/pdf/steril/steril_doc_03.pdf",
+    "sizeMb": "0.52 МБ",
+    "sizeEn": "0.52 MB"
+  },
+  {
+    "id": 4,
+    "title": "Заключение РСЭС: стерилизатор лабораторный",
+    "title_en": "RSES Conclusion: Laboratory Sterilizer",
+    "category": "Экспертное заключение",
+    "category_en": "Expert Conclusion",
+    "originalFileName": "Заключение. РСЭС. стерилизатор лабораторный.pdf",
+    "fileName": "steril_doc_04.pdf",
+    "url": "/pdf/steril/steril_doc_04.pdf",
+    "sizeMb": "0.57 МБ",
+    "sizeEn": "0.57 MB"
+  },
+  {
+    "id": 5,
+    "title": "Заключение РСЭС по стерилизаторам серии МИ",
+    "title_en": "RSES Conclusion on MI Series Sterilizers",
+    "category": "Экспертное заключение",
+    "category_en": "Expert Conclusion",
+    "originalFileName": "Заключение. РСЭС. Стерилизатор МИ.pdf",
+    "fileName": "steril_doc_05.pdf",
+    "url": "/pdf/steril/steril_doc_05.pdf",
+    "sizeMb": "0.53 МБ",
+    "sizeEn": "0.53 MB"
+  },
+  {
+    "id": 6,
+    "title": "Заключение РСЭС: экспериментальный стерилизатор",
+    "title_en": "RSES Conclusion: Experimental Sterilizer",
+    "category": "Экспертное заключение",
+    "category_en": "Expert Conclusion",
+    "originalFileName": "Заключение. РСЭС. Стерилизатор экспериментальный.pdf",
+    "fileName": "steril_doc_06.pdf",
+    "url": "/pdf/steril/steril_doc_06.pdf",
+    "sizeMb": "0.33 МБ",
+    "sizeEn": "0.33 MB"
+  }
+]

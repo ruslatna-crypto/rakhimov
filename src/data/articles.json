@@ -1,954 +1,1962 @@
 [
   {
     "id": "ART-001",
-    "authors": "Р.Х.Рахимов, В.П.Ермаков, М.Р.Рахимов.",
-    "title": "СОЛНЕЧНЫЙ ВОЗДУХОНАГРЕВАТЕЛЬ С ПРИМЕНЕНИЕМ ТРЕХСЛОЙНОЙ КОМПОЗИТНОЙ ПЛЕНКИ С КАСКАДНЫМ ПРЕОБРАЗОВАНИЕМ СПЕКТРА.",
-    "journal": "Гелиотехника, 2000, № 3, С.43-44",
-    "year": "2000"
+    "authors": "Saidov R., Rakhimov R., Touileb K., Ponore J.",
+    "title": "A Study of the Influence of a Nanostructured Activating Component in Welding Electrodes on the Formation of Welding Beads",
+    "journal": "Crystals 2026, 16, 205. DOI: https://doi.org/10.3390/cryst16030205. (SCOPUS Q2, импакт-фактор 2,4)",
+    "year": "2026"
   },
   {
     "id": "ART-002",
-    "authors": "Р. X. Рахимов, М. С. Саидов.",
-    "title": "СОЛНЕЧНО-РАДИАЦИОННЫЙ НАГРЕВ И ИМПУЛЬСНАЯ ФОТОЛЮМИНЕСЦЕНЦИЯ МИКРОЗЕРНИСТОЙ КЕРАМИКИ С МЕЖЗЕРЕННЫМИ ГЕТЕРОСЛОЯМИ.",
-    "journal": "Гелиотехника, 2001, № 2, С.71-74",
-    "year": "2001"
+    "authors": "Saidov R., Rakhimov R., Touileb K., Sun L.Y., Yusupov B.D.",
+    "title": "Enhancing the Welding-Technological Properties of Electrodes through a Nanostructured Activating Component",
+    "journal": "Engineering, Technology & Applied Science Research. Vol. 16, No. 2, 2026, pp. 33746-33752. DOI: https://doi.org/10.48084/etasr.17095 (SCOPUS импакт фактор – 2.9, Q2)",
+    "year": "2026"
   },
   {
     "id": "ART-003",
-    "authors": "Р. X. Рахимов.",
-    "title": "СИНТЕЗ ВЫСОКОТЕМПЕРАТУРНЫХ ОКСИДНЫХ МАТЕРИАЛОВ ЗАДАННОГО СТЕХИОМЕТРИЧЕСКОГО СОСТАВА НА БОЛЬШОЙ СОЛНЕЧНОЙ ПЕЧИ.",
-    "journal": "Гелиотехника, 2001, № 4, С.87-91.",
-    "year": "2001"
+    "authors": "Saidov R., Touileb K.",
+    "title": "Study of the influence of technological waste of metallurgical plants on the quality and properties of welding electrodes",
+    "journal": "Crystals 2026, 16(3), 183. DOI: https://doi.org/10.3390/cryst16030183 (Web of Science, Импакт фактор – 2.4, Q2)",
+    "year": "2026"
   },
   {
     "id": "ART-004",
-    "authors": "Р. X. РАХИМОВ, В. П. ЕРМАКОВ.",
-    "title": "ОПРЕДЕЛЕНИЕ МАКСИМАЛЬНОЙ ИЗЛУЧАТЕЛЬНОЙ СПОСОБНОСТИ КЕРАМИК, СИНТЕЗИРОВАННЫХ НА БСП В ЗАВИСИМОСТИ ОТ ИХ КОНЦЕНТРАЦИИ СО СВЯЗУЮЩИМИ.",
-    "journal": "Гелиотехника, 2002 г., № 1",
-    "year": "2002"
+    "authors": "Рахимов Р.Х., Мухтаров Д.Н.",
+    "title": "Исследование асимметричных оптических свойств в трехслойных полиэтилен-керамических композитных пленках для повышения эффективности солнечной сушки",
+    "journal": "Computational Nanotechnology. 2026. № 1",
+    "year": "2026"
   },
   {
     "id": "ART-005",
-    "authors": "Р.Х. РАХИМОВ, В. П. ЕРМАКОВ.",
-    "title": "ПРИМЕНЕНИЕ ФУНКЦИОНАЛЬНОЙ КЕРАМИКИ, СИНТЕЗИРОВАННОЙ НА БСП, В СИСТЕМАХ ОХЛАЖДЕНИЯ.",
-    "journal": "Гелиотехника, 2002 г., № 2, C.85-90",
-    "year": "2002"
+    "authors": "Рахимов Р.Х.",
+    "title": "Импульсный туннельный эффект: новый взгляд на природу взаимодействия излучения с веществом",
+    "journal": "Computational Nanotechnology. 2026. № 1",
+    "year": "2026"
   },
   {
     "id": "ART-006",
-    "authors": "R.Kh. Rakhimov, M.S. Saidov",
-    "title": "CERAMIC SOLAR ENERGY CONVERTERS AND IR THERAPY",
-    "journal": "Solar Energy, 2002, Vol.38, №3, p.71-74",
-    "year": "2002"
+    "authors": "Liu S., Wang Q., Liu C., Zhang H., Balokhonov R., Romanova V., Balokhonov V., Ji P., Duishenaliev T.B., Saidov R.M., Yin F., Cong D., Qian M., Sun L.",
+    "title": "Effective inhibition of hot cracking in Mn-Cu alloys manufactured by laser powder bed fusion",
+    "journal": "Materials Science & Engineering: A. 967 (2026) May, 150385. DOI: https://doi.org/10.1016/j.msea.2026.150385. (Web of Science, Импакт фактор – 1.830, Q1)",
+    "year": "2026"
   },
   {
     "id": "ART-007",
-    "authors": "Р. X. РАХИМОВ, В. П. ЕРМАКОВ, М. А. МАХАМЕДОВА",
-    "title": "ПРИМЕНЕНИЕ ФУНКЦИОНАЛЬНОЙ КЕРАМИКИ, СИНТЕЗИРОВАННОЙ НА БОЛЬШОЙ СОЛНЕЧНОЙ ПЕЧИ В ПРОЦЕССАХ СУШКИ",
-    "journal": "Гелиотехника, 2002 г., № 4, C.69-73",
-    "year": "2002"
+    "authors": "Sun L.-Y., Huang H.-L., Sumnikov S.V., Vasin R.N., Bobrikov I.A., Bokuchava G.D., Balagurov A.M., Tabachkova N.Y., Qu B.-L., Saidov R.M., Ma B.-Y., Yin F.-X., Golovin I.S.",
+    "title": "Structural evolution in Fe–15Mn steel under thermal cycling",
+    "journal": "Journal of Iron and Steel Research International. 2026, 33:148. DOI: https://doi.org/10.1007/s42243-026-01728-0. (Web of Science, Импакт фактор - 3.84, Q1)",
+    "year": "2026"
   },
   {
     "id": "ART-008",
-    "authors": "Р.Х. Рахимов, М.С. Саидов",
-    "title": "ВОЗМОЖНОСТИ ИСПОЛЬЗОВАНИЯ СОЛНЕЧНЫХ ЕМКОСТНЫХ КОЛЛЕКТОРОВ ДЛЯ НАГРЕВА ВОДЫ, ИК-СУШКИ И ТЕРАПИИ",
-    "journal": "Гелиотехника, 2004 г., № 2, C.88-89",
-    "year": "2004"
+    "authors": "Duan K., Ji P., Zhang H., Qian M., Balokhonov R., Romanova V., Duishenaliev T.B., Saidov R.M., Yin F., Sun L.",
+    "title": "Damping and mechanical properties of M2052 alloy fabricated by laser powder bed fusion: The influence of layer thickness",
+    "journal": "Materials Letters. 2026. DOI: https://doi.org/10.1016/j.matlet.2026.140774. (Web of Science, Импакт фактор – 2.7, Q2)",
+    "year": "2026"
   },
   {
     "id": "ART-009",
-    "authors": "Р.Х. Рахимов, В.П. Ермаков, М.С. Саидов",
-    "title": "Импульсное ИК излучение керамических покрытий и солнечно-тепловые излучатели",
-    "journal": "Гелиотехника, 2005 г., № 4, C.56-62",
-    "year": "2005"
+    "authors": "Saidov R., Rakhimov R., Touileb K., Ponore J.",
+    "title": "A Study of the Influence of a Nanostructured Activating Component in Welding Electrodes on the Formation of Welding Beads",
+    "journal": "Crystals. – 2026. – Vol. 16, iss. 3. – Art. no. 205. – DOI: 10.3390/cryst16030205. (SCOPUS Q2, импакт-фактор – 2.4) (Дубликат)",
+    "year": "2026"
   },
   {
     "id": "ART-010",
-    "authors": "Рахимов Р.Х., Саидов М.С., Ермаков В.П., John P.",
-    "title": "РАДИАЦИОННАЯ СУШКА С ИСПОЛЬЗОВАНИЕМ КЕРАМИКО-СОДЕРЖАЩЕЙ ПОЛИМЕРНОЙ ПЛЕНКИ",
-    "journal": "Гелиотехника, 2007 г., № 1, C.71-74",
-    "year": "2007"
+    "authors": "Saidov R., Rakhimov R., Touileb K., Sun L.Y., Yusupov B.D.",
+    "title": "Enhancing the Welding-Technological Properties of Electrodes through a Nanostructured Activating Component",
+    "journal": "Engineering, Technology & Applied Science Research. – 2026. – Vol. 16, no. 2. – Pp. 33746–33752. – DOI: 10.48084/etasr.17095. (SCOPUS Q2, импакт-фактор – 2.9) (Дубликат)",
+    "year": "2026"
   },
   {
     "id": "ART-011",
-    "authors": "Рахимов Р.Х., Саидов М.С., Ермаков В.П., John P.",
-    "title": "ПЕРСПЕКТИВЫ ИСПОЛЬЗОВАНИЯ КЕРАМИКО-ПОЛИМЕРНЫХ КОМПОЗИТНЫХ ПЛЕНОК В ГЕЛИОТЕХНИКЕ И СЕЛЬСКОМ ХОЗЯЙСТВЕ",
-    "journal": "Гелиотехника, 2007 г., № 2, C.53-58",
-    "year": "2007"
+    "authors": "Sun L.-Y.; Huang H.-L.; Sumnikov S.V.; Vasin R.N.; Bobrikov I.A.; Bokuchava G.D.; Balagurov A.M.; Tabachkova N.Y.; Qu B.-L.; Saidov R.M.; Ma B.-Y.; Yin F.-X.; Golovin I.S",
+    "title": "Structural evolution in Fe–15Mn steel under thermal cycling",
+    "journal": "Journal of Iron and Steel Research International. 2026, 33:148. DOI: https://doi.org/10.1007/s42243-026-01728-0. (Web of Science, Импакт фактор - 3.84, Q1) (Дубликат)",
+    "year": "2026"
   },
   {
     "id": "ART-012",
-    "authors": "Р.Х. Рахимов, М.С. Саидов, В.П. Ермаков",
-    "title": "ЭФФЕКТ СУШКИ ПОЛИМЕРНО-КЕРАМИЧЕСКОГО ПЛЕНОЧНОГО ФОТО-ТЕПЛО-ФОТОННОГО ПРЕОБРАЗОВАТЕЛЯ",
-    "journal": "Гелиотехника № 3, 2008 C.111-113",
-    "year": "2008"
+    "authors": "Liu S.; Wang Q.; Liu C.; Zhang H.; Balokhonov R.; Romanova V.; Balokhonov V.; Ji P.; Duishenaliev T.B.; Saidov R.M.; Yin F.; Cong D.; Qian M.; Sun L",
+    "title": "Effective inhibition of hot cracking in Mn-Cu alloys manufactured by laser powder bed fusion",
+    "journal": "Materials Science & Engineering: A. 967 (2026) May, 150385. DOI: https://doi.org/10.1016/j.msea.2026.150385. (Web of Science, Импакт фактор – 1.830, Q1) (Дубликат)",
+    "year": "2026"
   },
   {
     "id": "ART-013",
-    "authors": "Р.Х. РАХИМОВ, М.С. САИДОВ, В.П. ЕРМАКОВ",
-    "title": "ИССЛЕДОВАНИЕ ФУНКЦИОНАЛЬНОЙ КЕРАМИКИ ДЛЯ СОЛНЕЧНОЙ СУШКИ",
-    "journal": "Гелиотехника, 2008, № 4, С.62-66",
-    "year": "2008"
+    "authors": "Duan K.; Ji P.; Zhang H.; Qian M.; Balokhonov R.; Romanova V.; Duishenaliev T.B.; Saidov R.M.; Yin F.; Sun L",
+    "title": "Damping and mechanical properties of M2052 alloy fabricated by laser powder bed fusion: The influence of layer thickness",
+    "journal": "Materials Letters. 2026. DOI: https://doi.org/10.1016/j.matlet.2026.140774. (Web of Science, Импакт фактор – 2.7, Q2) (Дубликат)",
+    "year": "2026"
   },
   {
     "id": "ART-014",
-    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
-    "title": "СОЛНЕЧНЫЙ ВОЗДУХОНАГРЕВАТЕЛЬ С ПРИМЕНЕНИЕМ КОМПОЗИТА ПОЛИЭТИЛЕНОВАЯ ПЛЕНКА-КЕРАМИКА НА ОСНОВЕ ОКСИДА ЖЕЛЕЗА",
-    "journal": "Гелиотехника, 2010, № 1, С.59-62",
-    "year": "2010"
+    "authors": "Saidov R.; Touileb K",
+    "title": "Study of the Influence of Technological Waste of Metallurgical Plants on the Quality and Properties of Welding Electrodes",
+    "journal": "Crystals. 2026. Vol. 16, No. 3, Article 183. DOI: 10.3390/cryst16030183. (Дубликат)",
+    "year": "2026"
   },
   {
     "id": "ART-015",
-    "authors": "Р.Х.Рахимов, В.П.Ермаков, М.Р.Рахимов",
-    "title": "СОЛНЕЧНЫЙ ВОЗДУХОНАГРЕВАТЕЛЬ С ПРИМЕНЕНИЕМ ТРЕХСЛОЙНОЙ КОМПОЗИТНОЙ ПЛЕНКИ С КАСКАДНЫМ ПРЕОБРАЗОВАНИЕМ СПЕКТРА",
-    "journal": "Гелиотехника № 2, 2010 C.43-46",
-    "year": "2010"
+    "authors": "Saidov R.; Rakhimov R.; Touileb K.; Ponore J",
+    "title": "A Study of the Influence of a Nanostructured Activating Component in Welding Electrodes on the Formation of Welding Beads",
+    "journal": "Crystals. 2026. Vol. 16, No. 3, Article 205. DOI: 10.3390/cryst16030205. (Дубликат)",
+    "year": "2026"
   },
   {
     "id": "ART-016",
-    "authors": "Р.Х. Рахимов, В.П. Ермаков",
-    "title": "ОСНОВЫ ПРОЕКТИРОВАНИЯ СУШИЛЬНЫХ УСТАНОВОК С ИСПОЛЬЗОВАНИЕМ ФУНКЦИОНАЛЬНОЙ КЕРАМИКИ. ЧАСТЬ 1. О КРИТЕРИЯХ ВЫБОРА ФУНКЦИОНАЛЬНОЙ КЕРАМИКИ ДЛЯ ПРОЦЕССОВ СУШКИ",
-    "journal": "Гелиотехника, 2010, № 4, С.70-77",
-    "year": "2010"
+    "authors": "Saidov R.; Rakhimov R.; Touileb K.; Sun L.Y.; Yusupov B.D",
+    "title": "Enhancing the Welding-Technological Properties of Electrodes through a Nanostructured Activating Component",
+    "journal": "Engineering, Technology & Applied Science Research. 2026. Vol. 16, No. 2. Pp. 33746–33752. DOI: 10.48084/etasr.17095. (Дубликат)",
+    "year": "2026"
   },
   {
     "id": "ART-017",
-    "authors": "Р.Х. Рахимов",
-    "title": "О РОЛИ КОНВЕКТИВНОГО ФАКТОРА ПРИ РАДИАЦИОННОЙ СУШКЕ",
-    "journal": "Гелиотехника, 2010, № 4, С.77-79",
-    "year": "2010"
+    "authors": "Rakhimov Kh R",
+    "title": "Quantum mechanics and thermodynamics: Paradoxes and possibilities",
+    "journal": "Computational Nanotechnology. — 2025. — Vol. 12, no. 1. — Pp. 138–167. — DOI: 10.33693/2313-223X-2025-12-1-138-167. — EDN: MTDVVZ.",
+    "year": "2025"
   },
   {
     "id": "ART-018",
-    "authors": "Р.Х.Рахимов, В.П.Ермаков, М.Р.Рахимов",
-    "title": "ОСОБЕННОСТИ СУШКИ ХЛОПКА-СЫРЦА С ИСПОЛЬЗОВАНИЕМ ФУНКЦИОНАЛЬНОЙ КЕРАМИКИ, СИНТЕЗИРОВАННОЙ НА БОЛЬШОЙ СОЛНЕЧНОЙ ПЕЧИ",
-    "journal": "Гелиотехника, 2011, № 1, С.67-72",
-    "year": "2011"
+    "authors": "Рахимов Р. Х.; Ермаков В. П",
+    "title": "Квантовая когерентность и супертуннельный эффект: волновая и корпускулярная природа квантовых объектов в интерферометре Маха–Цендера",
+    "journal": "Computational Nanotechnology. — 2025. — Т. 12, № 3. — С. 184–190. — DOI: 10.33693/2313-223X-2025-12-3-184-190. — EDN: BVCPGM.",
+    "year": "2025"
   },
   {
     "id": "ART-019",
-    "authors": "Р.Х. Рахимов, В.П. Ермаков, М.Р. Рахимов",
-    "title": "ВОЗМОЖНЫЙ МЕХАНИЗМ СТАБИЛИЗАЦИИ ТЕМПЕРАТУРЫ СОЛНЕЧНОГО ВОЗДУХОНАГРЕВАТЕЛЯ С ПРИМЕНЕНИЕМ ТРЕХСЛОЙНОЙ КОМПОЗИТНОЙ ПЛЕНКИ С КАСКАДНЫМ ПРЕОБРАЗОВАНИЕМ СПЕКТРА",
-    "journal": "Гелиотехника, 2011, № 2, C. 65-68",
-    "year": "2011"
+    "authors": "Saidov Rustam; Rakhimov Rustam; Touileb Kamel; Joffin Ponnore",
+    "title": "Effects of Nanostructured Functional Ceramics Additives Coatings Electrode on the Structure and Mechanical Properties of SMAW Welded Joints",
+    "journal": "Crystals. 2025. Vol. 15, No. 3, Article 260. DOI: 10.3390/cryst15030260.",
+    "year": "2025"
   },
   {
     "id": "ART-020",
-    "authors": "Р.Х. РАХИМОВ, Р.А. МУМИНОВ, В.П. ЕРМАКОВ, М.Р. РАХИМОВ, Р.Н. ЛАТИПОВ, А.Г. РАХИМОВА",
-    "title": "ПРИМЕНЕНИЕ ПОЛИМЕР-КЕРАМИЧЕСКИХ КОМПОЗИТНЫХ ПЛЕНОК В ФОТОЭНЕРГЕТИКЕ",
-    "journal": "Гелиотехника, 2011, № 4, C.48-51",
-    "year": "2011"
+    "authors": "Rustam Saidov; Rustam Rakhimov; Kamel Touileb; Joffin Ponnore",
+    "title": "Effect of Nanostructured Ceramic Additives on the Mechanical Properties of Welded Joints",
+    "journal": "Engineering, Technology & Applied Science Research. 2025. Vol. 15, No. 3. Pp. 22466–22471. DOI: 10.48084/etasr.10306.",
+    "year": "2025"
   },
   {
     "id": "ART-021",
-    "authors": "Р.Х. РАХИМОВ, Р.А. МУМИНОВ, Т.Т. РИСКИЕВ",
-    "title": "ВОЗМОЖНОСТЬ ПРИМЕНЕНИЯ ФУНКЦИОНАЛЬНОЙ КЕРАМИКИ, СИНТЕЗИРОВАННОЙ НА БСП, ДЛЯ ТЕХНОЛОГИИ СИНТЕЗА КОМПЛЕКСНЫХ СОЕДИНЕНИЙ",
-    "journal": "Гелиотехника, 2012, № 1, C.54-57",
-    "year": "2012"
+    "authors": "Saidov R. M.; Rakhimov Kh R..; Touileb K.; Abduraimov S",
+    "title": "Study of the influence of additives of nanostructured functional ceramics in the coating of welding electrodes on their welding and technological properties",
+    "journal": "Engineering, Technology & Applied Science Research, Vol. 14, No. 5, 2024, pp.1-7. (в печати)",
+    "year": "2024"
   },
   {
     "id": "ART-022",
-    "authors": "Р.Х. Рахимов, А.И. Юлдашходжаев, В.П. Ермаков",
-    "title": "ФУНКЦИОНАЛЬНАЯ КЕРАМИКА ДЛЯ СНИЖЕНИЯ ТРЕНИЯ В СИСТЕМЕ ТРУЩИХСЯ ПАР МЕТАЛЛ-МЕТАЛЛ",
-    "journal": "Гелиотехника, 2012, № 2, С.74-76",
-    "year": "2012"
+    "authors": "Рахимов Р. Х",
+    "title": "Импульсный туннельный эффект: фундаментальные основы и перспективы применения",
+    "journal": "Computational Nanotechnology. — 2024. — Т. 11, № 1. — С. 193–213. — DOI: 10.33693/2313-223X-2024-11-1-193-213. — EDN: EWSBUT.",
+    "year": "2024"
   },
   {
     "id": "ART-023",
-    "authors": "R. Kh. Rakhimova, V. P. Yermakova, M. R. Rakhimova",
-    "title": "Synthesis of Materials by the Radiation Method and Their Application",
-    "journal": "Applied Solar Energy, 2022, Vol. 58, No. 1, pp. 165–171",
-    "year": "2022"
+    "authors": "Рахимов Р. Х.; Ермаков В. П",
+    "title": "Новые подходы к синтезу функциональных материалов с заданными свойствами под действием концентрированного излучения и импульсного туннельного эффекта",
+    "journal": "Computational Nanotechnology. — 2024. — Т. 11, № 1. — С. 214–223. — DOI: 10.33693/2313-223X-2024-11-1-214-223. — EDN: EYKREQ.",
+    "year": "2024"
   },
   {
     "id": "ART-024",
-    "authors": "R. Kh. Rakhimova, D. N. Mukhtorovb",
-    "title": "Investigation of the Efficiency of Using a Film-Ceramic Composite in a Solar Dryer",
-    "journal": "Applied Solar Energy, 2022, Vol. 58, No. 2, pp. 273–278.",
-    "year": "2022"
+    "authors": "Рахимов Р. Х.; Паньков В. В.; Ермаков В. П.; Махнач Л. В",
+    "title": "Производительные методы повышения эффективности протекания промежуточных реакций при синтезе функциональной керамики",
+    "journal": "Computational Nanotechnology. — 2024. — Т. 11, № 1. — С. 224–234. — DOI: 10.33693/2313-223X-2024-11-1-224-234. — EDN: FCGMYR.",
+    "year": "2024"
   },
   {
     "id": "ART-025",
-    "authors": "Назиров Ф.Г., Рахимов Р.Х., Ермаков В.П., Курбанов Р.Д., Салимова Н.Р., Султанов С.Н., Аляви А.Л., Садыкова Г. А., Азимов М.И., Хасанов А.И., Юнусходжаев А.Х., Назаров Э.А., Садыкова М.Х., Джалалов У.А., Файзиева У.А., Братанов Л.Н.",
-    "title": "ПРИМЕНЕНИЕ АКТИВНОГО КАЛЬЦИЯ В КЛИНИКЕ ВНУТРЕННИХ БОЛЕЗНЕЙ ПРИ КАЛЬЦИЙ-ДЕФИЦИТНЫХ СОСТОЯНИЯХ",
-    "journal": "Журнал «Теоретическая и клиническая медицина», 2008, № 2, с.22-29",
-    "year": "2008"
+    "authors": "Рахимов Р. Х.; Ермаков В. П",
+    "title": "Импульсный туннельный эффект. Особенности взаимодействия с веществом. Эффект наблюдателя",
+    "journal": "Computational Nanotechnology. — 2024. — Т. 11, № 2. — С. 116–145. — DOI: 10.33693/2313-223X-2024-11-2-116-145. — EDN: MWBRQW. Импакт-фактор 0,196",
+    "year": "2024"
   },
   {
     "id": "ART-026",
-    "authors": "Рахимов Р.Х., Ермаков В.П., Батырбеков А.А., Аскаров Т.А., Розыкулов С.М.",
-    "title": "ВЛИЯНИЕ ПРЕПАРАТА «АКТИВНЫЙ КАЛЬЦИЙ С МАГНИЕМ» НА ИММУНОГЕНЕЗ В ЭКСПЕРИМЕНТЕ",
-    "journal": "Журнал «Теоретическая и клиническая медицина», 2008, № 4, с.6-8.",
-    "year": "2008"
+    "authors": "Рахимов Р. Х.; Паньков В. В.; Саидвалиев Т. С",
+    "title": "Исследование влияния импульсного излучения, генерируемого функциональной керамикой на основе принципа ИТЭ, на характеристики системы Cr2O3—SiO2—Fe2O3—CaO—Al2O3—MgO—CuO",
+    "journal": "Computational Nanotechnology. — 2024. — Т. 11, № 2. — С. 146–157. — DOI: 10.33693/2313-223X-2024-11-2-146-157. — EDN: MWPEYI.",
+    "year": "2024"
   },
   {
     "id": "ART-027",
-    "authors": "Каримов Х.Я., Рахимов Р. Х., Фаттахов А.А., Ермаков В. П., Розыкулов СМ., Фаттахова М.А., Махмудова А.Д., Сахарова О.И., Махмудова М.А., Махмудова Д.С.",
-    "title": "ПРИМЕНЕНИЕ ПРЕПАРАТА «АКТИВНЫЙ КАЛЬЦИЙ» ПРИ КАЛЬЦИЙ-ДЕФИЦИТНЫХ СОСТОЯНИЯХ В КОМПЛЕКСНОМ ЛЕЧЕНИИ НЕКОТОРЫХ ГЕМА ТОЛОГИЧЕСКИХ ЗАБОЛЕВАНИЙ",
-    "journal": "«Журнал теоретической и клинической медицины», №4, 2009 г. C.41-44",
-    "year": "2009"
+    "authors": "Рахимов Р. Х.; Ермаков В. П",
+    "title": "Особенности процесса полимеризации на основе ИТЭ",
+    "journal": "Computational Nanotechnology. — 2024. — Т. 11, № 2. — С. 158–174. — DOI: 10.33693/2313-223X-2024-11-2-158-174. — EDN: MXFORZ.",
+    "year": "2024"
   },
   {
     "id": "ART-028",
-    "authors": "Турсунов Н.Б., Рахимов Р.Х., Турсунов Б.С., Фаттахов А.А., Ермаков В.П., Турсунов Г.Б.",
-    "title": "СРАВНИТЕЛЬНАЯ ОЦЕНКА ЭФФЕКТИВНОСТИ ПРИМЕНЕНИЯ БАД «АКТИВНЫЙ КАЛЬЦИЙ» В КОМПЛЕКСНОМ ЛЕЧЕНИИ ПЕРЕЛОМОВ БЕДРЕННОЙ КОСТИ У ДЕТЕЙ",
-    "journal": "Журнал «Теоритическая и клиническая медицина», 2010, № 1, с.101-104",
-    "year": "2010"
+    "authors": "Рахимов Р. Х.; Паньков В. В.; Ермаков В. П. и др",
+    "title": "Импульсный туннельный эффект: результаты испытаний пленочно-керамических композитов",
+    "journal": "Computational Nanotechnology. — 2024. — Т. 11, № 2. — С. 175–191. — DOI: 10.33693/2313-223X-2024-11-2-175-191. — EDN: NHSAVQ.",
+    "year": "2024"
   },
   {
     "id": "ART-029",
-    "authors": "А. Л. Аляви, М. М. Каримов, Ш. Т. Гулямов",
-    "title": "ИСПОЛЬЗОВАНИЕ ИНФРАКРАСНЫХ ИЗЛУЧАТЕЛЕЙ С КЕРАМИЧЕСКИМ ПОКРЫТИЕМ ПРИ КОМПЛЕКСНОМ ЛЕЧЕНИИ ЯЗВЕННОЙ БОЛЕЗНИ ДВЕНАДЦАТИПЕРСТНОЙ КИШКИ",
-    "journal": "Научно-практический журнал «Физиотерапия, Бальнеология и Реабилитация», № 4, 2003, С.14-16",
-    "year": "2003"
+    "authors": "Rakhimov Kh R",
+    "title": "Potential of ITE for overcoming technical barriers of quantum computers",
+    "journal": "Computational Nanotechnology. — 2024. — Vol. 11, no. 3. — Pp. 11–33. — DOI: 10.33693/2313-223X-2024-11-3-11-33. — EDN: PZNUYI.",
+    "year": "2024"
   },
   {
     "id": "ART-030",
-    "authors": "М.В. Бекметов, А.С. Алимов, Р.Х. Рахимов",
-    "title": "ВЫБОР АНЕСТЕЗИРУЮЩИХ СРЕДСТВ И КОНСТРУКЦИОННЫХ СТОМАТОЛОГИЧЕСКИХ МАТЕРИАЛОВ ПРИ ОРТОПЕДИЧЕСКОМ ЛЕЧЕНИИ БОЛЬНЫХ С ФОНОВОЙ СЕРДЕЧНО-СОСУДИСТОЙ ПАТОЛОГИЕЙ",
-    "journal": "Среднеазиатский научно-практический журнал «STOMATOLOGIYA», 2005 (29), № 3-4, с.87-88.",
-    "year": "2005"
+    "authors": "Rakhimov Kh R",
+    "title": "Fractals in Quantum Mechanics: From Theory to Practical Applications",
+    "journal": "Computational Nanotechnology. 2024. Vol. 11, No. 3. Pp. 125–160. DOI: 10.33693/2313-223X-2024-11-3-125-160. Проверено по Math-Net.Ru.",
+    "year": "2024"
   },
   {
     "id": "ART-031",
-    "authors": "Р.Х. Рахимов, В.П. Ермаков (Институт Материаловедения НПО «Физика-Солнце» АН РУз) P. John, PhD (InfraRot Anlagen GmbH, Германия) Д.Б. Зайцев, Н.Ю. Шкарин, А. С. Тимонин (МГУИЭ, г. Москва)",
-    "title": "ТРАНСПОРТЕРНАЯ И ШКАФНАЯ СУШКА МАТЕРИАЛОВ С ИСПОЛЬЗОВАНИЕМ ФУНКЦИОНАЛЬНОЙ КЕРАМИКИ",
-    "journal": "Химическое и нефтегазовое машиностроение, 2007, № 4, С. 24-25",
-    "year": "2007"
+    "authors": "Rakhimov Kh R",
+    "title": "Pulsed Tunnel Effect: New Perspectives for Controlling Superconducting Devices",
+    "journal": "Computational Nanotechnology. 2024. Vol. 11, No. 3. Pp. 161–176. DOI: 10.33693/2313-223X-2024-11-3-161-176. Проверено по официальной странице журнала.",
+    "year": "2024"
   },
   {
     "id": "ART-032",
-    "authors": "А.И. Хасанов",
-    "title": "ОЦЕНКА ЭФФЕКТИВНОСТИ ИСПОЛЬЗОВАНИЯ БИОЛОГИЧЕСКОЙ АКТИВНОЙ ДОБАВКИ «АКТИВНЫЙ КАЛЬЦИЙ» В КОМПЛЕКСНОМ ЛЕЧЕНИИ ОСТРОГО ОСТЕОМИЕЛИТА НИЖНЕЙ ЧЕЛЮСТИ У ДЕТЕЙ",
-    "journal": "Вестник экстренной медицины, № 2, 2008, С.53-54",
-    "year": "2008"
+    "authors": "Rakhimov Kh R",
+    "title": "Interrelation and Interpretation of Effects in Quantum Mechanics and Classical Physics",
+    "journal": "Computational Nanotechnology. 2024. Vol. 11, No. 3. Pp. 98–124. DOI: 10.33693/2313-223X-2024-11-3-98-124. Проверено по Math-Net.Ru.",
+    "year": "2024"
   },
   {
     "id": "ART-033",
-    "authors": "Алимов А.С., Рахимов Р.Х., Бекметов З.М.",
-    "title": "НОВЫЕ ПОДХОДЫ В ПРОФИЛАКТИКЕ ОСЛОЖНЕНИЙ ВО ВРЕМЯ ОРТОПЕДИЧЕСКИХ ВМЕШАТЕЛЬСТВ У БОЛЬНЫХ С СЕРДЕЧНО-СОСУДИСТОЙ ПАТОЛОГИЕЙ",
-    "journal": "Научно-практический журнал «Dentist Казахстан», 2008, № 7, С.145-147",
-    "year": "2008"
+    "authors": "Rakhimov Kh R",
+    "title": "Electronegativity and chemical hardness: Key concepts in chemistry",
+    "journal": "Computational Nanotechnology. — 2024. — Vol. 11, no. 4. — Pp. 154–172. — DOI: 10.33693/2313-223X-2024-11-4-154-172. — EDN: HJJEPR.",
+    "year": "2024"
   },
   {
     "id": "ART-034",
-    "authors": "Rachimov R.C., Ermakov V.P., John P., Rachimov M.R.",
-    "title": "Anwendung funktioneller keramiken fur technologien des trocknens mit impuls-infrarot.",
-    "journal": "Фрайбергские исследовательские папки. Журнал Горной Академии. Freiberger Forschungshefte, Опубликовано 02.06.2014, C. 1-44.",
-    "year": "2014"
+    "authors": "Rakhimov Kh R",
+    "title": "The Observer Effect in the Double-Slit Experiment: The Role of Experimental Parameters in Forming the Interference Pattern",
+    "journal": "Computational Nanotechnology. 2024. Vol. 11, No. 4. Pp. 173–189. DOI: 10.33693/2313-223X-2024-11-4-173-189.",
+    "year": "2024"
   },
   {
     "id": "ART-035",
-    "authors": "Rachimov R.C., Ermakov, V.P., John P., Rachimov M.R.",
-    "title": "Anwendung funktioneller Keramiken für Technologien des Trocknens mit Impuls-Infrarot Neues Impuls-Infrarot-System. Schnelle und energiesparende Lacktrocknung mit Solarwärme",
-    "journal": "JOURNAL FÜR OBERFLÄCHENTECHNIK, JOT 11.2014, P.38-41",
-    "year": "2014"
+    "authors": "Rakhimov Kh R",
+    "title": "Optimization of quantum computing: Influence of the Doppler effect on the coherence of qubits",
+    "journal": "Computational Nanotechnology. — 2024. — Vol. 11, no. 4. — Pp. 58–76. — DOI: 10.33693/2313-223X-2024-11-4-58-76. — EDN: GFQRFT.",
+    "year": "2024"
   },
   {
     "id": "ART-036",
-    "authors": "Rustam Ch. Rachimov",
-    "title": "Mechanismus zur Erzeugung von Infrerotimpulsen mit funktionalen Keramiken",
-    "journal": "Фрайбергские исследовательские папки. Журнал Горной Академии. Freiberger Forschungshefte, 2014, март, C. 1-13",
-    "year": "2014"
+    "authors": "Saidov; R.M.; Touileb; K",
+    "title": "Improving the formation and quality of weld joints on aluminium alloys during tig welding using flux backing tape",
+    "journal": "Metals 2024, 14, 321. https://doi.org/10.3390/met14030321. Q1, импакт-фактор 2,6",
+    "year": "2024"
   },
   {
     "id": "ART-037",
-    "authors": "Азимова Н.Ш., Хамидов Д.М., Орунов Б., Рахимов Р.Х., Ермаков В.П., Рашидов Х.К.",
-    "title": "ДЕЙСТВИЕ ИНФРАКРАСНОГО ИЗЛУЧЕНИЯ, ГЕНЕРИРУЕМОГО ФУНКЦИОНАЛЬНОЙ КЕРАМИКОЙ НА ЦЕЛЛЮЛАЗНУЮ АКТИВНОСТЬ И ОБРАЗОВАНИЕ БЕЛКА ГРИБОМ TRICHODERMA HARZIANUM UZCF 28",
-    "journal": "КарДУ Хабарлари илмий-назарий, услубий журнал, № 3(25). 2015, С.49-55",
-    "year": "2015"
+    "authors": "Saidov R. M.; Rakhimov Kh R..; Touileb K",
+    "title": "Comparative analysis of the efficiency of additives of nanostructured functional ceramics on the properties of welding electrodes",
+    "journal": "Crystals. — 2024. — Vol. 14, no. 12. — P. 1082.",
+    "year": "2024"
   },
   {
     "id": "ART-038",
-    "authors": "М.Р. Рахимов, В.П. Ермаков, Р.Х. Рахимов",
-    "title": "РАЗРАБОТКИ НА ОСНОВЕ ФУНКЦИОНАЛЬНОЙ КЕРАМИКИ СИНТЕЗ СУПЕРАБСОРБЕНТОВ НА ОСНОВЕ МЕСТНОГО СЫРЬЯ",
-    "journal": "ЁШ ОЛИМЛАР АХБОРОТНОМАСИ №3-4 (11) 2019 ИЛМИЙ ЖУРНАЛ С.11-12",
-    "year": "2019"
+    "authors": "Рахимов Р.Х",
+    "title": "Повышение эффективности электролиза",
+    "journal": "Computational Nanotechnology. 2023. Т. 10. № 1. С. 115-125. DOI: 10.33693/2313-223X-2023-10-1-115-125",
+    "year": "2023"
   },
   {
     "id": "ART-039",
-    "authors": "В.П.Ермаков, М.Р. Рахимов, Р.Н.Латипов",
-    "title": "ПЛЕНОЧНО-КЕРАМИЧЕСКИЙ КОМПОЗИТ НА ОСНОВЕ ФУНКЦИОНАЛЬНОЙ КЕРАМИК И ПОЛИЭТИЛЕНОВОЙ ПЛЕНКИ",
-    "journal": "ЁШ ОЛИМЛАР АХБОРОТНОМАСИ №3-4 (11) 2019 ИЛМИЙ ЖУРНАЛ С.57-64",
-    "year": "2019"
+    "authors": "Рахимов Р. Х.",
+    "title": "Повышение надежности предсказания землетрясений",
+    "journal": "Computational Nanotechnology. — 2023. — Т. 10, № 1. — С. 112–118. — DOI: 10.33693/2313-223X-2023-10-1-112-118.",
+    "year": "2023"
   },
   {
     "id": "ART-040",
-    "authors": "М.Р. Рахимов, Ж.К. Рашидов",
-    "title": "ИННОВАЦИОННЫЕ ПОДХОДЫ В ПЕРЕРАБОТКЕ МИНЕРАЛЬНОГО СЫРЬЯ",
-    "journal": "ЁШ ОЛИМЛАР АХБОРОТНОМАСИ №3-4 (11) 2019 ИЛМИЙ ЖУРНАЛ С.78-84",
-    "year": "2019"
+    "authors": "Муминов Р. А., Имамов Э. З., Рахимов Р. Х., Аскаров М. А.",
+    "title": "Факторы эффективной генерации электричества в солнечном элементе с наногетеропереходами",
+    "journal": "Computational Nanotechnology. — 2023. — Т. 10, № 1. — С. 119–127. — DOI: 10.33693/2313-223X-2023-10-1-119-127.",
+    "year": "2023"
   },
   {
     "id": "ART-041",
-    "authors": "М.Р. Рахимов, В.П. Ермаков, Р.Х. Рахимов",
-    "title": "МЕТОДЫ СИНТЕЗА КЕРАМИЧЕСКИХ МАТЕРИАЛОВ",
-    "journal": "ЁШ ОЛИМЛАР АХБОРОТНОМАСИ №3-4 (11) 2019 ИЛМИЙ ЖУРНАЛ С.85-96",
-    "year": "2019"
+    "authors": "Рахимов Р. Х",
+    "title": "Возможный механизм эффекта импульсного квантового туннелирования в фотокатализаторах на основе наноструктурированной функциональной керамики",
+    "journal": "Computational Nanotechnology. 2023. Vol. 10. No. 3. Pp. 26–34. DOI: 10.33693/2313-223X-2023-10-3-26-34. EDN: QZQMCA. Импакт-фактор 0,196",
+    "year": "2023"
   },
   {
     "id": "ART-042",
-    "authors": "Ж.К. Рашидов, М.Р. Рахимов",
-    "title": "ФУНКЦИОНАЛЬНАЯ КЕРАМИКА В ТЕХНОЛОГИИ ПОЛУЧЕНИЯ ГЛИНОЗЕМА ИЗ ВТОРИЧНЫХ КАОЛИНОВ АНГРЕНСКОГО МЕСТОРОЖДЕНИЯ",
-    "journal": "ЁШ ОЛИМЛАР АХБОРОТНОМАСИ №3-4 (11) 2019 ИЛМИЙ ЖУРНАЛ С.100-105",
-    "year": "2019"
+    "authors": "Рахимов Р.Х.; Ермаков В.П.; Саидвалиев Т.С",
+    "title": "Перспективы применения пленочно-керамических фотокатализаторов для выращивания микроводорослей",
+    "journal": "Computational Nanotechnology. 2023. Т. 10. № 2. С. 60–69. DOI: 10.33693/2313-223X-2023-10-2-60-69. EDN: BTHXIR",
+    "year": "2023"
   },
   {
     "id": "ART-043",
-    "authors": "Рахимов Рустам Хакимович, Йон Петер, Ермаков Владимир Петрович, Рахимов Мурод Рустамович",
-    "title": "ПЕРСПЕКТИВЫ ШИРОКОГО ПРИМЕНЕНИЯ ТЕХНОЛОГИИ IR.C В ГЕРМАНИИ",
-    "journal": "Проблемы экономики и юридической практики. 2021. Т. 17. № 6. С. 279-284",
-    "year": "2021"
+    "authors": "Рахимов Р.Х.; Мухторов Д.Н",
+    "title": "Гелиосушка фруктов и овощей с использованием полиэтилен-керамического композита",
+    "journal": "Computational Nanotechnology. — 2023. — Т. 10, № 4. — С. 104–110. — DOI: 10.33693/2313-223X-2023-10-4-104-110. — EDN: TLZMDV",
+    "year": "2023"
   },
   {
     "id": "ART-044",
-    "authors": "Rakhimov Rustam Khakimovich",
-    "title": "PRACTICAL TESTING OF INDIRECT AND MIXED SOLAR DRYERS IN OPTIONAL CLIMATIC CONDITIONS",
-    "journal": "Scientific and Technical Journal. Namangan Institute of Engineering and Technology. V7., Issue 3, 2022., p.259-267.",
-    "year": "2022"
+    "authors": "Muminov R.A.; Imamov E.Z.; Rakhimov R.Kh.; Askarov M.A",
+    "title": "Factors of Efficient Generation of Electricity in a Solar Cell with Nanohetero Junctions",
+    "journal": "Computational Nanotechnology. 2023. Vol. 10, No. 1. Pp. 126–134. DOI: 10.33693/2313-223X-2023-10-1-126-134. Проверено по DOI.",
+    "year": "2023"
   },
   {
     "id": "ART-045",
-    "authors": "R. Kh. Rakhimov",
-    "title": "“Pulsed tunnel effect: new perspectives for controlling superconducting devices”",
-    "journal": "Comp. nanotechnol., 11:3 (2024),  161–176",
-    "year": "2024"
+    "authors": "Рахимов Р.Х.; Паньков В.В.; Ермаков В.П.; Рашидов Ж.Х.; Рахимов М.Р.; Рашидов Х.К",
+    "title": "Исследование свойств функциональной керамики синтезированной модифицированным карбонатным методом",
+    "journal": "Computational Nanotechnology. 2023. Т. 10. № 3. C. 130–143. DOI: 10.33693/2313-223X-2023-10-3-130-143. EDN: SZDYRZ. Импакт-фактор 0,196",
+    "year": "2023"
   },
   {
     "id": "ART-046",
-    "authors": "R. Kh. Rakhimov",
-    "title": "“Fractals in quantum mechanics: from theory to practical applications”",
-    "journal": "Comp. nanotechnol., 11:3 (2024),  125–160",
-    "year": "2024"
+    "authors": "Рахимов Р.Х.; Ермаков В.П",
+    "title": "Перспективы солнечной энергетики: роль современных гелиотехнологий в производстве водорода",
+    "journal": "Computational Nanotechnology. 2023. Vol. 10, No. 3. Pp. 11–25. DOI: 10.33693/2313-223X-2023-10-3-11-25.",
+    "year": "2023"
   },
   {
     "id": "ART-047",
-    "authors": "R. Kh. Rakhimov",
-    "title": "Interrelation and interpretation of effects in quantum mechanics and classical physics”",
-    "journal": "Comp. nanotechnol., 11:3 (2024),  98–124",
-    "year": "2024"
+    "authors": "Saidov R. M., Rakhimov R. Kh., Touileb K.",
+    "title": "The effect of nanostructured functional ceramics additives on the properties of welding electrodes",
+    "journal": "Metals. — 2023. — Vol. 13, no. 11. — Art. 1849. — 12 p. — DOI: 10.3390/met13111849.",
+    "year": "2023"
   },
   {
     "id": "ART-048",
-    "authors": "R. Kh. Rakhimov",
-    "title": "“Potential of pulsed tunnel effect (PTE) to overcome technical barriers of quantum computers”",
-    "journal": "Comp. nanotechnol., 11:3 (2024),  11–33",
-    "year": "2024"
+    "authors": "Рахимов Р. Х.; Паньков В. В.; Ермаков В. П.; Джалалов Т. А.; Халимов С. А",
+    "title": "Фотокатализаторы на основе функциональной керамики для очистки сточных вод",
+    "journal": "Гелиотехника. – 2023. – № 4. – С. 341–352. – DOI: 10.55764/0130-0997-2023-4-341-352.",
+    "year": "2023"
   },
   {
     "id": "ART-049",
-    "authors": "R. Kh. Rakhimov, V. V. Pan'kov, V. P. Yermakov, T. S. Saidvaliev, J. Kh. Rashidov, M. R. Rakhimov, Kh. K. Rashidov",
-    "title": "“Pulse tunnel effect: prospects for scaling photocatalysts”",
-    "journal": "Comp. nanotechnol., 11:2 (2024),  174–190",
-    "year": "2024"
+    "authors": "Рахимов Р.Х.; Мухторов Д.Н",
+    "title": "Determining comparative efficiency in composite film solar dryers",
+    "journal": "Scientific and Technical Journal of NamIET. 2023. No. 2. Pp. 213-220.",
+    "year": "2023"
   },
   {
     "id": "ART-050",
-    "authors": "R. Kh. Rakhimov, V. P. Yermakov",
-    "title": "“Features of the ITE-based polymerization process”",
-    "journal": "Comp. nanotechnol., 11:2 (2024),  157–173",
-    "year": "2024"
+    "authors": "Rakhimov Kh R",
+    "title": "Potential of pulse energy converters as photocatalysts in hydrogen energy",
+    "journal": "Proceedings of the III International Conference Trends in the Development of Condensed Matter Physics (Fergana, October 30–31, 2023). — Fergana, 2023. — Pp. 297–300.",
+    "year": "2023"
   },
   {
     "id": "ART-051",
-    "authors": "R. Kh. Rakhimov, V. V. Pan'kov, T. S. Saidvaliev",
-    "title": "“Investigation of the influence of pulsed radiation generated by functional ceramics based on the principle of PTE on the characteristics of the Cr22O33-SiO22-Fe22O33-CaO-Al22O33-MgO-CuO system”",
-    "journal": "Comp. nanotechnol., 11:2 (2024),  145–156",
-    "year": "2024"
+    "authors": "Саидов Р. М., Рахимов Р. Х., Рахимова Ф. М.",
+    "title": "Перспективы применения функциональной керамики в составе шлаковой системы Fe3O4-CaO-TiO2 для покрытий сварочных электродов",
+    "journal": "Синтез материалов на Большой Солнечной Печи Узбекистана : сб. науч. ст. — Ташкент, 2023. — С. 448–459.",
+    "year": "2023"
   },
   {
     "id": "ART-052",
-    "authors": "R. Kh. Rakhimov, V. P. Yermakov",
-    "title": "“Pulse tunneling effect. Features interaction with substance”",
-    "journal": "Comp. nanotechnol., 11:2 (2024),  115–144",
-    "year": "2024"
+    "authors": "Саидов Р.М.; Рахимов Р.Х.; Юсупов В.Д. ўғли; Холдоров М.Қ.Р. ўғли",
+    "title": "Эффективный метод термической обработки сварочных электродов с использованием излучателей из функциональной керамики",
+    "journal": "Синтез материалов на Большой Солнечной Печи Узбекистана : сб. науч. ст. — Ташкент, 2023. — С. 460–470.",
+    "year": "2023"
   },
   {
     "id": "ART-053",
-    "authors": "Р. Х. Рахимов, В. В. Паньков, В. П. Ермаков, Л. В. Махнач",
-    "title": "“Производительные методы повышения эффективности протекания промежуточных реакций при синтезе функциональной керамики”",
-    "journal": "Comp. nanotechnol., 11:1 (2024),  224–234",
-    "year": "2024"
+    "authors": "Рахимов Р. К.; Мухторов Д. Н",
+    "title": "Исследование эффективности использования пленочно-керамического композита в солнечной сушке",
+    "journal": "Applied Solar Energy. 2022. Vol. 58, No. 2. Pp. 273–278. DOI: 10.3103/S0003701X22020153.",
+    "year": "2022"
   },
   {
     "id": "ART-054",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков",
-    "title": "“Новые подходы к синтезу функциональных материалов с заданными свойствами под действием концентрированного излучения и импульсного туннельного эффекта”",
-    "journal": "Comp. nanotechnol., 11:1 (2024),  214–223",
-    "year": "2024"
+    "authors": "Rakhimov Kh R..; Yermakov V. P.; Rakhimov M. R",
+    "title": "Synthesis of materials by the radiation method and their application",
+    "journal": "Applied Solar Energy. — 2022. — Vol. 58, no. 1. — Pp. 165–171. — ISSN 0003-701X.",
+    "year": "2022"
   },
   {
     "id": "ART-055",
-    "authors": "Р. Х. Рахимов",
-    "title": "“Импульсный туннельный эффект: фундаментальные основы и перспективы применения”",
-    "journal": "Comp. nanotechnol., 11:1 (2024),  193–213",
-    "year": "2024"
+    "authors": "Рахимов Р.Х.; Мухтаров Д.Н",
+    "title": "Исследования эффективности применения пленочно-керамического композита в гелиосушке",
+    "journal": "Гелиотехника. 2022. Том 58, № 2, с. 134-141",
+    "year": "2022"
   },
   {
     "id": "ART-056",
-    "authors": "Р. Х. Рахимов, Д. Н. Мухторов",
-    "title": "“Гелиосушка фруктов и овощей с использованием полиэтилен-керамического композита”",
-    "journal": "Comp. nanotechnol., 10:4 (2023),  103–109",
-    "year": "2023"
+    "authors": "Рахимов Р.Х.; Ермаков В.П.; Рахимов М.Р",
+    "title": "Синтез материалов радиационным методом и их применение",
+    "journal": "Гелиотехника. 2022. № 1. С. 165–171",
+    "year": "2022"
   },
   {
     "id": "ART-057",
-    "authors": "Р. Х. Рахимов, В. В. Паньков, В. П. Ермаков, Ж. Х. Рашидов, М. Р. Рахимов, Х. К. Рашидов",
-    "title": "“Исследование свойств функциональной керамики, синтезированной модифицированным карбонатным методом”",
-    "journal": "Comp. nanotechnol., 10:3 (2023),  130–143",
-    "year": "2023"
+    "authors": "Рахимов Р. Х.; Ермаков В. П.; Рахимов М. Р",
+    "title": "Синтез материалов радиационными методами и их применение",
+    "journal": "Гелиотехника, 2022. Том 58. № 1. с. 82-91",
+    "year": "2022"
   },
   {
     "id": "ART-058",
-    "authors": "R. Kh. Rakhimov",
-    "title": "“A possible mechanism of the optical quantum tunneling effect in photocatalysts based on nanostructured functional ceramics”",
-    "journal": "Comp. nanotechnol., 10:3 (2023),  26–34",
-    "year": "2023"
+    "authors": "Рахимов Р. Х., Ермаков В. П., Рахимов М. Р., Мухторов Д. Н.",
+    "title": "Исследование пленочно-керамического композита в гелиосушке",
+    "journal": "Computational Nanotechnology. — 2022. — Т. 9, № 1. — С. 132–138. — DOI: 10.33693/2313-223X-2022-9-1-132-138.",
+    "year": "2022"
   },
   {
     "id": "ART-059",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков",
-    "title": "“Перспективы солнечной энергетики: роль современных гелиотехнологий в производстве водорода”",
-    "journal": "Comp. nanotechnol., 10:3 (2023),  11–25",
-    "year": "2023"
+    "authors": "Рахимов Р. Х., Ермаков В. П., Рахимов М. Р., Мухторов Д. Н.",
+    "title": "Возможности полиэтилен-керамического композита в сравнении с полиэтиленовой пленкой в реальных условиях эксплуатации",
+    "journal": "Computational Nanotechnology. — 2022. — Т. 9, № 2. — С. 67–72. — DOI: 10.33693/2313-223X-2022-9-2-67-72.",
+    "year": "2022"
   },
   {
     "id": "ART-060",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков, Т. С. Саидвалиев",
-    "title": "“Перспективы применения пленочно-керамических фотокатализаторов для выращивания микроводорослей”",
-    "journal": "Comp. nanotechnol., 10:2 (2023),  60–69",
-    "year": "2023"
+    "authors": "Саидов Р. М., Рахимов Р. Х., Рахимова Ф. М.",
+    "title": "Результаты применения функциональной керамики в составе шлаковой системы Fe3O4–CaO2–TiO2 для покрытий сварочных электродов",
+    "journal": "Computational Nanotechnology. — 2022. — Т. 9, № 3. — С. 53–59. — DOI: 10.33693/2313-223X-2022-9-3-53-59.",
+    "year": "2022"
   },
   {
     "id": "ART-061",
-    "authors": "R. A. Muminov, E. Z. Imamov, R. Kh. Rakhimov, M. A. Askarov",
-    "title": "“Factors of efficient generation of electricity in a solar cell with nanohetero junctions”",
-    "journal": "Comp. nanotechnol., 10:1 (2023),  119–127",
-    "year": "2023"
+    "authors": "Рахимов Р. Х., Ермаков В. П., Сайдул Ю. С., Тайдук М. Р., Рахимов Д. Н., Мухтаров Д. Н.",
+    "title": "Разработка метода получения керамических нанокомпозитов с использованием элементов золь-гель-технологии для создания скрепляющей аморфных фаз с составом, аналогичным целевой кристаллической керамической матрице",
+    "journal": "Computational Nanotechnology. — 2022. — Т. 9, № 3. — С. 60–67. — DOI: 10.33693/2313-223X-2022-9-3-60-67.",
+    "year": "2022"
   },
   {
     "id": "ART-062",
-    "authors": "Р. Х. Рахимов",
-    "title": "“Повышение надежности предсказания землетрясений”",
-    "journal": "Comp. nanotechnol., 10:1 (2023),  112–118",
-    "year": "2023"
+    "authors": "Имамов Э. З.; Муминов Р. А.; Рахимов Р. Х. и др",
+    "title": "Моделирование электрических свойств солнечного элемента с многими наногетеро-переходами",
+    "journal": "Computational Nanotechnology. — 2022. — Т. 9, № 4. — С. 70–77.",
+    "year": "2022"
   },
   {
     "id": "ART-063",
-    "authors": "Э. З. Имамов, Р. А. Муминов, Р. Х. Рахимов, Х. Н. Каримов, М. А. Аскаров",
-    "title": "“Моделирование электрических свойств солнечного элемента с многими наногетеро-переходами”",
-    "journal": "Comp. nanotechnol., 9:4 (2022),  70–77",
+    "authors": "Saidov R. M.; Rakhimova F. M.; Kusch M.; Hoefer K",
+    "title": "Investigation of the peculiarities of formation of weld beads of high resistant steels during A-TIG welding. Part 1: Influence of the surface conditions of welded plates on the formation of weld beads during the TIG and A-TIG welding",
+    "journal": "Welding and Cutting (Germany). — 2022. — No. 2. — Pp. 114–118. — DOI: 10.53192/WAC2022114. (SCOPUS, Q4).",
     "year": "2022"
   },
   {
     "id": "ART-064",
-    "authors": "Р. Х. Рахимов, В. В. Паньков, В. П. Ермаков, Ю. С. Гайдук, М. Р. Рахимов, Д. Н. Мухторов",
-    "title": "“Разработка метода получения керамических нанокомпозитов с использованием элементов золь-гель-технологии для создания вкраплений аморфных фаз с составом, аналогичным целевой кристаллической керамической матрице”",
-    "journal": "Comp. nanotechnol., 9:3 (2022),  60–67",
+    "authors": "Saidov R.M.; Rakhimov R.M.; Kusch M.; Hoefer K",
+    "title": "Investigation of the peculiarities of formation of weld beads of high resistant steels during A-TIG welding. Part 1. Influence of the surface conditions of welded plates on the formation of weld beads during the TIG and A-TIG welding",
+    "journal": "Welding and Cutting (Germany). 2022. – № 2. – 114-118 p. (SCOPUS Импакт фактор – 0.186, Q4) (https://doi.org/10.53) (Дубликат)",
     "year": "2022"
   },
   {
     "id": "ART-065",
-    "authors": "Р. М. Саидов, Р. Х. Рахимов, Ф. М. Рахимова",
-    "title": "“Результаты применения функциональной керамики в составе шлаковой системы Fe33O44-CaO22-TiO22 для покрытий сварочных электродов”",
-    "journal": "Comp. nanotechnol., 9:3 (2022),  53–59",
+    "authors": "Rakhimov Kh R..; Mukhtorov D. N",
+    "title": "Practical testing of indirect and mixed solar dryers in optional climatic conditions",
+    "journal": "Scientific and Technical Journal of NamIET. — 2022. — Vol. 7, Issue 3. — Pp. 259–267.",
     "year": "2022"
   },
   {
     "id": "ART-066",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков, М. Р. Рахимов, Д. Н. Мухторов",
-    "title": "“Возможности полиэтилен-керамического композита в сравнении с полиэтиленовой пленкой в реальных условиях эксплуатации”",
-    "journal": "Comp. nanotechnol., 9:2 (2022),  67–72",
+    "authors": "Рашидов Ж. Х",
+    "title": "Перспективы использования комплексной галогенаммонийной технологии для переработки каолинового сырья",
+    "journal": "The Best Innovator in Science - 2022 / Organized by Innovative Academy. — Pp. 719–726. — URL: https://www.in-academy.uz/index.php/lion/article/view/575",
     "year": "2022"
   },
   {
     "id": "ART-067",
-    "authors": "Р. Х. Рахимов, Д. Н. Мухторов",
-    "title": "“Исследование пленочно-керамического композита в гелиосушке”",
-    "journal": "Comp. nanotechnol., 9:1 (2022),  132–138",
+    "authors": "Рахимов Р.Х.; Мухтаров Д.Н",
+    "title": "Функционал керамика композитли ва оддий полиэтилен плёнкали, қуёшли қуритгичларни турли хил атроф-муҳит шароитида текшириш",
+    "journal": "Андижон машинасозлик институти машинасозлик илмий-техника журнали. — 2022 йил. — № 2. — С. 97–106.",
     "year": "2022"
   },
   {
     "id": "ART-068",
-    "authors": "Э. З. Имамов, Р. А. Муминов, Р. Х. Рахимов",
-    "title": "“Анализ эффективности солнечного элемента с наноразмерными гетеропереходами”",
-    "journal": "Comp. nanotechnol., 8:4 (2021),  42–50",
-    "year": "2021"
+    "authors": "Рахимов Р. Х.; Мухтаров Д. Н",
+    "title": "Оддий ва керамик композитли плёнкадан фойдаланиб қуёшли қуритгичларни текшириш",
+    "journal": "Ёш олимлар ахборотномаси. — 2022. — № 2 (4). — С. 23–27.",
+    "year": "2022"
   },
   {
     "id": "ART-069",
-    "authors": "М. Л. Джалилов, Р. Х. Рахимов",
-    "title": "“Колебания бесконечной кусочно-однородной двухслойной пластинки под воздействием нормальной нагрузки”",
-    "journal": "Comp. nanotechnol., 8:4 (2021),  28–33",
+    "authors": "Рахимов Р. Х.; Ермаков В. П.; Рахимов М. Р",
+    "title": "Применение функциональной керамики в процессах стерилизации",
+    "journal": "Computational Nanotechnology. 2021. Т. 8, № 1. С. 84–94. DOI: 10.33693/2313-223X-2021-8-1-84-94.",
     "year": "2021"
   },
   {
     "id": "ART-070",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков, М. Р. Рахимов",
-    "title": "“Применение функциональной керамики в процессах стерилизации”",
-    "journal": "Comp. nanotechnol., 8:1 (2021),  84–94",
+    "authors": "Imamov E.Z.; Muminov R.A.; Rakhimov R.Kh",
+    "title": "Analysis of the efficiency of a solar cell with nano-dimensional hetero transitions",
+    "journal": "Computational Nanotechnology. 2021. № 4. С. 34–40. (DOI: 10.33693/2313-223X-2021-8-4-34-40)",
     "year": "2021"
   },
   {
     "id": "ART-071",
-    "authors": "M. L. Jalilov, R. Kh. Rakhimov",
-    "title": "“The compelled fluctuations of a rectangular two-layer piecewise-homogeneous plate of a constant thickness”",
-    "journal": "Comp. nanotechnol., 7:4 (2020),  25–30",
-    "year": "2020"
+    "authors": "Алимов А. С.; Рахимов Р. Х.; Алимов У. С",
+    "title": "Профилактика и лечение короновирусной инфекции covid-19 в амбулаторных условиях с использованием инфракрасной резонансной терапии",
+    "journal": "Science and Education. — 2021. — Т. 2, № 4. — С. 42–45. — DOI: 10.37057/T_1.",
+    "year": "2021"
   },
   {
     "id": "ART-072",
-    "authors": "R. Kh. Rakhimov, D. N. Mukhtorov",
-    "title": "“Application of solar dryers for drying agricultural products and optimization of drying time”",
-    "journal": "Comp. nanotechnol., 7:4 (2020),  21–24",
-    "year": "2020"
+    "authors": "Рахимов Р. Х.; Мухтаров Д. Н",
+    "title": "Қуёшли қуритгичларнинг самарадорлигини оширишда керамик плёнкаларидан фойдаланиш",
+    "journal": "Фарғона политехника институти илмий-техника журнали. — 2021. — Том 25, № 6. — С. 195–199.",
+    "year": "2021"
   },
   {
     "id": "ART-073",
-    "authors": "Р. Х. Рахимов, А. У. Максудов",
-    "title": "“Механизм аномалии заряженных частиц до землетрясения”",
-    "journal": "Comp. nanotechnol., 7:3 (2020),  72–76",
-    "year": "2020"
+    "authors": "Рахимов Р. Х.; Йон Петер; Ермаков В. П.; Рахимов М. Р",
+    "title": "Перспективы широкого применения технологии IR.C в Германии",
+    "journal": "Проблемы экономики и юридической практики. — 2021. — Т. 17, № 6. — С. 279–284.",
+    "year": "2021"
   },
   {
     "id": "ART-074",
-    "authors": "R. Kh. Rakhimov, M. L. Jalilov, A. U. Makhsudov",
-    "title": "“Mathematical modelling of mountain shocks and earthquakes related to volcanism”",
-    "journal": "Comp. nanotechnol., 7:3 (2020),  57–61",
-    "year": "2020"
+    "authors": "Саидов Р. М.; Маматкулов О. Н",
+    "title": "Анализ современного состояния производства сварочных электродов в Узбекистане и возможность их локализации",
+    "journal": "Ўзбекистон Миллий ахборот агентлиги – ЎзА Илм-фан бўлими (электрон журнал), 2021 йил, апрель сони, с. 307–322.",
+    "year": "2021"
   },
   {
     "id": "ART-075",
-    "authors": "M. L. Jalilov, R. Kh. Rakhimov",
-    "title": "“Analysis of the general equations of the transverse vibration of a piecewise uniform viscoelastic plate”",
-    "journal": "Comp. nanotechnol., 7:3 (2020),  52–56",
-    "year": "2020"
+    "authors": "Imamov E. Z.; Muminov R. A.; Rakhimov Kh R",
+    "title": "Analysis of the efficiency of a solar cell with nano-dimensional hetero transitions",
+    "journal": "Computational Nanotechnology. — 2021. — No. 4. — Pp. 47–56. (Дубликат)",
+    "year": "2021"
   },
   {
     "id": "ART-076",
-    "authors": "Р. М. Саидов, Р. Х. Рахимов, Б. Д. Юсупов, М. К. Холдоров",
-    "title": "“Эффективность сушки и прокалки сварочных электродов в печах с использованием излучения наноструктурированной функциональной керамики (НФК)”",
-    "journal": "Comp. nanotechnol., 7:2 (2020),  64–70",
-    "year": "2020"
+    "authors": "Alimov A.; Rakhimov R.; Alimov U.; Alimov A.",
+    "title": "Treatment of Periodontal Diseases Using Infrared Resonance Therapy in Patients With Cardiocerebral Pathology",
+    "journal": "European Journal of Molecular Medicine, Vol. 1 No. 2, р.8-14 (2021) (скопус). DOI prefix: 10.52325. http://www.ejournals.id/index.php/EJMM/issue/view/16",
+    "year": "2021"
   },
   {
     "id": "ART-077",
-    "authors": "Э. З. Имамов, Р. А. Муминов, Р. Х. Рахимов",
-    "title": "“Математическое моделирование оптимальных параметров атмосферного воздействия на свойства солнечного модуля”",
-    "journal": "Comp. nanotechnol., 7:2 (2020),  58–63",
-    "year": "2020"
+    "authors": "Saidov R.M.; Rakhimov R.Kh.; Yusupov B.D.; Kholdorov M.K.",
+    "title": "Efficiency of drying and calcining of welding electrodes in furnaces using radiation from nanostructured functional ceramics (NFC)",
+    "journal": "Computational Nanotechnology. 2020. Vol. 7, No. 2. P. 64–70. DOI: 10.33693/2313-223X-2020-7-2-64-70.",
+    "year": "2021"
   },
   {
     "id": "ART-078",
-    "authors": "С. А. Раджапов, Р. Х. Рахимов, Б. С. Раджапов, М. А. Зуфаров",
-    "title": "“Расчет этапов технологического процесса изготовления ППД-детекторов с использованием компьютерного математического моделирования и изготовление альфа радиометра на их основе”",
-    "journal": "Comp. nanotechnol., 7:2 (2020),  21–28",
-    "year": "2020"
+    "authors": "Рахимов Р.Х.; Мухтаров Д.Н",
+    "title": "Қуёшли қуритгичларнинг самарадорлигини оширишда керамик плёнкалардан фойдаланиш",
+    "journal": "Фарғона политехника институти илмий - техника журнали 2021. Том 25 № 6 195-199",
+    "year": "2021"
   },
   {
     "id": "ART-079",
-    "authors": "Р. М. Саидов, Р. Х. Рахимов, Б. Д. Юсупов, М. К. Холдоров",
-    "title": "“Новый метод сушки и прокалки сварочных электродов с использованием излучателей из функциональной керамики”",
-    "journal": "Comp. nanotechnol., 7:1 (2020),  44–51",
+    "authors": "Саидов Р.М.; Рахимов Р.Х.; Юсупов Б.Д.; Холдоров М.К",
+    "title": "Новый метод сушки и прокалки сварочных электродов с использованием излучателей из функциональной керамики",
+    "journal": "Computational Nanotechnology. 2020. Т. 7, № 1. С. 44–51. DOI: 10.33693/2313-223X-2020-7-1-44-51.",
     "year": "2020"
   },
   {
     "id": "ART-080",
-    "authors": "Й. Хьюберт, Р. Х. Рахимов, Д. Петер, В. П. Ермаков",
-    "title": "“Возможности эффективных инноваций”",
-    "journal": "Comp. nanotechnol., 7:1 (2020),  15–18",
+    "authors": "Йегер Хьюберт Х.; Рахимов Р.Х.; Петер Джон Д.; Ермаков В.П",
+    "title": "Возможности эффективных инноваций",
+    "journal": "Computational Nanotechnology. 2020. Т. 7. № 1. С. 15–18. DOI: https://doi.org/10.33693/2313-223X-2020-7-1-11-14",
     "year": "2020"
   },
   {
     "id": "ART-081",
-    "authors": "J. Hubert, R. Kh. Rakhimov, J. Peter, V. P. Yermakov",
-    "title": "“Endangered health - opportunity with efficient innovations”",
-    "journal": "Comp. nanotechnol., 7:1 (2020),  11–14",
+    "authors": "Саидов Р.М.; Рахимов Р.Х.; Юсупов Б.Д.; Холдоров М. К.",
+    "title": "Эффективность сушки и прокалки сварочных электродов в печах с использованием излучения наноструктуированной функциональной керамикой",
+    "journal": "Computational Nanotechnology (Россия), 2020 - №2– c. 10. DOI: 10.33693/2313-223X-2020-7-2-64-70",
     "year": "2020"
   },
   {
     "id": "ART-082",
-    "authors": "Ю. Б. Собиров, Р. Х. Рахимов, Ш. А. Абдурахманов",
-    "title": "“Определение значения плотности в конкретной фокальной точке зеркальной концентрирующей системы”",
-    "journal": "Comp. nanotechnol., 6:4 (2019),  49–55",
-    "year": "2019"
+    "authors": "Jalilov M.L.; Rakhimov R.Kh",
+    "title": "Analysis of the general equations of the transverse vibration of a piecewise uniform viscoelastic plate",
+    "journal": "Computational Nanotechnology. 2020. Vol. 7. No. 3. Pp. 52–56. DOI: 10.33693/2313-223X-2020-7-3-52-56",
+    "year": "2020"
   },
   {
     "id": "ART-083",
-    "authors": "Р. Х. Рахимов, Д. Петер, В. П. Ермаков, М. Р. Рахимов",
-    "title": "“Перспективы применения полимер-керамического композита в производстве микроводорослей”",
-    "journal": "Comp. nanotechnol., 6:4 (2019),  44–48",
-    "year": "2019"
+    "authors": "Rakhimov Kh R..; Mukhtorov D. N",
+    "title": "Application of solar dryers for drying agricultural products and optimization of drying time",
+    "journal": "Computational Nanotechnology. — 2020. — Vol. 7, no. 4. — Pp. 21–24. — DOI: 10.33693/2313-223X-2020-7-4-21-24.",
+    "year": "2020"
   },
   {
     "id": "ART-084",
-    "authors": "С. А. Раджапов, Р. Х. Рахимов, Б. С. Раджапов, М. А. Зуфаров, К. И. Вахобов",
-    "title": "“Разработка кремниевых диффузионных n−pn−p-детекторов ионизирующего излучения”",
-    "journal": "Comp. nanotechnol., 6:3 (2019),  112–115",
-    "year": "2019"
+    "authors": "Hubert J.; Rakhimov R.Kh.; Peter J.; V. Ermakov P",
+    "title": "Endangered health - opportunity with efficient innovations",
+    "journal": "Журнал Computational nanotechnology, 2020, №1, С.11–14",
+    "year": "2020"
   },
   {
     "id": "ART-085",
-    "authors": "А. А. Кучкаров, А. А. Абдурахманов, Р. Х. Рахимов",
-    "title": "“Расчет оптимальных размеров отражающих элементов крупногабаритных составных фацетных концентраторов”",
-    "journal": "Comp. nanotechnol., 6:3 (2019),  100–103",
-    "year": "2019"
+    "authors": "Раджапов С.А.; Рахимов Р.Х.; Раджапов Б.С.; Зуфаров М.А",
+    "title": "Расчет этапов технологического процесса изготовления ППД-детекторов с использованием компьютерного математического моделирования и изготовление альфа радиометра на их основе",
+    "journal": "Computational Nanotechnology. 2020. Т. 7. № 2. С. 21–28.",
+    "year": "2020"
   },
   {
     "id": "ART-086",
-    "authors": "Р. Х. Рахимов, Р. З. Хасанов, В. П. Ермаков, М. Р. Рахимов, Р. Н. Латипов, М. У. Атаманова, У. Б. Мамаджанова",
-    "title": "“Изучение влияния спектрального состава ИК-излучения на скорость седиментации комплексных соединений”",
-    "journal": "Comp. nanotechnol., 6:3 (2019),  96–99",
-    "year": "2019"
+    "authors": "Рахимов Р. Х.; Махсудов А. У. Rakhimov Kh R..; Makhsudov A. U",
+    "title": "The mechanism of anomaly of charged particles before the earthquake",
+    "journal": "Computational nanotechnology. 2020. Т. 7, № 3. С. 22–27.",
+    "year": "2020"
   },
   {
     "id": "ART-087",
-    "authors": "С. А. Раджапов, Р. Х. Рахимов, Б. С. Раджапов, М. А. Зуфаров",
-    "title": "“Кремний-литиевые ΔEΔE-детекторы альфа-излучения для радиометра”",
-    "journal": "Comp. nanotechnol., 6:2 (2019),  157–159",
-    "year": "2019"
+    "authors": "M. Jalilov L.; Rakhimov R.Kh",
+    "title": "The compelled fluctuations of a rectangular two-layer piecewise-homogeneous plate of a constant thickness",
+    "journal": "Журнал Computational nanotechnology, 2020, №4, С.25–30",
+    "year": "2020"
   },
   {
     "id": "ART-088",
-    "authors": "А. А. Абдурахманов, Р. Х. Рахимов, М. А. Маматкосимов",
-    "title": "“Основные этапы разработки, создания зеркально-концентрирующих систем на примере большой солнечной печи”",
-    "journal": "Comp. nanotechnol., 6:2 (2019),  151–156",
-    "year": "2019"
+    "authors": "Саидов Р. М.; Сонг Й.-В.; Рахимова Ф. М.; Абралов М. М",
+    "title": "Влияние степени основности электродных покрытий на сварочно-технологические свойства сварочных электродов",
+    "journal": "Computational nanotechnology. 2020. Т. 7, № 3. С. 28–34.",
+    "year": "2020"
   },
   {
     "id": "ART-089",
-    "authors": "Р. Х. Рахимов",
-    "title": "“Большая солнечная печь”",
-    "journal": "Comp. nanotechnol., 6:2 (2019),  141–150",
-    "year": "2019"
+    "authors": "Imamov E.Z.; Muminov R.A.; Rakhimov R.Kh",
+    "title": "Investigation of electrical properties of nanostructured semiconductor structures",
+    "journal": "Scientifictechnical Journal (STJ FerPI). 2020. Vol. 24. No. 5. Pp. 31–36",
+    "year": "2020"
   },
   {
     "id": "ART-090",
-    "authors": "R. Kh. Rakhimov",
-    "title": "“Generation and properties of infrared radiation”",
-    "journal": "Comp. nanotechnol., 6:2 (2019),  95–100",
-    "year": "2019"
+    "authors": "Саидов Р. М.; Рахимов Р. Х.; Рахимова Ф. М.; Абралов М. М.; Гафуров Б. Х",
+    "title": "Исследование влияния наноструктурированной функциональной керамики (НФК) на сварочно-технологические свойства сварочных электродов",
+    "journal": "Computational nanotechnology. 2020. Т. 7, № 3. С. 35–41.",
+    "year": "2020"
   },
   {
     "id": "ART-091",
-    "authors": "А. А. Абдурахманов, Р. Х. Рахимов, М. А. Маматкосимов, А. А. Кучкаров",
-    "title": "“Методика расчета геометрических и энергетических параметров фокального пятна от отдельных зон концентратора со сложной конфигурацией миделя”",
-    "journal": "Comp. nanotechnol., 6:1 (2019),  69–74",
-    "year": "2019"
+    "authors": "M. Jalilov L.; Rakhimov R.Kh",
+    "title": "Analysis of the general equations of the transverse vibration of a piecewise uniform viscoelastic plate",
+    "journal": "Computational Nanotechnology. 2020. Vol. 7. No. 3. Pp. 52–56 (Дубликат)",
+    "year": "2020"
   },
   {
     "id": "ART-092",
-    "authors": "С. А. Раджапов, Р. Х. Рахимов, Б. С. Раджапов, М. А. Зуфаров, Ш. Шарифов",
-    "title": "“Разработка радонометра на основе кремниевых детекторов с большой чувствительной площадью”",
-    "journal": "Comp. nanotechnol., 6:1 (2019),  65–68",
-    "year": "2019"
+    "authors": "Rakhimov R.Kh.; M. Jalilov L.; A. Makhsudov U",
+    "title": "Mathematical modelling of mountain shocks and earthquakes related to volcanism",
+    "journal": "Computational Nanotechnology. 2020. Vol. 7. No. 3. Pp. 57–61",
+    "year": "2020"
   },
   {
     "id": "ART-093",
-    "authors": "R. Kh. Rakhimov, R. Z. Hasanov, V. P. Yermakov",
-    "title": "“Comparative frequency characteristics of vibrations generated by the functional ceramics and cavitation generator”",
-    "journal": "Comp. nanotechnol., 2018, № 4,  57–70",
-    "year": "2018"
+    "authors": "Имамов Э.З.; Муминов Р.А.; Рахимов Р.Х",
+    "title": "Математическое моделирование оптимальных параметров атмосферного воздействия на свойства солнечного модуля",
+    "journal": "Computational Nanotechnology. 2020. Vol. 7. № 2. Pp. 58–63",
+    "year": "2020"
   },
   {
     "id": "ART-094",
-    "authors": "R. Kh. Rakhimov",
-    "title": "“Development of highly efficient equipment based on functional ceramics synthesized in a solar furnace with a capacity of 1 mw”",
-    "journal": "Comp. nanotechnol., 2018, № 3,  91–100",
-    "year": "2018"
+    "authors": "Саидов Р.М.; Рахимов Р.Х.; Юсупов Б.Д.; Холдоров М.К",
+    "title": "Эффективность сушки и прокалки сварочных электродов в печах с использованием излучения наноструктурированной функциональной керамики (НФК)",
+    "journal": "Computational Nanotechnology. 2020. Vol. 7. № 2. Pp. 64–70",
+    "year": "2020"
   },
   {
     "id": "ART-095",
-    "authors": "R. Kh. Rakhimov, A. U. Makhsudov, M. A. Zufarov",
-    "title": "“Nuclear-radioactive reactions in earth crust the generator of earthquake harbingers”",
-    "journal": "Comp. nanotechnol., 2018, № 3,  68–72",
-    "year": "2018"
+    "authors": "Рахимов Р.Х.; Максудов А.У",
+    "title": "Механизм аномалии заряженных частиц до землетрясения",
+    "journal": "Computational Nanotechnology. 2020. Т. 7. № 3. С. 72–76",
+    "year": "2020"
   },
   {
     "id": "ART-096",
-    "authors": "С. А. Раджапов, Р. Х. Рахимов, М. Джапклич, М. А. Зуфаров, Б. С. Раджапов",
-    "title": "“Полупроводниковые детекторы ядерного излучения на основе гетерепереходных структур Al-ααGe-pSi-Au для измерения малоинтенсивных ионизирующих излучений”",
-    "journal": "Comp. nanotechnol., 2018, № 3,  65–67",
-    "year": "2018"
+    "authors": "Rakhimov R.Kh",
+    "title": "Generation and properties of infrared radiation",
+    "journal": "Computational Nanotechnology. 2019. Vol. 6, No. 2. Pp. 101–137. DOI: 10.33693/2313-223X-2019-6-2-101-137. В исходнике встречалась ошибочная привязка к С. 95–100; официальная английская статья — 101–137.",
+    "year": "2019"
   },
   {
     "id": "ART-097",
-    "authors": "R. Kh. Rakhimov, V. P. Yermakov, M. R. Rakhimov, N. H. Yuldashev, K. Ismailov, S. O. Hatamov",
-    "title": "“Features of synthesis of functional ceramics with a complex of the set properties by a radiation method. Part 3”",
-    "journal": "Comp. nanotechnol., 2018, № 2,  76–82",
-    "year": "2018"
+    "authors": "Rakhimov R.H.; Peter J.; Ermakov V.P.; Rakhimov M.R",
+    "title": "Prospects for the use of polymerceramic composite in the production of microalgae",
+    "journal": "Computational Nanotechnology. — 2019. — Т. 6, № 4. — С. 44–48. — DOI: 10.33693/2313-223X-2019-6-4-44-48.",
+    "year": "2019"
   },
   {
     "id": "ART-098",
-    "authors": "Р. Х. Рахимов, Н. Умаралиев, М. Л. Джалилов",
-    "title": "“Колебания двухслойных пластин постоянной толщины”",
-    "journal": "Comp. nanotechnol., 2018, № 2,  52–67",
-    "year": "2018"
+    "authors": "Рахимов Р. Х.; Петер Й.; Ермаков В. П.; Рахимов М. Р",
+    "title": "Перспективы применения полимер-керамического композита при производстве микроводорослей",
+    "journal": "Computational Nanotechnology. — 2019. — Т. 6, № 4. — С. 44–48. — DOI: 10.33693/2313-223X-2019-6-4-44-48.",
+    "year": "2019"
   },
   {
     "id": "ART-099",
-    "authors": "Р. Х. Рахимов, Н. Умаралиев, М. Л. Джалилов, А. У. Максудов",
-    "title": "“Регрессионные модели для прогнозирования землетрясений”",
-    "journal": "Comp. nanotechnol., 2018, № 2,  40–45",
-    "year": "2018"
+    "authors": "Jaeger H.; Rakhimov R.Kh.; Peter J.; Yermakov V.P",
+    "title": "Ceramic composite for greenhouses",
+    "journal": "Computational Nanotechnology. – 2019. – Vol. 6, No. 2. – Pp. 114–123. – DOI: 10.33693/2313-223X-2019-6-2-114-123.",
+    "year": "2019"
   },
   {
     "id": "ART-100",
-    "authors": "Т. А. Джалалов, Э. З. Имамов, Р. А. Муминов, Р. Х. Рахимов",
-    "title": "“Расширение спектра эффективного поглощения солнечных элементов с нановключениями”",
-    "journal": "Comp. nanotechnol., 2018, № 1,  155–157",
-    "year": "2018"
+    "authors": "R.Rachimov H.; John P.; V.Yermakov P.; M.Rachimov R",
+    "title": "Возможности и проблемы технологии ИК-сушки в Германии",
+    "journal": "Computational Nanotechnology. – 2019. – Т. 6, № 2. – С. 123–127. – DOI: 10.33693/2313-223X-2019-6-2-123-127.",
+    "year": "2019"
   },
   {
     "id": "ART-101",
-    "authors": "С. А. Раджапов, Б. С. Раджапов, Р. Х. Рахимов",
-    "title": "“Особенности технологии изготовления кремниевых поверхностно-барьерных детекторов большой чувствительной рабочей площадью для измерения активности естественных изотопов”",
-    "journal": "Comp. nanotechnol., 2018, № 1,  151–154",
-    "year": "2018"
+    "authors": "Рахимов Р.Х",
+    "title": "Большая солнечная печь",
+    "journal": "Computational Nanotechnology. 2019. Т. 6, № 2. С. 141–150. DOI: 10.33693/2313-223X-2019-6-2-141-150.",
+    "year": "2019"
   },
   {
     "id": "ART-102",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков",
-    "title": "“Применение функциональной керамики для сушки красок, полимеризации высокомолекулярных соединений и вулканизации резин”",
-    "journal": "Comp. nanotechnol., 2017, № 4,  60–62",
-    "year": "2017"
+    "authors": "Rajapov S.A.; Rakhimov R.H.; Rajapov B.S.; Zufarov M.A",
+    "title": "Silicon-lithium ΔE-alpha radiation detectors for radiometer",
+    "journal": "Computational Nanotechnology. – 2019. – Vol. 6, No. 2. – Pp. 157–159. – DOI: 10.33693/2313-223X-2019-6-2-157-159.",
+    "year": "2019"
   },
   {
     "id": "ART-103",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков",
-    "title": "“Определение максимальной излучательной способности керамик в зависимости от концентрации связующего”",
-    "journal": "Comp. nanotechnol., 2017, № 4,  36–40",
-    "year": "2017"
+    "authors": "Раджапов С.А.; Рахимов Р.Х.; Раджапов Б.С.; Зуфаров М.А",
+    "title": "Кремний-литиевые ΔE-детекторы альфа-излучения для радиометра",
+    "journal": "Computational Nanotechnology. 2019. Т. 6. № 2. С. 157–159",
+    "year": "2019"
   },
   {
     "id": "ART-104",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков, М. Р. Рахимов",
-    "title": "“Фононный механизм преобразования в керамических материалах”",
-    "journal": "Comp. nanotechnol., 2017, № 4,  21–35",
-    "year": "2017"
+    "authors": "Кучкаров А.А.; Абдурахманов А.А.; Рахимов Р.Х",
+    "title": "Расчет оптимальных размеров отражающих элементов крупногабаритных составных фацетных концентраторов",
+    "journal": "Журнал Computational nanotechnology, 2019, №3, С.100–103",
+    "year": "2019"
   },
   {
     "id": "ART-105",
-    "authors": "Р. Х. Рахимов, Р. З. Хасанов, В. П. Ермаков",
-    "title": "“Частотные характеристики генератора резонансных колебаний”",
-    "journal": "Comp. nanotechnol., 2017, № 4,  6–13",
-    "year": "2017"
+    "authors": "Раджапов С.А.; Рахимов Р.Х.; Раджапов Б.С.; Зуфаров М.А.; Вахобов К.И",
+    "title": "Разработка кремниевых диффузионных n−p-детекторов ионизирующего излучения",
+    "journal": "Computational Nanotechnology. 2019. Т. 6. № 3. С. 112–115",
+    "year": "2019"
   },
   {
     "id": "ART-106",
-    "authors": "Р. Х. Рахимов",
-    "title": "“Функциональная керамика и области ее применения. Новый взгляд на старые болезни. Часть 1. Сахарный диабет, ожирение, гипертония”",
-    "journal": "Comp. nanotechnol., 2017, № 3,  64–90",
-    "year": "2017"
+    "authors": "Абдурахманов А.А.; Рахимов Р.Х.; Маматкосимов М.А",
+    "title": "Основные этапы разработки, создания зеркально-концентрирующих систем на примере большой солнечной печи",
+    "journal": "Журнал Computational nanotechnology, 2019, №2, С.151–156",
+    "year": "2019"
   },
   {
     "id": "ART-107",
-    "authors": "Р. Х. Рахимов, Н. Н. Тихонова",
-    "title": "“Результаты экспериментальных исследований излучателей на основе функциональной керамики серии К”",
-    "journal": "Comp. nanotechnol., 2017, № 3,  59–63",
-    "year": "2017"
+    "authors": "Рахимов М. Р.; Рашидов Ж. К",
+    "title": "Инновационные подходы в переработке минерального сырья",
+    "journal": "Вестник молодых ученых. 2019. № 8 (Август). С. 34–38.",
+    "year": "2019"
   },
   {
     "id": "ART-108",
-    "authors": "Т. А. Джалалов, Э. З. Имамов, Р. А. Муминов, Р. Х. Рахимов",
-    "title": "“Анализ роли нанообъектов в удешевлении кремниевых солнечных элементов”",
-    "journal": "Comp. nanotechnol., 2017, № 3,  14–17",
-    "year": "2017"
+    "authors": "Рахимов М. Р.; Ермаков В. П.; Рахимов Р. Х",
+    "title": "Методы синтеза керамических материалов",
+    "journal": "Вестник молодых ученых. 2019. № 8 (Август). С. 39–43.",
+    "year": "2019"
   },
   {
     "id": "ART-109",
-    "authors": "Н. М. Жураев, Р. Х. Рахимов",
-    "title": "“Анализ некоторых линейно-электрических фильтров опто-электрических сетей телекоммуникации”",
-    "journal": "Comp. nanotechnol., 2017, № 2,  97–101",
-    "year": "2017"
+    "authors": "Рахимов Р.Х.; Петер Д.; Ермаков В.П.; Рахимов М.Р",
+    "title": "Перспективы применения полимер-керамического композита в производстве микроводорослей",
+    "journal": "Журнал Computational nanotechnology, 2019, №4, С.44–48",
+    "year": "2019"
   },
   {
     "id": "ART-110",
-    "authors": "Р. Х. Рахимов, Х. К. Рашидов, Ж. Х. Рашидов",
-    "title": "“Инновационные подходы в гидрометаллургических технологиях переработки минерального сырья”",
-    "journal": "Comp. nanotechnol., 2017, № 2,  89–93",
-    "year": "2017"
+    "authors": "Ермаков В. П.; Рахимов М. Р.; Латипов Р. Н",
+    "title": "Пленочно-керамический композит на основе функциональной керамики и полиэтиленовой пленки",
+    "journal": "Вестник молодых ученых. 2019. № 8 (Август). С. 44–48.",
+    "year": "2019"
   },
   {
     "id": "ART-111",
-    "authors": "Р. Х. Рахимов, Р. А. Муминов, С. А. Раджапов, Ю. С. Пиндюрин, Б. С. Раджапов",
-    "title": "“Применение радонометра на основе кремниевых поверхностно-барьерных детекторов для мониторинга концентрации радона”",
-    "journal": "Comp. nanotechnol., 2017, № 2,  85–88",
-    "year": "2017"
+    "authors": "Рашидов Ж. К.; Рахимов М. Р",
+    "title": "Функциональная керамика в технологии получения глинозема из вторичных каолинов Ангренского месторождения",
+    "journal": "Вестник молодых ученых. 2019. № 8 (Август). С. 49–53.",
+    "year": "2019"
   },
   {
     "id": "ART-112",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков, М. Р. Рахимов, Р. Н. Латипов",
-    "title": "“Обеспечение безопасности хранения серной кислоты. Часть 2”",
-    "journal": "Comp. nanotechnol., 2017, № 2,  62–79",
-    "year": "2017"
+    "authors": "Собиров Ю.Б.; Рахимов Р.Х.; Абдурахманов Ш.А",
+    "title": "Определение значения плотности в конкретной фокальной точке зеркальной концентрирующей системы",
+    "journal": "Журнал Computational nanotechnology, 2019, №4, С.49–55",
+    "year": "2019"
   },
   {
     "id": "ART-113",
-    "authors": "Л. Ражапов, Ю. Б. Собиров, А. Фазилов, Р. Х. Рахимов",
-    "title": "“Способ расчета оптимальной формы распределения плотности мощности солнечного излучения для равномерного возбуждения активных элементов лазеров заданной формы”",
-    "journal": "Comp. nanotechnol., 2017, № 1,  135–142",
-    "year": "2017"
+    "authors": "Раджапов С.А.; Рахимов Р.Х.; Раджапов Б.С.; Зуфаров М.А.; Шарифов Ш",
+    "title": "Разработка радонометра на основе кремниевых детекторов с большой чувствительной площадью",
+    "journal": "Computational Nanotechnology. 2019. Т. 6. № 1. С. 65–68.",
+    "year": "2019"
   },
   {
     "id": "ART-114",
-    "authors": "R. Kh. Rakhimov, N. N. Tikhonova",
-    "title": "“Resonance therapy. Ceramic materials and methods of their application in medicine”",
-    "journal": "Comp. nanotechnol., 2017, № 1,  75–134",
-    "year": "2017"
+    "authors": "Абдурахманов А.А.; Рахимов Р.Х.; Маматкосимов М.А.; Кучкаров А.А",
+    "title": "Методика расчета геометрических и энергетических параметров фокального пятна от отдельных зон концентратора со сложной конфигурацией миделя",
+    "journal": "Computational Nanotechnology. 2019. № 1. С. 69–74.",
+    "year": "2019"
   },
   {
     "id": "ART-115",
-    "authors": "E. Z. Imamov, T. A. Djalalov, R. A. Muminov, R. Kh. Rakhimov",
-    "title": "“Unique opportunity to create cheap but effective silicon solar cells”",
-    "journal": "Comp. nanotechnol., 2017, № 1,  61–64",
-    "year": "2017"
+    "authors": "Abdurakhmanov A.A.; Rakhimov Kh R..; Mamatkosimov M.A.; Kuchkarov A.A",
+    "title": "Methodology for calculating the geometric and energy parameters of the focal spot from individual zones of a concentrator with a complex midsection",
+    "journal": "Computational nanotechnology. 2019. No. 1. Р. 69–74.",
+    "year": "2019"
   },
   {
     "id": "ART-116",
-    "authors": "Э. З. Имамов, Т. А. Джалалов, Р. А. Муминов, Р. Х. Рахимов",
-    "title": "“Уникальная возможность создания дешевого, но эффективного кремниевого солнечного элемента”",
-    "journal": "Comp. nanotechnol., 2017, № 1,  56–60",
-    "year": "2017"
+    "authors": "Рахимов Р.Х.; Хасанов Р.З.; Ермаков В.П.; Рахимов М.Р.; Латипов Р.Н.; Атаманова М.У.; Мамаджанова У.Б",
+    "title": "Изучение влияния спектрального состава ИК-излучения на скорость седиментации комплексных соединений",
+    "journal": "Журнал Computational nanotechnology, 2019, №3, С.96–99",
+    "year": "2019"
   },
   {
     "id": "ART-117",
-    "authors": "Р. Х. Рахимов, С. Ф. Эргашев, С. М. Абдурахмонов, У. Ж. Нигматов",
-    "title": "“Автоматизированная компьютерная система измерения производительности солнечных водонагревателей с порционной подготовкой горячей воды”",
-    "journal": "Comp. nanotechnol., 2017, № 1,  23–26",
-    "year": "2017"
+    "authors": "Rajapov S.A.; Rakhimov R.Kh.; Rajapov B.S",
+    "title": "Development of a radiometer based on silicon detectors with a large sensitive area",
+    "journal": "Computational Nanotechnology. 2019. No. 1. Рр. 65–68",
+    "year": "2019"
   },
   {
     "id": "ART-118",
-    "authors": "Р. А. Муминов, С. А. Раджапов, Б. С. Раджапов, Р. Х. Рахимов",
-    "title": "“Детекторы ионизирующего излучения на основе нейтроно-легированного кремния”",
-    "journal": "Comp. nanotechnol., 2016, № 4,  136–137",
-    "year": "2016"
+    "authors": "Rajapov S.A.; Rakhimov R.Kh.; Rajapov B.S.; Zufarov M.A",
+    "title": "Siliconlithium ΔΕ-alpha radiation detectors for a radiometer",
+    "journal": "Computational Nanotechnology. 2019. No. 2. Рр. 157–159",
+    "year": "2019"
   },
   {
     "id": "ART-119",
-    "authors": "Р. Х. Рахимов",
-    "title": "“Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 8. Основы теории резонансной терапии по методу Р. Рахимова (метод «INFRA R»)”",
-    "journal": "Comp. nanotechnol., 2016, № 4,  32–135",
-    "year": "2016"
+    "authors": "Раджапов С.А.; Раджапов Б.С.; Рахимов Р.Х",
+    "title": "Особенности технологии изготовления кремниевых поверхностно-барьерных детекторов большой чувствительной рабочей площадью для измерения активности естественных изотопов,",
+    "journal": "Computational Nanotechnology. 2018. № 1. С. 151–154",
+    "year": "2018"
   },
   {
     "id": "ART-120",
-    "authors": "R. Kh. Rakhimov, M. S. Saidov",
-    "title": "“Development of ceramic coatings and application of their infrared radiation”",
-    "journal": "Comp. nanotechnol., 2016, № 4,  6–9",
-    "year": "2016"
+    "authors": "Джалалов Т.А.; Имамов Э.З.; Муминов Р.А.; Рахимов Р.Х",
+    "title": "Расширение спектра эффективного поглощения солнечных элементов с нановключениями,",
+    "journal": "Журнал Computational nanotechnology, 2018, №1, С.155–157",
+    "year": "2018"
   },
   {
     "id": "ART-121",
-    "authors": "E. Z. Imamov, T. A. Djalalov, R. A. Muminov, R. Kh. Rakhimov",
-    "title": "“The difference between the contact structure with nanosize inclusions from the semiconductor photodiodes”",
-    "journal": "Comp. nanotechnol., 2016, № 3,  203–207",
-    "year": "2016"
+    "authors": "Джалалов Т.А.; Имамов Э.З.; Муминов Р.А.; Рахимов Р.Х",
+    "title": "Исследование фотоэлектрических характеристик кремниевых фотодиодов с наноразмерными кластерами",
+    "journal": "Computational nanotechnology. 2018. Вып. 1. С. 155–167",
+    "year": "2018"
   },
   {
     "id": "ART-122",
-    "authors": "Э. З. Имамов, Т. А. Джалалов, Р. А. Муминов, Р. Х. Рахимов",
-    "title": "“Отличительные особенности контактных структур с наноразмерными включениями полупроводниковых фотодиодов”",
-    "journal": "Comp. nanotechnol., 2016, № 3,  196–202",
-    "year": "2016"
+    "authors": "Рахимов Р.Х.; Умаралиев Н.; Джалилов М.Л.; Максудов А.У",
+    "title": "Регрессионные модели для прогнозирования землетрясений,",
+    "journal": "Computational Nanotechnology. 2018. №. 2. С.40–45",
+    "year": "2018"
   },
   {
     "id": "ART-123",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков, М. Р. Рахимов, Х. К. Рашидов, Р. Н. Латипов, Ж. Х. Рашидов",
-    "title": "“Обеспечение безопасности хранения серной кислоты”",
-    "journal": "Comp. nanotechnol., 2016, № 3,  183–195",
-    "year": "2016"
+    "authors": "Рахимов Р.Х.; Умаралиев Н.; Джалилов М.Л",
+    "title": "Колебания двухслойных пластин постоянной толщины,",
+    "journal": "Журнал Computational nanotechnology, 2018, №2, С.52–59",
+    "year": "2018"
   },
   {
     "id": "ART-124",
-    "authors": "Р. Х. Рахимов",
-    "title": "“Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 7. Природа электромагнитного излучения”",
-    "journal": "Comp. nanotechnol., 2016, № 3,  35–182",
-    "year": "2016"
+    "authors": "Rakhimov R.Kh.; R. Hasanov Z.; V. Ermakov P",
+    "title": "Comparative frequency characteristics of vibrations generated by the functional ceramics and cavitation generator,",
+    "journal": "Computational Nanotechnology. — 2018. — No. 4. — Pp. 57–70.",
+    "year": "2018"
   },
   {
     "id": "ART-125",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков, М. Р. Рахимов, Р. Н. Латипов",
-    "title": "“Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 6”",
-    "journal": "Comp. nanotechnol., 2016, № 3,  6–34",
-    "year": "2016"
+    "authors": "Rakhimov R.Kh.; Umaraliev N.; M.Dzhalilov L",
+    "title": "Vibrations of two-layer plates of constant thickness",
+    "journal": "Журнал Computational nanotechnology, 2018, №2, С.60-67.",
+    "year": "2018"
   },
   {
     "id": "ART-126",
-    "authors": "Р. Х. Рахимов, Т. Т. Рискиев, В. П. Ермаков, Р. Н. Латипов",
-    "title": "“Возможность применения функциональной керамики для синтеза комплексных соединений”",
-    "journal": "Comp. nanotechnol., 2016, № 2,  129–131",
-    "year": "2016"
+    "authors": "Раджапов С.А.; Рахимов Р.Х.; Джапклич М.; Зуфаров М.А.; Раджапов Б.С",
+    "title": "Полупроводниковые детекторы ядерного излучения на основе гетерепереходных структур Al-αGe-pSi-Au для измерения малоинтенсивных ионизирующих излучений,",
+    "journal": "Computational Nanotechnology. 2018. № 3. С. 65–67.",
+    "year": "2018"
   },
   {
     "id": "ART-127",
-    "authors": "А. А. Абдурахманов, А. А. Кучкаров, М. А. Маматкосимов, Ю. Б. Собиров, А. А. Абдумуминов, Р. Х. Рахимов",
-    "title": "“Разработка методики и стенда для определения срока службы материалов и изделий к солнечному лучистому потоку”",
-    "journal": "Comp. nanotechnol., 2016, № 2,  94–100",
-    "year": "2016"
+    "authors": "Rakhimov R.Kh.; A. Makhsudov U.; M. Zufarov A",
+    "title": "Nuclear-radioactive reactions in earth crust the generator of earthquake harbingers,",
+    "journal": "Computational Nanotechnology. — 2018. — No. 3. — Pp. 68–72.",
+    "year": "2018"
   },
   {
     "id": "ART-128",
-    "authors": "Р. Х. Рахимов, М. С. Саидов, В. П. Ермаков",
-    "title": "“Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 5. Механизм генерации импульсов функциональной керамикой”",
-    "journal": "Comp. nanotechnol., 2016, № 2,  81–93",
-    "year": "2016"
+    "authors": "Абдурахманов А.; Рахимов Р.Х.; Маматкосимов М.А.; Кучкаров А.А",
+    "title": "Методика расчета геометрических и энергетических параметров фокального пятна от отдельных зон концентратора со сложной конфигурацией миделя",
+    "journal": "Журнал Computational nanotechnology, 2018, №1, С.69-76. (Дубликат)",
+    "year": "2018"
   },
   {
     "id": "ART-129",
-    "authors": "Р. Х. Рахимов, Х. К. Рашидов, В. П. Ермаков, С. Егамедиев, Ж. Х. Рашидов",
-    "title": "“Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 4”",
-    "journal": "Comp. nanotechnol., 2016, № 2,  77–80",
-    "year": "2016"
+    "authors": "Rakhimov R.Kh",
+    "title": "Development of highly efficient equipment based on functional ceramics synthesized in a solar furnace with a capacity of 1 mw,",
+    "journal": "Computational Nanotechnology. — 2018. — No. 3. — Pp. 91–100.",
+    "year": "2018"
   },
   {
     "id": "ART-130",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков, М. Р. Рахимов, Н. Х. Юлдашев, К. Исмоилов, С. О. Хатамов",
-    "title": "“Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 3”",
-    "journal": "Comp. nanotechnol., 2016, № 2,  66–76",
-    "year": "2016"
+    "authors": "Rakhimov R.Kh.; V. Ermakov P.; M. Rakhimov R.; N. Yuldashev H.; Ismailov K.; S. Hatamov O",
+    "title": "Features of synthesis of functional ceramics with a complex of the set properties by a radiation method. Part 3,",
+    "journal": "Computational Nanotechnology. — 2018. — No. 2. — Pp. 76–82.",
+    "year": "2018"
   },
   {
     "id": "ART-131",
-    "authors": "Р. Х. Рахимов",
-    "title": "“Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 2”",
-    "journal": "Comp. nanotechnol., 2016, № 2,  28–65",
-    "year": "2016"
+    "authors": "Rajapov S.A.; Rajapov B.S.; Rakhimov R.Kh",
+    "title": "Features technology manufacturing silicon surfacebarrier detectors with a large sensitive working area for measuring the activity of natural isotopes",
+    "journal": "Computational Nanotechnology. 2018. No. 1. Pр. 151–154",
+    "year": "2018"
   },
   {
     "id": "ART-132",
-    "authors": "Р. Х. Рахимов",
-    "title": "“Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 1”",
-    "journal": "Comp. nanotechnol., 2016, № 2,  9–27",
-    "year": "2016"
+    "authors": "Rakhimov R.H.; Umaraliev N.; Jalilov M.L.",
+    "title": "Vibrations of two-layer plates of constant thickness",
+    "journal": "Computational Nanotechnology. 2018. No. 2. P. 52–67. ISSN 2313-223X.",
+    "year": "2018"
   },
   {
     "id": "ART-133",
-    "authors": "Р. Х. Рахимов, Х. К. Рашидов, В. П. Ермаков, Ж. Х. Рашидов, Р. Ж. Аллабергенов",
-    "title": "“Ресурсосберегающая, энергоэффективная технология получения глинозема из вторичных каолинов ангренского месторождения”",
-    "journal": "Comp. nanotechnol., 2016, № 1,  45–51",
-    "year": "2016"
+    "authors": "Рахимов Р.Х.; Умаралиев Н.; Джалилов М.Л.",
+    "title": "Колебания двухслойных пластин постоянной толщины",
+    "journal": "Computational Nanotechnology. 2018. № 2. С. 52–67. ISSN 2313-223X.",
+    "year": "2018"
   },
   {
     "id": "ART-134",
-    "authors": "Р. Х. Рахимов, В. П. Ермаков",
-    "title": "“Возможности применения керамических материалов в энерго- и ресурсосбережении”",
-    "journal": "Comp. nanotechnol., 2016, № 1,  35–39",
-    "year": "2016"
+    "authors": "Рахимов Р. Х.; Ермаков В. П.; Рахимов М. Р.",
+    "title": "Phonon conversion mechanism in ceramic materials",
+    "journal": "Computational Nanotechnology. 2017. No. 4. Pp. 21–35.",
+    "year": "2017"
   },
   {
     "id": "ART-135",
-    "authors": "Э. З. Имамов, Т. А. Джалалов, Р. А. Муминов, Р. Х. Рахимов",
-    "title": "“Теоретическая модель новой контактной структуры «нанообъект-полупроводник»”",
-    "journal": "Comp. nanotechnol., 2015, № 4,  51–63",
-    "year": "2015"
+    "authors": "Рахимов Р. Х.; Эргашев С. Ф.; Абдурахмонов С. М.; Нигматов У. Ж.",
+    "title": "Автоматизированная компьютерная система измерения производительности солнечных водонагревателей с порционной подготовкой горячей воды",
+    "journal": "Computational nanotechnology. 2017. № 1. С. 23–26.",
+    "year": "2017"
   },
   {
     "id": "ART-136",
-    "authors": "Р. Х. Рахимов",
-    "title": "“Синтез функциональной керамики на БСП и разработки на ее основе”",
-    "journal": "Comp. nanotechnol., 2015, № 3,  11–25",
+    "authors": "Жураев Н. М.; Рахимов Р. Х.",
+    "title": "Анализ некоторых линейно-электрических фильтров опто-электрических сетей телекоммуникации",
+    "journal": "Computational nanotechnology. 2017. № 2. С. 97–101.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-137",
+    "authors": "Джалалов Т. А.; Имамов Э. З.; Муминов Р. А.; Рахимов Р. Х.",
+    "title": "Анализ роли нанообъектов в удешевлении кремниевых солнечных элементов",
+    "journal": "Computational nanotechnology. 2017. № 3. С. 14–17.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-138",
+    "authors": "Рахимов Р. Х.; Рашидов Х. К.; Рашидов Ж. Х.",
+    "title": "Инновационные подходы в гидрометаллургических технологиях переработки минерального сырья",
+    "journal": "Computational nanotechnology. 2017. № 2. С. 89–93.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-139",
+    "authors": "Рахимов Р. Х.; Ермаков В. П.; Рахимов М. Р.; Латипов Р. Н.",
+    "title": "Обеспечение безопасности хранения серной кислоты. Часть 2",
+    "journal": "Computational nanotechnology. 2017. № 2. С. 62–79.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-140",
+    "authors": "Рахимов Р. Х.; Ермаков В. П.",
+    "title": "Определение максимальной излучательной способности керамик в зависимости от концентрации связующего",
+    "journal": "Computational nanotechnology. 2017. № 4. С. 36–40.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-141",
+    "authors": "Рахимов Р. Х.; Муминов Р. А.; Раджапов С. А.; Пиндюрин Ю. С.; Раджапов Б. С.",
+    "title": "Применение радонометра на основе кремниевых поверхностно-барьерных детекторов для мониторинга концентрации радона",
+    "journal": "Computational nanotechnology. 2017. № 2. С. 85–88.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-142",
+    "authors": "Рахимов Р. Х.; Ермаков В. П.",
+    "title": "Применение функциональной керамики для сушки красок, полимеризации высокомолекулярных соединений и вулканизации резин",
+    "journal": "Computational nanotechnology. 2017. № 4. С. 60–62.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-143",
+    "authors": "Рахимов Р. Х.; Тихонова Н. Н.",
+    "title": "Резонансная терапия. Керамические материалы и их применение в медицине",
+    "journal": "Computational nanotechnology. 2017. № 1. С. 75–134.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-144",
+    "authors": "R. Kh. Rakhimov; N. N. Tikhonova",
+    "title": "Resonance therapy. Ceramic materials and methods of their application in medicine",
+    "journal": "Computational Nanotechnology. 2017. No. 1. Pp. 75–134.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-145",
+    "authors": "Рахимов Р. Х.; Тихонова Н. Н.",
+    "title": "Результаты экспериментальных исследований излучателей на основе функциональной керамики серии K",
+    "journal": "Computational nanotechnology. 2017. № 3. С. 59–64.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-146",
+    "authors": "Рахимов Р. Х.; Тихонова Н. Н.",
+    "title": "Results of experimental studies of emitters based on functional ceramics of the K-series",
+    "journal": "Computational Nanotechnology. 2017. No. 3. Pp. 59–64.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-147",
+    "authors": "Ражапов Л.; Собиров Ю. Б.; Фазилов А.; Рахимов Р. Х.",
+    "title": "Способ расчета оптимальной формы распределения плотности мощности солнечного излучения для равномерного возбуждения активных элементов лазеров заданной формы",
+    "journal": "Computational nanotechnology. 2017. № 1. С. 135–142.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-148",
+    "authors": "Имамов Э. З.; Джалалов Т. А.; Муминов Р. А.; Рахимов Р. Х.",
+    "title": "Уникальная возможность создания дешевого, но эффективного кремниевого солнечного элемента",
+    "journal": "Computational nanotechnology. 2017. № 1. С. 56–60.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-149",
+    "authors": "E. Z. Imamov; T. A. Djalalov; R. A. Muminov; R. Kh. Rakhimov",
+    "title": "Unique opportunity to create cheap but effective silicon solar cells",
+    "journal": "Computational Nanotechnology. 2017. No. 1. Pp. 61–64.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-150",
+    "authors": "Рахимов Р. Х.; Ермаков В. П.; Рахимов М. Р.",
+    "title": "Фононный механизм преобразования в керамических материалах",
+    "journal": "Computational nanotechnology. 2017. № 4. С. 21–35.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-151",
+    "authors": "Рахимов Р. Х.",
+    "title": "Функциональная керамика и области ее применения. Новый взгляд на старые болезни. Часть 1. Сахарный диабет, ожирение, гипертония",
+    "journal": "Computational nanotechnology. 2017. № 3. С. 64–90.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-152",
+    "authors": "Рахимов Р. Х.; Хасанов Р. З.; Ермаков В. П.",
+    "title": "Частотные характеристики генератора резонансных колебаний",
+    "journal": "Computational nanotechnology. 2017. № 4. С. 6–13.",
+    "year": "2017"
+  },
+  {
+    "id": "ART-153",
+    "authors": "Рахимов Р.Х.; Саидов М.С.",
+    "title": "Development of ceramic coatings and application of their infrared radiation",
+    "journal": "Computational nanotechnology, 2016, № 4, С. 6–9. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/eng/cn94. Исходная строка: 18.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-154",
+    "authors": "Рахимов Р.Х.; Ермаков В.П.",
+    "title": "Возможности применения керамических материалов в энерго- и ресурсосбережении",
+    "journal": "Computational nanotechnology, 2016, № 1, С. 35–39. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn60.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-155",
+    "authors": "Рахимов Р.Х.; Рискиев Т.Т.; Ермаков В.П.; Латипов Р.Н.",
+    "title": "Возможность применения функциональной керамики для синтеза комплексных соединений",
+    "journal": "Computational nanotechnology, 2016, № 2, С. 129–131. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn78.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-156",
+    "authors": "Муминов Р.А.; Раджапов С.А.; Рахимов Р.Х.; Раджапов Б.С.",
+    "title": "Детекторы ионизирующего излучения на основе нейтроно-легированного кремния",
+    "journal": "Computational nanotechnology, 2016, № 4, С. 136–137. Подлинность подтверждена по Юр-ВАК: https://urvak.ru/articles/compu-vypusk-4-detektory-ioniziruyushchego-izluche/.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-157",
+    "authors": "Рахимов Р.Х.; Ермаков В.П.; Рахимов М.Р.; Рашидов Х.К.; Латипов Р.Н.; Рашидов Ж.Х.",
+    "title": "Обеспечение безопасности хранения серной кислоты",
+    "journal": "Computational nanotechnology, 2016, № 3, С. 183–195. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn87.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-158",
+    "authors": "Рахимов Р.Х.",
+    "title": "Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 1",
+    "journal": "Computational nanotechnology, 2016, № 2, С. 9–27. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn67.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-159",
+    "authors": "Рахимов Р.Х.",
+    "title": "Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 2",
+    "journal": "Computational nanotechnology, 2016, № 2, С. 28–65. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn68.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-160",
+    "authors": "Рахимов Р.Х.; Ермаков В.П.; Рахимов М.Р.; Юлдашев Н.Х.; Исмоилов К.; Хатамов С.О.",
+    "title": "Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 3",
+    "journal": "Computational nanotechnology, 2016, № 2, С. 66–76. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn69.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-161",
+    "authors": "Рахимов Р.Х.; Рашидов Х.К.; Ермаков В.П.; Егамедиев С.; Рашидов Ж.Х.",
+    "title": "Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 4",
+    "journal": "Computational nanotechnology, 2016, № 2, С. 77–80. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn70.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-162",
+    "authors": "Рахимов Р.Х.; Саидов М.С.; Ермаков В.П.",
+    "title": "Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 5. Механизм генерации импульсов функциональной керамикой",
+    "journal": "Computational nanotechnology, 2016, № 2, С. 81–93. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn71.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-163",
+    "authors": "Рахимов Р.Х.; Ермаков В.П.; Рахимов М.Р.; Латипов Р.Н.",
+    "title": "Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 6",
+    "journal": "Computational nanotechnology, 2016, № 3, С. 6–34. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn85.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-164",
+    "authors": "Рахимов Р.Х.",
+    "title": "Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 7. Природа электромагнитного излучения",
+    "journal": "Computational nanotechnology, 2016, № 3, С. 35–182. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn86.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-165",
+    "authors": "Рахимов Р.Х.",
+    "title": "Особенности синтеза функциональной керамики с комплексом заданных свойств радиационным методом. Часть 8. Основы теории резонансной терапии по методу Р. Рахимова (метод «INFRA R»)",
+    "journal": "Computational nanotechnology, 2016, № 4, С. 32–135. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn98.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-166",
+    "authors": "Имамов Э.З.; Джалалов Т.А.; Муминов Р.А.; Рахимов Р.Х.",
+    "title": "Отличительные особенности контактных структур с наноразмерными включениями полупроводниковых фотодиодов",
+    "journal": "Computational nanotechnology, 2016, № 3, С. 196–202. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn88.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-167",
+    "authors": "Imamov E.Z.; Djalalov T.A.; Muminov R.A.; Rakhimov R.Kh.",
+    "title": "The difference between the contact structure with nanosize inclusions from the semiconductor photodiodes",
+    "journal": "Computational nanotechnology, 2016, № 3, С. 203–207. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/eng/cn89.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-168",
+    "authors": "Абдурахманов А.А.; Кучкаров А.А.; Маматкосимов М.А.; Собиров Ю.Б.; Абдумуминов А.А.; Рахимов Р.Х.",
+    "title": "Разработка методики и стенда для определения срока службы материалов и изделий к солнечному лучистому потоку",
+    "journal": "Computational nanotechnology, 2016, № 2, С. 94–100. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn72.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-169",
+    "authors": "Рахимов Р.Х.; Рашидов Х.К.; Ермаков В.П.; Рашидов Ж.Х.; Аллабергенов Р.Ж.",
+    "title": "Ресурсосберегающая, энергоэффективная технология получения глинозема из вторичных каолинов ангренского месторождения",
+    "journal": "Computational nanotechnology, 2016, № 1, С. 45–51. Подлинность подтверждена по Math-Net: https://www.mathnet.ru/rus/cn62.",
+    "year": "2016"
+  },
+  {
+    "id": "ART-170",
+    "authors": "Ермаков В.П., Исмоилов К., Рахимов М.Р., Хатамов С.О., Юлдашев Н.Х.",
+    "title": "Композитная полиэтиленовая пленка с активными керамическими микровключениями для теплиц и парников.",
+    "journal": "Научно-технический журнал, ФерПИ, 2015, №2, С.5-12",
     "year": "2015"
+  },
+  {
+    "id": "ART-171",
+    "authors": "Drozdov A.P., Eremets M.I., Troyan I.A., Ksenofontov V., Shylin S.I.",
+    "title": "Conventional superconductivity at 203 kelvin at high pressures in the sulfur hydride system",
+    "journal": "Nature. — 2015. — Vol. 525, No. 7567. — Pp. 73–76. – DOI: 10.1038/nature14964.",
+    "year": "2015"
+  },
+  {
+    "id": "ART-172",
+    "authors": "Rakhimov R.Kh",
+    "title": "Development of the equipment with use of the functional ceramics synthesized on the big solar furnace",
+    "journal": "Computational nanotechnology. 2015. No. 3. Pp. 11–25",
+    "year": "2015"
+  },
+  {
+    "id": "ART-173",
+    "authors": "Рахимов Р. Х., Ермаков В. П., Рахимов М. Р.",
+    "title": "Применение функциональной керамики в комплексообразовании",
+    "journal": "Научно-технический журнал «Химия и химическая технология». 2015. № 1. С. 51–55.",
+    "year": "2015"
+  },
+  {
+    "id": "ART-174",
+    "authors": "Р.Х. Рахимов",
+    "title": "Синтез функциональной керамики на БСП и разработки на ее основе.",
+    "journal": "Computational Nanotechnology. — 2015. — № 3. — С. 11–25.",
+    "year": "2015"
+  },
+  {
+    "id": "ART-175",
+    "authors": "Рахимов Р. Х.",
+    "title": "Синтез функциональной керамики на Большой Солнечной Печи и ее прикладные разработки",
+    "journal": "Плазменные, высокочастотные, микроволновые и лазерные технологии. — 2015. — № 3. — С. 83–102",
+    "year": "2015"
+  },
+  {
+    "id": "ART-176",
+    "authors": "Э. З. Имамов, Т. А. Джалалов, Р. А. Муминов, Р. Х. Рахимов",
+    "title": "Теоретическая модель новой контактной структуры «нанообъект-полупроводник»,",
+    "journal": "Журнал «Computational nanotechnology», 2015, №4, C.51-64",
+    "year": "2015"
+  },
+  {
+    "id": "ART-177",
+    "authors": "Rachimov R. C., Ermakov V. P., John P., Rachimov M. R.",
+    "title": "Application of ceramic functionalities for thermal shock technologies with pulsed infrared",
+    "journal": "Freiberger Forschungshefte. — 2014. — Pp. 1–44",
+    "year": "2014"
+  },
+  {
+    "id": "ART-178",
+    "authors": "Rachimov, R.C.; Ermakov, V.P.; John, P.; Rachimov, M.R.",
+    "title": "Anwendung funktioneller keramiken für technologien des trocknens mit impuls-infirarot.",
+    "journal": "Freiberger Forschungshefte, 02.06.2014, pp. 1-44. http://nbn-resolving.de/urn:nbn:de:bsz:105-qucosa-151116",
+    "year": "2014"
+  },
+  {
+    "id": "ART-179",
+    "authors": "Rustam Ch. Rachimov",
+    "title": "Mechanism zur Erzeugung von Infrerotimpulsen mit funktionalen Keramiken.",
+    "journal": "Freiberger Forschungshefte. – 2014. – S. 1–13. – URN: urn:nbn:de:bsz:105-qucosa-135637. – URL: https://nbn-resolving.de/urn:nbn:de:bsz:105-qucosa-135637",
+    "year": "2014"
+  },
+  {
+    "id": "ART-180",
+    "authors": "Рахимов Р.Х., Юлдашходжаев А.И., Ермаков В.П., Рахимов М.Р., Латипов Р.Н.",
+    "title": "О возможности применения керамических материалов, синтезированных на большой солнечной печи в энерго- и ресурсосбережении.",
+    "journal": "Научно-технический журнал «Химия и химическая технология». 2014, №3, С.2-6",
+    "year": "2014"
+  },
+  {
+    "id": "ART-181",
+    "authors": "Dr. Peter John (Bild), Prof. Rustam Rachimov, Murod Rachimov, Vladimir Ermakov.",
+    "title": "Schnelle und energiesparende Lacktrocknung mit Solarwärme,",
+    "journal": "JOT (Journal für Oberflächentechnik) 11, 2014, p.38-41",
+    "year": "2014"
+  },
+  {
+    "id": "ART-182",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Сушка, осуществляемая импульсным излучением, генерируемым функциональной керамикой.",
+    "journal": "Научно-технический журнал «Химия и химическая технология». 2014, №1, С.52-57.",
+    "year": "2014"
+  },
+  {
+    "id": "ART-183",
+    "authors": "Woolley M. J., Clerk A.A.",
+    "title": "Two-mode squeezed states in cavity optomechanics via engineering of a common reservoir",
+    "journal": "Physical Review A. 2014. Vol. 89. No. 6. Art. 063805. DOI: 10.1103/PhysRevA.89.063805",
+    "year": "2014"
+  },
+  {
+    "id": "ART-184",
+    "authors": "Рахимов М. Р., Рахимов Р. Х., Ермаков В. П.",
+    "title": "Эффективность передачи энергии полиэтилен-керамического фото-тепло-фотонного преобразователя на основе оксида железа",
+    "journal": "Научно-технический журнал «Химия и химическая технология». 2014. № 1. С. 45–49.",
+    "year": "2014"
+  },
+  {
+    "id": "ART-185",
+    "authors": "Рахимов Р.Х.",
+    "title": "Механизм генерации инфракрасных импульсов функциональной керамикой.",
+    "journal": "Научно-технический журнал «Химия и химическая технология». 2013, №4, С.2-9",
+    "year": "2013"
+  },
+  {
+    "id": "ART-186",
+    "authors": "Rakhimov R.H.",
+    "title": "The mechanism of generation of infrared pulses by functional ceramics",
+    "journal": "Scientific and technical journal \"Chemistry and Chemical Technology\". 2013, No.4, pp. 2-9",
+    "year": "2013"
+  },
+  {
+    "id": "ART-187",
+    "authors": "Рахимов Р.Х., Муминов Р.А., Рискиев Т.Т.",
+    "title": "Возможность применения функциональной керамики, синтезированной на БСП, для технологии синтеза комплексных соединений",
+    "journal": "Гелиотехника, 2012, № 1, C. 54–58",
+    "year": "2012"
+  },
+  {
+    "id": "ART-188",
+    "authors": "Rakhimov, R.Kh., Muminov, R.A",
+    "title": "Application of functional ceramics synthesized in a large solar furnace for the synthesis of complex compounds",
+    "journal": "Applied Solar Energy, 2012, vol. 48, no. 1, pp. 47–50",
+    "year": "2012"
+  },
+  {
+    "id": "ART-189",
+    "authors": "Рахимов Р.Х., Юлдашходжаев А.И., Ермаков В.П",
+    "title": "Функциональная керамика для снижения трения в системе трущихся пар металл-металл",
+    "journal": "Гелиотехника, 2012, № 2, С. 74–77",
+    "year": "2012"
+  },
+  {
+    "id": "ART-190",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р., Садыкова Н.Б., Латипов Р.Н.",
+    "title": "Особенности влияния импульсного электромагнитного излучения, генерируемого функциональной керамикой, на технологические процессы",
+    "journal": "Гелиотехника. 2011. № 4. С. 82–88.",
+    "year": "2011"
+  },
+  {
+    "id": "ART-191",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Особенности сушки биообъектов с использованием функциональной керамики, синтезированной на Большой Солнечной Печи",
+    "journal": "Гелиотехника №1, 2011 г. С. 67-72",
+    "year": "2011"
+  },
+  {
+    "id": "ART-192",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Особенности сушки хлопка-сарцы с использованием функциональной керамики, синтезированной на большой солнечной печи.",
+    "journal": "Современные научные исследования и инновации. – Октябрь, 2011. [Электронный ресурс]. URL: http://web.snauka.ru/issues/2011/10/4135",
+    "year": "2011"
+  },
+  {
+    "id": "ART-193",
+    "authors": "Рахимов Р.Х., Муминов Р.А., Ермаков В.П., Рахимов М.Р., Латипов Р.Н., Рахимова А.Г.",
+    "title": "Применение полимер-керамических композитных пленок в фотоэнергетике",
+    "journal": "Современные научные исследования и инновации. – Октябрь, 2011. [Электронный ресурс]. URL: http://web.snauka.ru/issues/2011/10/4009.",
+    "year": "2011"
+  },
+  {
+    "id": "ART-194",
+    "authors": "Safavi-Naeini A. H., Painter O",
+    "title": "Optomechanical crystal arrays and phonon routing for quantum networks",
+    "journal": "New Journal of Physics. – 2011. – Vol. 13. — Art. 013017. — DOI: 10.1088/1367-2630/13/1/013017",
+    "year": "2011"
+  },
+  {
+    "id": "ART-195",
+    "authors": "Рахимов Р.Х., Муминов Р.А., Ермаков В.П., Рахимов М.Р., Латипов Р.Н., Рахимова А.Г.",
+    "title": "Применение полимер-керамических композитных пленок в фотоэнергетике",
+    "journal": "Гелиотехника. 2011. № 4. С. 89–94.",
+    "year": "2011"
+  },
+  {
+    "id": "ART-196",
+    "authors": "Рахимов Р.Х.",
+    "title": "Принципы разработки материалов с комплексом заданных свойств.",
+    "journal": "«Современная техника и технологии» http://technology.snauka.ru/2011/11/140",
+    "year": "2011"
+  },
+  {
+    "id": "ART-197",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Пленочно-керамический каскадный композит для тепличных хозяйств",
+    "journal": "Гелиотехника. 2011. № 1. С. 58–63.",
+    "year": "2011"
+  },
+  {
+    "id": "ART-198",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Пленочно-керамический композит для тепличных хозяйств",
+    "journal": "Гелиотехника. 2011. № 2. С. 64–69.",
+    "year": "2011"
+  },
+  {
+    "id": "ART-199",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Пленочно-керамический композит для тепличных хозяйств",
+    "journal": "Современные научные исследования и инновации. – Октябрь, 2011. [Электронный ресурс]. URL: http://web.snauka.ru/issues/2011/10/4199.",
+    "year": "2011"
+  },
+  {
+    "id": "ART-200",
+    "authors": "Рахимов Р.Х.",
+    "title": "Ресурсо- и энергосберегающие технологии в производстве сельхозкультур.",
+    "journal": "Современные научные исследования и инновации. – Ноябрь, 2011. [Электронный ресурс]. URL: http://web.snauka.ru/issues/2011/11/4816",
+    "year": "2011"
+  },
+  {
+    "id": "ART-201",
+    "authors": "Рахимов Р.Х.",
+    "title": "Ресурсо- и энергосберегающие технологии в производстве сельхозкультур",
+    "journal": "Гелиотехника. 2011. № 3. С. 75–81.",
+    "year": "2011"
+  },
+  {
+    "id": "ART-202",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Эффективность сушки с применением металло-керамического и пленочно-керамического фото-тепло-фотонного преобразователя.",
+    "journal": "Современные научные исследования и инновации. – Октябрь, 2011. [Электронный ресурс]. URL: http://web.snauka.ru/issues/2011/10/4823",
+    "year": "2011"
+  },
+  {
+    "id": "ART-203",
+    "authors": "Рахимов Р. Х., Юлдашходжаев А.И., Ермаков В.П.",
+    "title": "Возможности применения керамических материалов, синтезированных на большой солнечной печи в энерго- и ресурсосбережении.",
+    "journal": "«Современные научные исследования и инновации». – Октябрь, 2011. [Электронный ресурс]. URL: http://web.snauka.ru/issues/2011/10/3220",
+    "year": "2011"
+  },
+  {
+    "id": "ART-204",
+    "authors": "Рахимов Р. Х., Ермаков В. П., Рахимов М. Р.",
+    "title": "Возможный механизм стабилизации температуры солнечного воздухонагревателя с применением трехслойной композитной пленки с каскадным преобразованием спектра",
+    "journal": "Гелиотехника. — 2011. — № 2. — С. 65–68.",
+    "year": "2011"
+  },
+  {
+    "id": "ART-205",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Возможный механизм температурного скачка в системах с импульсно-преобразующей функциональной керамикой",
+    "journal": "Международная научно-практическая конференция (Ташкент, 2010 г.). — Ташкент, 2010. — С. 125–128",
+    "year": "2010"
+  },
+  {
+    "id": "ART-206",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Лабораторно-машинная установка для сушки хлопка-сырца с использованием функциональной керамики",
+    "journal": "Международная научно-практическая конференция (Ташкент, 2010 г.). — Ташкент, 2010. — С. 116–119",
+    "year": "2010"
+  },
+  {
+    "id": "ART-207",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Обоснованный механизм стабилизации температуры солнечного водонагревателя с применением трехслойной композитной пленки с каскадным преобразованием спектра",
+    "journal": "Международная научно-практическая конференция (Ташкент, 2010 г.). — Ташкент, 2010. — С. 120–124",
+    "year": "2010"
+  },
+  {
+    "id": "ART-208",
+    "authors": "Рахимов Р.Х., Ермаков В.П.",
+    "title": "О роли конвективного фактора при радиационной сушке",
+    "journal": "Гелиотехника. – 2010. – №4. – С.77-79.",
+    "year": "2010"
+  },
+  {
+    "id": "ART-209",
+    "authors": "Рахимов Р.Х., Ермаков В.П.",
+    "title": "Основы проектирования сушильных установок с использованием функциональной керамики. Часть I. О критериях выбора функциональной керамики для процессов сушки",
+    "journal": "Гелиотехника. – 2010. – №4. – С.70-77.",
+    "year": "2010"
+  },
+  {
+    "id": "ART-210",
+    "authors": "Турсунов Н.В., Рахимов Р.Х., Турсунов Б.С., Фаттахов А.А., Розыкулов С.М., Турсунов Г.Б.",
+    "title": "Сравнительная оценка эффективности применения БАД \"Активный кальций\" в комплексном лечении гипотонии с почечной зоной у детей",
+    "journal": "Журнал \"Теоретической и Клинической медицины\" № 1, 2010, С. 101–104",
+    "year": "2010"
+  },
+  {
+    "id": "ART-211",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Солярный воздухонагреватель с применением композита полиэтиленовая пленка-керамика на основе оксида железа",
+    "journal": "Гелиотехника. – 2010. – № 1. – С. 59–62.",
+    "year": "2010"
+  },
+  {
+    "id": "ART-212",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Солярный воздухонагреватель с применением трехслойной композитной пленки",
+    "journal": "Гелиотехника. – 2010. – № 2. – С. 43–46.",
+    "year": "2010"
+  },
+  {
+    "id": "ART-213",
+    "authors": "Рахимов Р.Х., Ермаков В.П.",
+    "title": "Солярный воздухонагреватель с применением трехслойной композитной пленки с каскадным преобразованием спектра",
+    "journal": "Гелиотехника. – 2010. – № 1. – С. 65–70",
+    "year": "2010"
+  },
+  {
+    "id": "ART-214",
+    "authors": "Rakhimov R.Kh., Ermakov V.P., Rakhimov M.R.",
+    "title": "Solar air heater with a three-layered composite film",
+    "journal": "Applied Solar Energy (2010) 46: 122-124, June 01, 2010",
+    "year": "2010"
+  },
+  {
+    "id": "ART-215",
+    "authors": "Rakhimov R.Kh., Saidov M.S., Ermakov V.P.",
+    "title": "Solar heater incorporating polythene film-ceramics composite material on the basis of iron oxide",
+    "journal": "Applied Solar Energy (2010) 46: 56-59, March 01, 2010.",
+    "year": "2010"
+  },
+  {
+    "id": "ART-216",
+    "authors": "Рахимов Р. Х., Ермаков В. П., Рахимов М. Р.",
+    "title": "Теоретические основы функционирования пленочно-керамических фото-тепло-фотонных преобразователей",
+    "journal": "Гелиотехника. 2010. № 3. С. 72–77",
+    "year": "2010"
+  },
+  {
+    "id": "ART-217",
+    "authors": "Ermakov V.P., Rakhimov M.R.",
+    "title": "Energy transfer efficiency of iron oxide-based film ceramic heat photon converter",
+    "journal": "Applied Solar Energy (2009) Vol. 45, No. 4, pp. 200–202",
+    "year": "2009"
+  },
+  {
+    "id": "ART-218",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Саидов М.С., Рахимов М.Р.",
+    "title": "Исследование эффективности передачи энергии композитного фото-тепло-фотонного преобразователя на основе оксида железа",
+    "journal": "Гелиотехника, 2009, № 2, С. 73–78",
+    "year": "2009"
+  },
+  {
+    "id": "ART-219",
+    "authors": "Каримов Х.Я., Рахимов Р.Х., Фаттахов А.А., Ермаков В.П., Розыкулов С.М., Фаттахова М.А., Махмудова А.Д., Сахарова О.И., Махмудова М.А., Махмудова Д.С.",
+    "title": "Применение препарата \"Активный кальций\" при кальций-дефицитных состояниях в комплексном лечении некоторых гематологических заболеваний",
+    "journal": "Журнал \"Теоретической и Клинической медицины\", № 4, 2009, С. 41–44",
+    "year": "2009"
+  },
+  {
+    "id": "ART-220",
+    "authors": "Рахимов Р.Х.",
+    "title": "Функциональная керамика и области ее применения",
+    "journal": "Данный материал предоставлен представительством ЮНЕСКО, 2009",
+    "year": "2009"
+  },
+  {
+    "id": "ART-221",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р.",
+    "title": "Эффективность передачи энергии пленочно-керамического фото-тепло-фотонного преобразователя на основе оксида железа",
+    "journal": "Гелиотехника, 2009, № 3, С. 68–74",
+    "year": "2009"
+  },
+  {
+    "id": "ART-222",
+    "authors": "Рахимов Р.Х., John P.",
+    "title": "Эффективность применения STIR-технологии для выпечки пшеничных хлебобулочных изделий",
+    "journal": "Журнал Хлебопек, № 2, 2009, С. 39–42",
+    "year": "2009"
+  },
+  {
+    "id": "ART-223",
+    "authors": "Назиров Ф.Г., Рахимов Р.Х., Фаттахов А.А., Ермаков В.П., Розыкулов С.М., Курбанов Р.Д., Салимова Н.Р., Султанов С.Н., Аляви А.Л., Садыкова Г.А., Азимов М.И., Хасанов А.И., Юнусходжаев А.Х., Назаров Э.А., Касымходжаев А.Ш., Садыкова М.Х., Джалалов У.А., Файзиева У.А., Братанов Л.Н.",
+    "title": "Применение активного кальция в клинике внутренних болезней при кальций-дефицитных состояниях.",
+    "journal": "Журнал \"Теоретическая и Клиническая медицина\", 2008, № 2, С. 22–29.",
+    "year": "2008"
+  },
+  {
+    "id": "ART-224",
+    "authors": "Алимов А.С., Рахимов Р.Х., Бекметов З.М.",
+    "title": "Новые подходы в профилактике осложнений во время ортопедических вмешательств у больных с сердечно-сосудистой патологией.",
+    "journal": "Научно-практический журнал \"Dentist Казахстан\", 2008, № 7, С. 145–147.",
+    "year": "2008"
+  },
+  {
+    "id": "ART-225",
+    "authors": "Рахимов Р.Х., Саидов М.С., Ермаков В.П.",
+    "title": "Определение недостающих данных: Исследование функциональной керамики для солнечной сушки.",
+    "journal": "Гелиотехника, 2008, № 4, С. 62–66.",
+    "year": "2008"
+  },
+  {
+    "id": "ART-226",
+    "authors": "Rakhimov R.Kh., Saidov M.S., Ermakov V.P.",
+    "title": "Functional ceramic for solar drying.",
+    "journal": "Applied Solar Energy (2008) 44: 281-283, December 01, 2008.",
+    "year": "2008"
+  },
+  {
+    "id": "ART-227",
+    "authors": "Рахимов Р.Х., Саидов М.С., Ермаков В.П.",
+    "title": "Эффект сушки и эффективность передачи энергии металло-керамического фото-тепло-фотонного преобразователя",
+    "journal": "Гелиотехника, 2008, № 4, С. 63–67",
+    "year": "2008"
+  },
+  {
+    "id": "ART-228",
+    "authors": "Rakhimov R.Kh., Saidov M.S., Ermakov V.P.",
+    "title": "Drying effect of polymer-ceramic film photo-thermo-photon converter.",
+    "journal": "Applied Solar Energy (2008) 44: 232-233, September 01, 2008.",
+    "year": "2008"
+  },
+  {
+    "id": "ART-229",
+    "authors": "Рахимов Р.Х., Саидов М.С., Ермаков В.П.",
+    "title": "Эффект сушки полимерно керамического пленочного фото-тепло-фотонного преобразователя.",
+    "journal": "Гелиотехника, 2008, № 3, С. 111–113.",
+    "year": "2008"
+  },
+  {
+    "id": "ART-230",
+    "authors": "Рахимов Р.Х., Фаттахов А.А., Ермаков В.П., Батырбеков А.А., Аскаров Т.А., Фаттахова М.А., Розыкулов С.М.",
+    "title": "ВЛИЯНИЕ ПРЕПАРАТА «АКТИВНЫЙ КАЛЬЦИЙ С МАГНИЕМ» НА ИММУНОГЕНЕЗ В ЭКСПЕРИМЕНТЕ.",
+    "journal": "Журнал \"Теоретическая и Клиническая медицина\", 2008, № 4, С. 6–8.",
+    "year": "2008"
+  },
+  {
+    "id": "ART-231",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Шкарин Н.Ю.",
+    "title": "Функциональная керамика на основе оксидных материалов и области ее применения.",
+    "journal": "Химическое и нефтегазовое машиностроение, № 4, 2007, С. 24.",
+    "year": "2007"
+  },
+  {
+    "id": "ART-232",
+    "authors": "Рахимов Р.Х.",
+    "title": "Функциональная керамика и области ее применения.",
+    "journal": "Курс лекций летней школы по возобновляемым источникам энергии. ЮНЕСКО, Ташкент, 2007, с. 205–225.",
+    "year": "2007"
+  },
+  {
+    "id": "ART-233",
+    "authors": "Р.Х. Рахимов, М.С. Саидов, В.П. Ермаков, P. John",
+    "title": "Перспективы использования керамико-полимерных композитных пленок в гелиотехнике и сельском хозяйстве.",
+    "journal": "Гелиотехника, № 2, 2007, С. 53–58.",
+    "year": "2007"
+  },
+  {
+    "id": "ART-234",
+    "authors": "Rakhimov R.Kh., Saidov M.S., Ermakov V.P., John P.",
+    "title": "Prospects for using polymer ceramic composite films in solar engineering and agriculture.",
+    "journal": "Applied Solar Energy (2007) 43: 98-101, June 01, 2007.",
+    "year": "2007"
+  },
+  {
+    "id": "ART-235",
+    "authors": "Рахимов Р.Х., М.С. Саидов, Ермаков В.П., John P.",
+    "title": "Радиационная сушка с использованием керамико-содержащей полимерной пленки.",
+    "journal": "Гелиотехника, 2007, № 1, с. 71–74.",
+    "year": "2007"
+  },
+  {
+    "id": "ART-236",
+    "authors": "Rakhimov R.Kh., Saidov M.S., Ermakov V.P., John P.",
+    "title": "Radiation drying with the use of a ceramic-containing polymer film.",
+    "journal": "Applied Solar Energy (2007) 43: 49-50, March 01, 2007.",
+    "year": "2007"
+  },
+  {
+    "id": "ART-237",
+    "authors": "Рахимов Р.Х., Ермаков В.П., John P., Д.Б. Зайцев, Н.Ю. Шкарин, А.С. Тимонин",
+    "title": "Транспортерная и шкафная сушка материалов с использованием функциональной керамики.",
+    "journal": "Химическое и нефтегазовое машиностроение. 2007, № 4, С. 24–25.",
+    "year": "2007"
+  },
+  {
+    "id": "ART-238",
+    "authors": "R. Kh. Rakhimov, V. P. Ermakov, P. John, D. B. Zaitsev, B. Shkarin, N. Yu. Timonin, A. S.",
+    "title": "Conveyor and cabinet drying of materials using a functional ceramic.",
+    "journal": "Chemical and Petroleum Engineering (2007) 43: 202-205, March 01, 2007.",
+    "year": "2007"
+  },
+  {
+    "id": "ART-239",
+    "authors": "Рахимов Р.Х., Ермаков В.П., Саидов М.С.",
+    "title": "Импульсное ИК-излучение керамических покрытий и солнечно-тепловые излучатели",
+    "journal": "Гелиотехника, 2005, № 4, С. 56–62.",
+    "year": "2005"
+  },
+  {
+    "id": "ART-240",
+    "authors": "Файзиев Ш.А., Пайзуллаханов М.С., Нурматов Ш.Р.",
+    "title": "Особенности синтеза карбонитрида циркония на Большой Солнечной Печи",
+    "journal": "Гелиотехника, 2010, № 1, С. 38–42.",
+    "year": "2005"
+  },
+  {
+    "id": "ART-241",
+    "authors": "Алимoв А.С.",
+    "title": "Использование узкоспектрального излучения в комплексном лечении хронического генерализованного пародонтита у больных гипертонической болезнью.",
+    "journal": "Ежеквартальный Научно-Практический журнал \"Проблемы стоматологии\", № 2 (24), 2004, С. 20–21.",
+    "year": "2004"
+  },
+  {
+    "id": "ART-242",
+    "authors": "Рахимов Р.Х., Ермаков В.П.",
+    "title": "Определение максимальной излучательной способности керамик в зависимости от концентрации их со связующими.",
+    "journal": "Гелиотехника, 2004, № 1, С. 71–72.",
+    "year": "2004"
+  },
+  {
+    "id": "ART-243",
+    "authors": "Рахимов Р.Х.",
+    "title": "Предварительные результаты изучения воздействия узкоспектрального инфракрасного излучения методом резонансной терапии Р. Рахимова (метод «INFRA-R») на клинику рассеянных заболеваний",
+    "journal": "Журнал «Морфология». — 2004. — Т. 126. — № 4. — С. 104.",
+    "year": "2004"
+  },
+  {
+    "id": "ART-244",
+    "authors": "Р.Х. Рахимов, М.С. Саидов",
+    "title": "Возможности использования солнечных емкостных коллекторов для нагрева воды, ИК-сушки и терапии.",
+    "journal": "Гелиотехника, 2004, № 2, С. 88–92.",
+    "year": "2004"
+  },
+  {
+    "id": "ART-245",
+    "authors": "R. Rakhimov, P. John",
+    "title": "Die neue s&q-technologie (system STIR)",
+    "journal": "Unabhangiges magazin der backranche. 10, 2003, p. 2-5.",
+    "year": "2003"
+  },
+  {
+    "id": "ART-246",
+    "authors": "P. John, R. Rakhimov",
+    "title": "WIR REVOLUTIONIEREN DAS BACKEN",
+    "journal": "Unabhangiges magazin der backranche. 10, 2003, p. 6-7.",
+    "year": "2003"
+  },
+  {
+    "id": "ART-247",
+    "authors": "Р.Х. Рахимов, В.П. Ермаков, М.А. Ма",
+    "title": "Применение функциональной керамики, синтезированной на Большой Солнечной Печи в процессах сушки.",
+    "journal": "Гелиотехника 2002 № 4 стр. 69-73",
+    "year": "2002"
+  },
+  {
+    "id": "ART-248",
+    "authors": "Рахимов Р.Х., Ермаков В.П.",
+    "title": "Применение функциональной керамики, синтезированной на БСП, в системах охлаждения.",
+    "journal": "Гелиотехника 2002 № 2 стр. 85",
+    "year": "2002"
+  },
+  {
+    "id": "ART-249",
+    "authors": "Р.Х. Рахимов, М.С. Саидов",
+    "title": "Керамика с энергетическим барьером и двухимпульсное температурное излучение",
+    "journal": "Гелиотехника. 2002. № 3.С.71-74",
+    "year": "2002"
+  },
+  {
+    "id": "ART-250",
+    "authors": "Rakhimov R.Kh., Saidov M.S.",
+    "title": "Ceramic Solar Energy Converters and IR Therapy.",
+    "journal": "Applied Solar Energy (Geliotekhina), Allerton Press, Inc. NewYork., № 3. Vol. 38, 2002. p.71-74.",
+    "year": "2002"
+  },
+  {
+    "id": "ART-251",
+    "authors": "Rakhimov R.Kh., Saidov M.S.",
+    "title": "Investigation of the Possibilities of Obtaining Functional Ceramics in the Big Solar Furnace",
+    "journal": "Applied Solar Energy (Geliotekhnika). — 2002. — Vol. 38, No. 3. — Pp. 71–74.",
+    "year": "2002"
+  },
+  {
+    "id": "ART-252",
+    "authors": "Рахимов Р.Х., М.С. Саидов",
+    "title": "Керамические преобразователи солнечной энергии в лечебное ИК-излучение.",
+    "journal": "Гелиотехника 2002 № 3 стр. 74",
+    "year": "2002"
+  },
+  {
+    "id": "ART-253",
+    "authors": "Rakhimov R.H., Saidov M.S.",
+    "title": "Ceramics with an energy barrier and two-pulse temperature radiation",
+    "journal": "Гелиотехника. 2002. № 3. С. 71-74.",
+    "year": "2002"
+  },
+  {
+    "id": "ART-254",
+    "authors": "Рахимов Р.Х., Ермаков В.П.",
+    "title": "Определение максимальной излучательной способности керамик, синтезированных на БСП в зависимости от их концентрации со связующими.",
+    "journal": "Гелиотехника 2002 № 1 стр. 71",
+    "year": "2002"
+  },
+  {
+    "id": "ART-255",
+    "authors": "Аталиев А.Е., Мавляров А.Р., Рахимов Б.К., Пардаев Ю.",
+    "title": "Результаты применения узкоспектрального дальнего инфракрасного излучения у больных с диффузными и разлитыми перитонитами",
+    "journal": "Журнал теоретической и клинической медицины, 2001, № 4, С. 135-139",
+    "year": "2001"
+  },
+  {
+    "id": "ART-256",
+    "authors": "Р. Х. Рахимов, М. С. Саидов",
+    "title": "Солнечно-радиационный нагрев и импульсная фотолюминесценция микрозернистой керамики с межзерными гетерослоями",
+    "journal": "Гелиотехника, 2001, № 2, С. 71–74",
+    "year": "2001"
+  },
+  {
+    "id": "ART-257",
+    "authors": "Rakhimov R.Kh., Saidov M.S.",
+    "title": "Solarradiation heating and pulsed photoluminescence of microgranular ceramic with intergranular heterolayers",
+    "journal": "Applied Solar energy, 2001, vol.37, No.2. P.65-68",
+    "year": "2001"
+  },
+  {
+    "id": "ART-258",
+    "authors": "Rakhimov R. X., Saidov M. S.",
+    "title": "Solar-Radiation Heating Photoluminescence and Application of Micrograin Ceramics with Intergrain Heterolayers",
+    "journal": "Advanced Materials: Proceedings of the 7th International Symposium (17–21 September 2001, Islamabad, Pakistan). Islamabad, 2001. Pp. 315–320",
+    "year": "2001"
+  },
+  {
+    "id": "ART-259",
+    "authors": "Рахимов Р.Х.",
+    "title": "Синтез высокотемпературных оксидных материалов заданного стехиометрического состава на Большой Солнечной Печи",
+    "journal": "Гелиотехника, 2001, № 4, С. 87-91",
+    "year": "2001"
+  },
+  {
+    "id": "ART-260",
+    "authors": "Rakhimov R. Kh.",
+    "title": "A Recombinator of Free Radicals in Complex Treatment of Endocrine Disorders",
+    "journal": "Program & Abstracts. The Endocrine Society's 82nd Annual Meeting (June 21–24, 2000). – 2000. – P. 94 (Abstract 356).",
+    "year": "2000"
+  },
+  {
+    "id": "ART-261",
+    "authors": "Rakhimov R. Kh.",
+    "title": "Narrow-spectrum infrared radiation: a method for correction of immunodeficiencies",
+    "journal": "International Journal on Immunorehabilitation. – 2000. – Vol. 2, No. 3. – Pp. 84–89.",
+    "year": "2000"
+  },
+  {
+    "id": "ART-262",
+    "authors": "Rakhimov R. Kh.",
+    "title": "Resonance Therapy by Means of Narrow-spectrum Ceramic Infrared Emitters: A New Approach to Preventing and Treating Diabetes Mellitus",
+    "journal": "Program & Abstracts. The Endocrine Society's 82nd Annual Meeting (June 21–24, 2000). – 2000. – P. 93 (Abstract 353).",
+    "year": "2000"
+  },
+  {
+    "id": "ART-263",
+    "authors": "Rakhimov R. Kh., Shadiev Kh. K., Shahabiddinov T. T., Asedova E. A.",
+    "title": "Methods of resonance infrared therapy as a non-drug method to normalize the immune status of children with psoriasis",
+    "journal": "Journal of the European Academy of Dermatology and Venereology. – 2000. – Vol. 14, Suppl. 1. – P. 164.",
+    "year": "2000"
+  },
+  {
+    "id": "ART-264",
+    "authors": "Shahabiddinov T. T., Rakhimov R. Kh., Asedova E. A., Ryanskaya N.",
+    "title": "The effect of resonance infrared therapy on blood T cells and skin lesions in psoriasis in children",
+    "journal": "Journal of the European Academy of Dermatology and Venereology. – 2000. – Vol. 14, Suppl. 1. – P. 162.",
+    "year": "2000"
+  },
+  {
+    "id": "ART-265",
+    "authors": "Rakhimov R. Kh., Tikhonova N. N., Zawawi A.",
+    "title": "Treatment of trophic ulcers by exposure to narrow-range far-infrared radiation",
+    "journal": "Journal of the European Academy of Dermatology and Venereology. – 2000. – Vol. 14, Suppl. 1. – P. 163.",
+    "year": "2000"
+  },
+  {
+    "id": "ART-266",
+    "authors": "Рахимов Р. Х., Шадиев Х. К., Шахабиддинов Т. Т., Аседова Е. А.",
+    "title": "Метод резонансной ИК-терапии как средство немедикаментозной иммуно-коррекции детей с псориазом",
+    "journal": "International Journal on Immunorehabilitation. – 2000. – Т. 2, № 3. – С. 90–94.",
+    "year": "2000"
+  },
+  {
+    "id": "ART-267",
+    "authors": "Рахимов Р. Х., Каюмов Т. Х., Баймаков С. Р.",
+    "title": "О профилактике спаечной болезни брюшной полости",
+    "journal": "Проблемы биологии и медицины. – 2000. – № 4. – С. 36–39.",
+    "year": "2000"
+  },
+  {
+    "id": "ART-268",
+    "authors": "Рахимов Р. Х., Ваисов А. Ш., Тихонова Н. Н.",
+    "title": "Применение узкоспектрального инфракрасного излучения в терапии дерматозов",
+    "journal": "Новости дерматологии и венерологии. – 2000. – № 3. – С. 17–22.",
+    "year": "2000"
+  },
+  {
+    "id": "ART-269",
+    "authors": "Рахимов Р. Х.",
+    "title": "Узкоспектральное инфракрасное излучение — способ коррекции иммунодефицитных состояний",
+    "journal": "International Journal on Immunorehabilitation. – 2000. – Т. 2, № 1. – С. 115–118.",
+    "year": "2000"
+  },
+  {
+    "id": "ART-270",
+    "authors": "Rakhimov R. Kh.",
+    "title": "Ceramic emitter as an eliminator of free radicals",
+    "journal": "Oxidative Pathways in Health and Disease. Incorporating 8th Meeting of the Society for Free Radical Research (Australasia) (Sydney, Australia, 1–4 Dec. 1998). – 1998/1999. – P. 78.",
+    "year": "1999"
+  },
+  {
+    "id": "ART-271",
+    "authors": "Аседова Е. А., Рахимов Р. Х., Шодиев Х. К.",
+    "title": "Комплексная терапия псориаза у детей",
+    "journal": "Новости дерматологии и венерологии. – 1999. – № 3. – С. 52–54.",
+    "year": "1999"
+  },
+  {
+    "id": "ART-272",
+    "authors": "Аседова Е. А., Рахимов Р. Х., Шодиев Х. К.",
+    "title": "Эффективность метода ИК-терапии в сочетании с местным применением куратодерма у больных псориазом",
+    "journal": "International Journal on Immunorehabilitation. – 1999. – № 12. – С. 37.",
+    "year": "1999"
+  },
+  {
+    "id": "ART-273",
+    "authors": "Каюмов Т. Х., Рахимов Р. Х., Баймаков С. Р.",
+    "title": "К вопросу о профилактике спаечной болезни брюшной полости",
+    "journal": "Проблемы биологии и медицины. – 1998. – № 4. – С. 42–45.",
+    "year": "1998"
+  },
+  {
+    "id": "ART-274",
+    "authors": "Rakhimov R.",
+    "title": "Oxidative Pathways in Health and Disease",
+    "journal": "Incorporating 8th Meeting of the Society for Free Radical Research (Australasia), 30th Meeting of the Australian Society for Experimental Pathology, 32nd Meeting of Australia and New Zealand Environmental Mutagen Society (Sydney, Australia, 1–4 December 1998). – Sydney, 1998.",
+    "year": "1998"
+  },
+  {
+    "id": "ART-275",
+    "authors": "Shodiev K. H. K., Rakhimov R. Kh., Asedova E. A.",
+    "title": "The new in the therapy of atopic dermatitis: Infrared radiation",
+    "journal": "JEADV. – 1998. – Vol. 11, Suppl. 2. – P. S215.",
+    "year": "1998"
+  },
+  {
+    "id": "ART-276",
+    "authors": "Рахимов Р. Х., Ким Е. В.",
+    "title": "Эффект импульсного изменения удельного сопротивления оксидной керамики",
+    "journal": "Доклады Академии наук УзССР. – 1990. – № 7. – С. 19–20.",
+    "year": "1990"
+  },
+  {
+    "id": "ART-277",
+    "authors": "Рахимов Р. Х., Ким Е. В.",
+    "title": "Эффект спектрального преобразования керамическими материалами",
+    "journal": "Доклады Академии наук УзССР. – 1990. – № 6. – С. 17–19.",
+    "year": "1990"
+  },
+  {
+    "id": "ART-278",
+    "authors": "Азимов С. А., Рахимов Р. Х.",
+    "title": "Влияние импульсного концентрированного света на индуцированный синтез липазы в семенах хлопчатника",
+    "journal": "Гелиотехника. – 1979. – № 4. – С. 55–58.",
+    "year": "1979"
+  },
+  {
+    "id": "ART-279",
+    "authors": "Азимов С. А., Рахимов Р. Х.",
+    "title": "Влияние светоимпульсного облучения на липазную активность семян хлопчатника",
+    "journal": "V Всесоюзная конференция по фотоэнергетике растений : тезисы докладов (Алма-Ата, 1978 г.). – Алма-Ата : Наука КазССР, 1978. – С. 85–86.",
+    "year": "1978"
+  },
+  {
+    "id": "ART-280",
+    "authors": "Азимов С. А., Рахимов Р. Х.",
+    "title": "Влияние облучения ИКСС семян хлопчатника на активность ферментов углеводно-фосфорного обмена",
+    "journal": "Проблемы фотоэнергетики растений. – Алма-Ата : Наука КазССР, 1975. – Вып. 4. – С. 262–264.",
+    "year": "1975"
   }
 ]

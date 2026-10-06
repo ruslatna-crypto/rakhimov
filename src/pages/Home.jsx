@@ -19,7 +19,14 @@ export default function Home() {
       <section className="section-wrapper">
         <div className="container">
           <div className="section-header" style={{ marginBottom: '40px' }}>
-            <h2 className="section-title">{t('dev_section_title')}</h2>
+            <h1 className="section-title">
+              {lang === 'en'
+                ? 'Scientific Developments & Technologies — Prof. Rakhimov R.Kh.'
+                : 'Научные разработки и технологии — Профессор Рахимов Р.Х.'}
+            </h1>
+            <h2 style={{ textAlign: 'center', fontSize: '1.5rem', marginTop: '10px', color: '#1e293b', fontWeight: '500' }}>
+              {lang === 'en' ? 'Key Development Areas' : 'Ключевые направления разработок'}
+            </h2>
           </div>
 
           <div className="dev-grid">
@@ -55,9 +62,9 @@ export default function Home() {
               <h3 style={{ fontSize: '1.25rem', marginBottom: '0' }}>{t('pub_articles')}</h3>
             </div>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.875rem', marginBottom: '24px', flexGrow: 1, lineHeight: '1.6' }}>
-              {lang === 'en' 
-                ? '136 fundamental scientific papers in Computational Nanotechnology, Applied Solar Energy, and international journals.'
-                : '136 фундаментальных статей в журналах Computational Nanotechnology, Гелиотехника, а также международных и медицинских сборниках.'}
+              {lang === 'en'
+                ? '280 fundamental scientific papers in Computational Nanotechnology, Applied Solar Energy, and international journals.'
+                : '280 фундаментальных статей в журналах Computational Nanotechnology, Гелиотехника, а также международных и медицинских сборниках.'}
             </p>
             <Link to="/stat" className="btn btn-outline" style={{ width: '100%', marginTop: 'auto', textAlign: 'center' }}>
               {lang === 'en' ? 'Go to articles →' : 'Перейти к статьям →'}
@@ -74,8 +81,8 @@ export default function Home() {
             </div>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.875rem', marginBottom: '24px', flexGrow: 1, lineHeight: '1.6' }}>
               {lang === 'en'
-                ? '73 inventions protected by USSR certificates, patents of Uzbekistan, USA, Europe, EAPO, and Turkey.'
-                : '73 изобретения, защищенных авторскими свидетельствами СССР, патентами Республики Узбекистан, США, Европы, ЕАПО и Турции.'}
+                ? '65 inventions protected by USSR certificates, patents of Uzbekistan, USA, Europe, EAPO, Turkey, and Estonia.'
+                : '65 изобретений, защищенных авторскими свидетельствами СССР, патентами Республики Узбекистан, США, Европы, ЕАПО, Турции и Эстонии.'}
             </p>
             <Link to="/patents" className="btn btn-outline" style={{ width: '100%', marginTop: 'auto', textAlign: 'center' }}>
               {lang === 'en' ? 'Explore patents →' : 'Изучить патенты →'}

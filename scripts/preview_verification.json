@@ -1,0 +1,712 @@
+{
+  "previewPairs": [
+    {
+      "preview": "images/cotton/infra10-preview.webp",
+      "original": "images/cotton/infra10.png",
+      "prevSizeKB": "95.0",
+      "origSizeMB": "1.93",
+      "exists": true
+    },
+    {
+      "preview": "images/cotton/infra101-preview.webp",
+      "original": "images/cotton/infra101.png",
+      "prevSizeKB": "77.7",
+      "origSizeMB": "1.77",
+      "exists": true
+    },
+    {
+      "preview": "images/cotton/infra10hlopok-preview.webp",
+      "original": "images/cotton/infra10hlopok.png",
+      "prevSizeKB": "122.1",
+      "origSizeMB": "2.25",
+      "exists": true
+    },
+    {
+      "preview": "images/cotton/protokol_isp-preview.webp",
+      "original": "images/cotton/protokol_isp.jpg",
+      "prevSizeKB": "103.0",
+      "origSizeMB": "0.87",
+      "exists": true
+    },
+    {
+      "preview": "images/cotton/Svedenie-preview.webp",
+      "original": "images/cotton/Svedenie.jpg",
+      "prevSizeKB": "148.1",
+      "origSizeMB": "0.31",
+      "exists": true
+    },
+    {
+      "preview": "images/cotton/Svedenie1-preview.webp",
+      "original": "images/cotton/Svedenie1.jpg",
+      "prevSizeKB": "120.6",
+      "origSizeMB": "0.11",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_01-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_01.jpg",
+      "prevSizeKB": "125.3",
+      "origSizeMB": "1.05",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_02-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_02.jpg",
+      "prevSizeKB": "171.0",
+      "origSizeMB": "0.47",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_03-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_03.jpg",
+      "prevSizeKB": "214.6",
+      "origSizeMB": "0.55",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_04-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_04.jpg",
+      "prevSizeKB": "192.0",
+      "origSizeMB": "0.52",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_05-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_05.jpg",
+      "prevSizeKB": "189.7",
+      "origSizeMB": "1.01",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_06-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_06.jpg",
+      "prevSizeKB": "206.3",
+      "origSizeMB": "1.02",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_07-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_07.jpg",
+      "prevSizeKB": "231.9",
+      "origSizeMB": "1.03",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_08-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_08.jpg",
+      "prevSizeKB": "131.8",
+      "origSizeMB": "0.40",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_09-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_09.jpg",
+      "prevSizeKB": "137.3",
+      "origSizeMB": "0.55",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_10-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_10.jpg",
+      "prevSizeKB": "121.7",
+      "origSizeMB": "0.51",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_11-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_11.jpg",
+      "prevSizeKB": "180.2",
+      "origSizeMB": "0.57",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_12-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_12.jpg",
+      "prevSizeKB": "126.6",
+      "origSizeMB": "0.51",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_13-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_13.jpg",
+      "prevSizeKB": "198.1",
+      "origSizeMB": "1.09",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_14-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_14.jpg",
+      "prevSizeKB": "196.5",
+      "origSizeMB": "0.90",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_15-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_15.jpg",
+      "prevSizeKB": "159.2",
+      "origSizeMB": "0.96",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_16-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_16.jpg",
+      "prevSizeKB": "109.0",
+      "origSizeMB": "0.88",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_17-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_17.jpg",
+      "prevSizeKB": "149.7",
+      "origSizeMB": "0.68",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_18-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_18.jpg",
+      "prevSizeKB": "127.4",
+      "origSizeMB": "0.38",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_19-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_19.jpg",
+      "prevSizeKB": "192.2",
+      "origSizeMB": "0.81",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_20-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_20.jpg",
+      "prevSizeKB": "113.8",
+      "origSizeMB": "0.30",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_21-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_21.jpg",
+      "prevSizeKB": "175.6",
+      "origSizeMB": "1.07",
+      "exists": true
+    },
+    {
+      "preview": "images/kalci_certificates/cert_ca_22-preview.webp",
+      "original": "images/kalci_certificates/cert_ca_22.jpg",
+      "prevSizeKB": "206.8",
+      "origSizeMB": "1.07",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_01-preview.webp",
+      "original": "images/lamp_certificates/cert_01.jpg",
+      "prevSizeKB": "33.5",
+      "origSizeMB": "0.06",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_02-preview.webp",
+      "original": "images/lamp_certificates/cert_02.jpg",
+      "prevSizeKB": "104.3",
+      "origSizeMB": "2.04",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_03-preview.webp",
+      "original": "images/lamp_certificates/cert_03.jpg",
+      "prevSizeKB": "104.6",
+      "origSizeMB": "0.17",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_04-preview.webp",
+      "original": "images/lamp_certificates/cert_04.jpg",
+      "prevSizeKB": "135.9",
+      "origSizeMB": "2.50",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_05-preview.webp",
+      "original": "images/lamp_certificates/cert_05.jpg",
+      "prevSizeKB": "146.4",
+      "origSizeMB": "2.28",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_06-preview.webp",
+      "original": "images/lamp_certificates/cert_06.jpg",
+      "prevSizeKB": "176.6",
+      "origSizeMB": "0.28",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_07-preview.webp",
+      "original": "images/lamp_certificates/cert_07.jpg",
+      "prevSizeKB": "135.4",
+      "origSizeMB": "2.35",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_08-preview.webp",
+      "original": "images/lamp_certificates/cert_08.jpg",
+      "prevSizeKB": "118.9",
+      "origSizeMB": "1.79",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_09-preview.webp",
+      "original": "images/lamp_certificates/cert_09.jpg",
+      "prevSizeKB": "328.0",
+      "origSizeMB": "1.96",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_10-preview.webp",
+      "original": "images/lamp_certificates/cert_10.jpg",
+      "prevSizeKB": "284.6",
+      "origSizeMB": "1.87",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_11-preview.webp",
+      "original": "images/lamp_certificates/cert_11.jpg",
+      "prevSizeKB": "264.4",
+      "origSizeMB": "4.03",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_12-preview.webp",
+      "original": "images/lamp_certificates/cert_12.jpg",
+      "prevSizeKB": "253.1",
+      "origSizeMB": "4.02",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_13-preview.webp",
+      "original": "images/lamp_certificates/cert_13.jpg",
+      "prevSizeKB": "139.9",
+      "origSizeMB": "1.97",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_14-preview.webp",
+      "original": "images/lamp_certificates/cert_14.jpg",
+      "prevSizeKB": "205.6",
+      "origSizeMB": "2.24",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_15-preview.webp",
+      "original": "images/lamp_certificates/cert_15.jpg",
+      "prevSizeKB": "160.2",
+      "origSizeMB": "0.26",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_16-preview.webp",
+      "original": "images/lamp_certificates/cert_16.jpg",
+      "prevSizeKB": "187.6",
+      "origSizeMB": "6.37",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_17-preview.webp",
+      "original": "images/lamp_certificates/cert_17.jpg",
+      "prevSizeKB": "131.8",
+      "origSizeMB": "2.20",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_18-preview.webp",
+      "original": "images/lamp_certificates/cert_18.jpg",
+      "prevSizeKB": "132.2",
+      "origSizeMB": "2.12",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_19-preview.webp",
+      "original": "images/lamp_certificates/cert_19.jpg",
+      "prevSizeKB": "519.6",
+      "origSizeMB": "6.44",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_20-preview.webp",
+      "original": "images/lamp_certificates/cert_20.jpg",
+      "prevSizeKB": "519.1",
+      "origSizeMB": "6.38",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_21-preview.webp",
+      "original": "images/lamp_certificates/cert_21.jpg",
+      "prevSizeKB": "516.4",
+      "origSizeMB": "6.42",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_22-preview.webp",
+      "original": "images/lamp_certificates/cert_22.jpg",
+      "prevSizeKB": "522.2",
+      "origSizeMB": "6.46",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_23-preview.webp",
+      "original": "images/lamp_certificates/cert_23.jpg",
+      "prevSizeKB": "238.1",
+      "origSizeMB": "3.31",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_24-preview.webp",
+      "original": "images/lamp_certificates/cert_24.jpg",
+      "prevSizeKB": "283.7",
+      "origSizeMB": "5.89",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_25-preview.webp",
+      "original": "images/lamp_certificates/cert_25.jpg",
+      "prevSizeKB": "150.5",
+      "origSizeMB": "1.09",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_26-preview.webp",
+      "original": "images/lamp_certificates/cert_26.jpg",
+      "prevSizeKB": "317.2",
+      "origSizeMB": "23.56",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_27-preview.webp",
+      "original": "images/lamp_certificates/cert_27.jpg",
+      "prevSizeKB": "62.4",
+      "origSizeMB": "1.57",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_28-preview.webp",
+      "original": "images/lamp_certificates/cert_28.jpg",
+      "prevSizeKB": "109.4",
+      "origSizeMB": "0.91",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_29-preview.webp",
+      "original": "images/lamp_certificates/cert_29.jpg",
+      "prevSizeKB": "143.0",
+      "origSizeMB": "2.38",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_30-preview.webp",
+      "original": "images/lamp_certificates/cert_30.jpg",
+      "prevSizeKB": "154.6",
+      "origSizeMB": "2.64",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_31-preview.webp",
+      "original": "images/lamp_certificates/cert_31.jpg",
+      "prevSizeKB": "49.2",
+      "origSizeMB": "1.50",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_32-preview.webp",
+      "original": "images/lamp_certificates/cert_32.jpg",
+      "prevSizeKB": "69.5",
+      "origSizeMB": "1.72",
+      "exists": true
+    },
+    {
+      "preview": "images/lamp_certificates/cert_33-preview.webp",
+      "original": "images/lamp_certificates/cert_33.jpg",
+      "prevSizeKB": "52.4",
+      "origSizeMB": "1.73",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_01-preview.webp",
+      "original": "images/steril_certificates/cert_01.jpg",
+      "prevSizeKB": "103.2",
+      "origSizeMB": "0.10",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_02-preview.webp",
+      "original": "images/steril_certificates/cert_02.jpg",
+      "prevSizeKB": "80.9",
+      "origSizeMB": "0.07",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_03-preview.webp",
+      "original": "images/steril_certificates/cert_03.jpg",
+      "prevSizeKB": "60.1",
+      "origSizeMB": "0.25",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_04-preview.webp",
+      "original": "images/steril_certificates/cert_04.jpg",
+      "prevSizeKB": "211.0",
+      "origSizeMB": "0.54",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_05-preview.webp",
+      "original": "images/steril_certificates/cert_05.jpg",
+      "prevSizeKB": "205.8",
+      "origSizeMB": "0.52",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_06-preview.webp",
+      "original": "images/steril_certificates/cert_06.jpg",
+      "prevSizeKB": "231.5",
+      "origSizeMB": "0.58",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_07-preview.webp",
+      "original": "images/steril_certificates/cert_07.jpg",
+      "prevSizeKB": "145.6",
+      "origSizeMB": "0.32",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_08-preview.webp",
+      "original": "images/steril_certificates/cert_08.jpg",
+      "prevSizeKB": "261.0",
+      "origSizeMB": "0.61",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_09-preview.webp",
+      "original": "images/steril_certificates/cert_09.jpg",
+      "prevSizeKB": "354.0",
+      "origSizeMB": "0.88",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_10-preview.webp",
+      "original": "images/steril_certificates/cert_10.jpg",
+      "prevSizeKB": "278.3",
+      "origSizeMB": "0.62",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_11-preview.webp",
+      "original": "images/steril_certificates/cert_11.jpg",
+      "prevSizeKB": "154.2",
+      "origSizeMB": "3.78",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_12-preview.webp",
+      "original": "images/steril_certificates/cert_12.jpg",
+      "prevSizeKB": "212.6",
+      "origSizeMB": "2.28",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_13-preview.webp",
+      "original": "images/steril_certificates/cert_13.jpg",
+      "prevSizeKB": "228.8",
+      "origSizeMB": "2.39",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_14-preview.webp",
+      "original": "images/steril_certificates/cert_14.jpg",
+      "prevSizeKB": "153.0",
+      "origSizeMB": "1.14",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_15-preview.webp",
+      "original": "images/steril_certificates/cert_15.jpg",
+      "prevSizeKB": "206.2",
+      "origSizeMB": "8.09",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_16-preview.webp",
+      "original": "images/steril_certificates/cert_16.jpg",
+      "prevSizeKB": "73.3",
+      "origSizeMB": "0.18",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_17-preview.webp",
+      "original": "images/steril_certificates/cert_17.jpg",
+      "prevSizeKB": "111.9",
+      "origSizeMB": "0.85",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_18-preview.webp",
+      "original": "images/steril_certificates/cert_18.jpg",
+      "prevSizeKB": "74.3",
+      "origSizeMB": "0.62",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_19-preview.webp",
+      "original": "images/steril_certificates/cert_19.jpg",
+      "prevSizeKB": "190.8",
+      "origSizeMB": "1.19",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_20-preview.webp",
+      "original": "images/steril_certificates/cert_20.jpg",
+      "prevSizeKB": "174.6",
+      "origSizeMB": "0.88",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_21-preview.webp",
+      "original": "images/steril_certificates/cert_21.jpg",
+      "prevSizeKB": "166.6",
+      "origSizeMB": "0.66",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_22-preview.webp",
+      "original": "images/steril_certificates/cert_22.jpg",
+      "prevSizeKB": "129.4",
+      "origSizeMB": "0.95",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_23-preview.webp",
+      "original": "images/steril_certificates/cert_23.jpg",
+      "prevSizeKB": "80.3",
+      "origSizeMB": "0.08",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_24-preview.webp",
+      "original": "images/steril_certificates/cert_24.jpg",
+      "prevSizeKB": "198.4",
+      "origSizeMB": "0.86",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_25-preview.webp",
+      "original": "images/steril_certificates/cert_25.jpg",
+      "prevSizeKB": "93.2",
+      "origSizeMB": "0.11",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_26-preview.webp",
+      "original": "images/steril_certificates/cert_26.jpg",
+      "prevSizeKB": "136.9",
+      "origSizeMB": "0.39",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_27-preview.webp",
+      "original": "images/steril_certificates/cert_27.jpg",
+      "prevSizeKB": "134.7",
+      "origSizeMB": "0.36",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_28-preview.webp",
+      "original": "images/steril_certificates/cert_28.jpg",
+      "prevSizeKB": "154.3",
+      "origSizeMB": "0.72",
+      "exists": true
+    },
+    {
+      "preview": "images/steril_certificates/cert_29-preview.webp",
+      "original": "images/steril_certificates/cert_29.jpg",
+      "prevSizeKB": "201.4",
+      "origSizeMB": "1.20",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_01-preview.webp",
+      "original": "images/sushka_certificates/akt_01.png",
+      "prevSizeKB": "85.5",
+      "origSizeMB": "1.06",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_02_1-preview.webp",
+      "original": "images/sushka_certificates/akt_02_1.png",
+      "prevSizeKB": "122.8",
+      "origSizeMB": "1.44",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_02_2-preview.webp",
+      "original": "images/sushka_certificates/akt_02_2.png",
+      "prevSizeKB": "98.2",
+      "origSizeMB": "1.21",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_03_1-preview.webp",
+      "original": "images/sushka_certificates/akt_03_1.png",
+      "prevSizeKB": "109.9",
+      "origSizeMB": "0.62",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_03_2-preview.webp",
+      "original": "images/sushka_certificates/akt_03_2.jpg",
+      "prevSizeKB": "88.0",
+      "origSizeMB": "0.14",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_04_1-preview.webp",
+      "original": "images/sushka_certificates/akt_04_1.png",
+      "prevSizeKB": "210.6",
+      "origSizeMB": "1.82",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_04_2-preview.webp",
+      "original": "images/sushka_certificates/akt_04_2.png",
+      "prevSizeKB": "130.2",
+      "origSizeMB": "1.36",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_05-preview.webp",
+      "original": "images/sushka_certificates/akt_05.png",
+      "prevSizeKB": "165.3",
+      "origSizeMB": "1.97",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_06-preview.webp",
+      "original": "images/sushka_certificates/akt_06.jpg",
+      "prevSizeKB": "153.0",
+      "origSizeMB": "1.63",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_07_1-preview.webp",
+      "original": "images/sushka_certificates/akt_07_1.png",
+      "prevSizeKB": "112.1",
+      "origSizeMB": "1.29",
+      "exists": true
+    },
+    {
+      "preview": "images/sushka_certificates/akt_07_2-preview.webp",
+      "original": "images/sushka_certificates/akt_07_2.png",
+      "prevSizeKB": "83.6",
+      "origSizeMB": "1.00",
+      "exists": true
+    }
+  ],
+  "brokenPreviews": []
+}

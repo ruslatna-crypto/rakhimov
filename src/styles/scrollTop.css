@@ -1,0 +1,71 @@
+/* ==========================================================================
+   SCROLL TO TOP BUTTON (Плаtemporal стрелка "Наверх")
+   Цвета образца:
+   - Обычное состояние: фон #dff3e3, стрелочка #3e4095
+   - При наведении (hover): светло-красный фон (#fee2e2 / #fecaca)
+   ========================================================================== */
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #dff3e3;
+  color: #3e4095;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.05);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(14px);
+  transition: 
+    opacity 0.25s ease, 
+    visibility 0.25s ease, 
+    transform 0.25s ease,
+    background-color 0.2s ease, 
+    color 0.2s ease, 
+    box-shadow 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.scroll-top-btn.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.scroll-top-btn:hover {
+  background-color: #fee2e2;
+  color: #dc2626;
+  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.25), 0 2px 8px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px) scale(1.05);
+}
+
+.scroll-top-btn:active {
+  transform: translateY(0) scale(0.96);
+}
+
+.scroll-top-btn .scroll-top-icon {
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.scroll-top-btn:hover .scroll-top-icon {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .scroll-top-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+  }
+}

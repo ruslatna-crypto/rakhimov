@@ -4,14 +4,14 @@ import { useLanguage } from '../context/LanguageContext';
 import '../styles/slider.css';
 
 const slides = [
-  { id: 1, src: '/images/slider/slider1.png', alt: 'Слайд 1 - Научные разработки профессора Рахимова Р.Х.', altEn: 'Slide 1 - Scientific Developments of Professor Rakhimov R.Kh.' },
-  { id: 2, src: '/images/slider/slider2.png', alt: 'Слайд 2 - Функциональная керамика и гелиоматериалы', altEn: 'Slide 2 - Functional Ceramics & Solar Materials' },
-  { id: 3, src: '/images/slider/slider3.png', alt: 'Слайд 3 - Инфракрасная импульсная сушка', altEn: 'Slide 3 - Resonant Infrared Pulse Drying' },
-  { id: 4, src: '/images/slider/slider4.png', alt: 'Слайд 4 - Медицинские керамические лампы INFRA-R', altEn: 'Slide 4 - Medical Ceramic Lamps INFRA-R' },
-  { id: 5, src: '/images/slider/slider5.png', alt: 'Слайд 5 - Биопрепарат Активный кальций', altEn: 'Slide 5 - Active Calcium Biopreparation' },
-  { id: 6, src: '/images/slider/slider6.png', alt: 'Слайд 6 - Пленочно-керамический композит', altEn: 'Slide 6 - Film-Ceramic Composite' },
-  { id: 7, src: '/images/slider/slider7.png', alt: 'Слайд 7 - Стерилизация и термическая обработка', altEn: 'Slide 7 - Pulse Sterilization & Thermal Processing' },
-  { id: 8, src: '/images/slider/slider8.png', alt: 'Слайд 8 - Большая Солнечная Печь БСП', altEn: 'Slide 8 - Big Solar Furnace (BSF)' },
+  { id: 1, src: '/images/slider/slider1.webp', alt: 'Слайд 1 - Научные разработки профессора Рахимова Р.Х.', altEn: 'Slide 1 - Scientific Developments of Professor Rakhimov R.Kh.' },
+  { id: 2, src: '/images/slider/slider2.webp', alt: 'Слайд 2 - Функциональная керамика и гелиоматериалы', altEn: 'Slide 2 - Functional Ceramics & Solar Materials' },
+  { id: 3, src: '/images/slider/slider3.webp', alt: 'Слайд 3 - Инфракрасная импульсная сушка', altEn: 'Slide 3 - Resonant Infrared Pulse Drying' },
+  { id: 4, src: '/images/slider/slider4.webp', alt: 'Слайд 4 - Медицинские керамические лампы INFRA-R', altEn: 'Slide 4 - Medical Ceramic Lamps INFRA-R' },
+  { id: 5, src: '/images/slider/slider5.webp', alt: 'Слайд 5 - Биопрепарат Активный кальций', altEn: 'Slide 5 - Active Calcium Biopreparation' },
+  { id: 6, src: '/images/slider/slider6.webp', alt: 'Слайд 6 - Пленочно-керамический композит', altEn: 'Slide 6 - Film-Ceramic Composite' },
+  { id: 7, src: '/images/slider/slider7.webp', alt: 'Слайд 7 - Стерилизация и термическая обработка', altEn: 'Slide 7 - Pulse Sterilization & Thermal Processing' },
+  { id: 8, src: '/images/slider/slider8.webp', alt: 'Слайд 8 - Большая Солнечная Печь БСП', altEn: 'Slide 8 - Big Solar Furnace (BSF)' },
 ];
 
 export default function HeroSlider() {

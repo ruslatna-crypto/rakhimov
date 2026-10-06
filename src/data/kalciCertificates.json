@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "title": "Анализ кальция",
+    "title_en": "Calcium Quantitative Analysis",
+    "category": "Протокол испытаний",
+    "category_en": "Test Protocol",
+    "pageCount": 1,
+    "cover": "/images/kalci_certificates/cert_ca_01.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_01.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_01-preview.webp"
+  },
+  {
+    "id": 2,
+    "title": "Экспертное заключение Казахской академии питания",
+    "title_en": "Expert Conclusion of the Kazakh Academy of Nutrition",
+    "category": "Экспертное заключение",
+    "category_en": "Expert Conclusion",
+    "pageCount": 3,
+    "cover": "/images/kalci_certificates/cert_ca_02.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_02.jpg",
+      "/images/kalci_certificates/cert_ca_03.jpg",
+      "/images/kalci_certificates/cert_ca_04.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_02-preview.webp"
+  },
+  {
+    "id": 3,
+    "title": "Заключение НИИ медицинской реабилитации и физиотерапии",
+    "title_en": "Conclusion of the Research Institute of Medical Rehabilitation and Physiotherapy",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 1,
+    "cover": "/images/kalci_certificates/cert_ca_05.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_05.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_05-preview.webp"
+  },
+  {
+    "id": 4,
+    "title": "Токсиколого-гигиеническая оценка препарата",
+    "title_en": "Toxicological and Hygienic Assessment of the Preparation",
+    "category": "Экспертное заключение",
+    "category_en": "Expert Conclusion",
+    "pageCount": 2,
+    "cover": "/images/kalci_certificates/cert_ca_06.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_06.jpg",
+      "/images/kalci_certificates/cert_ca_07.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_06-preview.webp"
+  },
+  {
+    "id": 5,
+    "title": "Отчет о клинических испытаниях (НИИ Гематологии и переливания крови)",
+    "title_en": "Clinical Trial Report (Research Institute of Hematology)",
+    "category": "Клинический отчет",
+    "category_en": "Clinical Report",
+    "pageCount": 1,
+    "cover": "/images/kalci_certificates/cert_ca_08.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_08.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_08-preview.webp"
+  },
+  {
+    "id": 6,
+    "title": "Отзыв о клиническом применении (НИИ Акушерства и гинекологии, этап 1)",
+    "title_en": "Clinical Evaluation Report (Research Institute of Obstetrics and Gynecology, Phase 1)",
+    "category": "Отзыв",
+    "category_en": "Review",
+    "pageCount": 2,
+    "cover": "/images/kalci_certificates/cert_ca_09.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_09.jpg",
+      "/images/kalci_certificates/cert_ca_10.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_09-preview.webp"
+  },
+  {
+    "id": 7,
+    "title": "Отзыв о клиническом применении (НИИ Акушерства и гинекологии, этап 2)",
+    "title_en": "Clinical Evaluation Report (Research Institute of Obstetrics and Gynecology, Phase 2)",
+    "category": "Отзыв",
+    "category_en": "Review",
+    "pageCount": 2,
+    "cover": "/images/kalci_certificates/cert_ca_11.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_11.jpg",
+      "/images/kalci_certificates/cert_ca_12.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_11-preview.webp"
+  },
+  {
+    "id": 8,
+    "title": "Отзыв о применении препарата (Медицинская Академия)",
+    "title_en": "Review of \"Active Calcium\" Application (Medical Academy)",
+    "category": "Отзыв",
+    "category_en": "Review",
+    "pageCount": 1,
+    "cover": "/images/kalci_certificates/cert_ca_13.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_13.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_13-preview.webp"
+  },
+  {
+    "id": 9,
+    "title": "Заключение по клинической апробации (НИИ Акушерства и гинекологии)",
+    "title_en": "Conclusion on Clinical Approbation (Research Institute of Obstetrics and Gynecology)",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 1,
+    "cover": "/images/kalci_certificates/cert_ca_14.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_14.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_14-preview.webp"
+  },
+  {
+    "id": 10,
+    "title": "Отзыв о клинических испытаниях (Республиканский перинатальный центр)",
+    "title_en": "Clinical Trial Evaluation (Republican Perinatal Center)",
+    "category": "Отзыв",
+    "category_en": "Review",
+    "pageCount": 2,
+    "cover": "/images/kalci_certificates/cert_ca_15.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_15.jpg",
+      "/images/kalci_certificates/cert_ca_16.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_15-preview.webp"
+  },
+  {
+    "id": 11,
+    "title": "Отчет по клинической апробации (Республиканский научный центр кардиологии)",
+    "title_en": "Clinical Approbation Report (Republican Scientific Center of Cardiology)",
+    "category": "Клинический отчет",
+    "category_en": "Clinical Report",
+    "pageCount": 2,
+    "cover": "/images/kalci_certificates/cert_ca_17.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_17.jpg",
+      "/images/kalci_certificates/cert_ca_18.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_17-preview.webp"
+  },
+  {
+    "id": 12,
+    "title": "Результаты токсикологических исследований (Главное санитарно-эпидемиологическое управление)",
+    "title_en": "Toxicological Evaluation Results (Main Sanitary-Epidemiological Dept.)",
+    "category": "Акт исследований",
+    "category_en": "Research Act",
+    "pageCount": 1,
+    "cover": "/images/kalci_certificates/cert_ca_19.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_19.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_19-preview.webp"
+  },
+  {
+    "id": 13,
+    "title": "Токсикологическое заключение (Республиканская СЭС)",
+    "title_en": "Toxicological Conclusion (Republican Sanitary-Epidemiological Station)",
+    "category": "Заключение",
+    "category_en": "Conclusion",
+    "pageCount": 1,
+    "cover": "/images/kalci_certificates/cert_ca_20.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_20.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_20-preview.webp"
+  },
+  {
+    "id": 14,
+    "title": "Рецензия на клиническое применение (Городской родильный комплекс №3)",
+    "title_en": "Clinical Application Review (City Maternity Complex No. 3)",
+    "category": "Рецензия",
+    "category_en": "Review",
+    "pageCount": 2,
+    "cover": "/images/kalci_certificates/cert_ca_21.jpg",
+    "pages": [
+      "/images/kalci_certificates/cert_ca_21.jpg",
+      "/images/kalci_certificates/cert_ca_22.jpg"
+    ],
+    "preview": "/images/kalci_certificates/cert_ca_21-preview.webp"
+  }
+]

@@ -1,0 +1,94 @@
+/* ==========================================================================
+   DRYING CHART STYLING
+   ========================================================================== */
+
+.drying-chart-card {
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 26px 22px 18px 22px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  margin: 32px auto;
+  max-width: 80%;
+  position: relative;
+  transition: box-shadow 0.2s ease;
+}
+
+.drying-chart-card:hover {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+}
+
+.drying-chart-header {
+  margin-bottom: 24px;
+}
+
+.drying-chart-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.drying-chart-svg-wrapper {
+  position: relative;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.drying-chart-svg {
+  display: block;
+  width: 100%;
+  min-width: 600px;
+  height: auto;
+  overflow: visible;
+  user-select: none;
+}
+
+/* Bars interactive styling */
+.chart-bar-rect {
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease, opacity 0.2s ease;
+  transform-origin: bottom;
+}
+
+.chart-bar-rect:hover,
+.chart-bar-group.is-active .chart-bar-rect {
+  filter: drop-shadow(0 4px 12px rgba(2, 132, 199, 0.45));
+  opacity: 0.95;
+}
+
+/* Tooltip */
+.chart-tooltip-box {
+  pointer-events: none;
+  transition: all 0.15s ease-out;
+}
+
+.chart-tooltip-bg {
+  fill: #0f172a;
+  filter: drop-shadow(0 4px 12px rgba(15, 23, 42, 0.35));
+}
+
+.chart-tooltip-title {
+  fill: #f8fafc;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.chart-tooltip-value {
+  fill: #38bdf8;
+  font-size: 11.5px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .drying-chart-card {
+    max-width: 100%;
+    padding: 20px 16px 16px 16px;
+    margin: 24px auto;
+  }
+
+  .drying-chart-title {
+    font-size: 1.15rem;
+  }
+}

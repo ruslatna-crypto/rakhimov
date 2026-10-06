@@ -1,7 +1,7 @@
 [
   {
     "id": "BOOK-001",
-    "title": "",
+    "title": "RESONANCE THERAPY",
     "description": "",
     "author": "Рахимов Р.Х.",
     "cover": "/images/cover_234528_1.png",
@@ -9,7 +9,7 @@
   },
   {
     "id": "BOOK-002",
-    "title": "",
+    "title": "FUNDAMENTALS OF THE INFRA-R METHOD",
     "description": "",
     "author": "Рахимов Р.Х.",
     "cover": "/images/978-620-6-15334-4_Co.png",
@@ -17,7 +17,7 @@
   },
   {
     "id": "BOOK-003",
-    "title": "",
+    "title": "САХАРНЫЙ ДИАБЕТ, ОЖИРЕНИЕ, ГИПЕРТОНИЯ",
     "description": "",
     "author": "Рахимов Р.Х.",
     "cover": "/images/cover_234344_1.png",
@@ -25,15 +25,15 @@
   },
   {
     "id": "BOOK-004",
-    "title": "",
+    "title": "КЛЮЧ К ЗДОРОВЬЮ ИЛИ ФУНКЦИОНАЛЬНАЯ КЕРАМИКА - ЧТО ЭТО ТАКОЕ?",
     "description": "",
-    "author": "Рахимов Р.Х.",
+    "author": "Рахимов Р.Х., Ермаков В.П.",
     "cover": "/images/cover_234529-_1.png",
     "yandex_disk_url": "https://disk.yandex.uz/i/latEghwq9ze49g"
   },
   {
     "id": "BOOK-005",
-    "title": "",
+    "title": "ФУНКЦИОНАЛЬНАЯ КЕРАМИКА И ОБЛАСТИ ЕЕ ПРИМЕНЕНИЯ",
     "description": "",
     "author": "Рахимов Р.Х.",
     "cover": "/images/cover_234639_1.png",
@@ -41,7 +41,7 @@
   },
   {
     "id": "BOOK-006",
-    "title": "",
+    "title": "КЕРАМИЧЕСКИЕ МАТЕРИАЛЫ И ИХ ПРИМЕНЕНИЕ. Том 1",
     "description": "",
     "author": "Рахимов Р.Х.",
     "cover": "/images/978-620-6-15278-1_Co.png",
@@ -49,7 +49,7 @@
   },
   {
     "id": "BOOK-007",
-    "title": "",
+    "title": "КЕРАМИЧЕСКИЕ МАТЕРИАЛЫ И ИХ ПРИМЕНЕНИЕ. Том 2",
     "description": "",
     "author": "Рахимов Р.Х.",
     "cover": "/images/978-620-6-15361-0_Co.png",
@@ -57,7 +57,7 @@
   },
   {
     "id": "BOOK-008",
-    "title": "",
+    "title": "ПРИМЕНЕНИЕ КЕРАМИЧЕСКИХ МАТЕРИАЛОВ. Том 3",
     "description": "",
     "author": "Рахимов Р.Х.",
     "cover": "/images/cover_234407_1.png",
@@ -65,7 +65,7 @@
   },
   {
     "id": "BOOK-009",
-    "title": "",
+    "title": "ПРИМЕНЕНИЕ КЕРАМИЧЕСКИХ МАТЕРИАЛОВ. Том 4",
     "description": "",
     "author": "Рахимов Р.Х.",
     "cover": "/images/cover_234478_1.png",

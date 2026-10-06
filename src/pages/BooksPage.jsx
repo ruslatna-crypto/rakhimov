@@ -10,20 +10,54 @@ export default function BooksPage() {
   return (
     <div>
       {/* Page Hero */}
-      <section className="page-hero">
-        <div className="container">
-          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'rgba(255,255,255,0.1)', padding: '4px 12px', borderRadius: 'var(--radius-full)', fontSize: '0.8125rem', marginBottom: '14px' }}>
+      <section
+        className="page-hero books-page-hero"
+        style={{
+          backgroundImage: "linear-gradient(90deg, rgba(15, 23, 42, 0.88) 0%, rgba(15, 23, 42, 0.70) 42%, rgba(15, 23, 42, 0.20) 72%, rgba(15, 23, 42, 0.05) 100%), url('/images/fon_mono.png')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'right center',
+          backgroundRepeat: 'no-repeat',
+          width: '100%',
+          padding: '56px 0',
+          position: 'relative',
+          overflow: 'hidden'
+        }}
+      >
+        <div className="container" style={{ position: 'relative', zIndex: 2 }}>
+          <div
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              background: 'rgba(255,255,255,0.12)',
+              backdropFilter: 'blur(4px)',
+              padding: '4px 12px',
+              borderRadius: 'var(--radius-full)',
+              fontSize: '0.8125rem',
+              marginBottom: '14px',
+              color: '#ffffff'
+            }}
+          >
             <span>{t('nav_publications')}</span>
-            <span style={{ color: '#64748b' }}>/</span>
+            <span style={{ color: '#94a3b8' }}>/</span>
             <span style={{ color: '#38bdf8' }}>{t('pub_books')}</span>
           </div>
-          <h1 className="page-hero-title">
+          <h1 className="page-hero-title" style={{ color: '#ffffff', textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)', marginBottom: '12px' }}>
             {lang === 'en' ? 'Monographs & Books' : 'Монографии и книги'}
           </h1>
-          <p className="page-hero-lead">
+          <p
+            className="page-hero-lead"
+            style={{
+              color: '#e2e8f0',
+              textShadow: '0 1px 3px rgba(0, 0, 0, 0.6)',
+              maxWidth: '740px',
+              lineHeight: 1.6,
+              margin: 0
+            }}
+          >
             {lang === 'en'
-              ? 'Fundamental books and monographs authored by Professor R.Kh. Rakhimov. Direct access to full electronic versions on Yandex.Disk.'
-              : 'Список фундаментальных книг и монографий, написанных профессором Р.Х. Рахимовым. Прямой доступ к полным электронным версиям на Яндекс.Диске.'}
+              ? 'Fundamental books and monographs authored by Professor R.Kh. Rakhimov.'
+              : 'Список фундаментальных книг и монографий, написанных профессором Р.Х. Рахимовым.'}
           </p>
         </div>
       </section>
@@ -31,6 +65,9 @@ export default function BooksPage() {
       {/* Content */}
       <section className="section-wrapper">
         <div className="container">
+          <h2 style={{ fontSize: '1.5rem', marginBottom: '24px', color: '#0f172a' }}>
+            {lang === 'en' ? 'Catalog of Monographs' : 'Каталог монографий'}
+          </h2>
           <div className="books-grid">
             {books.map((book) => (
               <div key={book.id} className="book-card">

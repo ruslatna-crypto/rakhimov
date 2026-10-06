@@ -10,8 +10,26 @@ export const translations = {
     nav_developments: 'Разработки',
     nav_publications: 'Публикации',
     nav_links: 'Ссылки',
+    nav_search: 'Поиск',
     nav_firm_site: 'На сайт фирмы',
     nav_firm_title: 'Перейти на официальный сайт www.infraks.uz',
+
+    // Search
+    search_title: 'Поиск по сайту',
+    search_modal_placeholder: 'Поиск по сайту: статьи, патенты, разработки, книги, акты...',
+    search_tab_all: 'Все материалы',
+    search_tab_dev: 'Разработки',
+    search_tab_articles: 'Статьи',
+    search_tab_patents: 'Патенты',
+    search_tab_books: 'Книги',
+    search_tab_akts: 'Акты внедрения',
+    search_tab_pages: 'Разделы',
+    search_found_results: 'Найдено результатов:',
+    search_nothing_found: 'Ничего не найдено по запросу',
+    search_try_another: 'Попробуйте изменить формулировку или выбрать категорию «Все материалы».',
+    search_quick_suggestions: 'Популярные запросы:',
+    search_hint_esc: 'Esc чтобы закрыть',
+    search_view_all_results: 'Открыть все результаты на странице',
     
     // Developments Menu
     dev_sushka: 'Сушка овощей и фруктов',
@@ -36,7 +54,7 @@ export const translations = {
     hero_title_2: 'Функциональная керамика',
     hero_subtitle: 'Персональный научно-производственный портал доктора технических наук, профессора Рахимова Рустама Хакимовича. Фундаментальные и прикладные исследования в области солнечной энергетики, импульсного туннельного эффекта, резонансной сушки и биомедицины.',
     hero_btn_author: 'Об авторе',
-    hero_btn_articles: 'Научные статьи (136)',
+    hero_btn_articles: 'Научные статьи (280)',
     hero_caption_name: 'Рахимов Рустам Хакимович',
     hero_caption_rank: 'Доктор технических наук, профессор',
 
@@ -56,7 +74,7 @@ export const translations = {
     author_section_badge: 'НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ',
     author_section_title: 'Академик Рахимов Рустам Хакимович',
     author_p1: 'Руководитель лаборатории №1 «Материалы полупроводниковой гелиоэнергетики» Института Материаловедения Научно-производственного объединения «Физика-Солнце» Академии наук Республики Узбекистан.',
-    author_p2: 'Автор свыше 136 фундаментальных научных публикаций, 9 монографий и более 73 патентов и авторских свидетельств СССР, Республики Узбекистан, Евразийского патентного ведомства и зарубежных стран.',
+    author_p2: 'Автор свыше 280 фундаментальных научных публикаций, 9 монографий и более 73 патентов и авторских свидетельств СССР, Республики Узбекистан, Евразийского патентного ведомства и зарубежных стран.',
     author_badge_1: 'Доктор технических наук',
     author_badge_2: 'Профессор',
     author_badge_3: 'Академик РАЕ',
@@ -98,6 +116,7 @@ export const translations = {
     author_page_title: 'Рахимов Рустам Хакимович',
     author_page_lead: 'Доктор технических наук, профессор, ведущий ученый в области гелиоматериаловедения, импульсного туннельного эффекта и функциональной керамики.',
     author_rank_short: 'д.т.н., профессор',
+    author_position: 'заведующий лабораторией в Институте Материаловедения АН РУз',
     author_org_label: 'Организация:',
     author_org_val: 'Институт Материаловедения АН РУз',
     author_object_label: 'Объект исследований:',
@@ -108,8 +127,8 @@ export const translations = {
     author_metric_articles: 'Статей в ведущих журналах',
     author_metric_patents: 'Патентов и авторских свид-в',
     author_metric_akts: 'Актов производственного внедрения',
-    author_btn_articles: 'Все публикации (136)',
-    author_btn_patents: 'Каталог патентов (73)',
+    author_btn_articles: 'Все публикации (280)',
+    author_btn_patents: 'Каталог патентов (65)',
     author_btn_akts: 'Акты внедрения (57)',
 
     // Development Page
@@ -117,13 +136,27 @@ export const translations = {
     dev_breadcrumb_devs: 'Разработки',
     dev_desc_title: 'Научно-техническое описание разработки',
     dev_gallery_title: 'Иллюстрации и материалы разработки',
-    dev_linked_articles: 'Связанные публикации (136)',
-    dev_linked_patents: 'Патенты на разработку (73)',
+    dev_linked_articles: 'Связанные публикации (280)',
+    dev_linked_patents: 'Патенты на разработку (65)',
     dev_linked_akts: 'Акты производственных испытаний (57)',
     dev_other_title: 'Другие разработки',
     dev_collab_title: 'Консультации и сотрудничество',
     dev_collab_text: 'По вопросам промышленного и медицинского внедрения разработки обращайтесь к автору.',
-    dev_collab_btn: 'Написать письмо'
+    dev_collab_btn: 'Написать письмо',
+
+    // Drying Chart
+    'dryingChart.title': 'Время сушки овощей и фруктов',
+    'dryingChart.dryingTime': 'Время сушки',
+    'dryingChart.yAxis': 'Время сушки, ч',
+    'dryingChart.hour': 'ч',
+    'dryingChart.products.onion': 'Лук',
+    'dryingChart.products.eryngium': 'Eryngium',
+    'dryingChart.products.dill': 'Укроп',
+    'dryingChart.products.bellPepper': 'Жёлтый перец',
+    'dryingChart.products.tomatoes': 'Помидоры',
+    'dryingChart.products.potatoes': 'Картофель',
+    'dryingChart.products.carrots': 'Морковь',
+    'dryingChart.products.pineapple': 'Ананас'
   },
 
   en: {
@@ -133,8 +166,26 @@ export const translations = {
     nav_developments: 'Developments',
     nav_publications: 'Publications',
     nav_links: 'Links',
+    nav_search: 'Search',
     nav_firm_site: 'Company Website',
     nav_firm_title: 'Go to official website www.infraks.uz',
+
+    // Search
+    search_title: 'Site Search',
+    search_modal_placeholder: 'Search portal: articles, patents, developments, books, acts...',
+    search_tab_all: 'All Materials',
+    search_tab_dev: 'Developments',
+    search_tab_articles: 'Articles',
+    search_tab_patents: 'Patents',
+    search_tab_books: 'Books',
+    search_tab_akts: 'Acts',
+    search_tab_pages: 'Sections',
+    search_found_results: 'Results found:',
+    search_nothing_found: 'No results found for',
+    search_try_another: 'Try modifying your search query or select "All Materials".',
+    search_quick_suggestions: 'Popular queries:',
+    search_hint_esc: 'Esc to close',
+    search_view_all_results: 'View all results on dedicated page',
 
     // Developments Menu
     dev_sushka: 'Drying of Fruits & Vegetables',
@@ -159,7 +210,7 @@ export const translations = {
     hero_title_2: 'Functional Ceramics',
     hero_subtitle: 'Personal scientific and industrial portal of Doctor of Technical Sciences, Professor Rustam Khakimovich Rakhimov. Fundamental and applied research in solar energy, pulsed tunneling effect, resonant drying, and biomedicine.',
     hero_btn_author: 'About Author',
-    hero_btn_articles: 'Scientific Articles (136)',
+    hero_btn_articles: 'Scientific Articles (280)',
     hero_caption_name: 'Rustam Khakimovich Rakhimov',
     hero_caption_rank: 'Doctor of Technical Sciences, Professor',
 
@@ -179,7 +230,7 @@ export const translations = {
     author_section_badge: 'SCIENTIFIC CAREER',
     author_section_title: 'Academician Rustam Khakimovich Rakhimov',
     author_p1: 'Head of Laboratory No. 1 "Materials of Semiconductor Solar Energy" of the Institute of Materials Science, Scientific-Production Association "Physics-Sun", Academy of Sciences of Uzbekistan.',
-    author_p2: 'Author of over 136 fundamental scientific papers, 9 monographs, and more than 73 patents and inventor certificates of the USSR, Uzbekistan, Eurasian Patent Office, and abroad.',
+    author_p2: 'Author of over 280 fundamental scientific papers, 9 monographs, and more than 73 patents and inventor certificates of the USSR, Uzbekistan, Eurasian Patent Office, and abroad.',
     author_badge_1: 'Doctor of Technical Sciences',
     author_badge_2: 'Professor',
     author_badge_3: 'Academician of RAE',
@@ -221,6 +272,7 @@ export const translations = {
     author_page_title: 'Rustam Khakimovich Rakhimov',
     author_page_lead: 'Doctor of Technical Sciences, Professor, leading scientist in solar materials science, pulsed tunneling effect, and functional ceramics.',
     author_rank_short: 'Dr. Sci. (Tech.), Professor',
+    author_position: 'Head of Laboratory at the Institute of Materials Science, Academy of Sciences of Uzbekistan',
     author_org_label: 'Organization:',
     author_org_val: 'Institute of Materials Science, AS RUz',
     author_object_label: 'Research Object:',
@@ -231,8 +283,8 @@ export const translations = {
     author_metric_articles: 'Articles in Leading Journals',
     author_metric_patents: 'Patents & Certificates',
     author_metric_akts: 'Industrial Implementation Acts',
-    author_btn_articles: 'All Publications (136)',
-    author_btn_patents: 'Patent Catalog (73)',
+    author_btn_articles: 'All Publications (280)',
+    author_btn_patents: 'Patent Catalog (65)',
     author_btn_akts: 'Implementation Acts (57)',
 
     // Development Page
@@ -240,13 +292,27 @@ export const translations = {
     dev_breadcrumb_devs: 'Developments',
     dev_desc_title: 'Scientific and Technical Description',
     dev_gallery_title: 'Illustrations & Materials',
-    dev_linked_articles: 'Related Publications (136)',
-    dev_linked_patents: 'Related Patents (73)',
+    dev_linked_articles: 'Related Publications (280)',
+    dev_linked_patents: 'Related Patents (65)',
     dev_linked_akts: 'Implementation Acts (57)',
     dev_other_title: 'Other Developments',
     dev_collab_title: 'Consultation & Cooperation',
     dev_collab_text: 'For industrial and medical implementation inquiries, please contact the author.',
-    dev_collab_btn: 'Send an Email'
+    dev_collab_btn: 'Send an Email',
+
+    // Drying Chart
+    'dryingChart.title': 'Drying Time of Fruits and Vegetables',
+    'dryingChart.dryingTime': 'Drying time',
+    'dryingChart.yAxis': 'Drying time, h',
+    'dryingChart.hour': 'h',
+    'dryingChart.products.onion': 'Onion',
+    'dryingChart.products.eryngium': 'Eryngium',
+    'dryingChart.products.dill': 'Dill',
+    'dryingChart.products.bellPepper': 'Bell pepper',
+    'dryingChart.products.tomatoes': 'Tomatoes',
+    'dryingChart.products.potatoes': 'Potatoes',
+    'dryingChart.products.carrots': 'Carrots',
+    'dryingChart.products.pineapple': 'Pineapple'
   }
 };
 
@@ -261,7 +327,16 @@ export const LanguageProvider = ({ children }) => {
   }, [lang]);
 
   const t = (key) => {
-    return translations[lang]?.[key] || translations['ru']?.[key] || key;
+    if (translations[lang]?.[key] !== undefined) return translations[lang][key];
+    if (translations['ru']?.[key] !== undefined) return translations['ru'][key];
+
+    const resolve = (obj, path) => path && typeof path === 'string' ? path.split('.').reduce((acc, part) => acc && acc[part], obj) : undefined;
+    const nested = resolve(translations[lang], key);
+    if (nested !== undefined) return nested;
+    const nestedRu = resolve(translations['ru'], key);
+    if (nestedRu !== undefined) return nestedRu;
+
+    return key;
   };
 
   return (

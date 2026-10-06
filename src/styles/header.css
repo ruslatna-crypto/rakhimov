@@ -64,27 +64,31 @@
   flex-shrink: 0;
 }
 
-/* Email ссылка в шапке (до кнопок Рус Eng) */
+/* Email текст в шапке (до кнопок Рус Eng) - без рамки и ссылки */
+.header-email-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #334155;
+  font-size: 0.84375rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.header-email-text .email-icon {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
 .header-email-link {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  padding: 6px 12px;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
   color: #334155;
   font-size: 0.84375rem;
   font-weight: 500;
   text-decoration: none;
-  transition: all var(--transition-fast);
   white-space: nowrap;
-}
-
-.header-email-link:hover {
-  background: #e0f2fe;
-  border-color: #bae6fd;
-  color: var(--color-primary);
 }
 
 .header-email-link .email-icon {
@@ -249,15 +253,24 @@
   list-style: none;
   opacity: 0;
   visibility: hidden;
-  transition: all var(--transition-fast);
+  pointer-events: none;
+  transition: opacity var(--transition-fast), transform var(--transition-fast), visibility var(--transition-fast);
   z-index: 1020;
 }
 
-.nav-item:hover .dropdown-menu,
-.nav-item:focus-within .dropdown-menu {
+.nav-item.is-open .dropdown-menu {
   opacity: 1;
   visibility: visible;
+  pointer-events: auto;
   transform: translateX(-50%) translateY(2px);
+}
+
+.dropdown-chevron {
+  transition: transform var(--transition-fast);
+}
+
+.nav-item.is-open .dropdown-chevron {
+  transform: rotate(180deg);
 }
 
 .dropdown-link {
@@ -399,11 +412,9 @@
 }
 
 @media (max-width: 860px) {
+  .header-email-text span,
   .header-email-link span {
     display: none;
-  }
-  .header-email-link {
-    padding: 6px 9px;
   }
 }
 
@@ -420,6 +431,7 @@
 }
 
 @media (max-width: 480px) {
+  .header-email-text,
   .header-email-link {
     display: none;
   }

@@ -1,0 +1,1461 @@
+{
+  "summary": {},
+  "patents": {
+    "total": 65,
+    "missingYear": [
+      {
+        "id": "PAT-001",
+        "number": "Европейский патент EP 1690842 A1",
+        "title": "Ceramic composition and light source for processing plastic materials"
+      },
+      {
+        "id": "PAT-009",
+        "number": "Патент США № US 5,472,720 A",
+        "title": "Treatment of materials with infrared radiation"
+      }
+    ],
+    "missingNumber": [],
+    "missingAuthors": [],
+    "missingImage": [],
+    "duplicateTitles": [
+      [
+        {
+          "id": "PAT-012",
+          "number": "Авторское свидетельство СССР № 1686815",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-013",
+          "number": "Авторское свидетельство СССР № 1686816",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-014",
+          "number": "Авторское свидетельство СССР № 1686817",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1990",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-015",
+          "number": "Авторское свидетельство СССР № 1686818",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-016",
+          "number": "Авторское свидетельство СССР № 1686819",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-017",
+          "number": "Авторское свидетельство СССР № 1686820",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-018",
+          "number": "Авторское свидетельство СССР № 1686821",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1990",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-019",
+          "number": "Авторское свидетельство СССР № 1686822",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-020",
+          "number": "Авторское свидетельство СССР № 1686823",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-021",
+          "number": "Авторское свидетельство СССР № 1686824",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-022",
+          "number": "Авторское свидетельство СССР № 1692114",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-023",
+          "number": "Авторское свидетельство СССР № 1693051",
+          "title": "Высокотемпературный керамический нагревательный элемент",
+          "year": "1991",
+          "country": "СССР"
+        }
+      ],
+      [
+        {
+          "id": "PAT-027",
+          "number": "Авторское свидетельство СССР № 281867",
+          "title": "Изобретение в области материаловедения",
+          "year": "1988",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-028",
+          "number": "Авторское свидетельство СССР № 283174",
+          "title": "Изобретение в области материаловедения",
+          "year": "1988",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-029",
+          "number": "Авторское свидетельство СССР № 283179",
+          "title": "Изобретение в области материаловедения",
+          "year": "1988",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-030",
+          "number": "Авторское свидетельство СССР № 286588",
+          "title": "Изобретение в области материаловедения",
+          "year": "1989",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-031",
+          "number": "Авторское свидетельство СССР № 288185",
+          "title": "Изобретение в области материаловедения",
+          "year": "1989",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-032",
+          "number": "Авторское свидетельство СССР № 297764",
+          "title": "Изобретение в области материаловедения",
+          "year": "1989",
+          "country": "СССР"
+        }
+      ],
+      [
+        {
+          "id": "PAT-033",
+          "number": "Авторское свидетельство СССР № 257110",
+          "title": "Изобретение по синтезу материалов",
+          "year": "1987",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-034",
+          "number": "Авторское свидетельство СССР № 267555",
+          "title": "Изобретение по синтезу материалов",
+          "year": "1988",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-035",
+          "number": "Авторское свидетельство СССР № 268949",
+          "title": "Изобретение по синтезу материалов",
+          "year": "1988",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-036",
+          "number": "Авторское свидетельство СССР № 275808",
+          "title": "Изобретение по синтезу материалов",
+          "year": "1988",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-037",
+          "number": "Авторское свидетельство СССР № 281612",
+          "title": "Изобретение по синтезу материалов",
+          "year": "1988",
+          "country": "СССР"
+        }
+      ],
+      [
+        {
+          "id": "PAT-043",
+          "number": "Предварительный патент РУз № 5223",
+          "title": "Сополли материал",
+          "year": "1997",
+          "country": "Узбекистан"
+        },
+        {
+          "id": "PAT-044",
+          "number": "Предварительный патент РУз № 6032",
+          "title": "Сополли материал",
+          "year": "1999",
+          "country": "Узбекистан"
+        },
+        {
+          "id": "PAT-045",
+          "number": "Предварительный патент РУз № 6033",
+          "title": "Сополли материал",
+          "year": "1999",
+          "country": "Узбекистан"
+        }
+      ],
+      [
+        {
+          "id": "PAT-053",
+          "number": "Патент СССР № 1839730",
+          "title": "Способ стерилизации предметов",
+          "year": "1993",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-054",
+          "number": "Патент СССР/РФ № 1839732",
+          "title": "Способ стерилизации предметов",
+          "year": "1993",
+          "country": "СССР"
+        }
+      ],
+      [
+        {
+          "id": "PAT-058",
+          "number": "Патент СССР/РФ № 1839733",
+          "title": "Устройство для стерилизации предметов",
+          "year": "1993",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-059",
+          "number": "Патент СССР/РФ № 1839729",
+          "title": "Устройство для стерилизации предметов",
+          "year": "1993",
+          "country": "СССР"
+        },
+        {
+          "id": "PAT-060",
+          "number": "Патент СССР/РФ № 1839731",
+          "title": "Устройство для стерилизации предметов",
+          "year": "1993",
+          "country": "СССР"
+        }
+      ]
+    ]
+  },
+  "articles": {
+    "total": 280,
+    "missingAuthors": [],
+    "missingTitle": [],
+    "missingJournal": [],
+    "missingYear": [],
+    "duplicateTitles": [
+      [
+        {
+          "id": "ART-001",
+          "title": "A Study of the Influence of a Nanostructured Activating Component in Welding Electrodes on the Formation of Welding Beads",
+          "year": "2026",
+          "journal": "Crystals 2026, 16, 205. DOI: https://doi.org/10.3390/cryst16030205. (SCOPUS Q2, импакт-фактор 2,4)",
+          "authors": "Saidov R., Rakhimov R., Touileb K., Ponore J."
+        },
+        {
+          "id": "ART-009",
+          "title": "A Study of the Influence of a Nanostructured Activating Component in Welding Electrodes on the Formation of Welding Beads",
+          "year": "2026",
+          "journal": "Crystals. – 2026. – Vol. 16, iss. 3. – Art. no. 205. – DOI: 10.3390/cryst16030205. (SCOPUS Q2, импакт-фактор – 2.4)",
+          "authors": "Saidov R., Rakhimov R., Touileb K., Ponore J."
+        },
+        {
+          "id": "ART-015",
+          "title": "A Study of the Influence of a Nanostructured Activating Component in Welding Electrodes on the Formation of Welding Beads",
+          "year": "2026",
+          "journal": "Crystals. 2026. Vol. 16, No. 3, Article 205. DOI: 10.3390/cryst16030205.",
+          "authors": "Saidov R.; Rakhimov R.; Touileb K.; Ponore J"
+        }
+      ],
+      [
+        {
+          "id": "ART-002",
+          "title": "Enhancing the Welding-Technological Properties of Electrodes through a Nanostructured Activating Component",
+          "year": "2026",
+          "journal": "Engineering, Technology & Applied Science Research. Vol. 16, No. 2, 2026, pp. 33746-33752. DOI: https://doi.org/10.48084/etasr.17095 (SCOPUS импакт фактор – 2.9, Q2)",
+          "authors": "Saidov R., Rakhimov R., Touileb K., Sun L.Y., Yusupov B.D."
+        },
+        {
+          "id": "ART-010",
+          "title": "Enhancing the Welding-Technological Properties of Electrodes through a Nanostructured Activating Component",
+          "year": "2026",
+          "journal": "Engineering, Technology & Applied Science Research. – 2026. – Vol. 16, no. 2. – Pp. 33746–33752. – DOI: 10.48084/etasr.17095. (SCOPUS Q2, импакт-фактор – 2.9)",
+          "authors": "Saidov R., Rakhimov R., Touileb K., Sun L.Y., Yusupov B.D."
+        },
+        {
+          "id": "ART-016",
+          "title": "Enhancing the Welding-Technological Properties of Electrodes through a Nanostructured Activating Component",
+          "year": "2026",
+          "journal": "Engineering, Technology & Applied Science Research. 2026. Vol. 16, No. 2. Pp. 33746–33752. DOI: 10.48084/etasr.17095.",
+          "authors": "Saidov R.; Rakhimov R.; Touileb K.; Sun L.Y.; Yusupov B.D"
+        }
+      ],
+      [
+        {
+          "id": "ART-003",
+          "title": "Study of the influence of technological waste of metallurgical plants on the quality and properties of welding electrodes",
+          "year": "2026",
+          "journal": "Crystals 2026, 16(3), 183. DOI: https://doi.org/10.3390/cryst16030183 (Web of Science, Импакт фактор – 2.4, Q2)",
+          "authors": "Saidov R., Touileb K."
+        },
+        {
+          "id": "ART-014",
+          "title": "Study of the Influence of Technological Waste of Metallurgical Plants on the Quality and Properties of Welding Electrodes",
+          "year": "2026",
+          "journal": "Crystals. 2026. Vol. 16, No. 3, Article 183. DOI: 10.3390/cryst16030183.",
+          "authors": "Saidov R.; Touileb K"
+        }
+      ],
+      [
+        {
+          "id": "ART-006",
+          "title": "Effective inhibition of hot cracking in Mn-Cu alloys manufactured by laser powder bed fusion",
+          "year": "2026",
+          "journal": "Materials Science & Engineering: A. 967 (2026) May, 150385. DOI: https://doi.org/10.1016/j.msea.2026.150385. (Web of Science, Импакт фактор – 1.830, Q1)",
+          "authors": "Liu S., Wang Q., Liu C., Zhang H., Balokhonov R., Romanova V., Balokhonov V., Ji P., Duishenaliev T.B., Saidov R.M., Yin F., Cong D., Qian M., Sun L."
+        },
+        {
+          "id": "ART-012",
+          "title": "Effective inhibition of hot cracking in Mn-Cu alloys manufactured by laser powder bed fusion",
+          "year": "2026",
+          "journal": "Materials Science & Engineering: A. 967 (2026) May, 150385. DOI: https://doi.org/10.1016/j.msea.2026.150385. (Web of Science, Импакт фактор – 1.830, Q1)",
+          "authors": "Liu S.; Wang Q.; Liu C.; Zhang H.; Balokhonov R.; Romanova V.; Balokhonov V.; Ji P.; Duishenaliev T.B.; Saidov R.M.; Yin F.; Cong D.; Qian M.; Sun L"
+        }
+      ],
+      [
+        {
+          "id": "ART-007",
+          "title": "Structural evolution in Fe–15Mn steel under thermal cycling",
+          "year": "2026",
+          "journal": "Journal of Iron and Steel Research International. 2026, 33:148. DOI: https://doi.org/10.1007/s42243-026-01728-0. (Web of Science, Импакт фактор - 3.84, Q1)",
+          "authors": "Sun L.-Y., Huang H.-L., Sumnikov S.V., Vasin R.N., Bobrikov I.A., Bokuchava G.D., Balagurov A.M., Tabachkova N.Y., Qu B.-L., Saidov R.M., Ma B.-Y., Yin F.-X., Golovin I.S."
+        },
+        {
+          "id": "ART-011",
+          "title": "Structural evolution in Fe–15Mn steel under thermal cycling",
+          "year": "2026",
+          "journal": "Journal of Iron and Steel Research International. 2026, 33:148. DOI: https://doi.org/10.1007/s42243-026-01728-0. (Web of Science, Импакт фактор - 3.84, Q1)",
+          "authors": "Sun L.-Y.; Huang H.-L.; Sumnikov S.V.; Vasin R.N.; Bobrikov I.A.; Bokuchava G.D.; Balagurov A.M.; Tabachkova N.Y.; Qu B.-L.; Saidov R.M.; Ma B.-Y.; Yin F.-X.; Golovin I.S"
+        }
+      ],
+      [
+        {
+          "id": "ART-008",
+          "title": "Damping and mechanical properties of M2052 alloy fabricated by laser powder bed fusion: The influence of layer thickness",
+          "year": "2026",
+          "journal": "Materials Letters. 2026. DOI: https://doi.org/10.1016/j.matlet.2026.140774. (Web of Science, Импакт фактор – 2.7, Q2)",
+          "authors": "Duan K., Ji P., Zhang H., Qian M., Balokhonov R., Romanova V., Duishenaliev T.B., Saidov R.M., Yin F., Sun L."
+        },
+        {
+          "id": "ART-013",
+          "title": "Damping and mechanical properties of M2052 alloy fabricated by laser powder bed fusion: The influence of layer thickness",
+          "year": "2026",
+          "journal": "Materials Letters. 2026. DOI: https://doi.org/10.1016/j.matlet.2026.140774. (Web of Science, Импакт фактор – 2.7, Q2) (Дубликат)",
+          "authors": "Duan K.; Ji P.; Zhang H.; Qian M.; Balokhonov R.; Romanova V.; Duishenaliev T.B.; Saidov R.M.; Yin F.; Sun L"
+        }
+      ],
+      [
+        {
+          "id": "ART-063",
+          "title": "Investigation of the peculiarities of formation of weld beads of high resistant steels during A-TIG welding. Part 1: Influence of the surface conditions of welded plates on the formation of weld beads during the TIG and A-TIG welding",
+          "year": "2022",
+          "journal": "Welding and Cutting (Germany). — 2022. — No. 2. — Pp. 114–118. — DOI: 10.53192/WAC2022114. (SCOPUS, Q4).",
+          "authors": "Saidov R. M.; Rakhimova F. M.; Kusch M.; Hoefer K"
+        },
+        {
+          "id": "ART-064",
+          "title": "Investigation of the peculiarities of formation of weld beads of high resistant steels during A-TIG welding. Part 1. Influence of the surface conditions of welded plates on the formation of weld beads during the TIG and A-TIG welding",
+          "year": "2022",
+          "journal": "Welding and Cutting (Germany). 2022. – № 2. – 114-118 p. (SCOPUS Импакт фактор – 0.186, Q4) (https://doi.org/10.53) (Дубликат)",
+          "authors": "Saidov R.M.; Rakhimov R.M.; Kusch M.; Hoefer K"
+        }
+      ],
+      [
+        {
+          "id": "ART-070",
+          "title": "Analysis of the efficiency of a solar cell with nano-dimensional hetero transitions",
+          "year": "2021",
+          "journal": "Computational Nanotechnology. 2021. № 4. С. 34–40. (DOI: 10.33693/2313-223X-2021-8-4-34-40) (Дубликат)",
+          "authors": "Imamov E.Z.; Muminov R.A.; Rakhimov R.Kh"
+        },
+        {
+          "id": "ART-075",
+          "title": "Analysis of the efficiency of a solar cell with nano-dimensional hetero transitions",
+          "year": "2021",
+          "journal": "Computational Nanotechnology. — 2021. — No. 4. — Pp. 47–56.",
+          "authors": "Imamov E. Z.; Muminov R. A.; Rakhimov Kh R"
+        }
+      ],
+      [
+        {
+          "id": "ART-082",
+          "title": "Analysis of the general equations of the transverse vibration of a piecewise uniform viscoelastic plate",
+          "year": "2020",
+          "journal": "Computational Nanotechnology. 2020. Vol. 7. No. 3. Pp. 52–56. DOI: 10.33693/2313-223X-2020-7-3-52-56",
+          "authors": "Jalilov M.L.; Rakhimov R.Kh"
+        },
+        {
+          "id": "ART-091",
+          "title": "Analysis of the general equations of the transverse vibration of a piecewise uniform viscoelastic plate",
+          "year": "2020",
+          "journal": "Computational Nanotechnology. 2020. Vol. 7. No. 3. Pp. 52–56",
+          "authors": "M. Jalilov L.; Rakhimov R.Kh"
+        }
+      ],
+      [
+        {
+          "id": "ART-114",
+          "title": "Методика расчета геометрических и энергетических параметров фокального пятна от отдельных зон концентратора со сложной конфигурацией миделя",
+          "year": "2019",
+          "journal": "Computational Nanotechnology. 2019. № 1. С. 69–74.",
+          "authors": "Абдурахманов А.А.; Рахимов Р.Х.; Маматкосимов М.А.; Кучкаров А.А"
+        },
+        {
+          "id": "ART-128",
+          "title": "Методика расчета геометрических и энергетических параметров фокального пятна от отдельных зон концентратора со сложной конфигурацией миделя",
+          "year": "2018",
+          "journal": "Журнал Computational nanotechnology, 2018, №1, С.69-76.",
+          "authors": "Абдурахманов А.; Рахимов Р.Х.; Маматкосимов М.А.; Кучкаров А.А"
+        }
+      ],
+      [
+        {
+          "id": "ART-123",
+          "title": "Колебания двухслойных пластин постоянной толщины,",
+          "year": "2018",
+          "journal": "Журнал Computational nanotechnology, 2018, №2, С.52–59",
+          "authors": "Рахимов Р.Х.; Умаралиев Н.; Джалилов М.Л"
+        },
+        {
+          "id": "ART-133",
+          "title": "Колебания двухслойных пластин постоянной толщины",
+          "year": "2018",
+          "journal": "Computational Nanotechnology. 2018. № 2. С. 52–67. ISSN 2313-223X.",
+          "authors": "Рахимов Р.Х.; Умаралиев Н.; Джалилов М.Л."
+        }
+      ],
+      [
+        {
+          "id": "ART-125",
+          "title": "Vibrations of two-layer plates of constant thickness",
+          "year": "2018",
+          "journal": "Журнал Computational nanotechnology, 2018, №2, С.60-67.",
+          "authors": "Rakhimov R.Kh.; Umaraliev N.; M.Dzhalilov L"
+        },
+        {
+          "id": "ART-132",
+          "title": "Vibrations of two-layer plates of constant thickness",
+          "year": "2018",
+          "journal": "Computational Nanotechnology. 2018. No. 2. P. 52–67. ISSN 2313-223X.",
+          "authors": "Rakhimov R.H.; Umaraliev N.; Jalilov M.L."
+        }
+      ],
+      [
+        {
+          "id": "ART-193",
+          "title": "Применение полимер-керамических композитных пленок в фотоэнергетике",
+          "year": "2011",
+          "journal": "Современные научные исследования и инновации. – Октябрь, 2011. [Электронный ресурс]. URL: http://web.snauka.ru/issues/2011/10/4009.",
+          "authors": "Рахимов Р.Х., Муминов Р.А., Ермаков В.П., Рахимов М.Р., Латипов Р.Н., Рахимова А.Г."
+        },
+        {
+          "id": "ART-195",
+          "title": "Применение полимер-керамических композитных пленок в фотоэнергетике",
+          "year": "2011",
+          "journal": "Гелиотехника. 2011. № 4. С. 89–94.",
+          "authors": "Рахимов Р.Х., Муминов Р.А., Ермаков В.П., Рахимов М.Р., Латипов Р.Н., Рахимова А.Г."
+        }
+      ],
+      [
+        {
+          "id": "ART-198",
+          "title": "Пленочно-керамический композит для тепличных хозяйств",
+          "year": "2011",
+          "journal": "Гелиотехника. 2011. № 2. С. 64–69.",
+          "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р."
+        },
+        {
+          "id": "ART-199",
+          "title": "Пленочно-керамический композит для тепличных хозяйств",
+          "year": "2011",
+          "journal": "Современные научные исследования и инновации. – Октябрь, 2011. [Электронный ресурс]. URL: http://web.snauka.ru/issues/2011/10/4199.",
+          "authors": "Рахимов Р.Х., Ермаков В.П., Рахимов М.Р."
+        }
+      ],
+      [
+        {
+          "id": "ART-200",
+          "title": "Ресурсо- и энергосберегающие технологии в производстве сельхозкультур.",
+          "year": "2011",
+          "journal": "Современные научные исследования и инновации. – Ноябрь, 2011. [Электронный ресурс]. URL: http://web.snauka.ru/issues/2011/11/4816",
+          "authors": "Рахимов Р.Х."
+        },
+        {
+          "id": "ART-201",
+          "title": "Ресурсо- и энергосберегающие технологии в производстве сельхозкультур",
+          "year": "2011",
+          "journal": "Гелиотехника. 2011. № 3. С. 75–81.",
+          "authors": "Рахимов Р.Х."
+        }
+      ],
+      [
+        {
+          "id": "ART-220",
+          "title": "Функциональная керамика и области ее применения",
+          "year": "2009",
+          "journal": "Данный материал предоставлен представительством ЮНЕСКО, 2009",
+          "authors": "Рахимов Р.Х."
+        },
+        {
+          "id": "ART-232",
+          "title": "Функциональная керамика и области ее применения.",
+          "year": "2007",
+          "journal": "Курс лекций летней школы по возобновляемым источникам энергии. ЮНЕСКО, Ташкент, 2007, с. 205–225.",
+          "authors": "Рахимов Р.Х."
+        }
+      ]
+    ],
+    "missingPagesCount": 22,
+    "missingPagesSamples": [
+      {
+        "id": "ART-001",
+        "year": "2026",
+        "title": "A Study of the Influence of a Nanostructured Activating Component in Welding Electrodes on the Formation of Welding Beads",
+        "journal": "Crystals 2026, 16, 205. DOI: https://doi.org/10.3390/cryst16030205. (SCOPUS Q2, импакт-фактор 2,4)"
+      },
+      {
+        "id": "ART-003",
+        "year": "2026",
+        "title": "Study of the influence of technological waste of metallurgical plants on the quality and properties of welding electrodes",
+        "journal": "Crystals 2026, 16(3), 183. DOI: https://doi.org/10.3390/cryst16030183 (Web of Science, Импакт фактор – 2.4, Q2)"
+      },
+      {
+        "id": "ART-004",
+        "year": "2026",
+        "title": "Исследование асимметричных оптических свойств в трехслойных полиэтилен-керамических композитных пленках для повышения эффективности солнечной сушки",
+        "journal": "Computational Nanotechnology. 2026. № 1"
+      },
+      {
+        "id": "ART-005",
+        "year": "2026",
+        "title": "Импульсный туннельный эффект: новый взгляд на природу взаимодействия излучения с веществом",
+        "journal": "Computational Nanotechnology. 2026. № 1"
+      },
+      {
+        "id": "ART-006",
+        "year": "2026",
+        "title": "Effective inhibition of hot cracking in Mn-Cu alloys manufactured by laser powder bed fusion",
+        "journal": "Materials Science & Engineering: A. 967 (2026) May, 150385. DOI: https://doi.org/10.1016/j.msea.2026.150385. (Web of Science, Импакт фактор – 1.830, Q1)"
+      },
+      {
+        "id": "ART-008",
+        "year": "2026",
+        "title": "Damping and mechanical properties of M2052 alloy fabricated by laser powder bed fusion: The influence of layer thickness",
+        "journal": "Materials Letters. 2026. DOI: https://doi.org/10.1016/j.matlet.2026.140774. (Web of Science, Импакт фактор – 2.7, Q2)"
+      },
+      {
+        "id": "ART-009",
+        "year": "2026",
+        "title": "A Study of the Influence of a Nanostructured Activating Component in Welding Electrodes on the Formation of Welding Beads",
+        "journal": "Crystals. – 2026. – Vol. 16, iss. 3. – Art. no. 205. – DOI: 10.3390/cryst16030205. (SCOPUS Q2, импакт-фактор – 2.4)"
+      },
+      {
+        "id": "ART-012",
+        "year": "2026",
+        "title": "Effective inhibition of hot cracking in Mn-Cu alloys manufactured by laser powder bed fusion",
+        "journal": "Materials Science & Engineering: A. 967 (2026) May, 150385. DOI: https://doi.org/10.1016/j.msea.2026.150385. (Web of Science, Импакт фактор – 1.830, Q1)"
+      },
+      {
+        "id": "ART-013",
+        "year": "2026",
+        "title": "Damping and mechanical properties of M2052 alloy fabricated by laser powder bed fusion: The influence of layer thickness",
+        "journal": "Materials Letters. 2026. DOI: https://doi.org/10.1016/j.matlet.2026.140774. (Web of Science, Импакт фактор – 2.7, Q2) (Дубликат)"
+      },
+      {
+        "id": "ART-014",
+        "year": "2026",
+        "title": "Study of the Influence of Technological Waste of Metallurgical Plants on the Quality and Properties of Welding Electrodes",
+        "journal": "Crystals. 2026. Vol. 16, No. 3, Article 183. DOI: 10.3390/cryst16030183."
+      }
+    ],
+    "authorVariants": {
+      "Rakhimov R.": 8,
+      "Рахимов Р.Х.": 95,
+      "Rakhimov Kh R": 10,
+      "Рахимов Р. Х.": 59,
+      "Rakhimov Rustam": 1,
+      "Rustam Rakhimov": 1,
+      "Rakhimov Kh R..": 6,
+      "Рахимов Р. Х": 3,
+      "Рахимов Р.Х": 7,
+      "Rakhimov R.Kh.": 21,
+      "Рахимов М.Р.": 24,
+      "Rakhimov R. Kh.": 9,
+      "Рахимова Ф. М.": 4,
+      "Рахимов Р. К.": 1,
+      "Rakhimov M. R": 1,
+      "Рахимов М.Р": 2,
+      "Рахимов М. Р": 5,
+      "Рахимов М. Р.": 12,
+      "Рахимов Д. Н.": 1,
+      "Рахимов Р. Х. и др": 1,
+      "Rakhimova F. M.": 1,
+      "Rakhimov R.M.": 1,
+      "Rakhimov R.Kh": 9,
+      "Махсудов А. У. Rakhimov Kh R..": 1,
+      "Rakhimov R.H.": 5,
+      "Rakhimov M.R": 1,
+      "M. Rakhimov R.": 1,
+      "R. Kh. Rakhimov": 3,
+      "Р.Х. Рахимов": 5,
+      "Р. Х. Рахимов": 2,
+      "Rakhimov": 1,
+      "Рахимова А.Г.": 2,
+      "Rakhimov M.R.": 2,
+      "R. Rakhimov": 2,
+      "Рахимов Б.К.": 1,
+      "Rakhimov R. X.": 1
+    }
+  },
+  "books": {
+    "total": 9,
+    "items": [
+      {
+        "id": "BOOK-001",
+        "hasTitle": false,
+        "title": "",
+        "hasDescription": false,
+        "author": "Рахимов Р.Х.",
+        "cover": "/images/cover_234528_1.png",
+        "coverExists": true,
+        "yandexUrl": "https://disk.yandex.uz/i/-0IJBHhvNqYyFA"
+      },
+      {
+        "id": "BOOK-002",
+        "hasTitle": false,
+        "title": "",
+        "hasDescription": false,
+        "author": "Рахимов Р.Х.",
+        "cover": "/images/978-620-6-15334-4_Co.png",
+        "coverExists": true,
+        "yandexUrl": "https://disk.yandex.uz/i/yEwoi1LyP_C47Q"
+      },
+      {
+        "id": "BOOK-003",
+        "hasTitle": false,
+        "title": "",
+        "hasDescription": false,
+        "author": "Рахимов Р.Х.",
+        "cover": "/images/cover_234344_1.png",
+        "coverExists": true,
+        "yandexUrl": "https://disk.yandex.uz/i/UWFS6nSXajVCKw"
+      },
+      {
+        "id": "BOOK-004",
+        "hasTitle": false,
+        "title": "",
+        "hasDescription": false,
+        "author": "Рахимов Р.Х.",
+        "cover": "/images/cover_234529-_1.png",
+        "coverExists": true,
+        "yandexUrl": "https://disk.yandex.uz/i/latEghwq9ze49g"
+      },
+      {
+        "id": "BOOK-005",
+        "hasTitle": false,
+        "title": "",
+        "hasDescription": false,
+        "author": "Рахимов Р.Х.",
+        "cover": "/images/cover_234639_1.png",
+        "coverExists": true,
+        "yandexUrl": "https://disk.yandex.uz/i/c9Yw1QQjby6q7A"
+      },
+      {
+        "id": "BOOK-006",
+        "hasTitle": false,
+        "title": "",
+        "hasDescription": false,
+        "author": "Рахимов Р.Х.",
+        "cover": "/images/978-620-6-15278-1_Co.png",
+        "coverExists": true,
+        "yandexUrl": "https://disk.yandex.uz/i/b4pYit2DW_RwNg"
+      },
+      {
+        "id": "BOOK-007",
+        "hasTitle": false,
+        "title": "",
+        "hasDescription": false,
+        "author": "Рахимов Р.Х.",
+        "cover": "/images/978-620-6-15361-0_Co.png",
+        "coverExists": true,
+        "yandexUrl": "https://disk.yandex.uz/i/4icGyNxMc_Fe7w"
+      },
+      {
+        "id": "BOOK-008",
+        "hasTitle": false,
+        "title": "",
+        "hasDescription": false,
+        "author": "Рахимов Р.Х.",
+        "cover": "/images/cover_234407_1.png",
+        "coverExists": true,
+        "yandexUrl": "https://disk.yandex.uz/i/WgGvVH7lI5tp-w"
+      },
+      {
+        "id": "BOOK-009",
+        "hasTitle": false,
+        "title": "",
+        "hasDescription": false,
+        "author": "Рахимов Р.Х.",
+        "cover": "/images/cover_234478_1.png",
+        "coverExists": true,
+        "yandexUrl": "https://disk.yandex.uz/i/9P2w56FNsC2NXg"
+      }
+    ]
+  },
+  "akts": {
+    "total": 57,
+    "missingUrl": [],
+    "missingTitle": [],
+    "missingOrg": [],
+    "missingTitleEn": [],
+    "missingOrgEn": []
+  },
+  "certificates": {
+    "sushkaCertificates.json": {
+      "count": 7,
+      "missingFiles": []
+    },
+    "lampCertificates.json": {
+      "count": 27,
+      "missingFiles": []
+    },
+    "kalciCertificates.json": {
+      "count": 14,
+      "missingFiles": []
+    },
+    "sterilCertificates.json": {
+      "count": 15,
+      "missingFiles": []
+    },
+    "kalciPdfs.json": {
+      "count": 2,
+      "missingFiles": []
+    },
+    "lampPdfs.json": {
+      "count": 17,
+      "missingFiles": []
+    },
+    "sterilPdfs.json": {
+      "count": 6,
+      "missingFiles": []
+    }
+  },
+  "developments": {},
+  "translations": {
+    "ruCount": 126,
+    "enCount": 126,
+    "missingInEn": [],
+    "missingInRu": []
+  },
+  "headings": [
+    {
+      "file": "AktsPage.jsx",
+      "h1Count": 1,
+      "h2Count": 0,
+      "h3Count": 0,
+      "h1Snippets": [
+        "{lang === 'en' ? 'Implementation Acts & Test Reports' : 'Акт"
+      ],
+      "h2Snippets": []
+    },
+    {
+      "file": "ArticlesPage.jsx",
+      "h1Count": 1,
+      "h2Count": 0,
+      "h3Count": 1,
+      "h1Snippets": [
+        "{lang === 'en' ? 'Scientific Articles & Publications' : 'Нау"
+      ],
+      "h2Snippets": []
+    },
+    {
+      "file": "Author.jsx",
+      "h1Count": 1,
+      "h2Count": 14,
+      "h3Count": 14,
+      "h1Snippets": [
+        "{lang === 'en'\r\n                ? 'Doctor of Technical Scien"
+      ],
+      "h2Snippets": [
+        "Scientific School and Functional Materials",
+        "From Fundamental Research to Industrial Technologies",
+        "Major Developments",
+        "Patent Portfolio",
+        "Scientific Publications",
+        "International Recognition",
+        "Scientific School of Professor Rakhimov R.Kh.",
+        "Научная школа и функциональные материалы",
+        "От фундаментальных исследований к промышленным технологиям",
+        "Основные разработки",
+        "Патентное портфолио",
+        "Научные публикации",
+        "Международное признание",
+        "Научная школа Рустама Хакимовича Рахимова"
+      ]
+    },
+    {
+      "file": "BooksPage.jsx",
+      "h1Count": 1,
+      "h2Count": 0,
+      "h3Count": 1,
+      "h1Snippets": [
+        "{lang === 'en' ? 'Monographs & Books' : 'Монографии и книги'"
+      ],
+      "h2Snippets": []
+    },
+    {
+      "file": "DevelopmentPage.jsx",
+      "h1Count": 1,
+      "h2Count": 45,
+      "h3Count": 5,
+      "h1Snippets": [
+        "{devTitle}"
+      ],
+      "h2Snippets": [
+        "{lang === 'en' ? 'Principle of Infrared Drying' : 'Принцип и",
+        "{lang === 'en' ? 'Drying of Fruits and Vegetables' : 'Сушка ",
+        "{lang === 'en' ? 'Test Results' : 'Результаты испытаний'}",
+        "{lang === 'en' ? 'Product Quality Preservation' : 'Сохранени",
+        "{lang === 'en' ? 'Drying Installations' : 'Сушильные установ",
+        "{lang === 'en' ? 'Why the body needs calcium' : 'Почему каль",
+        "{lang === 'en' ? 'Calcium in the Body: Not Just Bones' : 'Ка",
+        "{lang === 'en' ? 'What \"Active Calcium\" Is' : 'Что представл",
+        "{lang === 'en' ? 'Technological Concept of \"Active Calcium\"'",
+        "{lang === 'en' ? 'Calcium and Energy Metabolism' : 'Кальций ",
+        "{lang === 'en' ? 'Calcium and Bone Tissue' : 'Кальций и кост",
+        "{lang === 'en' ? 'Calcium and Teeth' : 'Кальций и зубы'}",
+        "{lang === 'en' ? 'Calcium During Pregnancy' : 'Кальций во вр",
+        "{lang === 'en' ? 'What Influences Calcium Balance' : 'Что вл",
+        "{lang === 'en' ? 'Studies of \"Active Calcium\"' : 'Исследован",
+        "{lang === 'en' ? 'Dynamics of Calcium Excretion' : 'Динамика",
+        "{lang === 'en' ? 'Bone Mineral Density Study' : 'Исследовани",
+        "{lang === 'en' ? 'Study on Femoral Fractures in Children' : ",
+        "{lang === 'en' ? 'Studies in Calcium-Deficient States' : 'Ис",
+        "{lang === 'en' ? 'Experimental Studies' : 'Экспериментальные",
+        "{lang === 'en'\n                      ? 'How \"Active Calcium\"",
+        "{lang === 'en' ? 'Operating Principle of the Technology' : '",
+        "{lang === 'en' ? 'Key Advantages' : 'Ключевые преимущества'}",
+        "{lang === 'en' ? 'Comparison of Stated Indicators' : 'Сравне",
+        "{lang === 'en' ? 'Benefits for Manufacturers and Operators' ",
+        "{lang === 'en' ? 'Areas of Application' : 'Область применени",
+        "{lang === 'en' ? 'A Covering That Works as More Than Just a ",
+        "{lang === 'en' ? 'Key Claimed Characteristics' : 'Ключевые з",
+        "{lang === 'en' ? 'How the Technology Works' : 'Как работает ",
+        "{lang === 'en' ? 'Thermoregulation and Heat Retention' : 'Те",
+        "{lang === 'en' ? 'Reduction of Condensation and Moisture Los",
+        "{lang === 'en' ? 'Effect on Photosynthesis' : 'Влияние на фо",
+        "{lang === 'en' ? 'Durability and UV Protection' : 'Долговечн",
+        "{lang === 'en' ? 'Claimed Economic Logic' : 'Заявленная экон",
+        "{lang === 'en' ? 'Promising Application Areas' : 'Перспектив",
+        "{lang === 'en' ? 'Microalgae and Arid Territories' : 'Микров",
+        "{lang === 'en' ? 'Key Features of the Technology' : 'Ключевы",
+        "{lang === 'en' ? 'Comparison with Traditional Methods' : 'Ср",
+        "{lang === 'en' ? 'Productivity and Operating Cycle' : 'Произ",
+        "{lang === 'en' ? 'Sterilizer IRX-2000' : 'Стерилизатор IRX-2",
+        "{lang === 'en' ? 'Other Models' : 'Другие модели'}",
+        "{lang === 'en' ? 'Test Acts and Conclusions' : 'Акты испытан",
+        "{headingText}",
+        "{headingText}",
+        "{lang === 'en' ? 'Test Acts and Conclusions' : 'Акты испытан"
+      ]
+    },
+    {
+      "file": "Home.jsx",
+      "h1Count": 1,
+      "h2Count": 0,
+      "h3Count": 4,
+      "h1Snippets": [
+        "{lang === 'en'\n                ? 'Scientific Developments & "
+      ],
+      "h2Snippets": []
+    },
+    {
+      "file": "NotFound.jsx",
+      "h1Count": 1,
+      "h2Count": 0,
+      "h3Count": 0,
+      "h1Snippets": [
+        "{lang === 'en' ? 'Page Not Found' : 'Страница не найдена'}"
+      ],
+      "h2Snippets": []
+    },
+    {
+      "file": "PatentsPage.jsx",
+      "h1Count": 1,
+      "h2Count": 0,
+      "h3Count": 1,
+      "h1Snippets": [
+        "{lang === 'en' ? 'Patents & Certificates of Authorship' : 'П"
+      ],
+      "h2Snippets": []
+    },
+    {
+      "file": "SearchPage.jsx",
+      "h1Count": 1,
+      "h2Count": 0,
+      "h3Count": 1,
+      "h1Snippets": [
+        "{t('search_title')}"
+      ],
+      "h2Snippets": []
+    }
+  ],
+  "links": {},
+  "keywords": {
+    "TODO": [],
+    "FIXME": [],
+    "TEST": [
+      {
+        "file": "src/components/SEOHead.jsx",
+        "line": 36,
+        "snippet": "description: 'Resonant infrared drying technology for fruits and vegetables using functional ceramics. Industrial units,"
+      },
+      {
+        "file": "src/components/SEOHead.jsx",
+        "line": 96,
+        "snippet": "description: 'Medical and laboratory sterilizers utilizing functional ceramics (Feruza, Fial, KS-250). Official test act"
+      },
+      {
+        "file": "src/components/SEOHead.jsx",
+        "line": 106,
+        "snippet": "description: 'Infrared drying technology for seed raw cotton preserving germination vitality and fiber structure. Indust"
+      },
+      {
+        "file": "src/components/SEOHead.jsx",
+        "line": 155,
+        "snippet": "title: 'Implementation Acts & Industrial Test Reports (57 docs)',"
+      },
+      {
+        "file": "src/components/SEOHead.jsx",
+        "line": 156,
+        "snippet": "description: '57 official acts of industrial testing, factory implementation, and clinical conclusions validating Prof. "
+      },
+      {
+        "file": "src/components/SEOHead.jsx",
+        "line": 166,
+        "snippet": "description: 'Fast integrated search across 280 papers, 57 test acts, patents, books, and 9 scientific developments of P"
+      },
+      {
+        "file": "src/data/akts.json",
+        "line": 310,
+        "snippet": "\"organization_en\": \"Test conclusion on medical sterilizers Feruza and MI-6\""
+      },
+      {
+        "file": "src/data/akts.json",
+        "line": 420,
+        "snippet": "\"organization_en\": \"Protocol of bacteriological and toxicological testing of medical device\""
+      },
+      {
+        "file": "src/data/akts.json",
+        "line": 450,
+        "snippet": "\"organization_en\": \"Cotton drying acceptance and testing act\""
+      },
+      {
+        "file": "src/data/akts.json",
+        "line": 480,
+        "snippet": "\"organization_en\": \"Test report on Dacron (Lavsan) polyester infrared layer drying\""
+      },
+      {
+        "file": "src/data/akts.json",
+        "line": 490,
+        "snippet": "\"organization_en\": \"Testing report of experimental PA-6 infrared drying installation\""
+      },
+      {
+        "file": "src/data/akts.json",
+        "line": 520,
+        "snippet": "\"organization_en\": \"Preliminary test report of drying and sterilization using functional ceramics\""
+      },
+      {
+        "file": "src/data/akts.json",
+        "line": 540,
+        "snippet": "\"organization_en\": \"Test protocol of infrared drying unit with ceramic emitters for biological objects\""
+      },
+      {
+        "file": "src/data/articles.json",
+        "line": 453,
+        "snippet": "\"title\": \"Practical testing of indirect and mixed solar dryers in optional climatic conditions\","
+      },
+      {
+        "file": "src/data/developments.json",
+        "line": 67,
+        "snippet": "\"Simultaneously, various localized emitter configurations were designed and tested for targeted treatment of specific or"
+      },
+      {
+        "file": "src/data/developments.json",
+        "line": 142,
+        "snippet": "\"The issue of insufficient dietary calcium intake and factors that may be associated with reduced absorption or increase"
+      },
+      {
+        "file": "src/data/developments.json",
+        "line": 163,
+        "snippet": "\"Calcium metabolism depends not solely on the amount of calcium in the diet. The state of calcium balance can be influen"
+      },
+      {
+        "file": "src/data/developments.json",
+        "line": 228,
+        "snippet": "\"Of particular importance is the comprehensive effect of the composite on the greenhouse microclimate: reported benefits"
+      },
+      {
+        "file": "src/data/developments.json",
+        "line": 315,
+        "snippet": "\"Test Acts and Conclusions: official protocols, test acts, and expert conclusions for sterilizers based on functional ce"
+      },
+      {
+        "file": "src/data/developments.json",
+        "line": 356,
+        "snippet": "\"These figures represent preliminary test results and must be considered in light of specific operating conditions, raw "
+      },
+      {
+        "file": "src/data/kalciCertificates.json",
+        "line": 7,
+        "snippet": "\"category_en\": \"Test Protocol\","
+      },
+      {
+        "file": "src/data/lampCertificates.json",
+        "line": 5,
+        "snippet": "\"title_en\": \"Test protocol and act of ceramic emitters\","
+      },
+      {
+        "file": "src/data/lampCertificates.json",
+        "line": 7,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/lampCertificates.json",
+        "line": 33,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/lampCertificates.json",
+        "line": 45,
+        "snippet": "\"title_en\": \"Test act of emitter GL (Scientific Center of Surgery)\","
+      },
+      {
+        "file": "src/data/lampCertificates.json",
+        "line": 47,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/lampCertificates.json",
+        "line": 296,
+        "snippet": "\"title_en\": \"SES bacteriological testing protocol of infrared emitter\","
+      },
+      {
+        "file": "src/data/lampPdfs.json",
+        "line": 7,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/lampPdfs.json",
+        "line": 19,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/lampPdfs.json",
+        "line": 31,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/lampPdfs.json",
+        "line": 43,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/lampPdfs.json",
+        "line": 55,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/lampPdfs.json",
+        "line": 67,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/sterilPdfs.json",
+        "line": 5,
+        "snippet": "\"title_en\": \"Test Act of Prototype IS-1 \\\"Feruza\\\" (NIIPTiD)\","
+      },
+      {
+        "file": "src/data/sterilPdfs.json",
+        "line": 7,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/data/sushkaCertificates.json",
+        "line": 61,
+        "snippet": "\"title_en\": \"Information Report on Preliminary Testing of Drying and Sterilization Method\","
+      },
+      {
+        "file": "src/data/sushkaCertificates.json",
+        "line": 63,
+        "snippet": "\"category_en\": \"Test Report\","
+      },
+      {
+        "file": "src/data/sushkaCertificates.json",
+        "line": 68,
+        "snippet": "\"description_en\": \"Testing functional ceramic drying method: drying mulberry leaves, silkworm artificial feed, and pupae"
+      },
+      {
+        "file": "src/data/sushkaCertificates.json",
+        "line": 80,
+        "snippet": "\"title_en\": \"Test Protocol of Infrared Drying Unit for Biological Objects (Blood)\","
+      },
+      {
+        "file": "src/data/sushkaCertificates.json",
+        "line": 82,
+        "snippet": "\"category_en\": \"Test Protocol\","
+      },
+      {
+        "file": "src/data/sushkaCertificates.json",
+        "line": 116,
+        "snippet": "\"title_en\": \"Test Act of Experimental Infrared Dryer PA-6\","
+      },
+      {
+        "file": "src/data/sushkaCertificates.json",
+        "line": 118,
+        "snippet": "\"category_en\": \"Test Act\","
+      },
+      {
+        "file": "src/pages/AktsPage.jsx",
+        "line": 64,
+        "snippet": "{lang === 'en' ? 'Implementation Acts & Test Reports' : 'Акты внедрения и отчеты об испытаниях'}"
+      },
+      {
+        "file": "src/pages/AktsPage.jsx",
+        "line": 77,
+        "snippet": "? 'Register of 57 production test acts, official reports, and clinical conclusions.'"
+      },
+      {
+        "file": "src/pages/Author.jsx",
+        "line": 114,
+        "snippet": "<p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>A distinct application is the infrared drying o"
+      },
+      {
+        "file": "src/pages/Author.jsx",
+        "line": 118,
+        "snippet": "<p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>Test results indicate that curing times were sl"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 178,
+        "snippet": "? 'To refine ceramic formulations and drying regimes, various fruits and vegetables were investigated. The reported test"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 183,
+        "snippet": "? 'For the \"Vostok — InfraR\" installation, operating temperatures were 55–60 °C for onion and Eryngium and 60–65 °C for "
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 206,
+        "snippet": "{lang === 'en' ? 'Test Results' : 'Результаты испытаний'}"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 421,
+        "snippet": "? 'The issue of insufficient dietary calcium intake and factors that may be associated with reduced absorption or increa"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 618,
+        "snippet": "<li>{lang === 'en' ? 'gastrointestinal tract status;' : 'состояние желудочно-кишечного тракта;'}</li>"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 1088,
+        "snippet": "? 'Of particular importance is the comprehensive effect of the composite on the greenhouse microclimate: reported benefi"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 1284,
+        "snippet": "? 'Comparative tests were conducted in the Parkent territory from February to December 2021. According to the provided d"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 1290,
+        "snippet": "onClick={() => openModalImage(lang === 'en' ? '/images/stoikost_eng.webp' : '/images/stoikost.webp', lang === 'en' ? 'Cl"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 1296,
+        "snippet": "alt={lang === 'en' ? 'Claimed comparison of covering replacements in the 2021 test.' : 'Заявленное сравнение замен покры"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 1309,
+        "snippet": "? 'Claimed comparison of covering replacements in the 2021 test.'"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 1731,
+        "snippet": "{lang === 'en' ? 'Test Acts and Conclusions' : 'Акты испытаний и заключения'}"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 1735,
+        "snippet": "? `Official protocols, test acts, and expert conclusions for functional ceramics sterilizers (${sterilCertificates.lengt"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 1881,
+        "snippet": "? `Original test acts, research protocols, and official sanitary conclusions (${sterilPdfs.length} documents)`"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 2362,
+        "snippet": "{lang === 'en' ? 'Test Acts and Conclusions' : 'Акты испытаний и заключения'}"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 2366,
+        "snippet": "? 'Official test protocols, economic efficiency evaluations, and research reports on infrared raw cotton drying'"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 2378,
+        "snippet": "? 'Test Protocol (Act) of Infrared Raw Cotton Drying (05.05.2010)'"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 2891,
+        "snippet": "{lang === 'en' ? 'Test Acts and Conclusions' : 'Акты испытаний и заключения'}"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 2896,
+        "snippet": "? `Official protocols, test acts, quality certificates, and expert conclusions (${sushkaCertificates.length} documents, "
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 2899,
+        "snippet": "? `Official protocols, registration certificates, test acts, and clinical conclusions (${(slug === 'kalci' ? kalciCertif"
+      },
+      {
+        "file": "src/pages/SearchPage.jsx",
+        "line": 107,
+        "snippet": "regex.test(part) ? ("
+      }
+    ],
+    "DEMO": [
+      {
+        "file": "src/pages/Author.jsx",
+        "line": 114,
+        "snippet": "<p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>A distinct application is the infrared drying o"
+      }
+    ],
+    "LOREM": [],
+    "PLACEHOLDER": [
+      {
+        "file": "src/components/Header.jsx",
+        "line": 437,
+        "snippet": "placeholder={lang === 'ru'"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 19,
+        "snippet": "search_modal_placeholder: 'Поиск по сайту: статьи, патенты, разработки, книги, акты...',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 103,
+        "snippet": "search_placeholder: 'Поиск по ключевым словам...',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 104,
+        "snippet": "search_articles_placeholder: 'Поиск по названию статьи, автору, журналу или году...',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 105,
+        "snippet": "search_patents_placeholder: 'Поиск по названию патента, номеру, автору...',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 106,
+        "snippet": "search_akts_placeholder: 'Поиск по номеру акта, объекту внедрения или городу...',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 175,
+        "snippet": "search_modal_placeholder: 'Search portal: articles, patents, developments, books, acts...',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 259,
+        "snippet": "search_placeholder: 'Search by keyword...',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 260,
+        "snippet": "search_articles_placeholder: 'Search by title, author, journal or year...',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 261,
+        "snippet": "search_patents_placeholder: 'Search by patent title, number, author...',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 262,
+        "snippet": "search_akts_placeholder: 'Search by act number, implementation object or city...',"
+      },
+      {
+        "file": "src/pages/AktsPage.jsx",
+        "line": 90,
+        "snippet": "placeholder={t('search_akts_placeholder')}"
+      },
+      {
+        "file": "src/pages/ArticlesPage.jsx",
+        "line": 159,
+        "snippet": "placeholder={t('search_articles_placeholder')}"
+      },
+      {
+        "file": "src/pages/PatentsPage.jsx",
+        "line": 129,
+        "snippet": "placeholder={t('search_patents_placeholder')}"
+      },
+      {
+        "file": "src/pages/SearchPage.jsx",
+        "line": 144,
+        "snippet": "placeholder={t('search_modal_placeholder')}"
+      },
+      {
+        "file": "src/styles/search.css",
+        "line": 137,
+        "snippet": ".search-input-field::placeholder {"
+      }
+    ],
+    "DUMMY": [],
+    "EXAMPLE": [],
+    "INFRAX": [],
+    "infraks.ru": [],
+    "infraks.uz": [
+      {
+        "file": "src/components/Header.jsx",
+        "line": 29,
+        "snippet": "// Состояние выпадающей строки поиска под меню (как на infraks.uz)"
+      },
+      {
+        "file": "src/components/Header.jsx",
+        "line": 258,
+        "snippet": "{/* Зелёная кнопка «На сайт фирмы» -> ссылка https://www.infraks.uz/ (по требованию 2) */}"
+      },
+      {
+        "file": "src/components/Header.jsx",
+        "line": 260,
+        "snippet": "href=\"https://www.infraks.uz/\""
+      },
+      {
+        "file": "src/components/Header.jsx",
+        "line": 426,
+        "snippet": "{/* 3. Опускающаяся строка поиска под меню (как на infraks.uz) */}"
+      },
+      {
+        "file": "src/components/Header.jsx",
+        "line": 551,
+        "snippet": "href=\"https://www.infraks.uz/\""
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 15,
+        "snippet": "nav_firm_title: 'Перейти на официальный сайт www.infraks.uz',"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 171,
+        "snippet": "nav_firm_title: 'Go to official website www.infraks.uz',"
+      },
+      {
+        "file": "src/styles/search.css",
+        "line": 2,
+        "snippet": "ПОИСКОВИК ВНУТРИ САЙТА (КАК НА INFRAKS.UZ)"
+      },
+      {
+        "file": "src/styles/search.css",
+        "line": 67,
+        "snippet": "Точно как на https://www.infraks.uz/"
+      }
+    ],
+    "localhost": [],
+    "127.0.0.1": [],
+    "undefined": [
+      {
+        "file": "src/components/SEOHead.jsx",
+        "line": 185,
+        "snippet": "if (typeof document === 'undefined') return;"
+      },
+      {
+        "file": "src/components/SEOHead.jsx",
+        "line": 200,
+        "snippet": "if (typeof document === 'undefined') return;"
+      },
+      {
+        "file": "src/components/SEOHead.jsx",
+        "line": 222,
+        "snippet": "if (typeof document === 'undefined') return;"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 330,
+        "snippet": "if (translations[lang]?.[key] !== undefined) return translations[lang][key];"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 331,
+        "snippet": "if (translations['ru']?.[key] !== undefined) return translations['ru'][key];"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 333,
+        "snippet": "const resolve = (obj, path) => path && typeof path === 'string' ? path.split('.').reduce((acc, part) => acc && acc[part]"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 335,
+        "snippet": "if (nested !== undefined) return nested;"
+      },
+      {
+        "file": "src/context/LanguageContext.jsx",
+        "line": 337,
+        "snippet": "if (nestedRu !== undefined) return nestedRu;"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 2832,
+        "snippet": "onMouseEnter={isFrameless ? (e) => { e.currentTarget.style.transform = 'translateY(-3px)'; } : undefined}"
+      },
+      {
+        "file": "src/pages/DevelopmentPage.jsx",
+        "line": 2833,
+        "snippet": "onMouseLeave={isFrameless ? (e) => { e.currentTarget.style.transform = 'translateY(0)'; } : undefined}"
+      }
+    ],
+    "NaN": [],
+    "console.log": [],
+    "alert(": []
+  },
+  "accessibility": {}
+}
