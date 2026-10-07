@@ -303,6 +303,16 @@ if (ruMatch && enMatch) {
 // ==========================================
 // 8. HEADING STRUCTURE (H1, H2, H3) IN PAGES
 // ==========================================
+function escapeHtml(str) {
+  if (typeof str !== 'string') return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 const pagesDir = 'src/pages';
 const pageFiles = fs.readdirSync(pagesDir).filter(f => f.endsWith('.jsx'));
 const headingAudit = [];
@@ -317,8 +327,8 @@ pageFiles.forEach(pf => {
     h1Count: h1Matches.length,
     h2Count: h2Matches.length,
     h3Count: h3Matches.length,
-    h1Snippets: h1Matches.map(h => h.replace(/<[^>]+>/g, '').trim().slice(0, 60)),
-    h2Snippets: h2Matches.map(h => h.replace(/<[^>]+>/g, '').trim().slice(0, 60))
+    h1Snippets: h1Matches.map(h => escapeHtml(h).trim().slice(0, 60)),
+    h2Snippets: h2Matches.map(h => escapeHtml(h).trim().slice(0, 60))
   });
 });
 report.headings = headingAudit;
