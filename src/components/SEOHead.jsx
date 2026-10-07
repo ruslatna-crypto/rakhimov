@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 
-const BASE_URL = 'https://rakhimovr.uz';
+const BASE_URL = 'https://www.rakhimovr.uz';
 const DEFAULT_IMAGE = `${BASE_URL}/images/rrh-250x300.png`;
 
 export const seoData = {

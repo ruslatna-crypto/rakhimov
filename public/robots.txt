@@ -4,4 +4,4 @@ Disallow: /search
 Disallow: /main
 Disallow: /page*.html
 
-Sitemap: https://rakhimovr.uz/sitemap.xml
+Sitemap: https://www.rakhimovr.uz/sitemap.xml
