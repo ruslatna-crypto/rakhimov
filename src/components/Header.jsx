@@ -188,6 +188,7 @@ export default function Header() {
   // Внутри Меню "Публикации" цифры убраны по требованию 4
   const publications = [
     { title: t('pub_articles'), path: '/stat' },
+    { title: t('pub_conferences'), path: '/conference' },
     { title: t('pub_books'), path: '/book' },
     { title: t('pub_patents'), path: '/patents' },
     { title: t('pub_akts'), path: '/akt' }

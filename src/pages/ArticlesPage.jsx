@@ -58,8 +58,11 @@ export default function ArticlesPage() {
       const matchQuery =
         !q ||
         a.title.toLowerCase().includes(q) ||
+        (a.title_en && a.title_en.toLowerCase().includes(q)) ||
         a.authors.toLowerCase().includes(q) ||
+        (a.authors_en && a.authors_en.toLowerCase().includes(q)) ||
         a.journal.toLowerCase().includes(q) ||
+        (a.journal_en && a.journal_en.toLowerCase().includes(q)) ||
         a.year.includes(q);
 
       const jLower = a.journal.toLowerCase();
@@ -292,14 +295,14 @@ export default function ArticlesPage() {
                     </span>
                   </div>
                   <h3 style={{ fontSize: '1.0625rem', marginBottom: '8px', lineHeight: 1.45, color: '#0f172a' }}>
-                    {art.title}
+                    {(lang === 'en' && art.title_en) ? art.title_en : art.title}
                   </h3>
                   <div style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)', marginBottom: '6px' }}>
                     <strong style={{ color: '#334155' }}>{lang === 'en' ? 'Authors: ' : 'Авторы: '}</strong>
-                    {art.authors}
+                    {(lang === 'en' && art.authors_en) ? art.authors_en : art.authors}
                   </div>
                   <div style={{ fontSize: '0.84375rem', color: '#0284c7', fontStyle: 'italic', wordBreak: 'break-word' }}>
-                    {art.journal}
+                    {(lang === 'en' && art.journal_en) ? art.journal_en : art.journal}
                   </div>
                 </div>
               </div>

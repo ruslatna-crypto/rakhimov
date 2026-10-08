@@ -11,6 +11,7 @@ const Home = lazy(() => import('./pages/Home'));
 const Author = lazy(() => import('./pages/Author'));
 const DevelopmentPage = lazy(() => import('./pages/DevelopmentPage'));
 const ArticlesPage = lazy(() => import('./pages/ArticlesPage'));
+const Conference = lazy(() => import('./pages/Conference'));
 const BooksPage = lazy(() => import('./pages/BooksPage'));
 const PatentsPage = lazy(() => import('./pages/PatentsPage'));
 const AktsPage = lazy(() => import('./pages/AktsPage'));
@@ -56,6 +57,8 @@ export default function App() {
 
             {/* Publications & Patents */}
             <Route path="/stat" element={<ArticlesPage />} />
+            <Route path="/conference" element={<Conference />} />
+            <Route path="/conferences" element={<Navigate to="/conference" replace />} />
             <Route path="/book" element={<BooksPage />} />
             <Route path="/patents" element={<PatentsPage />} />
             <Route path="/akt" element={<AktsPage />} />

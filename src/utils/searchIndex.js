@@ -6,6 +6,9 @@ import akts from '../data/akts.json';
 import lampCertificates from '../data/lampCertificates.json';
 import lampPdfs from '../data/lampPdfs.json';
 import sushkaCertificates from '../data/sushkaCertificates.json';
+import internationalConferences from '../data/conferences/internationalConferences.json';
+import infraR2000Conferences from '../data/conferences/infraR2000.json';
+import republicanConferences from '../data/conferences/republicanConferences.json';
 
 // Статические страницы портала
 const pages = [
@@ -35,6 +38,15 @@ const pages = [
     description: 'Связаться с профессором Рахимовым Р.Х. Адрес: Узбекистан, Ташкент, Чингиз Айтматов, 2Б. Email: rustam-shsul@yandex.com',
     url: '/#contacts',
     badge: 'Контакты'
+  },
+  {
+    id: 'PAGE-CONFERENCES',
+    category: 'pages',
+    title: 'Конференции — Портал профессора Рахимова Р.Х.',
+    subtitle: 'Международные и республиканские конференции',
+    description: 'Материалы докладов и труды международных конференций, конференции Infra R 2000 и республиканских конференций профессора Рахимова Р.Х.',
+    url: '/conference',
+    badge: 'Конференции'
   }
 ];
 
@@ -55,13 +67,16 @@ const formattedArticles = articles.map((art) => ({
   id: art.id,
   category: 'articles',
   title: art.title,
+  title_en: art.title_en || art.title,
   subtitle: `${art.authors || ''} (${art.year || ''})`,
-  description: `${art.journal || ''}. Авторы: ${art.authors || ''}. Год публикации: ${art.year || ''}.`,
+  description: `${art.journal || ''} ${art.journal_en || ''}. Авторы: ${art.authors || ''} ${art.authors_en || ''}. ${art.title_en || ''} Год публикации: ${art.year || ''}.`,
   url: '/stat',
   badge: `Статья ${art.year || ''}`,
   year: art.year,
   authors: art.authors,
+  authors_en: art.authors_en,
   journal: art.journal,
+  journal_en: art.journal_en,
   iconType: 'fileText'
 }));
 
@@ -140,11 +155,64 @@ const formattedSushkaCertificates = sushkaCertificates.map((cert) => ({
   iconType: 'fileCheck'
 }));
 
+// Преобразуем конференции в единый поисковый формат
+const formattedConferences = [
+  ...internationalConferences.map((conf) => ({
+    id: conf.id,
+    category: 'articles',
+    title: conf.title,
+    title_en: conf.title_en || conf.title,
+    subtitle: `${conf.authors || ''} (${conf.year || ''})`,
+    description: `Международная конференция. International conference. ${conf.source || ''} ${conf.source_en || ''}. Авторы: ${conf.authors || ''} ${conf.authors_en || ''}. ${conf.title_en || ''}`,
+    url: '/conference',
+    badge: `Конференция ${conf.year || ''}`,
+    year: conf.year,
+    authors: conf.authors,
+    authors_en: conf.authors_en,
+    journal: conf.source,
+    journal_en: conf.source_en,
+    iconType: 'fileText'
+  })),
+  ...infraR2000Conferences.map((conf) => ({
+    id: conf.id,
+    category: 'articles',
+    title: conf.title,
+    title_en: conf.title_en || conf.title,
+    subtitle: `${conf.authors || ''} (2000)`,
+    description: `Международная конференция Infra R. International conference Infra R. ${conf.source || ''} ${conf.source_en || ''}. Авторы: ${conf.authors || ''} ${conf.authors_en || ''}. ${conf.title_en || ''}`,
+    url: '/conference',
+    badge: 'Infra R',
+    year: '2000',
+    authors: conf.authors,
+    authors_en: conf.authors_en,
+    journal: conf.source,
+    journal_en: conf.source_en,
+    iconType: 'fileText'
+  })),
+  ...republicanConferences.map((conf) => ({
+    id: conf.id,
+    category: 'articles',
+    title: conf.title,
+    title_en: conf.title_en || conf.title,
+    subtitle: `${conf.authors || ''} (${conf.year || ''})`,
+    description: `Республиканская конференция. Republican conference. ${conf.source || ''} ${conf.source_en || ''}. Авторы: ${conf.authors || ''} ${conf.authors_en || ''}. ${conf.title_en || ''}`,
+    url: '/conference',
+    badge: `РК ${conf.year || ''}`,
+    year: conf.year,
+    authors: conf.authors,
+    authors_en: conf.authors_en,
+    journal: conf.source,
+    journal_en: conf.source_en,
+    iconType: 'fileText'
+  }))
+];
+
 // Единый индекс всех материалов
 export const allSearchableItems = [
   ...pages,
   ...formattedDevelopments,
   ...formattedArticles,
+  ...formattedConferences,
   ...formattedPatents,
   ...formattedBooks,
   ...formattedAkts,

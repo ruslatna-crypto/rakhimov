@@ -44,9 +44,31 @@ export const translations = {
 
     // Publications Menu (без цифр)
     pub_articles: 'Научные статьи',
+    pub_conferences: 'Конференции',
     pub_books: 'Монографии и книги',
     pub_patents: 'Патенты и свидетельства',
     pub_akts: 'Акты и заключения',
+
+    // Conferences Page
+    conf_title: 'КОНФЕРЕНЦИИ',
+    conf_hero_title: 'Научные конференции',
+    conf_hero_lead: 'Полный реестр 207 докладов и трудов профессора Р.Х. Рахимова на международных и республиканских научных конференциях (1978–2025 гг.).',
+    conf_sec_international: 'Международные конференции',
+    conf_sec_infra: 'Международная конференция "Infra R"',
+    conf_sec_republican: 'Республиканские конференции',
+    conf_tab_all: 'Все конференции',
+    conf_tab_international: 'Международные',
+    conf_tab_infra: 'Infra R',
+    conf_tab_republican: 'Республиканские',
+    conf_search_placeholder: 'Поиск по автору, названию, конференции, году, городу...',
+    conf_found_count: 'Найдено материалов:',
+    conf_filter_year: 'Выбор по годам:',
+    conf_all_years: 'Все',
+    conf_reset_filters: 'Сбросить фильтры',
+    conf_no_results: 'По вашему запросу конференций и докладов не найдено.',
+    conf_show_all: 'Показать все конференции',
+    conf_authors_label: 'Авторы:',
+    conf_infra_desc: 'Труды Международной научной конференции «Infra R» (Infra-2000, Ташкент), посвященной исследованиям функциональной керамики и развитию резонансной ИК-терапии.',
 
     // Hero Section
     hero_badge: 'Институт Материаловедения АН РУз',
@@ -200,9 +222,31 @@ export const translations = {
 
     // Publications Menu (no numbers)
     pub_articles: 'Scientific Articles',
+    pub_conferences: 'Conferences',
     pub_books: 'Monographs & Books',
     pub_patents: 'Patents & Certificates',
     pub_akts: 'Acts & Conclusions',
+
+    // Conferences Page
+    conf_title: 'CONFERENCES',
+    conf_hero_title: 'Scientific Conferences',
+    conf_hero_lead: 'Complete register of 207 papers and presentations by Professor R.Kh. Rakhimov at international and republican conferences (1978–2025).',
+    conf_sec_international: 'International Conferences',
+    conf_sec_infra: 'International Conference "Infra R"',
+    conf_sec_republican: 'Republican Conferences',
+    conf_tab_all: 'All Conferences',
+    conf_tab_international: 'International',
+    conf_tab_infra: 'Infra R',
+    conf_tab_republican: 'Republican',
+    conf_search_placeholder: 'Search by author, title, conference, year, city...',
+    conf_found_count: 'Found records:',
+    conf_filter_year: 'Filter by year:',
+    conf_all_years: 'All',
+    conf_reset_filters: 'Reset filters',
+    conf_no_results: 'No conference records found matching your filter criteria.',
+    conf_show_all: 'Show all conferences',
+    conf_authors_label: 'Authors:',
+    conf_infra_desc: 'Proceedings of the International Scientific Conference "Infra R" (Infra-2000, Tashkent) dedicated to functional ceramics research and resonant IR therapy.',
 
     // Hero Section
     hero_badge: 'Institute of Materials Science, Academy of Sciences of Uzbekistan',

@@ -21,6 +21,7 @@ const routes = [
   '/cotton',
   '/bsp',
   '/stat',
+  '/conference',
   '/book',
   '/patents',
   '/akt',
@@ -35,7 +36,7 @@ for (const r of routes) {
     missingSeo.push(r);
   }
 }
-console.log('Missing SEO routes:', missingSeo.length === 0 ? 'NONE (All 17 present)' : missingSeo);
+console.log('Missing SEO routes:', missingSeo.length === 0 ? `NONE (All ${routes.length} present)` : missingSeo);
 
 // 2. Verify all images in JSON data files physically exist
 console.log('\n--- VERIFYING PHYSICAL EXISTENCE OF ALL REFERENCED ASSETS ---');
@@ -82,6 +83,7 @@ const lazyPages = [
   'Author',
   'DevelopmentPage',
   'ArticlesPage',
+  'Conference',
   'BooksPage',
   'PatentsPage',
   'AktsPage',
@@ -90,6 +92,6 @@ const lazyPages = [
 ];
 
 const missingLazy = lazyPages.filter(p => !appCode.includes(`lazy(() => import('./pages/${p}'))`));
-console.log('Missing lazy-loaded pages in App.jsx:', missingLazy.length === 0 ? 'NONE (All 9 pages lazy-loaded)' : missingLazy);
+console.log('Missing lazy-loaded pages in App.jsx:', missingLazy.length === 0 ? `NONE (All ${lazyPages.length} pages lazy-loaded)` : missingLazy);
 console.log('Suspense with PageLoader present:', appCode.includes('<Suspense fallback={<PageLoader />}>'));
 console.log('Author redirect present:', appCode.includes('<Route path="/author" element={<Navigate to="/autor" replace />} />'));

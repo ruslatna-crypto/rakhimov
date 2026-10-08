@@ -126,6 +126,16 @@ export const seoData = {
       description: 'Comprehensive catalog of 280 scientific papers published by Prof. Rustam Rakhimov in peer-reviewed national and international journals.'
     }
   },
+  '/conference': {
+    ru: {
+      title: 'Конференции — Рахимов Рустам',
+      description: 'Информация о международных, международной конференции Infra R и республиканских конференциях профессора Рахимова Р.Х.'
+    },
+    en: {
+      title: 'Conferences — Rustam Rakhimov',
+      description: 'Information on international conferences, International Conference Infra R, and republican conferences of Professor R.Kh. Rakhimov.'
+    }
+  },
   '/book': {
     ru: {
       title: 'Монографии и книги — Научные труды профессора Рахимова Р.Х.',
