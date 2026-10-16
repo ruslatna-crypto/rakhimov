@@ -30,11 +30,20 @@ function ScrollToTop() {
   return null;
 }
 
+function LampTrailingSlashRedirect() {
+  const { pathname, search, hash } = useLocation();
+  if (pathname === '/lamp/') {
+    return <Navigate to={`/lamp${search}${hash}`} replace />;
+  }
+  return null;
+}
+
 export default function App() {
   return (
     <LanguageProvider>
       <SEOHead />
       <ScrollToTop />
+      <LampTrailingSlashRedirect />
       <Header />
       <main className="main-content">
         <Suspense fallback={<PageLoader />}>
