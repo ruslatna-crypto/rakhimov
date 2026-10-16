@@ -1,7 +1,6 @@
 User-Agent: *
 Allow: /
 Disallow: /search
-Disallow: /main
 Disallow: /page*.html
 
 Sitemap: https://www.rakhimovr.uz/sitemap.xml
