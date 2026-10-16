@@ -232,8 +232,13 @@ export default function SEOHead() {
     if (typeof document === 'undefined') return;
 
     const currentLang = lang === 'en' ? 'en' : 'ru';
-    const is404 = !seoData[pathname];
-    const pageConfig = seoData[pathname] || seoData['404'];
+    // Нормализация pathname: убираем завершающий слеш для всех страниц кроме главной
+    const cleanPath = pathname.length > 1 && pathname.endsWith('/')
+      ? pathname.replace(/\/+$/, '')
+      : pathname;
+
+    const is404 = !seoData[cleanPath];
+    const pageConfig = seoData[cleanPath] || seoData['404'];
     const { title, description } = pageConfig[currentLang] || pageConfig['ru'];
 
     // 1. Title
@@ -243,19 +248,19 @@ export default function SEOHead() {
     setMetaTag('description', false, description);
 
     // 3. Meta Robots: /search и 404 закрываем от индексации
-    const isNoIndex = pathname === '/search' || is404;
+    const isNoIndex = cleanPath === '/search' || is404;
     setMetaTag('robots', false, isNoIndex ? 'noindex, follow' : 'index, follow');
 
     // 4. Canonical: для 404 и /search canonical не создается / удаляется
     if (!isNoIndex) {
-      const canonicalUrl = pathname === '/' ? `${BASE_URL}/` : `${BASE_URL}${pathname}`;
+      const canonicalUrl = cleanPath === '/' ? `${BASE_URL}/` : `${BASE_URL}${cleanPath}`;
       updateCanonical(canonicalUrl);
     } else {
       updateCanonical(null);
     }
 
     // 5. Open Graph
-    const pageUrl = pathname === '/' ? `${BASE_URL}/` : `${BASE_URL}${pathname}`;
+    const pageUrl = cleanPath === '/' ? `${BASE_URL}/` : `${BASE_URL}${cleanPath}`;
     setMetaTag('og:title', true, title);
     setMetaTag('og:description', true, description);
     setMetaTag('og:url', true, pageUrl);

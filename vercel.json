@@ -1,5 +1,12 @@
 {
   "version": 2,
+  "redirects": [
+    {
+      "source": "/lamp/",
+      "destination": "/lamp",
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
     {
       "source": "/main",
