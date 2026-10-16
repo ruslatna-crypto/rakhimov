@@ -30,10 +30,11 @@ function ScrollToTop() {
   return null;
 }
 
-function LampTrailingSlashRedirect() {
+function TrailingSlashRedirect() {
   const { pathname, search, hash } = useLocation();
-  if (pathname === '/lamp/') {
-    return <Navigate to={`/lamp${search}${hash}`} replace />;
+  if (pathname.length > 1 && pathname.endsWith('/')) {
+    const cleanPath = pathname.replace(/\/+$/, '');
+    return <Navigate to={`${cleanPath}${search}${hash}`} replace />;
   }
   return null;
 }
@@ -43,7 +44,7 @@ export default function App() {
     <LanguageProvider>
       <SEOHead />
       <ScrollToTop />
-      <LampTrailingSlashRedirect />
+      <TrailingSlashRedirect />
       <Header />
       <main className="main-content">
         <Suspense fallback={<PageLoader />}>
