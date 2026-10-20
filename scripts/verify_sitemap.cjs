@@ -4,8 +4,41 @@ const path = require('path');
 const ROOT_DIR = path.resolve(__dirname, '..');
 const SITEMAP_PATH = path.join(ROOT_DIR, 'public', 'sitemap.xml');
 const ROBOTS_PATH = path.join(ROOT_DIR, 'public', 'robots.txt');
-const APP_PATH = path.join(ROOT_DIR, 'src', 'App.jsx');
 const SEO_PATH = path.join(ROOT_DIR, 'src', 'components', 'SEOHead.jsx');
+
+const EXPECTED_PROTOCOL = 'https:';
+const EXPECTED_HOSTNAME = 'www.rakhimovr.uz';
+const EXPECTED_ORIGIN = `${EXPECTED_PROTOCOL}//${EXPECTED_HOSTNAME}`;
+
+const expectedPublicRoutes = [
+  '/',
+  '/autor',
+  '/sushka',
+  '/lamp',
+  '/kalci',
+  '/pech',
+  '/plenka',
+  '/kraska',
+  '/steril',
+  '/cotton',
+  '/bsp',
+  '/stat',
+  '/conference',
+  '/book',
+  '/patents',
+  '/akt'
+];
+
+const forbiddenRoutes = [
+  '/search',
+  '/author',
+  '/conferences',
+  '/main',
+  '/page77759756.html',
+  '/Contacts',
+  '/test1',
+  '/footer'
+];
 
 console.log('==================================================');
 console.log('      COMPREHENSIVE SITEMAP & SEO AUDIT');
@@ -23,7 +56,7 @@ console.log('[PASS] public/sitemap.xml exists');
 const sitemapContent = fs.readFileSync(SITEMAP_PATH, 'utf8');
 
 // 2. XML Declaration & Namespace check
-if (!sitemapContent.startsWith('<?xml version="1.0" encoding="UTF-8"?>')) {
+if (!/^<\?xml\s+version="1\.0"\s+encoding="UTF-8"\?>/.test(sitemapContent.trim())) {
   console.error('[FAIL] Invalid XML declaration at start of sitemap.xml');
   hasErrors = true;
 } else {
@@ -44,17 +77,18 @@ if (!sitemapContent.trim().endsWith('</urlset>')) {
   console.log('[PASS] Sitemap root element closed properly');
 }
 
-// 3. Extract all <url> entries
+// 3. Extract all <url> entries and validate each using strict new URL() parsing
 const urlBlockRegex = /<url>([\s\S]*?)<\/url>/g;
 const urlMatches = [...sitemapContent.matchAll(urlBlockRegex)];
 console.log(`[PASS] Found ${urlMatches.length} <url> entries in sitemap`);
 
-const urls = [];
 const validChangefreqs = ['always', 'hourly', 'daily', 'weekly', 'monthly', 'yearly', 'never'];
+const parsedEntries = [];
+const seenLocs = new Set();
 
 urlMatches.forEach((match, index) => {
   const block = match[1];
-  
+
   const locMatch = block.match(/<loc>([^<]+)<\/loc>/);
   const changefreqMatch = block.match(/<changefreq>([^<]+)<\/changefreq>/);
   const priorityMatch = block.match(/<priority>([^<]+)<\/priority>/);
@@ -65,105 +99,138 @@ urlMatches.forEach((match, index) => {
     return;
   }
 
-  const loc = locMatch[1].trim();
-  urls.push(loc);
+  const rawLoc = locMatch[1].trim();
 
-  // Check domain
-  if (!loc.startsWith('https://www.rakhimovr.uz')) {
-    console.error(`[FAIL] URL #${index + 1} (${loc}) does not use canonical domain https://www.rakhimovr.uz!`);
+  // Strict URL parsing with standard new URL()
+  let parsedUrl;
+  try {
+    parsedUrl = new URL(rawLoc);
+  } catch (err) {
+    console.error(`[FAIL] Entry #${index + 1} contains an unparseable URL "${rawLoc}": ${err.message}`);
+    hasErrors = true;
+    return;
+  }
+
+  // Verify protocol strictly
+  if (parsedUrl.protocol !== EXPECTED_PROTOCOL) {
+    console.error(`[FAIL] URL "${rawLoc}" uses protocol "${parsedUrl.protocol}", expected "${EXPECTED_PROTOCOL}"`);
     hasErrors = true;
   }
 
-  // Check no trailing slash except root
-  if (loc !== 'https://www.rakhimovr.uz/' && loc.endsWith('/')) {
-    console.error(`[FAIL] URL #${index + 1} (${loc}) should not have trailing slash!`);
+  // Verify hostname strictly
+  if (parsedUrl.hostname !== EXPECTED_HOSTNAME) {
+    console.error(`[FAIL] URL "${rawLoc}" uses hostname "${parsedUrl.hostname}", expected "${EXPECTED_HOSTNAME}"`);
     hasErrors = true;
   }
 
-  // Check changefreq
+  // Verify port (must be default/empty)
+  if (parsedUrl.port) {
+    console.error(`[FAIL] URL "${rawLoc}" specifies custom port "${parsedUrl.port}"`);
+    hasErrors = true;
+  }
+
+  // Verify credentials (no username or password)
+  if (parsedUrl.username || parsedUrl.password) {
+    console.error(`[FAIL] URL "${rawLoc}" contains credentials (username/password)`);
+    hasErrors = true;
+  }
+
+  // Verify query parameters and hash fragments (forbidden in sitemap)
+  if (parsedUrl.search) {
+    console.error(`[FAIL] URL "${rawLoc}" contains query string "${parsedUrl.search}"`);
+    hasErrors = true;
+  }
+  if (parsedUrl.hash) {
+    console.error(`[FAIL] URL "${rawLoc}" contains hash fragment "${parsedUrl.hash}"`);
+    hasErrors = true;
+  }
+
+  // Verify path trailing slash policy: root '/' has slash, other pages must not have trailing slash
+  if (parsedUrl.pathname !== '/' && parsedUrl.pathname.endsWith('/')) {
+    console.error(`[FAIL] URL "${rawLoc}" contains an unexpected trailing slash in pathname "${parsedUrl.pathname}"`);
+    hasErrors = true;
+  }
+
+  // Verify path is an allowed public route
+  if (!expectedPublicRoutes.includes(parsedUrl.pathname)) {
+    console.error(`[FAIL] URL "${rawLoc}" path "${parsedUrl.pathname}" is not an allowed public route`);
+    hasErrors = true;
+  }
+
+  // Verify path is not a forbidden/internal/redirect route
+  if (forbiddenRoutes.includes(parsedUrl.pathname)) {
+    console.error(`[FAIL] URL "${rawLoc}" path "${parsedUrl.pathname}" is a forbidden/non-indexable route`);
+    hasErrors = true;
+  }
+
+  // Verify canonical serialization (no extra characters, encoding discrepancies, etc.)
+  if (rawLoc !== parsedUrl.href) {
+    console.error(`[FAIL] URL "${rawLoc}" does not match canonical href "${parsedUrl.href}"`);
+    hasErrors = true;
+  }
+
+  // Verify no duplicate URLs
+  if (seenLocs.has(parsedUrl.href)) {
+    console.error(`[FAIL] Duplicate URL in sitemap: "${parsedUrl.href}"`);
+    hasErrors = true;
+  }
+  seenLocs.add(parsedUrl.href);
+
+  // Validate changefreq
   if (changefreqMatch) {
     const cf = changefreqMatch[1].trim();
     if (!validChangefreqs.includes(cf)) {
-      console.error(`[FAIL] URL ${loc} has invalid changefreq: ${cf}`);
+      console.error(`[FAIL] URL "${rawLoc}" has invalid changefreq: "${cf}"`);
       hasErrors = true;
     }
   }
 
-  // Check priority
+  // Validate priority
   if (priorityMatch) {
     const prio = parseFloat(priorityMatch[1].trim());
     if (isNaN(prio) || prio < 0.0 || prio > 1.0) {
-      console.error(`[FAIL] URL ${loc} has invalid priority: ${priorityMatch[1]}`);
+      console.error(`[FAIL] URL "${rawLoc}" has invalid priority: "${priorityMatch[1]}"`);
       hasErrors = true;
     }
   }
+
+  parsedEntries.push({ rawLoc, parsedUrl, pathname: parsedUrl.pathname });
 });
 
-// 4. Check for duplicates
-const uniqueUrls = new Set(urls);
-if (uniqueUrls.size !== urls.length) {
-  console.error(`[FAIL] Found duplicate URLs in sitemap (${urls.length} total, ${uniqueUrls.size} unique)`);
-  hasErrors = true;
-} else {
+// 4. Duplicate summary check
+if (seenLocs.size === parsedEntries.length && parsedEntries.length > 0) {
   console.log('[PASS] All URLs in sitemap are unique (no duplicates)');
+} else {
+  console.error(`[FAIL] Duplicate check failed: ${seenLocs.size} unique vs ${parsedEntries.length} total`);
+  hasErrors = true;
 }
 
 // 5. Compare with expected public routes
-const expectedPublicRoutes = [
-  '/',
-  '/autor',
-  '/sushka',
-  '/lamp',
-  '/kalci',
-  '/pech',
-  '/plenka',
-  '/kraska',
-  '/steril',
-  '/cotton',
-  '/bsp',
-  '/stat',
-  '/conference',
-  '/book',
-  '/patents',
-  '/akt'
-];
-
 console.log('\n--- VERIFYING COVERAGE OF ALL 16 PUBLIC ROUTES ---');
+const foundPaths = new Set(parsedEntries.map(e => e.pathname));
+
 expectedPublicRoutes.forEach(r => {
-  const fullUrl = r === '/' ? 'https://www.rakhimovr.uz/' : `https://www.rakhimovr.uz${r}`;
-  if (!urls.includes(fullUrl)) {
-    console.error(`[FAIL] Missing required public route in sitemap: ${fullUrl}`);
+  const fullExpectedUrl = `${EXPECTED_ORIGIN}${r === '/' ? '/' : r}`;
+  if (!foundPaths.has(r)) {
+    console.error(`[FAIL] Missing required public route in sitemap: ${fullExpectedUrl}`);
     hasErrors = true;
   } else {
-    console.log(`[PASS] Covered: ${fullUrl}`);
+    console.log(`[PASS] Covered: ${fullExpectedUrl}`);
   }
 });
 
-// Check for unexpected extra URLs
-urls.forEach(u => {
-  const path = u.replace('https://www.rakhimovr.uz', '') || '/';
-  if (!expectedPublicRoutes.includes(path)) {
-    console.error(`[FAIL] Unexpected URL found in sitemap: ${u}`);
+// Check if any unexpected route in sitemap
+foundPaths.forEach(p => {
+  if (!expectedPublicRoutes.includes(p)) {
+    console.error(`[FAIL] Unexpected route found in sitemap: ${p}`);
     hasErrors = true;
   }
 });
 
 // 6. Verify non-indexable routes are EXCLUDED
-const forbiddenRoutes = [
-  '/search',
-  '/author',
-  '/conferences',
-  '/main',
-  '/page77759756.html',
-  '/Contacts',
-  '/test1',
-  '/footer'
-];
-
 forbiddenRoutes.forEach(fr => {
-  const fullUrl = `https://www.rakhimovr.uz${fr}`;
-  if (urls.includes(fullUrl)) {
-    console.error(`[FAIL] Non-indexable/redirect route included in sitemap: ${fullUrl}`);
+  if (foundPaths.has(fr)) {
+    console.error(`[FAIL] Non-indexable/redirect route included in sitemap: ${fr}`);
     hasErrors = true;
   }
 });
@@ -175,11 +242,33 @@ if (!fs.existsSync(ROBOTS_PATH)) {
   hasErrors = true;
 } else {
   const robotsContent = fs.readFileSync(ROBOTS_PATH, 'utf8');
-  if (!robotsContent.includes('Sitemap: https://www.rakhimovr.uz/sitemap.xml')) {
-    console.error('[FAIL] robots.txt is missing Sitemap: https://www.rakhimovr.uz/sitemap.xml directive');
+  const sitemapDirectiveMatch = robotsContent.match(/Sitemap:\s*(\S+)/i);
+  if (!sitemapDirectiveMatch) {
+    console.error('[FAIL] robots.txt is missing Sitemap directive');
     hasErrors = true;
   } else {
-    console.log('[PASS] robots.txt contains correct Sitemap directive');
+    const robotsSitemapUrl = sitemapDirectiveMatch[1].trim();
+    try {
+      const parsedRobotsSitemap = new URL(robotsSitemapUrl);
+      if (
+        parsedRobotsSitemap.protocol === EXPECTED_PROTOCOL &&
+        parsedRobotsSitemap.hostname === EXPECTED_HOSTNAME &&
+        parsedRobotsSitemap.pathname === '/sitemap.xml' &&
+        !parsedRobotsSitemap.port &&
+        !parsedRobotsSitemap.username &&
+        !parsedRobotsSitemap.password &&
+        !parsedRobotsSitemap.search &&
+        !parsedRobotsSitemap.hash
+      ) {
+        console.log('[PASS] robots.txt contains valid canonical Sitemap directive:', robotsSitemapUrl);
+      } else {
+        console.error(`[FAIL] robots.txt Sitemap directive "${robotsSitemapUrl}" does not match canonical sitemap URL`);
+        hasErrors = true;
+      }
+    } catch (err) {
+      console.error(`[FAIL] robots.txt Sitemap URL "${robotsSitemapUrl}" is malformed: ${err.message}`);
+      hasErrors = true;
+    }
   }
 
   if (!robotsContent.includes('Allow: /')) {
@@ -192,11 +281,31 @@ if (!fs.existsSync(ROBOTS_PATH)) {
 
 // 8. Verify SEOHead.jsx canonical BASE_URL
 const seoContent = fs.readFileSync(SEO_PATH, 'utf8');
-if (!seoContent.includes("const BASE_URL = 'https://www.rakhimovr.uz';")) {
-  console.error('[FAIL] SEOHead.jsx does not use canonical BASE_URL https://www.rakhimovr.uz');
+const baseUrlMatch = seoContent.match(/const\s+BASE_URL\s*=\s*['"]([^'"]+)['"]/);
+if (!baseUrlMatch) {
+  console.error('[FAIL] SEOHead.jsx does not define BASE_URL');
   hasErrors = true;
 } else {
-  console.log('[PASS] SEOHead.jsx uses canonical BASE_URL https://www.rakhimovr.uz');
+  const seoBaseUrl = baseUrlMatch[1].trim();
+  try {
+    const parsedBaseUrl = new URL(seoBaseUrl);
+    if (
+      parsedBaseUrl.protocol === EXPECTED_PROTOCOL &&
+      parsedBaseUrl.hostname === EXPECTED_HOSTNAME &&
+      !parsedBaseUrl.port &&
+      !parsedBaseUrl.username &&
+      !parsedBaseUrl.password &&
+      (parsedBaseUrl.pathname === '' || parsedBaseUrl.pathname === '/')
+    ) {
+      console.log('[PASS] SEOHead.jsx uses valid canonical BASE_URL:', seoBaseUrl);
+    } else {
+      console.error(`[FAIL] SEOHead.jsx BASE_URL "${seoBaseUrl}" does not match canonical origin`);
+      hasErrors = true;
+    }
+  } catch (err) {
+    console.error(`[FAIL] SEOHead.jsx BASE_URL "${seoBaseUrl}" is malformed: ${err.message}`);
+    hasErrors = true;
+  }
 }
 
 console.log('\n==================================================');
