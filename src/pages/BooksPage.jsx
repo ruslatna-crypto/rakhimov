@@ -1,11 +1,108 @@
-import React from 'react';
-import { Download } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Download, Eye, FileText } from 'lucide-react';
 import books from '../data/books.json';
 import { useLanguage } from '../context/LanguageContext';
+import PdfModal from '../components/PdfModal';
 import '../styles/pages.css';
 
 export default function BooksPage() {
   const { lang, t } = useLanguage();
+  const [activePdf, setActivePdf] = useState(null);
+
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+
+    const scriptId = 'schema-books-jsonld';
+    let script = document.getElementById(scriptId);
+    if (!script) {
+      script = document.createElement('script');
+      script.id = scriptId;
+      script.type = 'application/ld+json';
+      document.head.appendChild(script);
+    }
+
+    const currentLang = lang === 'en' ? 'en' : 'ru';
+    const BASE_URL = 'https://www.rakhimovr.uz';
+
+    const schemaData = {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      '@id': `${BASE_URL}/book#webpage`,
+      'url': `${BASE_URL}/book`,
+      'name': currentLang === 'en'
+        ? 'Books & Monographs by Prof. Rustam Rakhimov'
+        : 'Монографии и книги — Научные труды профессора Рахимова Р.Х.',
+      'description': currentLang === 'en'
+        ? 'Fundamental scientific monographs on functional ceramics, solar energy materials, and pulse physics. Available with PDF downloads.'
+        : 'Фундаментальные монографии по функциональной керамике, полупроводниковой гелиоэнергетике и импульсным технологиям. Скачивание в формате PDF.',
+      'inLanguage': currentLang,
+      'isPartOf': {
+        '@type': 'WebSite',
+        '@id': `${BASE_URL}/#website`,
+        'name': currentLang === 'en'
+          ? 'Prof. Rakhimov R.Kh. — Scientific Portal'
+          : 'Портал профессора Рахимова Р.Х.',
+        'url': `${BASE_URL}/`
+      },
+      'mainEntity': {
+        '@type': 'ItemList',
+        '@id': `${BASE_URL}/book#itemlist`,
+        'numberOfItems': books.length,
+        'itemListElement': books.map((book, index) => {
+          const title = currentLang === 'en' && book.title_en ? book.title_en : book.title;
+          const description = currentLang === 'en' && book.description_en ? book.description_en : book.description;
+          const authorStr = currentLang === 'en' && book.author_en ? book.author_en : (book.author || 'Рахимов Р.Х.');
+          const authors = authorStr.split(',').map((name) => ({
+            '@type': 'Person',
+            'name': name.trim()
+          }));
+          const coverUrl = book.cover
+            ? (book.cover.startsWith('http') ? book.cover : `${BASE_URL}${book.cover.startsWith('/') ? '' : '/'}${book.cover}`)
+            : `${BASE_URL}/images/rrh-250x300.png`;
+
+          const bookAnchorUrl = `${BASE_URL}/book#${book.id.toLowerCase()}`;
+
+          return {
+            '@type': 'ListItem',
+            'position': index + 1,
+            'item': {
+              '@type': 'Book',
+              '@id': bookAnchorUrl,
+              'url': bookAnchorUrl,
+              'name': title,
+              'author': authors.length === 1 ? authors[0] : authors,
+              'description': description,
+              'image': coverUrl,
+              'inLanguage': currentLang
+            }
+          };
+        })
+      }
+    };
+
+    script.textContent = JSON.stringify(schemaData);
+
+    return () => {
+      const existing = document.getElementById(scriptId);
+      if (existing) {
+        existing.remove();
+      }
+    };
+  }, [lang]);
+
+  const handleOpenPdf = (book) => {
+    const title = lang === 'en' && book.title_en ? book.title_en : book.title;
+    const url = (lang === 'en' && book.pdf_url_en) || book.pdf_url || book.yandex_disk_url;
+    const pageCountText = `${book.pages || 30} ${lang === 'en' ? 'p.' : 'стр.'}`;
+
+    setActivePdf({
+      url,
+      title,
+      filename: book.filename || `${book.id}.pdf`,
+      size: book.size,
+      pages: pageCountText
+    });
+  };
 
   return (
     <div>
@@ -13,7 +110,7 @@ export default function BooksPage() {
       <section
         className="page-hero books-page-hero"
         style={{
-          backgroundImage: "linear-gradient(90deg, rgba(15, 23, 42, 0.88) 0%, rgba(15, 23, 42, 0.70) 42%, rgba(15, 23, 42, 0.20) 72%, rgba(15, 23, 42, 0.05) 100%), url('/images/fon_mono.png')",
+          backgroundImage: "linear-gradient(90deg, rgba(15, 23, 42, 0.88) 0%, rgba(15, 23, 42, 0.70) 42%, rgba(15, 23, 42, 0.20) 72%, rgba(15, 23, 42, 0.05) 100%), url('/images/fon_mono.webp')",
           backgroundSize: 'cover',
           backgroundPosition: 'right center',
           backgroundRepeat: 'no-repeat',
@@ -65,42 +162,113 @@ export default function BooksPage() {
       {/* Content */}
       <section className="section-wrapper">
         <div className="container">
-          <h2 style={{ fontSize: '1.5rem', marginBottom: '24px', color: '#0f172a' }}>
+          <h2 style={{ fontSize: '1.5rem', marginBottom: '24px', color: '#0f172a', fontWeight: 700 }}>
             {lang === 'en' ? 'Catalog of Monographs' : 'Каталог монографий'}
           </h2>
           <div className="books-grid">
-            {books.map((book) => (
-              <div key={book.id} className="book-card">
-                <div className="book-cover-wrap">
-                  <img src={book.cover} alt={book.title} loading="lazy" />
-                </div>
-                <div className="book-body">
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                    <span className="badge badge-amber">{book.id}</span>
-                    <span style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>
-                      {lang === 'en' ? 'Rakhimov R.Kh.' : 'Рахимов Р.Х.'}
-                    </span>
+            {books.map((book) => {
+              const title = lang === 'en' && book.title_en ? book.title_en : book.title;
+              const category = lang === 'en' && book.category_en ? book.category_en : (book.category || 'НАУЧНЫЙ ТРУД / ГЛАВА КНИГИ');
+              const description = lang === 'en' && book.description_en ? book.description_en : book.description;
+              const pageCountText = `${book.pages || 30} ${lang === 'en' ? 'p.' : 'стр.'}`;
+              const sizeText = book.size || '938 КБ';
+              const webpCover = book.cover ? book.cover.replace(/\.(png|jpg)$/, '.webp') : null;
+              const downloadUrl = (lang === 'en' && book.pdf_url_en) || book.pdf_url || book.yandex_disk_url;
+
+              return (
+                <article key={book.id} id={book.id.toLowerCase()} className="book-card">
+                  <div className="book-card-main">
+                    {/* Left: Book Cover Container with Badges */}
+                    <div
+                      className="book-cover-container"
+                      onClick={() => handleOpenPdf(book)}
+                      title={lang === 'en' ? 'Click to view PDF' : 'Нажмите для просмотра PDF'}
+                      style={{ cursor: 'pointer' }}
+                    >
+                      <picture>
+                        {webpCover && <source srcSet={webpCover} type="image/webp" />}
+                        <img
+                          src={book.cover}
+                          alt={title}
+                          className="book-cover-img"
+                          loading="lazy"
+                        />
+                      </picture>
+
+                      {/* Top-left PDF Badge */}
+                      <div className="book-badge-pdf" aria-label="PDF Document">
+                        <FileText size={11} strokeWidth={2.5} />
+                        <span>PDF</span>
+                      </div>
+
+                      {/* Bottom-right Page Count Badge */}
+                      <div className="book-badge-pages">
+                        {pageCountText}
+                      </div>
+                    </div>
+
+                    {/* Right: Book Details */}
+                    <div className="book-content-container">
+                      <div className="book-meta-top">
+                        <span className="book-category-pill">
+                          {category}
+                        </span>
+                        <span className="book-size-label">
+                          {sizeText}
+                        </span>
+                      </div>
+
+                      <h3
+                        className="book-title"
+                        onClick={() => handleOpenPdf(book)}
+                        style={{ cursor: 'pointer' }}
+                        title={lang === 'en' ? 'Click to view PDF' : 'Нажмите для просмотра PDF'}
+                      >
+                        {title}
+                      </h3>
+
+                      <p className="book-desc">
+                        {description}
+                      </p>
+                    </div>
                   </div>
-                  <h3 className="book-title">{book.title}</h3>
-                  <p className="book-desc">{book.description}</p>
-                  
-                  <div style={{ marginTop: 'auto', paddingTop: '16px', borderTop: '1px solid var(--color-border)' }}>
+
+                  {/* Actions Bar */}
+                  <div className="book-actions-bar">
+                    <button
+                      type="button"
+                      onClick={() => handleOpenPdf(book)}
+                      className="book-btn-open"
+                    >
+                      <Eye size={17} />
+                      <span>{lang === 'en' ? 'Open PDF' : 'Открыть PDF'}</span>
+                    </button>
+
                     <a
-                      href={book.yandex_disk_url}
+                      href={downloadUrl}
+                      download={book.filename || `${book.id}.pdf`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-primary"
-                      style={{ width: '100%', fontSize: '0.8125rem' }}
+                      className="book-btn-download"
                     >
-                      <Download size={14} /> {lang === 'en' ? 'Download on Yandex.Disk' : 'Скачать на Яндекс.Диске'}
+                      <Download size={17} />
+                      <span>{lang === 'en' ? 'Download' : 'Скачать'}</span>
                     </a>
                   </div>
-                </div>
-              </div>
-            ))}
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>
+
+      {/* Full-screen PDF Viewer Modal with ESC key close */}
+      <PdfModal
+        isOpen={!!activePdf}
+        pdf={activePdf}
+        onClose={() => setActivePdf(null)}
+        isRu={lang !== 'en'}
+      />
     </div>
   );
 }
