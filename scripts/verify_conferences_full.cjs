@@ -60,12 +60,13 @@ check('App.jsx lazy imports Conference', appCode.includes("lazy(() => import('./
 check('App.jsx has /conference route', appCode.includes('path="/conference"'));
 check('App.jsx has /conferences redirect', appCode.includes('path="/conferences"'));
 
-// 4. SEOHead.jsx check
-const seoPath = path.join(ROOT_DIR, 'src', 'components', 'SEOHead.jsx');
-const seoCode = fs.readFileSync(seoPath, 'utf8');
-check('SEOHead.jsx has /conference route', seoCode.includes("'/conference':"));
-check('SEOHead.jsx has Russian title', seoCode.includes('Конференции'));
-check('SEOHead.jsx has English title', seoCode.includes('Conferences'));
+// 4. SEO data check
+const seoDataPath = path.join(ROOT_DIR, 'src', 'data', 'seoData.json');
+const seoConfig = fs.existsSync(seoDataPath) ? JSON.parse(fs.readFileSync(seoDataPath, 'utf8')) : {};
+const confSeo = (seoConfig.seoData && seoConfig.seoData['/conference']) || {};
+check('seoData.json has /conference route', Boolean(seoConfig.seoData && seoConfig.seoData['/conference']));
+check('seoData.json has Russian title', Boolean(confSeo.ru && confSeo.ru.title && confSeo.ru.title.includes('Конференции')));
+check('seoData.json has English title', Boolean(confSeo.en && confSeo.en.title && confSeo.en.title.includes('Conferences')));
 
 // 5. LanguageContext.jsx check
 const langPath = path.join(ROOT_DIR, 'src', 'context', 'LanguageContext.jsx');

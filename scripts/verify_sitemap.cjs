@@ -5,6 +5,7 @@ const ROOT_DIR = path.resolve(__dirname, '..');
 const SITEMAP_PATH = path.join(ROOT_DIR, 'public', 'sitemap.xml');
 const ROBOTS_PATH = path.join(ROOT_DIR, 'public', 'robots.txt');
 const SEO_PATH = path.join(ROOT_DIR, 'src', 'components', 'SEOHead.jsx');
+const SEO_DATA_PATH = path.join(ROOT_DIR, 'src', 'data', 'seoData.json');
 
 const EXPECTED_PROTOCOL = 'https:';
 const EXPECTED_HOSTNAME = 'www.rakhimovr.uz';
@@ -279,33 +280,46 @@ if (!fs.existsSync(ROBOTS_PATH)) {
   }
 }
 
-// 8. Verify SEOHead.jsx canonical BASE_URL
-const seoContent = fs.readFileSync(SEO_PATH, 'utf8');
-const baseUrlMatch = seoContent.match(/const\s+BASE_URL\s*=\s*['"]([^'"]+)['"]/);
-if (!baseUrlMatch) {
-  console.error('[FAIL] SEOHead.jsx does not define BASE_URL');
+// 8. Verify canonical BASE_URL from single source of truth (seoData.json)
+if (!fs.existsSync(SEO_DATA_PATH)) {
+  console.error('[FAIL] src/data/seoData.json does not exist!');
   hasErrors = true;
 } else {
-  const seoBaseUrl = baseUrlMatch[1].trim();
-  try {
-    const parsedBaseUrl = new URL(seoBaseUrl);
-    if (
-      parsedBaseUrl.protocol === EXPECTED_PROTOCOL &&
-      parsedBaseUrl.hostname === EXPECTED_HOSTNAME &&
-      !parsedBaseUrl.port &&
-      !parsedBaseUrl.username &&
-      !parsedBaseUrl.password &&
-      (parsedBaseUrl.pathname === '' || parsedBaseUrl.pathname === '/')
-    ) {
-      console.log('[PASS] SEOHead.jsx uses valid canonical BASE_URL:', seoBaseUrl);
-    } else {
-      console.error(`[FAIL] SEOHead.jsx BASE_URL "${seoBaseUrl}" does not match canonical origin`);
+  const seoConfig = JSON.parse(fs.readFileSync(SEO_DATA_PATH, 'utf8'));
+  const seoBaseUrl = seoConfig.BASE_URL ? seoConfig.BASE_URL.trim() : '';
+  if (!seoBaseUrl) {
+    console.error('[FAIL] seoData.json does not define BASE_URL');
+    hasErrors = true;
+  } else {
+    try {
+      const parsedBaseUrl = new URL(seoBaseUrl);
+      if (
+        parsedBaseUrl.protocol === EXPECTED_PROTOCOL &&
+        parsedBaseUrl.hostname === EXPECTED_HOSTNAME &&
+        !parsedBaseUrl.port &&
+        !parsedBaseUrl.username &&
+        !parsedBaseUrl.password &&
+        (parsedBaseUrl.pathname === '' || parsedBaseUrl.pathname === '/')
+      ) {
+        console.log('[PASS] seoData.json uses valid canonical BASE_URL:', seoBaseUrl);
+      } else {
+        console.error(`[FAIL] seoData.json BASE_URL "${seoBaseUrl}" does not match canonical origin`);
+        hasErrors = true;
+      }
+    } catch (err) {
+      console.error(`[FAIL] seoData.json BASE_URL "${seoBaseUrl}" is malformed: ${err.message}`);
       hasErrors = true;
     }
-  } catch (err) {
-    console.error(`[FAIL] SEOHead.jsx BASE_URL "${seoBaseUrl}" is malformed: ${err.message}`);
-    hasErrors = true;
   }
+}
+
+// Also verify SEOHead imports seoData.json
+const seoContent = fs.readFileSync(SEO_PATH, 'utf8');
+if (!seoContent.includes('seoData.json')) {
+  console.error('[FAIL] SEOHead.jsx does not import seoData.json');
+  hasErrors = true;
+} else {
+  console.log('[PASS] SEOHead.jsx correctly imports seoData.json');
 }
 
 console.log('\n==================================================');

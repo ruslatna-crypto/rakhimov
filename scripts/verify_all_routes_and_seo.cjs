@@ -4,8 +4,17 @@ const path = require('path');
 const ROOT_DIR = path.resolve(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 
-// 1. Verify SEO data
+// 1. Verify SEO data from single source of truth (seoData.json)
+const seoDataPath = path.join(ROOT_DIR, 'src', 'data', 'seoData.json');
 const seoHeadPath = path.join(ROOT_DIR, 'src', 'components', 'SEOHead.jsx');
+
+if (!fs.existsSync(seoDataPath)) {
+  console.error('[FAIL] src/data/seoData.json does not exist!');
+  process.exit(1);
+}
+
+const seoConfig = JSON.parse(fs.readFileSync(seoDataPath, 'utf8'));
+const seoData = seoConfig.seoData || {};
 const seoHeadCode = fs.readFileSync(seoHeadPath, 'utf8');
 
 const routes = [
@@ -32,11 +41,13 @@ const routes = [
 console.log('--- VERIFYING ROUTE SEO DEFINITIONS ---');
 const missingSeo = [];
 for (const r of routes) {
-  if (!seoHeadCode.includes(`'${r}':`) && !seoHeadCode.includes(`"${r}":`)) {
+  const item = seoData[r];
+  if (!item || !item.ru || !item.ru.title || !item.ru.description || !item.en || !item.en.title || !item.en.description) {
     missingSeo.push(r);
   }
 }
 console.log('Missing SEO routes:', missingSeo.length === 0 ? `NONE (All ${routes.length} present)` : missingSeo);
+console.log('SEOHead imports seoData.json:', seoHeadCode.includes('seoData.json'));
 
 // 2. Verify all images in JSON data files physically exist
 console.log('\n--- VERIFYING PHYSICAL EXISTENCE OF ALL REFERENCED ASSETS ---');
