@@ -319,7 +319,7 @@ export default function Header() {
                   onClick={() => setActiveDropdown(activeDropdown === 'developments' ? null : 'developments')}
                   aria-expanded={activeDropdown === 'developments'}
                 >
-                  {t('nav_developments')} <ChevronDown size={14} className="dropdown-chevron" />
+                  <span>{t('nav_developments')}</span> <ChevronDown size={14} className="dropdown-chevron" />
                 </button>
                 <ul className="dropdown-menu">
                   {developments.map((dev) => (
@@ -351,7 +351,7 @@ export default function Header() {
                   onClick={() => setActiveDropdown(activeDropdown === 'publications' ? null : 'publications')}
                   aria-expanded={activeDropdown === 'publications'}
                 >
-                  {t('nav_publications')} <ChevronDown size={14} className="dropdown-chevron" />
+                  <span>{t('nav_publications')}</span> <ChevronDown size={14} className="dropdown-chevron" />
                 </button>
                 <ul className="dropdown-menu">
                   {publications.map((pub) => (
@@ -383,7 +383,7 @@ export default function Header() {
                   onClick={() => setActiveDropdown(activeDropdown === 'links' ? null : 'links')}
                   aria-expanded={activeDropdown === 'links'}
                 >
-                  {t('nav_links')} <ChevronDown size={14} className="dropdown-chevron" />
+                  <span>{t('nav_links')}</span> <ChevronDown size={14} className="dropdown-chevron" />
                 </button>
                 <ul className="dropdown-menu">
                   {externalLinks.map((link) => (
@@ -570,7 +570,7 @@ export default function Header() {
           <li className="mobile-nav-item">
             <div className="mobile-nav-link" onClick={() => setMobileDevOpen(!mobileDevOpen)}>
               <span>{t('nav_developments')}</span>
-              <ChevronDown size={18} style={{ transform: mobileDevOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
+              <ChevronDown size={18} className={`mobile-chevron ${mobileDevOpen ? 'is-open' : ''}`} />
             </div>
             {mobileDevOpen && (
               <ul className="mobile-subnav">
@@ -588,7 +588,7 @@ export default function Header() {
           <li className="mobile-nav-item">
             <div className="mobile-nav-link" onClick={() => setMobilePubOpen(!mobilePubOpen)}>
               <span>{t('nav_publications')}</span>
-              <ChevronDown size={18} style={{ transform: mobilePubOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
+              <ChevronDown size={18} className={`mobile-chevron ${mobilePubOpen ? 'is-open' : ''}`} />
             </div>
             {mobilePubOpen && (
               <ul className="mobile-subnav">
@@ -606,7 +606,7 @@ export default function Header() {
           <li className="mobile-nav-item">
             <div className="mobile-nav-link" onClick={() => setMobileLinksOpen(!mobileLinksOpen)}>
               <span>{t('nav_links')}</span>
-              <ChevronDown size={18} style={{ transform: mobileLinksOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
+              <ChevronDown size={18} className={`mobile-chevron ${mobileLinksOpen ? 'is-open' : ''}`} />
             </div>
             {mobileLinksOpen && (
               <ul className="mobile-subnav">

@@ -41,7 +41,7 @@ export default function Home() {
                   </h3>
                   <p className="dev-card-desc">{dev.lead}</p>
                   <div className="dev-card-link">
-                    {lang === 'en' ? 'Learn more' : 'Подробнее'} <ArrowRight size={14} />
+                    <span>{lang === 'en' ? 'Learn more' : 'Подробнее'}</span> <ArrowRight size={14} />
                   </div>
                 </div>
               </Link>
