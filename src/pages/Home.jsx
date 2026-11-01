@@ -99,8 +99,8 @@ export default function Home() {
             </div>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.875rem', marginBottom: '24px', flexGrow: 1, lineHeight: '1.6' }}>
               {lang === 'en'
-                ? '9 published monographs with direct access to full electronic versions on Yandex.Disk.'
-                : '9 опубликованных монографий с прямым доступом к полным электронным версиям на Яндекс.Диске.'}
+                ? '18 published books and monographs with direct access to full electronic versions.'
+                : '18 опубликованных книг и монографий с прямым доступом к полным электронным версиям.'}
             </p>
             <Link to="/book" className="btn btn-outline" style={{ width: '100%', marginTop: 'auto', textAlign: 'center' }}>
               {lang === 'en' ? 'Download monographs →' : 'Скачать монографии →'}
