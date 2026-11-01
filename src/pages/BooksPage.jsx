@@ -1,13 +1,51 @@
-import React, { useState, useEffect } from 'react';
-import { Download, Eye, FileText } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { Download, Eye, FileText, Globe, X } from 'lucide-react';
 import books from '../data/books.json';
 import { useLanguage } from '../context/LanguageContext';
 import PdfModal from '../components/PdfModal';
 import '../styles/pages.css';
 
+const downloadFileBlob = async (url, filename) => {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+    const blob = await res.blob();
+    const blobUrl = window.URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = blobUrl;
+    link.download = filename;
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    setTimeout(() => {
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(blobUrl);
+    }, 2000);
+  } catch (err) {
+    console.warn(`Direct link fallback for ${filename}:`, err);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    link.target = '_blank';
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    setTimeout(() => {
+      document.body.removeChild(link);
+    }, 1000);
+  }
+};
+
 export default function BooksPage() {
   const { lang, t } = useLanguage();
   const [activePdf, setActivePdf] = useState(null);
+  const [pdfLangOverrides, setPdfLangOverrides] = useState({});
+  const [downloadNotice, setDownloadNotice] = useState(null);
+  const downloadingRef = useRef({});
+
+  useEffect(() => {
+    setPdfLangOverrides({});
+  }, [lang]);
 
   useEffect(() => {
     if (typeof document === 'undefined') return;
@@ -90,18 +128,94 @@ export default function BooksPage() {
     };
   }, [lang]);
 
-  const handleOpenPdf = (book) => {
+  const handleOpenPdf = (book, cardLang = null) => {
+    const activeLang = cardLang || (pdfLangOverrides[book.id] || lang);
+    const isEn = activeLang === 'en';
     const title = lang === 'en' && book.title_en ? book.title_en : book.title;
-    const url = (lang === 'en' && book.pdf_url_en) || book.pdf_url || book.yandex_disk_url;
-    const pageCountText = `${book.pages || 30} ${lang === 'en' ? 'p.' : 'стр.'}`;
+    const url = (isEn && book.pdf_url_en) || book.pdf_url || book.yandex_disk_url;
+    const pages = isEn && book.pages_en ? book.pages_en : (book.pages || 30);
+    const size = isEn && book.size_en ? book.size_en : (book.size || '938 КБ');
+    const filename = isEn && book.filename_en ? book.filename_en : (book.filename || `${book.id}.pdf`);
+    const pageCountText = `${pages} ${lang === 'en' ? 'p.' : 'стр.'}`;
 
     setActivePdf({
       url,
       title,
-      filename: book.filename || `${book.id}.pdf`,
-      size: book.size,
+      filename,
+      size,
       pages: pageCountText
     });
+  };
+
+  const handleToggleAndOpenPdf = (book, currentCardLang) => {
+    const nextLang = currentCardLang === 'ru' ? 'en' : 'ru';
+    setPdfLangOverrides((prev) => ({
+      ...prev,
+      [book.id]: nextLang
+    }));
+    handleOpenPdf(book, nextLang);
+  };
+
+  const handleDualDownload = async (e, book) => {
+    e.preventDefault();
+
+    if (downloadingRef.current[book.id]) {
+      return;
+    }
+    downloadingRef.current[book.id] = true;
+
+    const ruUrl = book.pdf_url;
+    const enUrl = book.pdf_url_en;
+    const ruFilename = book.filename || ruUrl.split('/').pop();
+    const enFilename = book.filename_en || enUrl.split('/').pop();
+
+    setDownloadNotice({
+      bookId: book.id,
+      status: 'downloading',
+      ruUrl,
+      ruFilename,
+      enUrl,
+      enFilename,
+      message: lang === 'en'
+        ? 'Downloading both editions (Russian & English). If your browser prompts to allow multiple downloads, please click "Allow".'
+        : 'Скачивание двух версий книги (русская и английская). Если браузер запросит разрешение на загрузку нескольких файлов, нажмите «Разрешить».'
+    });
+
+    try {
+      // 1. Download RU version
+      await downloadFileBlob(ruUrl, ruFilename);
+
+      // Stagger second download
+      await new Promise((resolve) => setTimeout(resolve, 400));
+
+      // 2. Download EN version
+      await downloadFileBlob(enUrl, enFilename);
+
+      setDownloadNotice((prev) => (prev && prev.bookId === book.id ? {
+        ...prev,
+        status: 'done',
+        message: lang === 'en'
+          ? 'Both editions (RU + EN) downloaded successfully!'
+          : 'Обе версии книги (RU + EN) успешно скачаны!'
+      } : prev));
+    } catch (err) {
+      console.error('Download error:', err);
+      setDownloadNotice((prev) => (prev && prev.bookId === book.id ? {
+        ...prev,
+        status: 'error',
+        message: lang === 'en'
+          ? 'Automatic download was blocked or failed. You can download each file directly below:'
+          : 'Ошибка при скачивании. Вы можете скачать файлы по отдельности:'
+      } : prev));
+    } finally {
+      setTimeout(() => {
+        downloadingRef.current[book.id] = false;
+      }, 1500);
+
+      setTimeout(() => {
+        setDownloadNotice((prev) => (prev && prev.bookId === book.id && prev.status === 'done' ? null : prev));
+      }, 6000);
+    }
   };
 
   return (
@@ -167,13 +281,21 @@ export default function BooksPage() {
           </h2>
           <div className="books-grid">
             {books.map((book) => {
+              const hasToggle = Boolean(book.has_lang_toggle);
+              const currentCardLang = hasToggle ? (pdfLangOverrides[book.id] || lang) : lang;
+              const isCardEn = currentCardLang === 'en';
+
               const title = lang === 'en' && book.title_en ? book.title_en : book.title;
               const category = lang === 'en' && book.category_en ? book.category_en : (book.category || 'НАУЧНЫЙ ТРУД / ГЛАВА КНИГИ');
               const description = lang === 'en' && book.description_en ? book.description_en : book.description;
-              const pageCountText = `${book.pages || 30} ${lang === 'en' ? 'p.' : 'стр.'}`;
-              const sizeText = book.size || '938 КБ';
+
+              const displayPages = isCardEn && book.pages_en ? book.pages_en : (book.pages || 30);
+              const pageCountText = `${displayPages} ${lang === 'en' ? 'p.' : 'стр.'}`;
+              const sizeText = (isCardEn && book.size_en) || book.size || '938 КБ';
               const webpCover = book.cover ? book.cover.replace(/\.(png|jpg)$/, '.webp') : null;
-              const downloadUrl = (lang === 'en' && book.pdf_url_en) || book.pdf_url || book.yandex_disk_url;
+
+              const activeDownloadUrl = (isCardEn && book.pdf_url_en) || book.pdf_url || book.yandex_disk_url;
+              const activeFilename = (isCardEn && book.filename_en) || book.filename || `${book.id}.pdf`;
 
               return (
                 <article key={book.id} id={book.id.toLowerCase()} className="book-card">
@@ -181,7 +303,7 @@ export default function BooksPage() {
                     {/* Left: Book Cover Container with Badges */}
                     <div
                       className="book-cover-container"
-                      onClick={() => handleOpenPdf(book)}
+                      onClick={() => handleOpenPdf(book, currentCardLang)}
                       title={lang === 'en' ? 'Click to view PDF' : 'Нажмите для просмотра PDF'}
                       style={{ cursor: 'pointer' }}
                     >
@@ -220,7 +342,7 @@ export default function BooksPage() {
 
                       <h3
                         className="book-title"
-                        onClick={() => handleOpenPdf(book)}
+                        onClick={() => handleOpenPdf(book, currentCardLang)}
                         style={{ cursor: 'pointer' }}
                         title={lang === 'en' ? 'Click to view PDF' : 'Нажмите для просмотра PDF'}
                       >
@@ -235,25 +357,42 @@ export default function BooksPage() {
 
                   {/* Actions Bar */}
                   <div className="book-actions-bar">
-                    <button
-                      type="button"
-                      onClick={() => handleOpenPdf(book)}
-                      className="book-btn-open"
-                    >
-                      <Eye size={17} />
-                      <span>{lang === 'en' ? 'Open PDF' : 'Открыть PDF'}</span>
-                    </button>
+                    <div className="book-action-col">
+                      <button
+                        type="button"
+                        onClick={() => handleOpenPdf(book, currentCardLang)}
+                        className="book-btn-open"
+                      >
+                        <Eye size={17} />
+                        <span>{lang === 'en' ? 'Open PDF' : 'Открыть PDF'}</span>
+                      </button>
 
-                    <a
-                      href={downloadUrl}
-                      download={book.filename || `${book.id}.pdf`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="book-btn-download"
-                    >
-                      <Download size={17} />
-                      <span>{lang === 'en' ? 'Download' : 'Скачать'}</span>
-                    </a>
+                      {hasToggle && (
+                        <button
+                          type="button"
+                          onClick={() => handleToggleAndOpenPdf(book, currentCardLang)}
+                          className="book-btn-lang-toggle"
+                          title={isCardEn ? (lang === 'en' ? 'Open Russian version' : 'Открыть русскую версию') : (lang === 'en' ? 'Open English version' : 'Открыть английскую версию')}
+                        >
+                          <Globe size={15} />
+                          <span>{isCardEn ? 'Русская версия' : 'English version'}</span>
+                        </button>
+                      )}
+                    </div>
+
+                    <div className="book-action-col">
+                      <a
+                        href={activeDownloadUrl}
+                        download={activeFilename}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="book-btn-download"
+                        onClick={hasToggle ? (e) => handleDualDownload(e, book) : undefined}
+                      >
+                        <Download size={17} />
+                        <span>{lang === 'en' ? 'Download' : 'Скачать'}</span>
+                      </a>
+                    </div>
                   </div>
                 </article>
               );
@@ -269,6 +408,47 @@ export default function BooksPage() {
         onClose={() => setActivePdf(null)}
         isRu={lang !== 'en'}
       />
+
+      {/* Toast notification for dual downloads / fallback */}
+      {downloadNotice && (
+        <div className="download-notice-toast" role="status" aria-live="polite">
+          <div className="download-notice-content">
+            <div className="download-notice-header">
+              <span className="download-notice-icon">
+                <Download size={18} />
+              </span>
+              <span className="download-notice-text">
+                {downloadNotice.message}
+              </span>
+              <button
+                type="button"
+                onClick={() => setDownloadNotice(null)}
+                className="download-notice-close"
+                aria-label={lang === 'en' ? 'Close' : 'Закрыть'}
+              >
+                <X size={16} />
+              </button>
+            </div>
+
+            <div className="download-notice-links">
+              <a
+                href={downloadNotice.ruUrl}
+                download={downloadNotice.ruFilename}
+                className="download-notice-link-btn"
+              >
+                <span>RU: {downloadNotice.ruFilename}</span>
+              </a>
+              <a
+                href={downloadNotice.enUrl}
+                download={downloadNotice.enFilename}
+                className="download-notice-link-btn"
+              >
+                <span>EN: {downloadNotice.enFilename}</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
