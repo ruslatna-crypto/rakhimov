@@ -147,25 +147,58 @@ function startStaticServer(distDir) {
     '.ttf': 'font/ttf'
   };
 
+  const realDistDir = path.resolve(distDir);
+
   return new Promise((resolve, reject) => {
     const server = http.createServer((req, res) => {
-      const cleanUrl = req.url.split('?')[0].split('#')[0];
-      let filePath = path.join(distDir, cleanUrl === '/' ? 'index.html' : cleanUrl);
-
-      // Directory or SPA fallback
-      if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
-        const indexInDir = path.join(filePath, 'index.html');
-        if (fs.existsSync(indexInDir) && fs.statSync(indexInDir).isFile()) {
-          filePath = indexInDir;
-        } else {
-          filePath = path.join(distDir, 'index.html');
-        }
+      let safePathname;
+      try {
+        const parsedUrl = new URL(req.url, 'http://127.0.0.1');
+        safePathname = decodeURIComponent(parsedUrl.pathname);
+      } catch {
+        res.writeHead(400);
+        res.end('Bad Request');
+        return;
       }
 
-      const ext = path.extname(filePath).toLowerCase();
+      if (safePathname.includes('\0')) {
+        res.writeHead(400);
+        res.end('Bad Request');
+        return;
+      }
+
+      // Normalize and sanitize path against traversal
+      const normalizedPath = path.normalize(safePathname).replace(/^(\.\.[/\\])+/, '');
+      let resolvedPath = path.resolve(realDistDir, '.' + normalizedPath);
+
+      // Strict containment check: resolvedPath MUST reside inside realDistDir
+      if (!resolvedPath.startsWith(realDistDir + path.sep) && resolvedPath !== realDistDir) {
+        res.writeHead(403);
+        res.end('Forbidden');
+        return;
+      }
+
+      // Directory or SPA fallback
+      if (fs.existsSync(resolvedPath)) {
+        const stat = fs.statSync(resolvedPath);
+        if (stat.isDirectory()) {
+          resolvedPath = path.join(resolvedPath, 'index.html');
+        }
+      } else {
+        resolvedPath = path.join(realDistDir, 'index.html');
+      }
+
+      // Verify containment once more after directory resolution
+      if (!resolvedPath.startsWith(realDistDir + path.sep)) {
+        res.writeHead(403);
+        res.end('Forbidden');
+        return;
+      }
+
+      const ext = path.extname(resolvedPath).toLowerCase();
       const contentType = mimeTypes[ext] || 'application/octet-stream';
 
-      fs.readFile(filePath, (err, content) => {
+      fs.readFile(resolvedPath, (err, content) => {
         if (err) {
           res.writeHead(500);
           res.end('Server error');
@@ -198,15 +231,16 @@ async function launchBrowser() {
   // 1. If on Linux or in Vercel environment, try @sparticuz/chromium if available
   if (process.platform === 'linux' || process.env.VERCEL) {
     try {
-      const chromium = require('@sparticuz/chromium');
+      const chromiumModule = require('@sparticuz/chromium');
+      const chromium = chromiumModule.default || chromiumModule;
       const execPath = await chromium.executablePath();
       if (execPath) {
         console.log(`[INFO] Launching @sparticuz/chromium on Linux/Vercel: ${execPath}`);
         return await puppeteer.launch({
-          args: [...(chromium.args || []), ...launchArgs],
-          defaultViewport: chromium.defaultViewport || { width: 1280, height: 800 },
+          args: chromium.args,
+          defaultViewport: { width: 1280, height: 800 },
           executablePath: execPath,
-          headless: chromium.headless ?? true
+          headless: 'shell'
         });
       }
     } catch (err) {
@@ -351,16 +385,27 @@ async function main() {
 
   // Filter external tracking scripts (GA / YM) to keep build fast and avoid corrupting production stats
   await page.setRequestInterception(true);
-  page.on('request', (req) => {
-    const url = req.url();
-    if (
-      url.includes('google-analytics.com') ||
-      url.includes('googletagmanager.com') ||
-      url.includes('mc.yandex.ru')
-    ) {
-      req.abort();
-    } else {
-      req.continue();
+  page.on('request', (interceptedReq) => {
+    try {
+      const parsedUrl = new URL(interceptedReq.url());
+      const hostname = parsedUrl.hostname.toLowerCase();
+      const isTracker =
+        hostname === 'google-analytics.com' ||
+        hostname.endsWith('.google-analytics.com') ||
+        hostname === 'googletagmanager.com' ||
+        hostname.endsWith('.googletagmanager.com') ||
+        hostname === 'mc.yandex.ru' ||
+        hostname.endsWith('.mc.yandex.ru') ||
+        hostname === 'yandex.ru' ||
+        hostname.endsWith('.yandex.ru');
+
+      if (isTracker) {
+        interceptedReq.abort();
+      } else {
+        interceptedReq.continue();
+      }
+    } catch {
+      interceptedReq.continue();
     }
   });
 
