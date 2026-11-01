@@ -361,12 +361,23 @@ export const translations = {
 };
 
 export const LanguageProvider = ({ children }) => {
-  const [lang, setLang] = useState(() => {
-    return localStorage.getItem('site_lang') || 'ru';
-  });
+  const [lang, setLang] = useState('ru');
 
   useEffect(() => {
-    localStorage.setItem('site_lang', lang);
+    try {
+      const saved = localStorage.getItem('site_lang');
+      if (saved && (saved === 'ru' || saved === 'en') && saved !== 'ru') {
+        setLang(saved);
+      }
+    } catch (e) {
+      // ignore localStorage errors
+    }
+  }, []);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('site_lang', lang);
+    } catch (e) {}
     document.documentElement.lang = lang;
   }, [lang]);
 
