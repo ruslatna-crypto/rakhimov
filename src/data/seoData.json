@@ -142,16 +142,6 @@
         "description": "Information on international conferences, International Conference Infra R, and republican conferences of Professor R.Kh. Rakhimov."
       }
     },
-    "/book": {
-      "ru": {
-        "title": "Монографии и книги — Научные труды профессора Рахимова Р.Х.",
-        "description": "Фундаментальные монографии по функциональной керамике, полупроводниковой гелиоэнергетике и импульсным технологиям. Скачивание в формате PDF."
-      },
-      "en": {
-        "title": "Books & Monographs by Prof. Rustam Rakhimov",
-        "description": "Fundamental scientific monographs on functional ceramics, solar energy materials, and pulse physics. Available with PDF downloads."
-      }
-    },
     "/patents": {
       "ru": {
         "title": "Патенты и свидетельства на изобретения — Рахимов Р.Х.",

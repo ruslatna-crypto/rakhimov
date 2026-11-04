@@ -1,13 +1,13 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { NavLink, Link, useLocation, useNavigate } from 'react-router-dom';
-import { 
-  ChevronDown, 
-  Menu, 
-  X, 
-  ExternalLink, 
-  Lightbulb, 
-  BookOpen, 
-  Mail, 
+import {
+  ChevronDown,
+  Menu,
+  X,
+  ExternalLink,
+  Lightbulb,
+  BookOpen,
+  Mail,
   Search,
   FileText,
   Award,
@@ -26,7 +26,7 @@ export default function Header() {
   const [mobileLinksOpen, setMobileLinksOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
 
-  // Состояние выпадающей строки поиска под меню (как на infraks.uz)
+  // РЎРѕСЃС‚РѕСЏРЅРёРµ РІС‹РїР°РґР°СЋС‰РµР№ СЃС‚СЂРѕРєРё РїРѕРёСЃРєР° РїРѕРґ РјРµРЅСЋ (РєР°Рє РЅР° infraks.uz)
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
@@ -76,7 +76,7 @@ export default function Header() {
     }
   };
 
-  // Автофокус при раскрытии строки поиска
+  // РђРІС‚РѕС„РѕРєСѓСЃ РїСЂРё СЂР°СЃРєСЂС‹С‚РёРё СЃС‚СЂРѕРєРё РїРѕРёСЃРєР°
   useEffect(() => {
     if (searchOpen) {
       setTimeout(() => {
@@ -88,7 +88,7 @@ export default function Header() {
     }
   }, [searchOpen]);
 
-  // Живой поиск при вводе запроса
+  // Р–РёРІРѕР№ РїРѕРёСЃРє РїСЂРё РІРІРѕРґРµ Р·Р°РїСЂРѕСЃР°
   useEffect(() => {
     if (!searchQuery.trim()) {
       setSearchResults([]);
@@ -136,7 +136,7 @@ export default function Header() {
     }
   };
 
-  // Закрывать меню и поиск при смене страницы
+  // Р—Р°РєСЂС‹РІР°С‚СЊ РјРµРЅСЋ Рё РїРѕРёСЃРє РїСЂРё СЃРјРµРЅРµ СЃС‚СЂР°РЅРёС†С‹
   useEffect(() => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setActiveDropdown(null);
@@ -145,7 +145,7 @@ export default function Header() {
     closeMobile();
   }, [location.pathname]);
 
-  // Закрытие при клике вне меню и по клавише Escape
+  // Р—Р°РєСЂС‹С‚РёРµ РїСЂРё РєР»РёРєРµ РІРЅРµ РјРµРЅСЋ Рё РїРѕ РєР»Р°РІРёС€Рµ Escape
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (!e.target.closest('.nav-item') && !e.target.closest('.header-search-bar')) {
@@ -185,48 +185,48 @@ export default function Header() {
     { title: t('dev_bsp'), path: '/bsp' }
   ];
 
-  // Внутри Меню "Публикации" цифры убраны по требованию 4
+  // Р’РЅСѓС‚СЂРё РњРµРЅСЋ "РџСѓР±Р»РёРєР°С†РёРё" С†РёС„СЂС‹ СѓР±СЂР°РЅС‹ РїРѕ С‚СЂРµР±РѕРІР°РЅРёСЋ 4
   const publications = [
     { title: t('pub_articles'), path: '/stat' },
     { title: t('pub_conferences'), path: '/conference' },
-    { title: t('pub_books'), path: '/book' },
+    { title: t('pub_books'), path: 'https://rakhimovlib.uz/', isExternal: true },
     { title: t('pub_patents'), path: '/patents' },
     { title: t('pub_akts'), path: '/akt' }
   ];
 
   const externalLinks = [
     { title: 'Cyberleninka', url: 'https://cyberleninka.ru/article/n/rahimov-rustam-hakimovich' },
-    { title: 'Персоналии (Math-Net.ru)', url: 'https://www.mathnet.ru/rus/person114518' },
+    { title: 'РџРµСЂСЃРѕРЅР°Р»РёРё (Math-Net.ru)', url: 'https://www.mathnet.ru/rus/person114518' },
     { title: 'ResearchGate', url: 'https://www.researchgate.net/profile/Rustam-Rakhimov' },
     { title: 'Semantic Scholar', url: 'https://www.semanticscholar.org/author/%D0%A0%D0%B0%D1%85%D0%B8%D0%BC%D0%BE%D0%B2-%D0%A0%D1%83%D1%81%D1%82%D0%B0%D0%BC-%D0%A5%D0%B0%D0%BA%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D1%87/112831501' }
   ];
 
   return (
     <header className="site-header">
-      {/* 1. Верхний ярус шапки: Логотип слева | Кнопки (Рус, Eng, На сайт фирмы) справа */}
+      {/* 1. Р’РµСЂС…РЅРёР№ СЏСЂСѓСЃ С€Р°РїРєРё: Р›РѕРіРѕС‚РёРї СЃР»РµРІР° | РљРЅРѕРїРєРё (Р СѓСЃ, Eng, РќР° СЃР°Р№С‚ С„РёСЂРјС‹) СЃРїСЂР°РІР° */}
       <div className="header-top">
         <div className="container header-top-inner">
-          {/* Brand Logo only (текстовый блок убран по запросу) */}
+          {/* Brand Logo only (С‚РµРєСЃС‚РѕРІС‹Р№ Р±Р»РѕРє СѓР±СЂР°РЅ РїРѕ Р·Р°РїСЂРѕСЃСѓ) */}
           <Link to="/" className="brand-link" onClick={closeMobile} title={t('nav_home')}>
-            <img src="/images/logo_new.svg" alt="Керамика Синтез — Профессор Рахимов Р.Х." className="brand-logo" />
+            <img src="/images/logo_new.svg" alt="РљРµСЂР°РјРёРєР° РЎРёРЅС‚РµР· вЂ” РџСЂРѕС„РµСЃСЃРѕСЂ Р Р°С…РёРјРѕРІ Р .РҐ." className="brand-logo" />
           </Link>
 
-          {/* Правая часть: Email + Виджет переключения языков + Кнопка на сайт фирмы + Бургер */}
+          {/* РџСЂР°РІР°СЏ С‡Р°СЃС‚СЊ: Email + Р’РёРґР¶РµС‚ РїРµСЂРµРєР»СЋС‡РµРЅРёСЏ СЏР·С‹РєРѕРІ + РљРЅРѕРїРєР° РЅР° СЃР°Р№С‚ С„РёСЂРјС‹ + Р‘СѓСЂРіРµСЂ */}
           <div className="header-top-right">
-            {/* Email текст с иконкой конвертика без рамки и ссылки */}
+            {/* Email С‚РµРєСЃС‚ СЃ РёРєРѕРЅРєРѕР№ РєРѕРЅРІРµСЂС‚РёРєР° Р±РµР· СЂР°РјРєРё Рё СЃСЃС‹Р»РєРё */}
             <div className="header-email-text" title="rustam-shsul@yandex.com">
               <Mail size={16} className="email-icon" />
               <span>rustam-shsul@yandex.com</span>
             </div>
 
             <div className="header-widget">
-              <div className="lang-switcher" role="group" aria-label="Выбор языка">
-                {/* Кнопка Рус */}
-                <button 
-                  type="button" 
+              <div className="lang-switcher" role="group" aria-label="Р’С‹Р±РѕСЂ СЏР·С‹РєР°">
+                {/* РљРЅРѕРїРєР° Р СѓСЃ */}
+                <button
+                  type="button"
                   className={`lang-btn ${lang === 'ru' ? 'active' : ''}`}
                   onClick={() => setLang('ru')}
-                  title="Русский язык"
+                  title="Р СѓСЃСЃРєРёР№ СЏР·С‹Рє"
                 >
                   <svg className="flag-icon" viewBox="0 0 640 480" width="18" height="13" aria-hidden="true">
                     <g fillRule="evenodd" strokeWidth="1pt">
@@ -235,12 +235,12 @@ export default function Header() {
                       <path fill="#d52b1e" d="M0 320h640v160H0z"/>
                     </g>
                   </svg>
-                  <span className="lang-label">Рус</span>
+                  <span className="lang-label">Р СѓСЃ</span>
                 </button>
 
-                {/* Кнопка Eng */}
-                <button 
-                  type="button" 
+                {/* РљРЅРѕРїРєР° Eng */}
+                <button
+                  type="button"
                   className={`lang-btn ${lang === 'en' ? 'active' : ''}`}
                   onClick={() => setLang('en')}
                   title="English language"
@@ -256,11 +256,11 @@ export default function Header() {
                 </button>
               </div>
 
-              {/* Зелёная кнопка «На сайт фирмы» -> ссылка https://www.infraks.uz/ (по требованию 2) */}
-              <a 
-                href="https://www.infraks.uz/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              {/* Р—РµР»С‘РЅР°СЏ РєРЅРѕРїРєР° В«РќР° СЃР°Р№С‚ С„РёСЂРјС‹В» -> СЃСЃС‹Р»РєР° https://www.infraks.uz/ (РїРѕ С‚СЂРµР±РѕРІР°РЅРёСЋ 2) */}
+              <a
+                href="https://www.infraks.uz/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="firm-site-btn"
                 title={t('nav_firm_title')}
               >
@@ -272,7 +272,7 @@ export default function Header() {
             <button
               className="mobile-toggle"
               onClick={() => setMobileOpen(!mobileOpen)}
-              aria-label="Открыть мобильное меню"
+              aria-label="РћС‚РєСЂС‹С‚СЊ РјРѕР±РёР»СЊРЅРѕРµ РјРµРЅСЋ"
             >
               {mobileOpen ? <X size={26} /> : <Menu size={26} />}
             </button>
@@ -280,15 +280,15 @@ export default function Header() {
         </div>
       </div>
 
-      {/* 2. Нижний ярус шапки: Меню по центру с серой линией снизу и тенью */}
+      {/* 2. РќРёР¶РЅРёР№ СЏСЂСѓСЃ С€Р°РїРєРё: РњРµРЅСЋ РїРѕ С†РµРЅС‚СЂСѓ СЃ СЃРµСЂРѕР№ Р»РёРЅРёРµР№ СЃРЅРёР·Сѓ Рё С‚РµРЅСЊСЋ */}
       <div className="header-bottom">
         <div className="container header-bottom-inner">
           <nav className="desktop-nav">
             <ul className="nav-menu">
               <li className="nav-item">
-                <NavLink 
-                  to="/" 
-                  className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'} 
+                <NavLink
+                  to="/"
+                  className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
                   end
                   onClick={handleDropdownItemClick}
                 >
@@ -296,25 +296,25 @@ export default function Header() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink 
-                  to="/autor" 
+                <NavLink
+                  to="/autor"
                   className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
                   onClick={handleDropdownItemClick}
                 >
                   {t('nav_about')}
                 </NavLink>
               </li>
-              
+
               {/* Developments Dropdown */}
-              <li 
+              <li
                 className={`nav-item ${activeDropdown === 'developments' ? 'is-open' : ''}`}
                 onMouseEnter={() => handleMouseEnter('developments')}
                 onMouseLeave={handleMouseLeave}
                 onFocus={() => handleFocus('developments')}
                 onBlur={handleBlur}
               >
-                <button 
-                  className="nav-link" 
+                <button
+                  className="nav-link"
                   type="button"
                   onClick={() => setActiveDropdown(activeDropdown === 'developments' ? null : 'developments')}
                   aria-expanded={activeDropdown === 'developments'}
@@ -324,8 +324,8 @@ export default function Header() {
                 <ul className="dropdown-menu">
                   {developments.map((dev) => (
                     <li key={dev.path}>
-                      <Link 
-                        to={dev.path} 
+                      <Link
+                        to={dev.path}
                         className="dropdown-link"
                         onClick={handleDropdownItemClick}
                       >
@@ -337,16 +337,16 @@ export default function Header() {
                 </ul>
               </li>
 
-              {/* Publications Dropdown (без цифр) */}
-              <li 
+              {/* Publications Dropdown (Р±РµР· С†РёС„СЂ) */}
+              <li
                 className={`nav-item ${activeDropdown === 'publications' ? 'is-open' : ''}`}
                 onMouseEnter={() => handleMouseEnter('publications')}
                 onMouseLeave={handleMouseLeave}
                 onFocus={() => handleFocus('publications')}
                 onBlur={handleBlur}
               >
-                <button 
-                  className="nav-link" 
+                <button
+                  className="nav-link"
                   type="button"
                   onClick={() => setActiveDropdown(activeDropdown === 'publications' ? null : 'publications')}
                   aria-expanded={activeDropdown === 'publications'}
@@ -356,29 +356,41 @@ export default function Header() {
                 <ul className="dropdown-menu">
                   {publications.map((pub) => (
                     <li key={pub.path}>
-                      <Link 
-                        to={pub.path} 
-                        className="dropdown-link"
-                        onClick={handleDropdownItemClick}
-                      >
-                        <BookOpen size={16} color="#0284c7" />
-                        <span>{pub.title}</span>
-                      </Link>
+                      {pub.isExternal ? (
+                        <a
+                          href={pub.path}
+                          target="_self"
+                          className="dropdown-link"
+                          onClick={handleDropdownItemClick}
+                        >
+                          <BookOpen size={16} color="#0284c7" />
+                          <span>{pub.title}</span>
+                        </a>
+                      ) : (
+                        <Link
+                          to={pub.path}
+                          className="dropdown-link"
+                          onClick={handleDropdownItemClick}
+                        >
+                          <BookOpen size={16} color="#0284c7" />
+                          <span>{pub.title}</span>
+                        </Link>
+                      )}
                     </li>
                   ))}
                 </ul>
               </li>
 
               {/* Links Dropdown */}
-              <li 
+              <li
                 className={`nav-item ${activeDropdown === 'links' ? 'is-open' : ''}`}
                 onMouseEnter={() => handleMouseEnter('links')}
                 onMouseLeave={handleMouseLeave}
                 onFocus={() => handleFocus('links')}
                 onBlur={handleBlur}
               >
-                <button 
-                  className="nav-link" 
+                <button
+                  className="nav-link"
                   type="button"
                   onClick={() => setActiveDropdown(activeDropdown === 'links' ? null : 'links')}
                   aria-expanded={activeDropdown === 'links'}
@@ -388,10 +400,10 @@ export default function Header() {
                 <ul className="dropdown-menu">
                   {externalLinks.map((link) => (
                     <li key={link.url}>
-                      <a 
-                        href={link.url} 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
+                      <a
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="dropdown-link"
                         onClick={handleDropdownItemClick}
                       >
@@ -405,8 +417,8 @@ export default function Header() {
 
               {/* Search Button */}
               <li className="nav-item">
-                <button 
-                  type="button" 
+                <button
+                  type="button"
                   className={`nav-link search-nav-btn ${searchOpen ? 'active' : ''}`}
                   onClick={() => {
                     setActiveDropdown(null);
@@ -424,7 +436,7 @@ export default function Header() {
         </div>
       </div>
 
-      {/* 3. Опускающаяся строка поиска под меню (как на infraks.uz) */}
+      {/* 3. РћРїСѓСЃРєР°СЋС‰Р°СЏСЃСЏ СЃС‚СЂРѕРєР° РїРѕРёСЃРєР° РїРѕРґ РјРµРЅСЋ (РєР°Рє РЅР° infraks.uz) */}
       {searchOpen && (
         <div className="header-search-bar">
           <div className="container">
@@ -435,8 +447,8 @@ export default function Header() {
                   ref={searchInputRef}
                   type="text"
                   className="search-input-field"
-                  placeholder={lang === 'ru' 
-                    ? 'Поиск по научным материалам, разработкам, статьям, патентам...' 
+                  placeholder={lang === 'ru'
+                    ? 'РџРѕРёСЃРє РїРѕ РЅР°СѓС‡РЅС‹Рј РјР°С‚РµСЂРёР°Р»Р°Рј, СЂР°Р·СЂР°Р±РѕС‚РєР°Рј, СЃС‚Р°С‚СЊСЏРј, РїР°С‚РµРЅС‚Р°Рј...'
                     : 'Search scientific developments, articles, patents...'}
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
@@ -449,7 +461,7 @@ export default function Header() {
                       setSearchQuery('');
                       searchInputRef.current?.focus();
                     }}
-                    title={lang === 'ru' ? 'Очистить' : 'Clear'}
+                    title={lang === 'ru' ? 'РћС‡РёСЃС‚РёС‚СЊ' : 'Clear'}
                   >
                     <X size={16} />
                   </button>
@@ -457,25 +469,25 @@ export default function Header() {
               </div>
               <button type="submit" className="search-submit-btn">
                 <Search size={15} />
-                <span>{lang === 'ru' ? 'Найти' : 'Search'}</span>
+                <span>{lang === 'ru' ? 'РќР°Р№С‚Рё' : 'Search'}</span>
               </button>
-              <button 
-                type="button" 
-                className="search-close-btn" 
+              <button
+                type="button"
+                className="search-close-btn"
                 onClick={() => { setSearchOpen(false); setSearchQuery(''); }}
-                title={lang === 'ru' ? 'Закрыть' : 'Close'}
-                aria-label="Закрыть"
+                title={lang === 'ru' ? 'Р—Р°РєСЂС‹С‚СЊ' : 'Close'}
+                aria-label="Р—Р°РєСЂС‹С‚СЊ"
               >
                 <X size={18} />
               </button>
             </form>
 
-            {/* Выпадающие живые результаты под строкой поиска */}
+            {/* Р’С‹РїР°РґР°СЋС‰РёРµ Р¶РёРІС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ РїРѕРґ СЃС‚СЂРѕРєРѕР№ РїРѕРёСЃРєР° */}
             {searchQuery.trim() && (
               <div className="search-dropdown-results">
                 {searchResults.length === 0 ? (
                   <div className="search-no-results">
-                    {lang === 'ru' ? 'По вашему запросу ничего не найдено' : 'No results found for your query'}
+                    {lang === 'ru' ? 'РџРѕ РІР°С€РµРјСѓ Р·Р°РїСЂРѕСЃСѓ РЅРёС‡РµРіРѕ РЅРµ РЅР°Р№РґРµРЅРѕ' : 'No results found for your query'}
                   </div>
                 ) : (
                   <div className="search-results-scroll">
@@ -514,9 +526,9 @@ export default function Header() {
                             setSearchQuery('');
                           }}
                         >
-                          {lang === 'ru' 
-                            ? `Посмотреть все результаты (${searchResults.length}) →` 
-                            : `View all results (${searchResults.length}) →`}
+                          {lang === 'ru'
+                            ? `РџРѕСЃРјРѕС‚СЂРµС‚СЊ РІСЃРµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ (${searchResults.length}) в†’`
+                            : `View all results (${searchResults.length}) в†’`}
                         </button>
                       </div>
                     )}
@@ -528,30 +540,30 @@ export default function Header() {
         </div>
       )}
 
-      {/* Мобильное всплывающее меню */}
+      {/* РњРѕР±РёР»СЊРЅРѕРµ РІСЃРїР»С‹РІР°СЋС‰РµРµ РјРµРЅСЋ */}
       <div className={`mobile-drawer ${mobileOpen ? 'open' : ''}`}>
         <div className="mobile-drawer-header">
           <div className="mobile-widget-row">
             <div className="lang-switcher">
-              <button 
-                type="button" 
+              <button
+                type="button"
                 className={`lang-btn ${lang === 'ru' ? 'active' : ''}`}
                 onClick={() => setLang('ru')}
               >
-                <span>🇷🇺 Рус</span>
+                <span>рџ‡·рџ‡є Р СѓСЃ</span>
               </button>
-              <button 
-                type="button" 
+              <button
+                type="button"
                 className={`lang-btn ${lang === 'en' ? 'active' : ''}`}
                 onClick={() => setLang('en')}
               >
-                <span>🇬🇧 Eng</span>
+                <span>рџ‡¬рџ‡§ Eng</span>
               </button>
             </div>
-            <a 
-              href="https://www.infraks.uz/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://www.infraks.uz/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="firm-site-btn mobile-firm-btn"
             >
               {t('nav_firm_site')}
@@ -566,7 +578,7 @@ export default function Header() {
           <li className="mobile-nav-item">
             <Link to="/autor" className="mobile-nav-link" onClick={closeMobile}>{t('nav_about')}</Link>
           </li>
-          
+
           <li className="mobile-nav-item">
             <div className="mobile-nav-link" onClick={() => setMobileDevOpen(!mobileDevOpen)}>
               <span>{t('nav_developments')}</span>
@@ -594,9 +606,15 @@ export default function Header() {
               <ul className="mobile-subnav">
                 {publications.map((p) => (
                   <li key={p.path}>
-                    <Link to={p.path} className="mobile-subnav-link" onClick={closeMobile}>
-                      {p.title}
-                    </Link>
+                    {p.isExternal ? (
+                      <a href={p.path} target="_self" className="mobile-subnav-link" onClick={closeMobile}>
+                        {p.title}
+                      </a>
+                    ) : (
+                      <Link to={p.path} className="mobile-subnav-link" onClick={closeMobile}>
+                        {p.title}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -621,10 +639,10 @@ export default function Header() {
             )}
           </li>
 
-          {/* Кнопка Поиск в мобильном меню */}
+          {/* РљРЅРѕРїРєР° РџРѕРёСЃРє РІ РјРѕР±РёР»СЊРЅРѕРј РјРµРЅСЋ */}
           <li className="mobile-nav-item">
-            <button 
-              type="button" 
+            <button
+              type="button"
               className="mobile-nav-link mobile-search-btn"
               onClick={() => {
                 closeMobile();

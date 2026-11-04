@@ -31,7 +31,6 @@ const routes = [
   '/bsp',
   '/stat',
   '/conference',
-  '/book',
   '/patents',
   '/akt',
   '/search',
@@ -58,7 +57,6 @@ const jsonFiles = [
   'kalciCertificates.json',
   'sushkaCertificates.json',
   'patents.json',
-  'books.json',
   'akts.json'
 ];
 
@@ -95,7 +93,6 @@ const lazyPages = [
   'DevelopmentPage',
   'ArticlesPage',
   'Conference',
-  'BooksPage',
   'PatentsPage',
   'AktsPage',
   'SearchPage',
