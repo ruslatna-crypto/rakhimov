@@ -100,11 +100,11 @@ p {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.page-hero:not(.articles-page-hero):not(.patents-page-hero):not(.books-page-hero) {
+.page-hero:not(.articles-page-hero):not(.patents-page-hero) {
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
 }
 
-.page-hero:not(.articles-page-hero):not(.patents-page-hero):not(.books-page-hero)::after {
+.page-hero:not(.articles-page-hero):not(.patents-page-hero)::after {
   content: '';
   position: absolute;
   top: -50%;

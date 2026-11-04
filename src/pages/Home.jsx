@@ -102,9 +102,9 @@ export default function Home() {
                 ? '18 published books and monographs with direct access to full electronic versions.'
                 : '18 опубликованных книг и монографий с прямым доступом к полным электронным версиям.'}
             </p>
-            <Link to="/book" className="btn btn-outline" style={{ width: '100%', marginTop: 'auto', textAlign: 'center' }}>
+            <a href="https://rakhimovlib.uz/" target="_self" className="btn btn-outline" style={{ width: '100%', marginTop: 'auto', textAlign: 'center' }}>
               {lang === 'en' ? 'Download monographs →' : 'Скачать монографии →'}
-            </Link>
+            </a>
           </div>
         </div>
       </section>

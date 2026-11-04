@@ -12,7 +12,6 @@ const Author = lazy(() => import('./pages/Author'));
 const DevelopmentPage = lazy(() => import('./pages/DevelopmentPage'));
 const ArticlesPage = lazy(() => import('./pages/ArticlesPage'));
 const Conference = lazy(() => import('./pages/Conference'));
-const BooksPage = lazy(() => import('./pages/BooksPage'));
 const PatentsPage = lazy(() => import('./pages/PatentsPage'));
 const AktsPage = lazy(() => import('./pages/AktsPage'));
 const SearchPage = lazy(() => import('./pages/SearchPage'));
@@ -69,7 +68,6 @@ export default function App() {
             <Route path="/stat" element={<ArticlesPage />} />
             <Route path="/conference" element={<Conference />} />
             <Route path="/conferences" element={<Navigate to="/conference" replace />} />
-            <Route path="/book" element={<BooksPage />} />
             <Route path="/patents" element={<PatentsPage />} />
             <Route path="/akt" element={<AktsPage />} />
 
@@ -78,7 +76,6 @@ export default function App() {
 
             {/* Aliases & Redirects from Tilda */}
             <Route path="/main" element={<Navigate to="/" replace />} />
-            <Route path="/page77759756.html" element={<Navigate to="/book" replace />} />
             <Route path="/Contacts" element={<Navigate to="/#contacts" replace />} />
 
             {/* 404 Catch-All */}

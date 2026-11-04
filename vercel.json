@@ -16,10 +16,6 @@
   ],
   "rewrites": [
     {
-      "source": "/page77759756.html",
-      "destination": "/book"
-    },
-    {
       "source": "/Contacts",
       "destination": "/#contacts"
     },

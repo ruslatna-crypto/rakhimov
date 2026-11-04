@@ -25,12 +25,12 @@ const expectedPublicRoutes = [
   '/bsp',
   '/stat',
   '/conference',
-  '/book',
   '/patents',
   '/akt'
 ];
 
 const forbiddenRoutes = [
+  '/book',
   '/search',
   '/author',
   '/conferences',
@@ -207,7 +207,7 @@ if (seenLocs.size === parsedEntries.length && parsedEntries.length > 0) {
 }
 
 // 5. Compare with expected public routes
-console.log('\n--- VERIFYING COVERAGE OF ALL 16 PUBLIC ROUTES ---');
+console.log('\n--- VERIFYING COVERAGE OF ALL 15 PUBLIC ROUTES ---');
 const foundPaths = new Set(parsedEntries.map(e => e.pathname));
 
 expectedPublicRoutes.forEach(r => {

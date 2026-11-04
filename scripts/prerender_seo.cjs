@@ -7,7 +7,6 @@ const ROOT_DIR = path.resolve(__dirname, '..');
 const DIST_DIR = path.join(ROOT_DIR, 'dist');
 const TEMPLATE_PATH = path.join(DIST_DIR, 'index.html');
 const SEO_DATA_PATH = path.join(ROOT_DIR, 'src', 'data', 'seoData.json');
-const BOOKS_JSON_PATH = path.join(ROOT_DIR, 'src', 'data', 'books.json');
 
 console.log('====================================================');
 console.log('    HEADLESS CHROMIUM SNAPSHOT PRERENDERING (SEO)');
@@ -38,7 +37,7 @@ if (!BASE_URL || !seoData) {
 console.log(`[PASS] Loaded ${Object.keys(seoData).length} route configurations from seoData.json`);
 console.log(`[PASS] Using BASE_URL: ${BASE_URL}`);
 
-// 3. 16 Public Routes to prerender
+// 3. 15 Public Routes to prerender
 const publicRoutes = [
   '/',
   '/autor',
@@ -53,7 +52,6 @@ const publicRoutes = [
   '/bsp',
   '/stat',
   '/conference',
-  '/book',
   '/patents',
   '/akt'
 ];
@@ -73,61 +71,6 @@ function safeJsonLdStringify(obj) {
     .replace(/</g, '\\u003c')
     .replace(/>/g, '\\u003e')
     .replace(/&/g, '\\u0026');
-}
-
-function generateBookSchemaLd() {
-  if (!fs.existsSync(BOOKS_JSON_PATH)) return '';
-  const books = JSON.parse(fs.readFileSync(BOOKS_JSON_PATH, 'utf8'));
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'CollectionPage',
-    '@id': `${BASE_URL}/book#webpage`,
-    'url': `${BASE_URL}/book`,
-    'name': 'Монографии и книги — Научные труды профессора Рахимова Р.Х.',
-    'description': 'Фундаментальные монографии по функциональной керамике, полупроводниковой гелиоэнергетике и импульсным технологиям. Скачивание в формате PDF.',
-    'inLanguage': 'ru',
-    'isPartOf': {
-      '@type': 'WebSite',
-      '@id': `${BASE_URL}/#website`,
-      'name': 'Портал профессора Рахимова Р.Х.',
-      'url': `${BASE_URL}/`
-    },
-    'mainEntity': {
-      '@type': 'ItemList',
-      '@id': `${BASE_URL}/book#itemlist`,
-      'numberOfItems': books.length,
-      'itemListElement': books.map((book, index) => {
-        const title = book.title;
-        const description = book.description;
-        const authorStr = book.author || 'Рахимов Р.Х.';
-        const authors = authorStr.split(',').map((name) => ({
-          '@type': 'Person',
-          'name': name.trim()
-        }));
-        const coverUrl = book.cover
-          ? (book.cover.startsWith('http') ? book.cover : `${BASE_URL}${book.cover.startsWith('/') ? '' : '/'}${book.cover}`)
-          : `${BASE_URL}/images/rrh-250x300.png`;
-
-        const bookAnchorUrl = `${BASE_URL}/book#${book.id.toLowerCase()}`;
-
-        return {
-          '@type': 'ListItem',
-          'position': index + 1,
-          'item': {
-            '@type': 'Book',
-            '@id': bookAnchorUrl,
-            'url': bookAnchorUrl,
-            'name': title,
-            'author': authors.length === 1 ? authors[0] : authors,
-            'description': description,
-            'image': coverUrl,
-            'inLanguage': 'ru'
-          }
-        };
-      })
-    }
-  };
-  return `<script id="schema-books-jsonld" type="application/ld+json">\n${safeJsonLdStringify(schema)}\n    </script>`;
 }
 
 // Internal static server serving dist/ for Puppeteer prerender
@@ -352,10 +295,6 @@ function processHtml(html, route, is404 = false, rootHtml = '') {
   lines.push(`    <meta name="twitter:description" content="${escapeHtml(description)}" />`);
   lines.push(`    <meta name="twitter:image" content="${DEFAULT_IMAGE}" />`);
 
-  if (route === '/book') {
-    lines.push(`    ${generateBookSchemaLd()}`);
-  }
-
   const metaBlock = lines.join('\n');
 
   // Insert right after <meta name="description" ... />
@@ -412,7 +351,7 @@ async function main() {
   const snapshots = {};
 
   // Step C: Snapshot 16 Public Routes
-  console.log('\n--- CAPTURING FULL DOM SNAPSHOTS FOR 16 PUBLIC ROUTES ---');
+  console.log('\n--- CAPTURING FULL DOM SNAPSHOTS FOR 15 PUBLIC ROUTES ---');
   for (const route of publicRoutes) {
     const routeStart = Date.now();
     const url = `http://127.0.0.1:${port}${route}`;
@@ -429,9 +368,7 @@ async function main() {
     ).catch(() => {});
 
     // Route-specific element readiness assertions
-    if (route === '/book') {
-      await page.waitForSelector('.book-card', { timeout: 10000 });
-    } else if (route === '/stat') {
+    if (route === '/stat') {
       await page.waitForSelector('.data-card', { timeout: 10000 });
     } else if (route === '/conference' || route === '/patents' || route === '/akt') {
       await page.waitForSelector('.data-card, table, .conference-item', { timeout: 10000 }).catch(() => {});
@@ -495,7 +432,7 @@ async function main() {
   fs.writeFileSync(path.join(DIST_DIR, '404.html'), out404, 'utf8');
   console.log('[PASS] Generated dist/404.html with noindex and full 404 page content');
 
-  console.log(`\n[PASS] Successfully generated ${generatedFiles.length} HTML files for 16 public routes:\n`);
+  console.log(`\n[PASS] Successfully generated ${generatedFiles.length} HTML files for ${publicRoutes.length} public routes:\n`);
   generatedFiles.forEach((gf, idx) => {
     console.log(`  ${(idx + 1).toString().padStart(2)}. Route: ${gf.route.padEnd(12)} -> File: ${gf.file.padEnd(26)} -> Size: ${gf.size.toString().padStart(6)} bytes -> H1: "${gf.h1.slice(0, 30)}..."`);
   });
@@ -562,22 +499,10 @@ async function main() {
       console.error(`[FAIL] ${gf.file} #root is EMPTY or too small! Length: ${rootBlock.length}`);
       hasErrors = true;
     }
-
-    // If route is /book, check schema & book cards
-    if (gf.route === '/book') {
-      if (!content.includes('id="schema-books-jsonld"')) {
-        console.error(`[FAIL] ${gf.file} is missing schema-books-jsonld script tag!`);
-        hasErrors = true;
-      }
-      if (!content.includes('book-card')) {
-        console.error(`[FAIL] ${gf.file} does not contain .book-card elements!`);
-        hasErrors = true;
-      }
-    }
   });
 
-  if (routeCanonicals.size !== 16) {
-    console.error(`[FAIL] Expected 16 unique route canonicals, found ${routeCanonicals.size}`);
+  if (routeCanonicals.size !== 15) {
+    console.error(`[FAIL] Expected 15 unique route canonicals, found ${routeCanonicals.size}`);
     hasErrors = true;
   }
 
@@ -588,7 +513,7 @@ async function main() {
     process.exit(1);
   } else {
     console.log(`\n====================================================`);
-    console.log(`>>> ALL 16 ROUTES FULLY PRERENDERED & VERIFIED IN ${totalTime}s! <<<`);
+    console.log(`>>> ALL 15 ROUTES FULLY PRERENDERED & VERIFIED IN ${totalTime}s! <<<`);
     console.log(`====================================================\n`);
   }
 }

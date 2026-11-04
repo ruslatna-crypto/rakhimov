@@ -1,7 +1,6 @@
 import developments from '../data/developments.json';
 import articles from '../data/articles.json';
 import patents from '../data/patents.json';
-import books from '../data/books.json';
 import akts from '../data/akts.json';
 import lampCertificates from '../data/lampCertificates.json';
 import lampPdfs from '../data/lampPdfs.json';
@@ -90,19 +89,6 @@ const formattedPatents = patents.map((pat) => ({
   url: '/patents',
   badge: pat.country || 'Патент',
   iconType: 'award'
-}));
-
-// Преобразуем книги
-const formattedBooks = books.map((bk, idx) => ({
-  id: bk.id,
-  category: 'books',
-  title: bk.title ? bk.title : `Монография ${bk.id}`,
-  subtitle: `Автор: ${bk.author || 'Рахимов Р.Х.'}`,
-  description: `${bk.description || ''} Фундаментальная монография профессора Рахимова Р.Х. Доступна электронная версия для скачивания на Яндекс.Диске.`,
-  url: '/book',
-  externalUrl: bk.yandex_disk_url,
-  badge: 'Монография',
-  iconType: 'book'
 }));
 
 // Преобразуем акты
@@ -214,7 +200,6 @@ export const allSearchableItems = [
   ...formattedArticles,
   ...formattedConferences,
   ...formattedPatents,
-  ...formattedBooks,
   ...formattedAkts,
   ...formattedLampCertificates,
   ...formattedLampPdfs,

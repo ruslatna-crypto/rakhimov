@@ -34,7 +34,6 @@ export default function SearchPage() {
     { id: 'developments', label: t('search_tab_dev') },
     { id: 'articles', label: t('search_tab_articles') },
     { id: 'patents', label: t('search_tab_patents') },
-    { id: 'books', label: t('search_tab_books') },
     { id: 'akts', label: t('search_tab_akts') },
     { id: 'pages', label: t('search_tab_pages') }
   ];
