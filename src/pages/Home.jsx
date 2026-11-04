@@ -52,7 +52,7 @@ export default function Home() {
 
       {/* Featured Publications / Documents Banner */}
       <section style={{ background: '#f1f5f9', padding: '64px 0', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
-        <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px', alignItems: 'stretch' }}>
+        <div className="container home-featured-grid">
           {/* Box 1 */}
           <div style={{ background: '#ffffff', padding: '28px', borderRadius: 'var(--radius-lg)', border: '1px solid var(--color-border)', display: 'flex', flexDirection: 'column' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
@@ -99,8 +99,8 @@ export default function Home() {
             </div>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.875rem', marginBottom: '24px', flexGrow: 1, lineHeight: '1.6' }}>
               {lang === 'en'
-                ? '18 published books and monographs with direct access to full electronic versions.'
-                : '18 опубликованных книг и монографий с прямым доступом к полным электронным версиям.'}
+                ? 'Monographs and books are now available in the Scientific Library.'
+                : 'Монографии и книги теперь доступны в Scientific Library.'}
             </p>
             <a href="https://rakhimovlib.uz/" target="_self" className="btn btn-outline" style={{ width: '100%', marginTop: 'auto', textAlign: 'center' }}>
               {lang === 'en' ? 'Download monographs →' : 'Скачать монографии →'}
