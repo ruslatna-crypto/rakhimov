@@ -871,14 +871,23 @@
   border-top: 1px solid #f1f5f9;
 }
 
-.year-selector-group {
+.articles-controls-group {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
-.year-selector-label {
+.year-selector-group,
+.sort-selector-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.year-selector-label,
+.sort-selector-label {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -886,15 +895,18 @@
   font-weight: 600;
   color: #475569;
   cursor: pointer;
+  white-space: nowrap;
 }
 
-.year-select-wrapper {
+.year-select-wrapper,
+.sort-select-wrapper {
   position: relative;
   display: inline-flex;
   align-items: center;
 }
 
-.year-filter-select {
+.year-filter-select,
+.sort-filter-select {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -911,25 +923,60 @@
   min-width: 140px;
 }
 
-.year-filter-select:hover {
+.sort-filter-select {
+  min-width: 220px;
+}
+
+.year-filter-select:hover,
+.sort-filter-select:hover {
   border-color: var(--color-primary);
   background-color: #f8fafc;
 }
 
-.year-filter-select:focus {
+.year-filter-select:focus,
+.sort-filter-select:focus {
   outline: none;
   border-color: var(--color-primary);
   box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
   background-color: #ffffff;
 }
 
-.year-select-chevron {
+.year-select-chevron,
+.sort-select-chevron {
   position: absolute;
   right: 14px;
   top: 50%;
   transform: translateY(-50%);
   color: #64748b;
   pointer-events: none;
+}
+
+@media (max-width: 640px) {
+  .articles-year-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .articles-controls-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .year-selector-group,
+  .sort-selector-group {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .year-select-wrapper,
+  .sort-select-wrapper {
+    flex: 1;
+    min-width: 0;
+  }
+  .year-filter-select,
+  .sort-filter-select {
+    width: 100%;
+    min-width: 0;
+  }
 }
 
 .filter-reset-btn {

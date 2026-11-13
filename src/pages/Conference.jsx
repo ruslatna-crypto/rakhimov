@@ -8,12 +8,14 @@ import {
   Calendar, 
   RotateCcw, 
   ExternalLink, 
-  ChevronDown
+  ChevronDown,
+  ArrowUpDown
 } from 'lucide-react';
 import internationalConferences from '../data/conferences/internationalConferences.json';
 import infraR2000Conferences from '../data/conferences/infraR2000.json';
 import republicanConferences from '../data/conferences/republicanConferences.json';
 import { useLanguage } from '../context/LanguageContext';
+import { sortItems, SORT_OPTIONS } from '../utils/sorting';
 import '../styles/pages.css';
 
 // Helper to render source text with clickable external URLs
@@ -141,6 +143,7 @@ export default function Conference() {
   const [query, setQuery] = useState('');
   const [selectedSection, setSelectedSection] = useState('ALL'); // 'ALL' | 'INT' | 'INFRA' | 'REP'
   const [selectedYear, setSelectedYear] = useState('ALL');
+  const [sortOrder, setSortOrder] = useState('NEWEST');
 
   // Handle hash scrolling on page load or navigation (e.g. /conference#infra2000)
   useEffect(() => {
@@ -209,15 +212,30 @@ export default function Conference() {
     return republicanConferences.filter(filterPredicate);
   }, [filterPredicate]);
 
-  const totalFilteredCount = filteredInternational.length + filteredInfra.length + filteredRepublican.length;
+  // Sorted lists for each section (applies 1 of 5 sort modes; stable for equal keys)
+  const sortedInternational = useMemo(() => {
+    return sortItems(filteredInternational, sortOrder, lang);
+  }, [filteredInternational, sortOrder, lang]);
+
+  const sortedInfra = useMemo(() => {
+    return sortItems(filteredInfra, sortOrder, lang);
+  }, [filteredInfra, sortOrder, lang]);
+
+  const sortedRepublican = useMemo(() => {
+    return sortItems(filteredRepublican, sortOrder, lang);
+  }, [filteredRepublican, sortOrder, lang]);
+
+  const totalFilteredCount = sortedInternational.length + sortedInfra.length + sortedRepublican.length;
   const totalAllCount = internationalConferences.length + infraR2000Conferences.length + republicanConferences.length;
 
-  const hasActiveFilters = selectedSection !== 'ALL' || selectedYear !== 'ALL' || query.trim() !== '';
+  const hasActiveFilters =
+    selectedSection !== 'ALL' || selectedYear !== 'ALL' || query.trim() !== '' || sortOrder !== 'NEWEST';
 
   const resetFilters = () => {
     setQuery('');
     setSelectedSection('ALL');
     setSelectedYear('ALL');
+    setSortOrder('NEWEST');
   };
 
   const scrollToSection = (id) => {
@@ -424,28 +442,52 @@ export default function Conference() {
               </button>
             </div>
 
-            {/* Year Selector & Reset Button */}
+            {/* Year Selector, Sort Selector & Reset Button */}
             <div className="articles-year-row">
-              <div className="year-selector-group">
-                <label htmlFor="conf-year-select" className="year-selector-label">
-                  <Calendar size={16} />
-                  <span>{t('conf_filter_year')}</span>
-                </label>
-                <div className="year-select-wrapper">
-                  <select
-                    id="conf-year-select"
-                    className="year-filter-select"
-                    value={selectedYear}
-                    onChange={(e) => setSelectedYear(e.target.value)}
-                  >
-                    <option value="ALL">{t('conf_all_years')}</option>
-                    {availableYears.map((yr) => (
-                      <option key={yr} value={yr}>
-                        {yr} {lang === 'en' ? 'year' : 'год'} ({yearCounts[yr]})
-                      </option>
-                    ))}
-                  </select>
-                  <ChevronDown size={16} className="year-select-chevron" />
+              <div className="articles-controls-group">
+                <div className="year-selector-group">
+                  <label htmlFor="conf-year-select" className="year-selector-label">
+                    <Calendar size={16} />
+                    <span>{t('conf_filter_year')}</span>
+                  </label>
+                  <div className="year-select-wrapper">
+                    <select
+                      id="conf-year-select"
+                      className="year-filter-select"
+                      value={selectedYear}
+                      onChange={(e) => setSelectedYear(e.target.value)}
+                    >
+                      <option value="ALL">{t('conf_all_years')}</option>
+                      {availableYears.map((yr) => (
+                        <option key={yr} value={yr}>
+                          {yr} {lang === 'en' ? 'year' : 'год'} ({yearCounts[yr]})
+                        </option>
+                      ))}
+                    </select>
+                    <ChevronDown size={16} className="year-select-chevron" />
+                  </div>
+                </div>
+
+                <div className="sort-selector-group">
+                  <label htmlFor="conf-sort-select" className="sort-selector-label">
+                    <ArrowUpDown size={16} />
+                    <span>{lang === 'en' ? 'Sort:' : 'Сортировка:'}</span>
+                  </label>
+                  <div className="sort-select-wrapper">
+                    <select
+                      id="conf-sort-select"
+                      className="sort-filter-select"
+                      value={sortOrder}
+                      onChange={(e) => setSortOrder(e.target.value)}
+                    >
+                      {SORT_OPTIONS.map((opt) => (
+                        <option key={opt.value} value={opt.value}>
+                          {lang === 'en' ? opt.labelEn : opt.labelRu}
+                        </option>
+                      ))}
+                    </select>
+                    <ChevronDown size={16} className="sort-select-chevron" />
+                  </div>
                 </div>
               </div>
 
@@ -517,7 +559,7 @@ export default function Conference() {
           {/* ================================================================
               РАЗДЕЛ 1: «Международные конференции»
               ================================================================ */}
-          {(selectedSection === 'ALL' || selectedSection === 'INT') && filteredInternational.length > 0 && (
+          {(selectedSection === 'ALL' || selectedSection === 'INT') && sortedInternational.length > 0 && (
             <section id="international" className="conference-section">
               <div className="conference-section-header">
                 <div className="conference-section-title-wrap">
@@ -539,13 +581,13 @@ export default function Conference() {
                     {t('conf_sec_international')}
                   </h2>
                   <span className="conference-section-count">
-                    {filteredInternational.length}
+                    {sortedInternational.length}
                   </span>
                 </div>
               </div>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                {filteredInternational.map((item) => (
+                {sortedInternational.map((item) => (
                   <ConferenceCard
                     key={item.id}
                     item={item}
@@ -560,7 +602,7 @@ export default function Conference() {
           {/* ================================================================
               РАЗДЕЛ 2: «Международная конференция "Infra R 2000"»
               ================================================================ */}
-          {(selectedSection === 'ALL' || selectedSection === 'INFRA') && filteredInfra.length > 0 && (
+          {(selectedSection === 'ALL' || selectedSection === 'INFRA') && sortedInfra.length > 0 && (
             <section id="infra2000" className="conference-section">
               <div className="conference-section-header">
                 <div className="conference-section-title-wrap">
@@ -582,7 +624,7 @@ export default function Conference() {
                     {t('conf_sec_infra')}
                   </h2>
                   <span className="conference-section-count" style={{ background: '#fef3c7', color: '#b45309' }}>
-                    {filteredInfra.length}
+                    {sortedInfra.length}
                   </span>
                 </div>
               </div>
@@ -592,7 +634,7 @@ export default function Conference() {
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                {filteredInfra.map((item) => (
+                {sortedInfra.map((item) => (
                   <ConferenceCard
                     key={item.id}
                     item={item}
@@ -607,7 +649,7 @@ export default function Conference() {
           {/* ================================================================
               РАЗДЕЛ 3: «Республиканские конференции»
               ================================================================ */}
-          {(selectedSection === 'ALL' || selectedSection === 'REP') && filteredRepublican.length > 0 && (
+          {(selectedSection === 'ALL' || selectedSection === 'REP') && sortedRepublican.length > 0 && (
             <section id="republican" className="conference-section">
               <div className="conference-section-header">
                 <div className="conference-section-title-wrap">
@@ -629,13 +671,13 @@ export default function Conference() {
                     {t('conf_sec_republican')}
                   </h2>
                   <span className="conference-section-count" style={{ background: '#dcfce7', color: '#15803d' }}>
-                    {filteredRepublican.length}
+                    {sortedRepublican.length}
                   </span>
                 </div>
               </div>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                {filteredRepublican.map((item) => (
+                {sortedRepublican.map((item) => (
                   <ConferenceCard
                     key={item.id}
                     item={item}
