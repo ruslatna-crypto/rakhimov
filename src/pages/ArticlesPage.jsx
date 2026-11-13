@@ -1,13 +1,43 @@
 import React, { useState, useMemo } from 'react';
-import { Search, FileText, Calendar, ChevronDown, RotateCcw } from 'lucide-react';
+import { Search, FileText, Calendar, ChevronDown, RotateCcw, ArrowUpDown } from 'lucide-react';
 import articles from '../data/articles.json';
 import { useLanguage } from '../context/LanguageContext';
+import { sortItems, SORT_OPTIONS } from '../utils/sorting';
 import '../styles/pages.css';
+
+function formatJournalWithLinks(text) {
+  if (!text) return null;
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  const parts = text.split(urlRegex);
+  return parts.map((part, index) => {
+    if (part.startsWith('http://') || part.startsWith('https://')) {
+      const matchPunct = part.match(/[.,;)]+$/);
+      const cleanUrl = matchPunct ? part.slice(0, -matchPunct[0].length) : part;
+      const trailing = matchPunct ? matchPunct[0] : '';
+      return (
+        <React.Fragment key={index}>
+          <a
+            href={cleanUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: '#0284c7', textDecoration: 'underline' }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {cleanUrl}
+          </a>
+          {trailing}
+        </React.Fragment>
+      );
+    }
+    return part;
+  });
+}
 
 export default function ArticlesPage() {
   const [query, setQuery] = useState('');
   const [selectedJournal, setSelectedJournal] = useState('ALL');
   const [selectedYear, setSelectedYear] = useState('ALL');
+  const [sortOrder, setSortOrder] = useState('NEWEST');
   const { lang, t } = useLanguage();
 
   // All distinct years sorted descending (newest first)
@@ -87,12 +117,19 @@ export default function ArticlesPage() {
     });
   }, [query, selectedJournal, selectedYear]);
 
-  const hasActiveFilters = selectedJournal !== 'ALL' || selectedYear !== 'ALL' || query.trim() !== '';
+  // Sorted articles (applies 1 of 5 sort modes; stable for equal keys)
+  const sortedArticles = useMemo(() => {
+    return sortItems(filteredArticles, sortOrder, lang);
+  }, [filteredArticles, sortOrder, lang]);
+
+  const hasActiveFilters =
+    selectedJournal !== 'ALL' || selectedYear !== 'ALL' || query.trim() !== '' || sortOrder !== 'NEWEST';
 
   const resetFilters = () => {
     setSelectedJournal('ALL');
     setSelectedYear('ALL');
     setQuery('');
+    setSortOrder('NEWEST');
   };
 
   return (
@@ -216,28 +253,52 @@ export default function ArticlesPage() {
               </button>
             </div>
 
-            {/* 2. Под ними: Выпадающее меню выбора по годам (первым пунктом "Все") */}
+            {/* 2. Под ними: Выпадающие меню выбора по годам и сортировки */}
             <div className="articles-year-row">
-              <div className="year-selector-group">
-                <label htmlFor="year-select" className="year-selector-label">
-                  <Calendar size={16} />
-                  <span>{lang === 'en' ? 'Filter by year:' : 'Выбор по годам:'}</span>
-                </label>
-                <div className="year-select-wrapper">
-                  <select
-                    id="year-select"
-                    className="year-filter-select"
-                    value={selectedYear}
-                    onChange={(e) => setSelectedYear(e.target.value)}
-                  >
-                    <option value="ALL">{lang === 'en' ? 'All' : 'Все'}</option>
-                    {availableYears.map((yr) => (
-                      <option key={yr} value={yr}>
-                        {yr} {lang === 'en' ? 'year' : 'год'} ({yearCounts[yr]})
-                      </option>
-                    ))}
-                  </select>
-                  <ChevronDown size={16} className="year-select-chevron" />
+              <div className="articles-controls-group">
+                <div className="year-selector-group">
+                  <label htmlFor="year-select" className="year-selector-label">
+                    <Calendar size={16} />
+                    <span>{lang === 'en' ? 'Filter by year:' : 'Выбор по годам:'}</span>
+                  </label>
+                  <div className="year-select-wrapper">
+                    <select
+                      id="year-select"
+                      className="year-filter-select"
+                      value={selectedYear}
+                      onChange={(e) => setSelectedYear(e.target.value)}
+                    >
+                      <option value="ALL">{lang === 'en' ? 'All' : 'Все'}</option>
+                      {availableYears.map((yr) => (
+                        <option key={yr} value={yr}>
+                          {yr} {lang === 'en' ? 'year' : 'год'} ({yearCounts[yr]})
+                        </option>
+                      ))}
+                    </select>
+                    <ChevronDown size={16} className="year-select-chevron" />
+                  </div>
+                </div>
+
+                <div className="sort-selector-group">
+                  <label htmlFor="sort-select" className="sort-selector-label">
+                    <ArrowUpDown size={16} />
+                    <span>{lang === 'en' ? 'Sort:' : 'Сортировка:'}</span>
+                  </label>
+                  <div className="sort-select-wrapper">
+                    <select
+                      id="sort-select"
+                      className="sort-filter-select"
+                      value={sortOrder}
+                      onChange={(e) => setSortOrder(e.target.value)}
+                    >
+                      {SORT_OPTIONS.map((opt) => (
+                        <option key={opt.value} value={opt.value}>
+                          {lang === 'en' ? opt.labelEn : opt.labelRu}
+                        </option>
+                      ))}
+                    </select>
+                    <ChevronDown size={16} className="sort-select-chevron" />
+                  </div>
                 </div>
               </div>
 
@@ -259,8 +320,8 @@ export default function ArticlesPage() {
           <div style={{ marginBottom: '18px', fontSize: '0.9375rem', color: 'var(--color-text-muted)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '8px' }}>
             <div>
               {lang === 'en'
-                ? `Found publications: ${filteredArticles.length}`
-                : `Найдено публикаций: ${filteredArticles.length}`}
+                ? `Found publications: ${sortedArticles.length}`
+                : `Найдено публикаций: ${sortedArticles.length}`}
               {selectedYear !== 'ALL' && (
                 <span style={{ marginLeft: '6px', fontWeight: 600, color: 'var(--color-primary)' }}>
                   ({selectedYear} {lang === 'en' ? 'year' : 'год'})
@@ -271,7 +332,7 @@ export default function ArticlesPage() {
 
           {/* Articles List */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            {filteredArticles.map((art) => (
+            {sortedArticles.map((art) => (
               <div key={art.id} className="data-card" style={{ display: 'flex', gap: '18px', alignItems: 'flex-start' }}>
                 <div
                   style={{
@@ -302,7 +363,7 @@ export default function ArticlesPage() {
                     {(lang === 'en' && art.authors_en) ? art.authors_en : art.authors}
                   </div>
                   <div style={{ fontSize: '0.84375rem', color: '#0284c7', fontStyle: 'italic', wordBreak: 'break-word' }}>
-                    {(lang === 'en' && art.journal_en) ? art.journal_en : art.journal}
+                    {formatJournalWithLinks((lang === 'en' && art.journal_en) ? art.journal_en : art.journal)}
                   </div>
                 </div>
               </div>

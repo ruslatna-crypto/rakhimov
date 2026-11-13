@@ -23,11 +23,11 @@ const intConfs = require('../src/data/conferences/internationalConferences.json'
 const infraConfs = require('../src/data/conferences/infraR2000.json');
 const repConfs = require('../src/data/conferences/republicanConferences.json');
 
-check('International Conferences JSON count', intConfs.length === 105, `(${intConfs.length}/105)`);
+check('International Conferences JSON count', intConfs.length === 108, `(${intConfs.length}/108)`);
 check('Infra R Conferences JSON count', infraConfs.length === 42, `(${infraConfs.length}/42)`);
 check('Republican Conferences JSON count', repConfs.length === 60, `(${repConfs.length}/60)`);
 const totalConfs = intConfs.length + infraConfs.length + repConfs.length;
-check('Grand Total Conferences count', totalConfs === 207, `(${totalConfs}/207)`);
+check('Grand Total Conferences count', totalConfs === 210, `(${totalConfs}/210)`);
 
 // Check data integrity
 let hasEmptyRequired = false;
@@ -42,8 +42,8 @@ let hasMissingEnglish = false;
     console.error('Missing English field in:', c.id);
   }
 });
-check('Data integrity: all 207 records have authors, title, source', !hasEmptyRequired);
-check('Bilingual completeness: all 207 records have source_en, title_en, authors_en', !hasMissingEnglish);
+check('Data integrity: all 210 records have authors, title, source', !hasEmptyRequired);
+check('Bilingual completeness: all 210 records have source_en, title_en, authors_en', !hasMissingEnglish);
 
 // 2. Header.jsx check
 const headerPath = path.join(ROOT_DIR, 'src', 'components', 'Header.jsx');

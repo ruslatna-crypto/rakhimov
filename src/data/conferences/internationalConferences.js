@@ -1258,6 +1258,42 @@ export const internationalConferences = [
     "source_en": "// Proceedings of the International Scientific and Theoretical Conference \"Current Problems of Physics, Mathematics and Artificial Intelligence Technologies\" (Bukhara, May 16–17, 2025). — Bukhara: Bukhara State University, 2025. — P. 12–18.",
     "title_en": "Current Problems of Physics, Mathematics and Artificial Intelligence Technologies",
     "authors_en": "Rakhimov R.Kh."
+  },
+  {
+    "id": "CONF-INT-106",
+    "authors": "Минаков Г. И., Паньков В. В., Рахимов Р. Х.",
+    "title": "Фазовые превращения при синтезе многокомпонентного оксидного композита из нитратных прекурсоров.",
+    "source": "Международная научная конференция «Передовые материалы, нанотехнологии и гелиоматериаловедение для устойчивого развития». 29–30 октября 2026 года. Ташкент. С. 6–8.",
+    "year": "2026",
+    "originalSheet": "2026",
+    "originalRow": 1,
+    "source_en": "International Scientific Conference \"Advanced Materials, Nanotechnology and Solar Materials Science for Sustainable Development\". October 29–30, 2026. Tashkent. P. 6–8.",
+    "title_en": "Phase Transformations during the Synthesis of a Multicomponent Oxide Composite from Nitrate Precursors",
+    "authors_en": "Minakov G.I., Pankov V.V., Rakhimov R.Kh."
+  },
+  {
+    "id": "CONF-INT-107",
+    "authors": "Долгополов М. В., Рахимов Р. Х.",
+    "title": "Импульсная туннельная спектроскопия гетероструктур SiC/Si: от нестационарной модели к радиационной дефектоскопии.",
+    "source": "Международная научная конференция «Передовые материалы, нанотехнологии и гелиоматериаловедение для устойчивого развития». 29–30 октября 2026 года. Ташкент. С. 82–84.",
+    "year": "2026",
+    "originalSheet": "2026",
+    "originalRow": 2,
+    "source_en": "International Scientific Conference \"Advanced Materials, Nanotechnology and Solar Materials Science for Sustainable Development\". October 29–30, 2026. Tashkent. P. 82–84.",
+    "title_en": "Pulsed Tunneling Spectroscopy of SiC/Si Heterostructures: From a Non-Stationary Model to Radiation Defectoscopy",
+    "authors_en": "Dolgopolov M.V., Rakhimov R.Kh."
+  },
+  {
+    "id": "CONF-INT-108",
+    "authors": "Рахимов Р. Х., Ермаков В. П.",
+    "title": "Квантово-классический мост: единая физика импульсного туннельного эффекта — от принципа неопределённости до инженерных приложений.",
+    "source": "Международная научная конференция «Передовые материалы, нанотехнологии и гелиоматериаловедение для устойчивого развития». 29–30 октября 2026 года. Ташкент. С. 140–199.",
+    "year": "2026",
+    "originalSheet": "2026",
+    "originalRow": 3,
+    "source_en": "International Scientific Conference \"Advanced Materials, Nanotechnology and Solar Materials Science for Sustainable Development\". October 29–30, 2026. Tashkent. P. 140–199.",
+    "title_en": "The Quantum-Classical Bridge: A Unified Physics of the Pulsed Tunneling Effect — from the Uncertainty Principle to Engineering Applications",
+    "authors_en": "Rakhimov R.Kh., Yermakov V.P."
   }
 ];
 

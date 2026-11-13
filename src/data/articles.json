@@ -1,5 +1,35 @@
 [
   {
+    "id": "ART-281",
+    "authors": "Рахимов Р.Х.",
+    "title": "Импульсный туннельный эффект: новый взгляд на природу взаимодействия излучения с веществом. Генерация фононов под действием светового излучения, их синхронизация и преобразование в электромагнитное излучение.",
+    "journal": "Computational Nanotechnology. 2026. Том 13. № 1. С. 238–256. DOI: https://doi.org/10.33693/2313-223X-2026-13-1-238-256. EDN: NHENIO",
+    "year": "2026",
+    "title_en": "Pulsed Tunneling Effect: A New Perspective on the Nature of Radiation-Matter Interaction. Generation of Phonons by Optical Radiation, Their Synchronization, and Conversion into Electromagnetic Emission",
+    "authors_en": "Rakhimov R.Kh.",
+    "journal_en": "Computational Nanotechnology. 2026. Vol. 13. No. 1. pp. 238–256. DOI: https://doi.org/10.33693/2313-223X-2026-13-1-238-256. EDN: NHENIO"
+  },
+  {
+    "id": "ART-282",
+    "authors": "Рахимов Р.Х., Мухторов Д.Н.",
+    "title": "Исследование асимметричных оптических свойств в трехслойных полиэтилен-керамических композитных пленках для повышения эффективности солнечной сушки.",
+    "journal": "Computational Nanotechnology. 2026. Том 13. № 1. С. 257–266. DOI: https://doi.org/10.33693/2313-223X-2026-13-1-257-266. EDN: NIAQBY",
+    "year": "2026",
+    "title_en": "Investigation of Asymmetric Optical Properties in Three-Layer Polyethylene-Ceramic Composite Films for Enhanced Solar Drying Efficiency",
+    "authors_en": "Rakhimov R.Kh., Mukhtorov D.N.",
+    "journal_en": "Computational Nanotechnology. 2026. Vol. 13. No. 1. pp. 257–266. DOI: https://doi.org/10.33693/2313-223X-2026-13-1-257-266. EDN: NIAQBY"
+  },
+  {
+    "id": "ART-283",
+    "authors": "Рахимов Р.Х., Ермаков В.П.",
+    "title": "Квантово-классический мост: единая физика импульсного туннельного эффекта – от принципа неопределенности до инженерных приложений.",
+    "journal": "Computational Nanotechnology. 2026. Том 13. № 3. С. 258–272. DOI: https://doi.org/10.33693/2313-223X-2026-13-3-258-272. EDN: VLCYCM",
+    "year": "2026",
+    "title_en": "The Quantum-Classical Bridge: A Unified Physics of the Pulsed Tunneling Effect, from the Uncertainty Principle to Engineering Applications",
+    "authors_en": "Rakhimov R.Kh., Yermakov V.P.",
+    "journal_en": "Computational Nanotechnology. 2026. Vol. 13. No. 3. pp. 258–272. DOI: https://doi.org/10.33693/2313-223X-2026-13-3-258-272. EDN: VLCYCM"
+  },
+  {
     "id": "ART-001",
     "authors": "Saidov R., Rakhimov R., Touileb K., Ponore J.",
     "title": "A Study of the Influence of a Nanostructured Activating Component in Welding Electrodes on the Formation of Welding Beads",
