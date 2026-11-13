@@ -52,7 +52,7 @@ export const translations = {
     // Conferences Page
     conf_title: 'КОНФЕРЕНЦИИ',
     conf_hero_title: 'Научные конференции',
-    conf_hero_lead: 'Полный реестр 207 докладов и трудов профессора Р.Х. Рахимова на международных и республиканских научных конференциях (1978–2025 гг.).',
+    conf_hero_lead: 'Полный реестр 210 докладов и трудов профессора Р.Х. Рахимова на международных и республиканских научных конференциях (1978–2026 гг.).',
     conf_sec_international: 'Международные конференции',
     conf_sec_infra: 'Международная конференция "Infra R"',
     conf_sec_republican: 'Республиканские конференции',
@@ -230,7 +230,7 @@ export const translations = {
     // Conferences Page
     conf_title: 'CONFERENCES',
     conf_hero_title: 'Scientific Conferences',
-    conf_hero_lead: 'Complete register of 207 papers and presentations by Professor R.Kh. Rakhimov at international and republican conferences (1978–2025).',
+    conf_hero_lead: 'Complete register of 210 papers and presentations by Professor R.Kh. Rakhimov at international and republican conferences (1978–2026).',
     conf_sec_international: 'International Conferences',
     conf_sec_infra: 'International Conference "Infra R"',
     conf_sec_republican: 'Republican Conferences',
