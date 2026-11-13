@@ -4,6 +4,34 @@ import articles from '../data/articles.json';
 import { useLanguage } from '../context/LanguageContext';
 import '../styles/pages.css';
 
+function formatJournalWithLinks(text) {
+  if (!text) return null;
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  const parts = text.split(urlRegex);
+  return parts.map((part, index) => {
+    if (part.startsWith('http://') || part.startsWith('https://')) {
+      const matchPunct = part.match(/[.,;)]+$/);
+      const cleanUrl = matchPunct ? part.slice(0, -matchPunct[0].length) : part;
+      const trailing = matchPunct ? matchPunct[0] : '';
+      return (
+        <React.Fragment key={index}>
+          <a
+            href={cleanUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: '#0284c7', textDecoration: 'underline' }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {cleanUrl}
+          </a>
+          {trailing}
+        </React.Fragment>
+      );
+    }
+    return part;
+  });
+}
+
 export default function ArticlesPage() {
   const [query, setQuery] = useState('');
   const [selectedJournal, setSelectedJournal] = useState('ALL');
@@ -302,7 +330,7 @@ export default function ArticlesPage() {
                     {(lang === 'en' && art.authors_en) ? art.authors_en : art.authors}
                   </div>
                   <div style={{ fontSize: '0.84375rem', color: '#0284c7', fontStyle: 'italic', wordBreak: 'break-word' }}>
-                    {(lang === 'en' && art.journal_en) ? art.journal_en : art.journal}
+                    {formatJournalWithLinks((lang === 'en' && art.journal_en) ? art.journal_en : art.journal)}
                   </div>
                 </div>
               </div>

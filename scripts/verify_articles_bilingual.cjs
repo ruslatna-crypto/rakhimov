@@ -17,7 +17,7 @@ function check(label, condition, detail = '') {
 }
 
 const articles = require('../src/data/articles.json');
-check('Articles total count', articles.length === 280, `(${articles.length}/280)`);
+check('Articles total count', articles.length === 283, `(${articles.length}/283)`);
 
 let missingFields = 0;
 let cyrillicAuthors = 0;
@@ -37,9 +37,9 @@ articles.forEach(art => {
   }
 });
 
-check('All 280 articles have title_en, authors_en, journal_en', missingFields === 0, `(missing: ${missingFields})`);
-check('All 280 article authors_en are transliterated to Latin', cyrillicAuthors === 0, `(cyrillic: ${cyrillicAuthors})`);
-check('All 280 article title_en are translated to English', cyrillicTitles === 0, `(cyrillic: ${cyrillicTitles})`);
+check('All 283 articles have title_en, authors_en, journal_en', missingFields === 0, `(missing: ${missingFields})`);
+check('All 283 article authors_en are transliterated to Latin', cyrillicAuthors === 0, `(cyrillic: ${cyrillicAuthors})`);
+check('All 283 article title_en are translated to English', cyrillicTitles === 0, `(cyrillic: ${cyrillicTitles})`);
 
 // ArticlesPage.jsx check
 const articlesPagePath = path.resolve(__dirname, '../src/pages/ArticlesPage.jsx');
