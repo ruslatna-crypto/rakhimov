@@ -17,7 +17,12 @@ function check(label, condition, detail = '') {
 }
 
 const articles = require('../src/data/articles.json');
-check('Articles total count', articles.length === 283, `(${articles.length}/283)`);
+const intlArticles = require('../src/data/articles/internationalArticles.json');
+const repArticles = require('../src/data/articles/republicanArticles.json');
+
+check('Articles total count is 213', articles.length === 213, `(${articles.length}/213)`);
+check('International articles count is 187', intlArticles.length === 187, `(${intlArticles.length}/187)`);
+check('Republican articles count is 26', repArticles.length === 26, `(${repArticles.length}/26)`);
 
 let missingFields = 0;
 let cyrillicAuthors = 0;
@@ -37,20 +42,20 @@ articles.forEach(art => {
   }
 });
 
-check('All 283 articles have title_en, authors_en, journal_en', missingFields === 0, `(missing: ${missingFields})`);
-check('All 283 article authors_en are transliterated to Latin', cyrillicAuthors === 0, `(cyrillic: ${cyrillicAuthors})`);
-check('All 283 article title_en are translated to English', cyrillicTitles === 0, `(cyrillic: ${cyrillicTitles})`);
+check('All 213 articles have title_en, authors_en, journal_en', missingFields === 0, `(missing: ${missingFields})`);
+check('All 213 article authors_en are transliterated to Latin', cyrillicAuthors === 0, `(cyrillic: ${cyrillicAuthors})`);
+check('All 213 article title_en are translated to English', cyrillicTitles === 0, `(cyrillic: ${cyrillicTitles})`);
 
 // ArticlesPage.jsx check
 const articlesPagePath = path.resolve(__dirname, '../src/pages/ArticlesPage.jsx');
 const articlesPageCode = fs.readFileSync(articlesPagePath, 'utf8');
 
-check('ArticlesPage.jsx renders art.title_en', articlesPageCode.includes('art.title_en'));
-check('ArticlesPage.jsx renders art.authors_en', articlesPageCode.includes('art.authors_en'));
-check('ArticlesPage.jsx renders art.journal_en', articlesPageCode.includes('art.journal_en'));
-check('ArticlesPage.jsx searches art.title_en', articlesPageCode.includes('a.title_en'));
-check('ArticlesPage.jsx searches art.authors_en', articlesPageCode.includes('a.authors_en'));
-check('ArticlesPage.jsx searches art.journal_en', articlesPageCode.includes('a.journal_en'));
+check('ArticlesPage.jsx renders item.title_en', articlesPageCode.includes('item.title_en'));
+check('ArticlesPage.jsx renders item.authors_en', articlesPageCode.includes('item.authors_en'));
+check('ArticlesPage.jsx renders item.journal_en', articlesPageCode.includes('item.journal_en'));
+check('ArticlesPage.jsx searches item.title_en', articlesPageCode.includes('item.title_en'));
+check('ArticlesPage.jsx searches item.authors_en', articlesPageCode.includes('item.authors_en'));
+check('ArticlesPage.jsx searches item.journal_en', articlesPageCode.includes('item.journal_en'));
 
 // searchIndex.js check
 const searchIndexPath = path.resolve(__dirname, '../src/utils/searchIndex.js');
