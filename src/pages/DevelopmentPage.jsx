@@ -1831,7 +1831,7 @@ export default function DevelopmentPage({ forcedSlug }) {
                               >
                                 {category}
                               </span>
-                              <h4
+                              <h3
                                 style={{
                                   fontSize: '0.84375rem',
                                   fontWeight: 600,
@@ -1846,7 +1846,7 @@ export default function DevelopmentPage({ forcedSlug }) {
                                 title={title}
                               >
                                 {title}
-                              </h4>
+                              </h3>
                             </div>
                           </div>
                         );
@@ -2801,7 +2801,11 @@ export default function DevelopmentPage({ forcedSlug }) {
               ) : (slug === 'lamp' || slug === 'kalci' || slug === 'pech' || slug === 'plenka' || slug === 'kraska' || slug === 'steril') ? null : (
                 dev.images && dev.images.length > 0 && (
                   <div style={{ marginTop: '36px' }}>
-                    <h3 style={{ fontSize: '1.25rem', marginBottom: '16px' }}>{t('dev_gallery_title')}</h3>
+                    {slug === 'bsp' ? (
+                      <h2 style={{ fontSize: '1.25rem', marginBottom: '16px' }}>{t('dev_gallery_title')}</h2>
+                    ) : (
+                      <h3 style={{ fontSize: '1.25rem', marginBottom: '16px' }}>{t('dev_gallery_title')}</h3>
+                    )}
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px' }}>
                       {dev.images.map((imgUrl, i) => {
                         const isFrameless = slug === 'cotton';
@@ -2992,7 +2996,7 @@ export default function DevelopmentPage({ forcedSlug }) {
                           >
                             {lang === 'en' ? cert.category_en : cert.category}
                           </span>
-                          <h4
+                          <h3
                             style={{
                               fontSize: '0.84375rem',
                               fontWeight: 600,
@@ -3007,7 +3011,7 @@ export default function DevelopmentPage({ forcedSlug }) {
                             title={lang === 'en' ? cert.title_en : cert.title}
                           >
                             {lang === 'en' ? cert.title_en : cert.title}
-                          </h4>
+                          </h3>
                           {cert.org && (
                             <p style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)', margin: '6px 0 0 0', lineHeight: 1.35 }}>
                               {lang === 'en' ? cert.org_en : cert.org}
