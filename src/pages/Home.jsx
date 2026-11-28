@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpen, Award, FileText } from 'lucide-react';
 import developments from '../data/developments.json';
 import { useLanguage } from '../context/LanguageContext';
+import stats from '../utils/statsCount';
 import HeroSlider from '../components/HeroSlider';
 import '../styles/pages.css';
 
@@ -63,8 +64,8 @@ export default function Home() {
             </div>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.875rem', marginBottom: '24px', flexGrow: 1, lineHeight: '1.6' }}>
               {lang === 'en'
-                ? '280 fundamental scientific papers in Computational Nanotechnology, Applied Solar Energy, and international journals.'
-                : '280 фундаментальных статей в журналах Computational Nanotechnology, Гелиотехника, а также международных и медицинских сборниках.'}
+                ? `${stats.articles.total} fundamental scientific papers in Computational Nanotechnology, Applied Solar Energy, and international journals.`
+                : `${stats.articles.total} фундаментальных статей в журналах Computational Nanotechnology, Гелиотехника, а также международных и медицинских сборниках.`}
             </p>
             <Link to="/stat" className="btn btn-outline" style={{ width: '100%', marginTop: 'auto', textAlign: 'center' }}>
               {lang === 'en' ? 'Go to articles →' : 'Перейти к статьям →'}
@@ -81,8 +82,8 @@ export default function Home() {
             </div>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.875rem', marginBottom: '24px', flexGrow: 1, lineHeight: '1.6' }}>
               {lang === 'en'
-                ? '65 inventions protected by USSR certificates, patents of Uzbekistan, USA, Europe, EAPO, Turkey, and Estonia.'
-                : '65 изобретений, защищенных авторскими свидетельствами СССР, патентами Республики Узбекистан, США, Европы, ЕАПО, Турции и Эстонии.'}
+                ? `${stats.patents.total} inventions protected by USSR certificates, patents of Uzbekistan, USA, Europe, EAPO, Turkey, and Estonia.`
+                : `${stats.patents.total} изобретений, защищенных авторскими свидетельствами СССР, патентами Республики Узбекистан, США, Европы, ЕАПО, Турции и Эстонии.`}
             </p>
             <Link to="/patents" className="btn btn-outline" style={{ width: '100%', marginTop: 'auto', textAlign: 'center' }}>
               {lang === 'en' ? 'Explore patents →' : 'Изучить патенты →'}

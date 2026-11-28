@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { stats } from '../utils/statsCount';
 
 const LanguageContext = createContext();
 
@@ -52,7 +53,7 @@ export const translations = {
     // Conferences Page
     conf_title: 'КОНФЕРЕНЦИИ',
     conf_hero_title: 'Научные конференции',
-    conf_hero_lead: 'Полный реестр 210 докладов и трудов профессора Р.Х. Рахимова на международных и республиканских научных конференциях (1978–2026 гг.).',
+    conf_hero_lead: `Полный реестр ${stats.conferences.total} докладов и трудов профессора Р.Х. Рахимова на международных и республиканских научных конференциях (1978–2026 гг.).`,
     conf_sec_international: 'Международные конференции',
     conf_sec_infra: 'Международная конференция "Infra R"',
     conf_sec_republican: 'Республиканские конференции',
@@ -82,7 +83,7 @@ export const translations = {
     hero_title_2: 'Функциональная керамика',
     hero_subtitle: 'Персональный научно-производственный портал доктора технических наук, профессора Рахимова Рустама Хакимовича. Фундаментальные и прикладные исследования в области солнечной энергетики, импульсного туннельного эффекта, резонансной сушки и биомедицины.',
     hero_btn_author: 'Об авторе',
-    hero_btn_articles: 'Научные статьи (280)',
+    hero_btn_articles: `Научные статьи (${stats.articles.total})`,
     hero_caption_name: 'Рахимов Рустам Хакимович',
     hero_caption_rank: 'Доктор технических наук, профессор',
 
@@ -102,7 +103,7 @@ export const translations = {
     author_section_badge: 'НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ',
     author_section_title: 'Академик Рахимов Рустам Хакимович',
     author_p1: 'Руководитель лаборатории №1 «Материалы полупроводниковой гелиоэнергетики» Института Материаловедения Научно-производственного объединения «Физика-Солнце» Академии наук Республики Узбекистан.',
-    author_p2: 'Автор свыше 280 фундаментальных научных публикаций, 9 монографий и более 73 патентов и авторских свидетельств СССР, Республики Узбекистан, Евразийского патентного ведомства и зарубежных стран.',
+    author_p2: `Автор ${stats.articles.total} фундаментальных научных публикаций, ${stats.books.monographs} монографий и ${stats.patents.total} патентов и авторских свидетельств СССР, Республики Узбекистан, Евразийского патентного ведомства и зарубежных стран.`,
     author_badge_1: 'Доктор технических наук',
     author_badge_2: 'Профессор',
     author_badge_3: 'Академик РАЕ',
@@ -155,18 +156,18 @@ export const translations = {
     author_metric_articles: 'Статей в ведущих журналах',
     author_metric_patents: 'Патентов и авторских свид-в',
     author_metric_akts: 'Актов производственного внедрения',
-    author_btn_articles: 'Все публикации (280)',
-    author_btn_patents: 'Каталог патентов (65)',
-    author_btn_akts: 'Акты внедрения (57)',
+    author_btn_articles: `Все публикации (${stats.articles.total})`,
+    author_btn_patents: `Каталог патентов (${stats.patents.total})`,
+    author_btn_akts: `Акты внедрения (${stats.akts.total})`,
 
     // Development Page
     dev_breadcrumb_home: 'Главная',
     dev_breadcrumb_devs: 'Разработки',
     dev_desc_title: 'Научно-техническое описание разработки',
     dev_gallery_title: 'Иллюстрации и материалы разработки',
-    dev_linked_articles: 'Связанные публикации (280)',
-    dev_linked_patents: 'Патенты на разработку (65)',
-    dev_linked_akts: 'Акты производственных испытаний (57)',
+    dev_linked_articles: `Связанные публикации (${stats.articles.total})`,
+    dev_linked_patents: `Патенты на разработку (${stats.patents.total})`,
+    dev_linked_akts: `Акты производственных испытаний (${stats.akts.total})`,
     dev_other_title: 'Другие разработки',
     dev_collab_title: 'Консультации и сотрудничество',
     dev_collab_text: 'По вопросам промышленного и медицинского внедрения разработки обращайтесь к автору.',
@@ -236,7 +237,7 @@ export const translations = {
     // Conferences Page
     conf_title: 'CONFERENCES',
     conf_hero_title: 'Scientific Conferences',
-    conf_hero_lead: 'Complete register of 210 papers and presentations by Professor R.Kh. Rakhimov at international and republican conferences (1978–2026).',
+    conf_hero_lead: `Complete register of ${stats.conferences.total} papers and presentations by Professor R.Kh. Rakhimov at international and republican conferences (1978–2026).`,
     conf_sec_international: 'International Conferences',
     conf_sec_infra: 'International Conference "Infra R"',
     conf_sec_republican: 'Republican Conferences',
@@ -266,7 +267,7 @@ export const translations = {
     hero_title_2: 'Functional Ceramics',
     hero_subtitle: 'Personal scientific and industrial portal of Doctor of Technical Sciences, Professor Rustam Khakimovich Rakhimov. Fundamental and applied research in solar energy, pulsed tunneling effect, resonant drying, and biomedicine.',
     hero_btn_author: 'About Author',
-    hero_btn_articles: 'Scientific Articles (280)',
+    hero_btn_articles: `Scientific Articles (${stats.articles.total})`,
     hero_caption_name: 'Rustam Khakimovich Rakhimov',
     hero_caption_rank: 'Doctor of Technical Sciences, Professor',
 
@@ -286,7 +287,7 @@ export const translations = {
     author_section_badge: 'SCIENTIFIC CAREER',
     author_section_title: 'Academician Rustam Khakimovich Rakhimov',
     author_p1: 'Head of Laboratory No. 1 "Materials of Semiconductor Solar Energy" of the Institute of Materials Science, Scientific-Production Association "Physics-Sun", Academy of Sciences of Uzbekistan.',
-    author_p2: 'Author of over 280 fundamental scientific papers, 9 monographs, and more than 73 patents and inventor certificates of the USSR, Uzbekistan, Eurasian Patent Office, and abroad.',
+    author_p2: `Author of ${stats.articles.total} fundamental scientific papers, ${stats.books.monographs} monographs, and ${stats.patents.total} patents and inventor certificates of the USSR, Uzbekistan, Eurasian Patent Office, and abroad.`,
     author_badge_1: 'Doctor of Technical Sciences',
     author_badge_2: 'Professor',
     author_badge_3: 'Academician of RAE',
@@ -339,18 +340,18 @@ export const translations = {
     author_metric_articles: 'Articles in Leading Journals',
     author_metric_patents: 'Patents & Certificates',
     author_metric_akts: 'Industrial Implementation Acts',
-    author_btn_articles: 'All Publications (280)',
-    author_btn_patents: 'Patent Catalog (65)',
-    author_btn_akts: 'Implementation Acts (57)',
+    author_btn_articles: `All Publications (${stats.articles.total})`,
+    author_btn_patents: `Patent Catalog (${stats.patents.total})`,
+    author_btn_akts: `Implementation Acts (${stats.akts.total})`,
 
     // Development Page
     dev_breadcrumb_home: 'Home',
     dev_breadcrumb_devs: 'Developments',
     dev_desc_title: 'Scientific and Technical Description',
     dev_gallery_title: 'Illustrations & Materials',
-    dev_linked_articles: 'Related Publications (280)',
-    dev_linked_patents: 'Related Patents (65)',
-    dev_linked_akts: 'Implementation Acts (57)',
+    dev_linked_articles: `Related Publications (${stats.articles.total})`,
+    dev_linked_patents: `Related Patents (${stats.patents.total})`,
+    dev_linked_akts: `Implementation Acts (${stats.akts.total})`,
     dev_other_title: 'Other Developments',
     dev_collab_title: 'Consultation & Cooperation',
     dev_collab_text: 'For industrial and medical implementation inquiries, please contact the author.',

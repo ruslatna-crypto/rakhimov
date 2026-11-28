@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { Search, Award, RotateCcw } from 'lucide-react';
 import patents from '../data/patents.json';
 import { useLanguage } from '../context/LanguageContext';
+import stats from '../utils/statsCount';
 import '../styles/pages.css';
 
 export default function PatentsPage() {
@@ -9,20 +10,7 @@ export default function PatentsPage() {
   const [selectedCountry, setSelectedCountry] = useState('ALL');
   const { lang, t } = useLanguage();
 
-  const countryCounts = useMemo(() => {
-    let uz = 0;
-    let ussr = 0;
-    let eapo = 0;
-    let intl = 0;
-    patents.forEach((p) => {
-      const c = p.country;
-      if (c === 'Узбекистан') uz++;
-      else if (c === 'СССР') ussr++;
-      else if (c === 'ЕАПО') eapo++;
-      else intl++;
-    });
-    return { all: patents.length, uz, ussr, eapo, intl };
-  }, []);
+  const countryCounts = stats.patents;
 
   const filteredPatents = useMemo(() => {
     return patents.filter((p) => {
@@ -112,8 +100,8 @@ export default function PatentsPage() {
             }}
           >
             {lang === 'en'
-              ? `Complete register of ${patents.length} intellectual property objects: USSR author certificates, patents of the Republic of Uzbekistan, USA, EAPO, Europe (EPO), Turkey, and Estonia.`
-              : `Полный реестр ${patents.length} охраноспособных объектов интеллектуальной собственности: авторские свидетельства СССР, патенты Республики Узбекистан, США, ЕАПО, Европы (EPO), Турции и Эстонии.`}
+              ? `Complete register of ${stats.patents.total} intellectual property objects: USSR author certificates, patents of the Republic of Uzbekistan, USA, EAPO, Europe (EPO), Turkey, and Estonia.`
+              : `Полный реестр ${stats.patents.total} охраноспособных объектов интеллектуальной собственности: авторские свидетельства СССР, патенты Республики Узбекистан, США, ЕАПО, Европы (EPO), Турции и Эстонии.`}
           </p>
         </div>
       </section>
