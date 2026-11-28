@@ -458,13 +458,13 @@ export const internationalConferences = [
   {
     "authors": "Юлдашходжаев А.И.; Рахимов Р.Х.; Ермаков В.П.",
     "title": "Возможности применения керамических материалов, синтезированных на большой солнечной печи в энерго- и ресурсосбережении.",
-    "source": "// Материалы международной научной конференции «Современные научно-технические решения эффективного использования возобновляемых источников энергии» (г. Ташкент, 14–15 апреля 2011 г.). — Ташкент, 2011. — С. 174–176.",
+    "source": "// Материалы II Международной конференции по оптическим и фотоэлектрическим явлениям в полупроводниковых микро- и наноструктурах (г. Фергана, 8–9 сентября 2011 г.). — Фергана, 2011. — С. 312–314.",
     "year": "2011",
     "originalSheet": "2011",
     "originalRow": 1,
     "authors_en": "Yuldashkhodzhaev A.I., Rakhimov R.Kh., Yermakov V.P.",
     "title_en": "Possibilities of Applying Ceramic Materials Synthesized at the Big Solar Furnace in Energy and Resource Saving",
-    "source_en": "// Proceedings of the International Scientific Conference \"Modern Scientific and Technical Solutions for the Efficient Use of Renewable Energy Sources\" (Tashkent, April 14–15, 2011). — Tashkent, 2011. — P. 174–176.",
+    "source_en": "// Proceedings of the II International Conference on Optical and Photoelectric Phenomena in Semiconductor Micro- and Nanostructures (Fergana, September 8–9, 2011). — Fergana, 2011. — P. 312–314.",
     "id": "CONF-INT-039"
   },
   {
