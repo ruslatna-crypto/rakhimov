@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import internationalArticles from '../data/articles/internationalArticles.json';
 import republicanArticles from '../data/articles/republicanArticles.json';
+import stats from '../utils/statsCount';
 import { useLanguage } from '../context/LanguageContext';
 import { sortItems, SORT_OPTIONS } from '../utils/sorting';
 import '../styles/pages.css';
@@ -174,8 +175,8 @@ export default function ArticlesPage() {
   const [selectedYear, setSelectedYear] = useState('ALL');
   const [sortOrder, setSortOrder] = useState('NEWEST');
 
-  // Total publication counts
-  const totalAllCount = internationalArticles.length + republicanArticles.length;
+  // Total publication counts from unified stats
+  const totalAllCount = stats.articles.total;
 
   // Handle hash scrolling on page load or navigation (e.g. /stat#international, /stat#republican)
   useEffect(() => {
@@ -353,7 +354,7 @@ export default function ArticlesPage() {
               }}
             >
               <Globe size={14} color="#38bdf8" />
-              <span>{lang === 'en' ? 'International' : 'Международные'}: <strong>{internationalArticles.length}</strong></span>
+              <span>{lang === 'en' ? 'International' : 'Международные'}: <strong>{stats.articles.international}</strong></span>
             </button>
 
             <button
@@ -374,7 +375,7 @@ export default function ArticlesPage() {
               }}
             >
               <FileText size={14} color="#4ade80" />
-              <span>{lang === 'en' ? 'Republican' : 'Республиканские'}: <strong>{republicanArticles.length}</strong></span>
+              <span>{lang === 'en' ? 'Republican' : 'Республиканские'}: <strong>{stats.articles.republican}</strong></span>
             </button>
           </div>
         </div>
@@ -424,7 +425,7 @@ export default function ArticlesPage() {
                 onClick={() => setSelectedSection('INT')}
               >
                 <span>{lang === 'en' ? 'International Articles' : 'Международные статьи'}</span>
-                <span className="filter-btn-count">({internationalArticles.length})</span>
+                <span className="filter-btn-count">({stats.articles.international})</span>
               </button>
 
               <button
@@ -433,7 +434,7 @@ export default function ArticlesPage() {
                 onClick={() => setSelectedSection('REP')}
               >
                 <span>{lang === 'en' ? 'Republican Articles' : 'Республиканские статьи'}</span>
-                <span className="filter-btn-count">({republicanArticles.length})</span>
+                <span className="filter-btn-count">({stats.articles.republican})</span>
               </button>
             </div>
 

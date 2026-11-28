@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { Search, ExternalLink } from 'lucide-react';
 import akts from '../data/akts.json';
 import { useLanguage } from '../context/LanguageContext';
+import stats from '../utils/statsCount';
 import '../styles/pages.css';
 
 export default function AktsPage() {
@@ -74,8 +75,8 @@ export default function AktsPage() {
             }}
           >
             {lang === 'en'
-              ? 'Register of 57 production test acts, official reports, and clinical conclusions.'
-              : 'Реестр 57 актов производственных испытаний, отчетов и клинических заключений.'}
+              ? `Register of ${stats.akts.total} production test acts, official reports, and clinical conclusions.`
+              : `Реестр ${stats.akts.total} актов производственных испытаний, отчетов и клинических заключений.`}
           </p>
         </div>
       </section>
@@ -97,8 +98,8 @@ export default function AktsPage() {
 
           <div style={{ marginBottom: '14px', fontSize: '0.875rem', color: 'var(--color-text-muted)' }}>
             {lang === 'en' 
-              ? <>Found documents: <strong>{filteredAkts.length}</strong> of {akts.length}</>
-              : <>Найдено документов: <strong>{filteredAkts.length}</strong> из {akts.length}</>}
+              ? <>Found documents: <strong>{filteredAkts.length}</strong> of {stats.akts.total}</>
+              : <>Найдено документов: <strong>{filteredAkts.length}</strong> из {stats.akts.total}</>}
           </div>
 
           {/* Table with responsive horizontal scroll */}

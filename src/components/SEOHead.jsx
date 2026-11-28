@@ -2,9 +2,20 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import seoConfig from '../data/seoData.json';
+import stats from '../utils/statsCount';
 
 const { BASE_URL, DEFAULT_IMAGE, seoData } = seoConfig;
 export { BASE_URL, DEFAULT_IMAGE, seoData };
+
+function interpolateCounts(text) {
+  if (!text || typeof text !== 'string') return text;
+  return text
+    .replace(/\{articlesCount\}/g, stats.articles.total)
+    .replace(/\{patentsCount\}/g, stats.patents.total)
+    .replace(/\{aktsCount\}/g, stats.akts.total)
+    .replace(/\{booksCount\}/g, stats.books.total)
+    .replace(/\{conferencesCount\}/g, stats.conferences.total);
+}
 
 /**
  * Утилита для безопасной установки/обновления meta тегов в document.head
@@ -57,7 +68,9 @@ export default function SEOHead() {
 
     const is404 = !seoData[cleanPath];
     const pageConfig = seoData[cleanPath] || seoData['404'];
-    const { title, description } = pageConfig[currentLang] || pageConfig['ru'];
+    const rawConfig = pageConfig[currentLang] || pageConfig['ru'];
+    const title = interpolateCounts(rawConfig.title);
+    const description = interpolateCounts(rawConfig.description);
 
     // 1. Title
     document.title = title;

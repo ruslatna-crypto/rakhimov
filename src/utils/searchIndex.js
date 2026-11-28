@@ -2,6 +2,7 @@ import developments from '../data/developments.json';
 import articles from '../data/articles.json';
 import patents from '../data/patents.json';
 import akts from '../data/akts.json';
+import books from '../data/books.json';
 import lampCertificates from '../data/lampCertificates.json';
 import lampPdfs from '../data/lampPdfs.json';
 import sushkaCertificates from '../data/sushkaCertificates.json';
@@ -193,12 +194,27 @@ const formattedConferences = [
   }))
 ];
 
+// Преобразуем книги и монографии
+const formattedBooks = books.map((book) => ({
+  id: book.id,
+  category: 'books',
+  title: book.title,
+  title_en: book.title_en || book.title,
+  subtitle: `${book.author || 'Рахимов Р.Х.'} • ${book.category || 'Монография'}`,
+  description: `${book.title} ${book.title_en || ''}. ${book.description || ''} ${book.description_en || ''} Монографии и книги Научной библиотеки rakhimovlib.uz`,
+  url: 'https://rakhimovlib.uz/',
+  externalUrl: 'https://rakhimovlib.uz/',
+  badge: 'Монография',
+  iconType: 'book'
+}));
+
 // Единый индекс всех материалов
 export const allSearchableItems = [
   ...pages,
   ...formattedDevelopments,
   ...formattedArticles,
   ...formattedConferences,
+  ...formattedBooks,
   ...formattedPatents,
   ...formattedAkts,
   ...formattedLampCertificates,

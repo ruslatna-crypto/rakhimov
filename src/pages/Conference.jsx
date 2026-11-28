@@ -15,6 +15,7 @@ import internationalConferences from '../data/conferences/internationalConferenc
 import infraR2000Conferences from '../data/conferences/infraR2000.json';
 import republicanConferences from '../data/conferences/republicanConferences.json';
 import { useLanguage } from '../context/LanguageContext';
+import stats from '../utils/statsCount';
 import { sortItems, SORT_OPTIONS } from '../utils/sorting';
 import '../styles/pages.css';
 
@@ -226,7 +227,7 @@ export default function Conference() {
   }, [filteredRepublican, sortOrder, lang]);
 
   const totalFilteredCount = sortedInternational.length + sortedInfra.length + sortedRepublican.length;
-  const totalAllCount = internationalConferences.length + infraR2000Conferences.length + republicanConferences.length;
+  const totalAllCount = stats.conferences.total;
 
   const hasActiveFilters =
     selectedSection !== 'ALL' || selectedYear !== 'ALL' || query.trim() !== '' || sortOrder !== 'NEWEST';
@@ -328,7 +329,7 @@ export default function Conference() {
               }}
             >
               <Globe size={14} color="#38bdf8" />
-              <span>{lang === 'en' ? 'International' : 'Международные'}: <strong>{internationalConferences.length}</strong></span>
+              <span>{lang === 'en' ? 'International' : 'Международные'}: <strong>{stats.conferences.international}</strong></span>
             </button>
 
             <button
@@ -349,7 +350,7 @@ export default function Conference() {
               }}
             >
               <Award size={14} color="#fbbf24" />
-              <span>Infra R: <strong>{infraR2000Conferences.length}</strong></span>
+              <span>Infra R: <strong>{stats.conferences.infraR2000}</strong></span>
             </button>
 
             <button
@@ -370,7 +371,7 @@ export default function Conference() {
               }}
             >
               <FileText size={14} color="#4ade80" />
-              <span>{lang === 'en' ? 'Republican' : 'Республиканские'}: <strong>{republicanConferences.length}</strong></span>
+              <span>{lang === 'en' ? 'Republican' : 'Республиканские'}: <strong>{stats.conferences.republican}</strong></span>
             </button>
           </div>
         </div>
@@ -420,7 +421,7 @@ export default function Conference() {
                 onClick={() => setSelectedSection('INT')}
               >
                 <span>{t('conf_sec_international')}</span>
-                <span className="filter-btn-count">({internationalConferences.length})</span>
+                <span className="filter-btn-count">({stats.conferences.international})</span>
               </button>
 
               <button
@@ -429,7 +430,7 @@ export default function Conference() {
                 onClick={() => setSelectedSection('INFRA')}
               >
                 <span>{t('conf_sec_infra')}</span>
-                <span className="filter-btn-count">({infraR2000Conferences.length})</span>
+                <span className="filter-btn-count">({stats.conferences.infraR2000})</span>
               </button>
 
               <button
@@ -438,7 +439,7 @@ export default function Conference() {
                 onClick={() => setSelectedSection('REP')}
               >
                 <span>{t('conf_sec_republican')}</span>
-                <span className="filter-btn-count">({republicanConferences.length})</span>
+                <span className="filter-btn-count">({stats.conferences.republican})</span>
               </button>
             </div>
 

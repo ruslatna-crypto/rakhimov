@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Award, BookOpen, FileText, CheckCircle, ExternalLink, Mail } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import stats from '../utils/statsCount';
 import '../styles/pages.css';
 
 export default function Author() {
@@ -166,7 +167,7 @@ export default function Author() {
                 <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>Patent activity is further represented by Eurasian, European, Turkish, and US patents covering infrared-emitting ceramics, conductive matrix systems, and radiant treatment methods.</p>
                 <h2 style={{ fontSize: '1.35rem', fontWeight: '700', color: '#0f172a', marginTop: '32px', marginBottom: '14px', borderBottom: '1px solid var(--color-border)', paddingBottom: '8px' }}>Scientific Publications</h2>
                 <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>Rustam Khakimovich's publishing career extends over five decades.</p>
-                <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>The portal documents more than 200 publications, over 300 inventions, and more than 20 monographs; over 90% of works were published abroad or presented at international symposia.</p>
+                <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>{t('author_p2')}</p>
                 <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '10px' }}>Publication thematic scope includes:</p>
                 <ul style={{ paddingLeft: '22px', margin: '0 0 18px 0', display: 'flex', flexDirection: 'column', gap: '6px', fontSize: '0.9375rem', lineHeight: '1.6' }}>
                   <li>functional ceramics</li>
@@ -294,7 +295,7 @@ export default function Author() {
                 <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>Патентная деятельность также представлена евразийскими, европейскими, турецкими и американскими патентами. Среди них — разработки инфракрасно-излучающих керамических материалов, электропроводящей керамики, технологий обработки материалов инфракрасным излучением и другие разработки.</p>
                 <h2 style={{ fontSize: '1.35rem', fontWeight: '700', color: '#0f172a', marginTop: '32px', marginBottom: '14px', borderBottom: '1px solid var(--color-border)', paddingBottom: '8px' }}>Научные публикации</h2>
                 <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>Публикационная деятельность Рустама Хакимовича охватывает несколько десятилетий.</p>
-                <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>На сайте заявлено более 200 публикаций, свыше 300 изобретений и более 20 монографий; также указано, что более 90 % работ опубликованы за рубежом либо представлялись на международных конференциях.</p>
+                <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '14px' }}>{t('author_p2')}</p>
                 <p style={{ fontSize: '1rem', lineHeight: '1.7', marginBottom: '10px' }}>Тематика публикаций включает:</p>
                 <ul style={{ paddingLeft: '22px', margin: '0 0 18px 0', display: 'flex', flexDirection: 'column', gap: '6px', fontSize: '0.9375rem', lineHeight: '1.6' }}>
                   <li>функциональную керамику</li>
@@ -330,15 +331,15 @@ export default function Author() {
             <h3 style={{ fontSize: '1.375rem', marginTop: '36px', marginBottom: '16px' }}>{t('author_results_title')}</h3>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px', margin: '24px 0' }}>
               <div style={{ background: '#ffffff', padding: '16px', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-border)', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-                <div style={{ fontSize: '1.75rem', fontWeight: '800', color: 'var(--color-primary)' }}>280</div>
+                <div style={{ fontSize: '1.75rem', fontWeight: '800', color: 'var(--color-primary)' }}>{stats.articles.total}</div>
                 <div style={{ fontSize: '0.8125rem', color: 'var(--color-text-muted)' }}>{t('author_metric_articles')}</div>
               </div>
               <div style={{ background: '#ffffff', padding: '16px', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-border)', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-                <div style={{ fontSize: '1.75rem', fontWeight: '800', color: 'var(--color-primary)' }}>65</div>
+                <div style={{ fontSize: '1.75rem', fontWeight: '800', color: 'var(--color-primary)' }}>{stats.patents.total}</div>
                 <div style={{ fontSize: '0.8125rem', color: 'var(--color-text-muted)' }}>{t('author_metric_patents')}</div>
               </div>
               <div style={{ background: '#ffffff', padding: '16px', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-border)', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-                <div style={{ fontSize: '1.75rem', fontWeight: '800', color: 'var(--color-primary)' }}>57</div>
+                <div style={{ fontSize: '1.75rem', fontWeight: '800', color: 'var(--color-primary)' }}>{stats.akts.total}</div>
                 <div style={{ fontSize: '0.8125rem', color: 'var(--color-text-muted)' }}>{t('author_metric_akts')}</div>
               </div>
             </div>
